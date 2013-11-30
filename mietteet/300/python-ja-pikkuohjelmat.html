@@ -1,1 +1,318 @@
-python-ja-pikkuohjelmat
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <!-- standard -->
+	<title>Mr. P: Python ja pikkuohjelmat</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=mietteet" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=mietteet" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="mietteet">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="python-ja-pikkuohjelmat#content">Siirry sisältöön</a></li>
+        <li><a href="python-ja-pikkuohjelmat#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            &raquo;
+            <a href="../index.html">Mietteet</a>
+            
+                <!--<ul>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/598/blogille-idea.html">Blogille&#160;idea</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/597/wes-mckinney-python-for-data-analysis-oreilly.html">Wes McKinney - Python For Data Analysis (O&#39;Reilly)</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/596/org-blogaaminen-vaikeata.html">Org-blogaaminen&#160;vaikeata</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/595/twitterointia-emacsilla.html">Twitteröintiä&#160;Emacsilla</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/594/weboodi-aikataulut-orgiin.html">WebOodi-aikataulut&#160;orgiin</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita.html">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/592/emacs-has-me.html">Emacs has&#160;me.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/591/editorien-taistelu-tietamyshallinnassa.html">Editorien taistelu&#160;tietämyshallinnassa</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/590/think-vimorganizer.html">Think&#160;VimOrganizer.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/589/think-orgmode.html">Think&#160;orgmode.</a>
+                </li>
+</ul>-->
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="/kategoria/hifi/">Hifi</a></li>
+	<li><a href="/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="/kategoria/rauta/">Rauta</a></li>
+	<li><a href="/kategoria/viihde/">Viihde</a></li>
+	<li><a href="/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../../tag/clojure/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">clojure</a></li>
+	<li><a href="../../tag/gentoo/index.html" class="tagSizeLargest tagSize105" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../../tag/hifi/index.html" class="tagSizeMedium tagSize31" style="font-size: 100%;">hifi</a></li>
+	<li><a href="../../tag/musiikki/index.html" class="tagSizeMedium tagSize23" style="font-size: 100%;">musiikki</a></li>
+	<li><a href="../../tag/ohjelmointi/index.html" class="tagSizeMedium tagSize42" style="font-size: 100%;">ohjelmointi</a></li>
+	<li><a href="../../tag/ostoksia/index.html" class="tagSizeMedium tagSize11" style="font-size: 100%;">ostoksia</a></li>
+	<li><a href="../../tag/palvelin/index.html" class="tagSizeMedium tagSize37" style="font-size: 100%;">palvelin</a></li>
+	<li><a href="../../tag/vim/index.html" class="tagSizeMedium tagSize34" style="font-size: 100%;">vim</a></li>
+</ul>
+        <p><a href="../../tag/index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=mietteet" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=mietteet" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- not tag view, it's the main view -->
+
+
+        
+
+        <div class="hfeed">
+            <!-- five articles to list here, or only one. It depends. -->
+            <!-- default form -->
+
+<p class="published"> 2. huhtikuu 2010, 19:16</p>
+<h1 class="entry-title"><a rel="bookmark" href="python-ja-pikkuohjelmat">Python ja&#160;pikkuohjelmat</a></h1>
+
+
+<div class="entry-content">
+	<p>Sain tässä jonkin aikaa sitten pienen kipinän kirjoitella eräänlainen medianhallintaohjelma. Hyvin pieni sellainen, joka ei käyttäisi paljoa hienoja ominaisuuksia, mutta joitain pieniä yksityiskohtia olisi oltava:</p>
+
+	<ul>
+		<li>Pääprioriteetti olisi hallita yhtä yksittäistä hakemistoa alihakemistoineen</li>
+		<li>Tiedostoja olisi kuitenkin paljon, siinä määrin, ettei pysy täysin hallinnassa ilman</li>
+		<li>Leikkeiden sisällöt ja pituudet vaihtelevat paljon, lisäksi pelkillä tarinoiden nimillä ei saa riittävää yksikäsitteisyyttä aikaan</li>
+		<li>Ohjelman kautta katsottujen tiedostojen katsomisajoista ja -määristä pidettäisiin kirjaa, jotta käyttäjä voi halutessaan tutkia, onko johonkin arkistojen kätköihin jäänyt unohdettuja helmiä</li>
+		<li>Mikäli jaksaa/viitsii, viritellään mukaan myös tiedostojen metatagailu</li>
+	</ul>
+
+	<p>Näillä eväillä mennään. No, graafiseksi tämän kai kuvittelisi, joten astutaan välittömästi sille ohjelmistosuunnittelun osa-alueelle, jossa ohjelmain teko ei enää olekaan niin triviaalia kuin esimerkiksi pienen konsolisoftan tekeminen omaksi ratokseen.</p>
+
+	<h2>Ei enää niin vaikeata</h2>
+
+	<p>Mutta onko totuus koskaan ollut noin karvas? *Microsoft*in <em>Visual Basic</em> nimittäin kyllä aikoinaan muodosti pienien ohjelmien kirjoittelusta varsin lastenleikkiä, jopa siihen pisteeseen saakka, että ohjelman helppokäyttöisyydestä seuraa kaikkien vihanpito. Jopa VB-koodarien itsensäkin. 90-luvun lopuilta jo alkanut testaamattoman, itseoppineen VB-hutun kirjo on ehkä hellittämässä, kun nykynuoriso opiskelee mieluummin <span class="caps">PHP</span>:tä. Ja <span class="caps">PHP</span>&#8230; VB taitaa olla sivistynyt kuningaskieli <span class="caps">PHP</span>:en nähden. Joka tapauksessa piti sanomani, että VB:llä kuvatunlaiset pikkuohjelmat ovat varsin miellyttäviä koodailla, vaikka menetelmän taustaidea toimiikin menetelmän huonouden voimin. Eihän nimittäin kukaan itseään kunnioittava koodaaja tee ikkunasovelluksia, joiden komponentit ovat staattisesti liimautuneita kiinteästi määrättyihin koordinaatteihin lomakkeella&#8230; tai, no. </p>
+
+	<p>Ja mitä sitten, vaikka Visual Basic aikoinaan ja .NET -sovellukset nykyisin tukevat tätä kivaa ja intuitiivista komponenttien lätkimistä formeille? Linuxille en keksi ainuttakaan tämänlaista <span class="caps">RAD</span>-työkalua. On vain näitä suhteellisiin lohkoihin perustuvia menetelmiä.</p>
+
+	<h2>Suhteelliset lohkot vaikeitako?</h2>
+
+	<p>En aivan keksi taikka jaksa lähteä googlailemaan termin oikeata nimitystä, mutta tämä suhteellinen ja lohkoihin perustuva sijoittelumenetelmä takaa joustavat lopputulemat. Javalla on <em>Swing</em>, ja sitten on oikein kiva <em>WxWidgets</em>. </p>
+
+	<p>Homma ei toimi niin kivasti kuin suora, staattinen lätkiminen, mutta itse asiassa ollaan melko lähellä. Monesti vain jätetään kouluissa mainitsematta graafiset suunnittelutyökalut tähän avuksi.  WxWidgetsille on olemassa monia &#8220;piirtelyohjelmia&#8221;, joista ainakin <a href="http://wxglade.sourceforge.net/">WxGlade</a> on toiminut oikein moitteetta! </p>
+
+	<p>Ohjelma tarjoaa wysiwyg-frontendin koodinmuodostamiseen. Paletissa on kaikki tarpeelliset peruskomponentit kattavien ikkunoiden luomiseen, ja kokonaisuus on toimiva. Lopulta valmiin ikkunan aikaansaavat koodit ja luokat saa generoitua C++:ksi, Pythoniksi tai vaikkapa Lispiksi.  Oikein mojovaa, vaikka en monesti kyllä pidäkään tuloksista, etenkin jos (ja kun) framework on itselleni vähemmän tuttu.  Javax:n Swing olisi ollut kova vaihtoehto, mutta ei tuo Java niin innosta itseäni&#8230; </p>
+
+	<p>Mihinkä päädyin? Tiedän kokemuksesta, että C++-projektit kaatuvat yksinkertaisesti detaljien alle. Vaikka koodia voisikin ehkä tehdä melko virheettä, ja syntaksi olisi hanskassa, niin kaikki pikkuviritelmät ja luokkien vetely tuottaa työtä.</p>
+
+	<p>Hyvin yllätyksenä itsellenikin, selaillessani Mureakuhaa tiedostojen selailuun liittyvien vinkkien toivossa havaitsin Pythonin hyvähköksi vaihtoehdoksi &#8212;- vaikka kokemusta Python-koodaamisesta on alle 30 koodiriviä. Alkuun päästiin kuitenkin nopeasti, koska Pythonin toimintaperiaate on tuttu, ja sisennyskin sujuu.</p>
+
+	<h2>Pythonilla sujuu</h2>
+
+	<p>Pythonin hypen takaa epäilevästi tutkien koodia ja esimerkkejä olen tullut siihen tulokseen, että vaikka kieli ei esteettisesti paras mahdollinen ole, niin se on ainakin todella helpposyntaksinen. Käytännön esimerkistä käyköön aina <code>self</code>-liitteiden käyttö, kun halutaan luoda tai viitata luokan sisällä globaaliin muuttujaan. Ei jää ainakaan epäselväksi, onko tämä muuttuja käytettävissä muualta! C++:ssa tietysti tuntuu hyvältä, että holhoaminen on vähäisempää, mutta sielläpä onkin sitten välillä sormi suussa, onko tämä muuttuja <code>playcount</code> nyt luokan oma memberi, vaiko pelkästään metodin sisäinen temppimuuttuja.  Mitä ei edellytetä, sitä ei osata. </p>
+
+	<p>Pythonille tehty Wx-sovitus WxPython toimii enemmän kuin mainiosti. Oman ikkunan saa ruudulle suoraan WxGladesta käsin, ja tapahtumien sitominen funktioihin on yhtä helppoa kuin Visual Basicissa konsanaan. Yhtä intuitiivistakin. C++:n WxWidgets-mallissa joudutaan käyttämään hankalia makrolaajentuvia taulukoita ja kaikki tämmöinen on omiaan murentamaan itse kielen omia vahvuuksia.</p>
+
+	<p>Ja kuinka helppoa se koodin työstäminen onkaan, kun boilerplatea on kamalan vähän! Meininkinä komponenttien alustelu olioina, niiden sijoittaminen paneeleihin tai sizereihin ja sitten pitkälti &#8220;unohtaminen&#8221; on hyvinkin tuttua Java-töistä, joita <span class="caps">TKT</span>:n perusopintoihin saa tehdä. Ja Python hallitsee sen puolen hyvin oivasti. En muista Javan tavasta bindata eventtejä, mutta tässä se on oikein retrosti tehty. WxWidgets on kunnon kirjasto.</p>
+
+	<p>Pythonia on muutenkin helppo työstää, kun turhia, lähes tyhjiä rivejä ei pääse tapahtumaan yhtä tiheään kuin vaikkapa Javassa. Ohjelmassani on jo kaikenlaista toiminnallisuutta, ja koodirivejä on reilusti alle 100.</p>
+
+	<p>Onko Python se minun suosikkikieleni tästä eteenpäin? En usko. Ainakin tämä on hidasta, jos ei muuta. Eipä se sinänsä haittaakaan, mutta kestävä ratkaisuhan se ei ole. Puhutaan sitten vaikka siitä seikasta, että WxWidgetsit saa myös <strong>Haskellille</strong>, ja se onkin aivan toinen ääni kellossa. Ajattelin peräti kokeilla portata ohjelmani Haskellille testimielessä, jahka Python-versio valmistuu. WxWidgetsin ansiosta yhteistä toiminnallisuutta on todella paljon, ja kielispesifistä kikkailua todella vähän. Ehkä tiedostojen lukeminen ja sen sellainen tulee olemaan hankala siirtää. </p>
+
+	<p>Btw, heitän soppaan sekaan SQlite-pohjaisen metatagitallennuksen. Sekin on tutoriaalin nojalla ääliömäisen helppoa tehdä. Pythonista sopii leipoa tulevaisuuden <span class="caps">PHP</span>. Oh yeah, indeed.</p>
+</div>
+
+<p class="tags"> 
+
+
+Tageja: <a href="../../tag/haskell/index.html" rel="tag">haskell</a>, 
+<a href="../../tag/ohjelmointi/index.html" rel="tag">ohjelmointi</a>, 
+<a href="../../tag/python/index.html" rel="tag">python</a>
+
+
+</p>
+
+
+
+<div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+
+        </div>
+
+ <!-- now, common stuff -->
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+        <p><a rel="prev" href="../299/sahkopostista" title="Sähköpostista">&#171; Sähköpostista</a> 
+           &mdash; <a rel="next" href="../301/paluu-kahteen-nayttoon" title="Paluu kahteen näyttöön">Paluu kahteen näyttöön &#187;</a>
+        </p>
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+        <h2>Aiheen vierestä</h2>
+        <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../597/wes-mckinney-python-for-data-analysis-oreilly">Wes McKinney - Python For Data Analysis (O&#39;Reilly)</a></span> &#183; <span class="published">2012-11-30</span>
+<br /><span class="smallexcerpt">O&#8217;Reillyn hienon blogiohjelman kautta ilmaiseksi saamani kirja kertoo tyydyttävästi kaikenlaista, mitä Matlabia ja R:ää kammoksuva haluaa tietää! Tässä tapailen mietteitä...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../594/weboodi-aikataulut-orgiin">WebOodi-aikataulut&#160;orgiin</a></span> &#183; <span class="published">2012-10-23</span>
+<br /><span class="smallexcerpt">Itä-Suomen yliopiston weboodissa alkaa olla aika usein kurssi-infot hyvässä kunnossa, ja nyt on myös joensuulaisille olemassa tuota lukkaria, joka on...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../587/tehokkaat-kayttoliittymat-vaivatta">Tehokkaat käyttöliittymät&#160;vaivatta</a></span> &#183; <span class="published">2012-08-16</span>
+<br /><span class="smallexcerpt">Ohjelmoijan onni on elää komentorivillä. Tehokkaiden käyttöliittymien rustaaminen on varsin nopeata, kunhan luottaa siihen, että suurta suosiota tuotokset eivät tule...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../584/pythonin-vastaisku-lispeille-ipython-ja-vim-ipython">Pythonin vastaisku lispeille: IPython ja vim-ipython</a></span> &#183; <span class="published">2012-07-25</span>
+<br /><span class="smallexcerpt">Tai &#8220;Pythonin uusi toivo&#8221; tai &#8220;Pythonin paluu&#8221;. Mistä on kyse? Pythonin tulkin me kaikki kai tiedämme: kaikki siinä periaatteessa on,...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../581/sumitup-puutteet-ja-mihin-suuntaan-edetaan">SumItUp: puutteet ja mihin suuntaan&#160;edetään</a></span> &#183; <span class="published">2012-07-12</span>
+<br /><span class="smallexcerpt">Esittelin pari postausta sitten Soulver-kloonin raakileen, SumItUpin. Nyt se on GitHubissa kaikkien pällisteltävänä ja sellaisella raakileasteella, jotta sitä voi jo...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../579/soulver-kloonia-rakentelemassa">Soulver-kloonia&#160;rakentelemassa</a></span> &#183; <span class="published">2012-07-07</span>
+<br /><span class="smallexcerpt">Erittäin upealla konseptilla varustettu laskinohjelma Soulver kaatuu siihen, että sen saa vain Mäkille. Vapaamuotoinen näpertelyalusta on usein ainut asia, mitä...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../566/terminaaleja-vimista-kasin">Terminaaleja Vimistä&#160;käsin</a></span> &#183; <span class="published">2012-02-11</span>
+<br /><span class="smallexcerpt">Vanha kunnon ConqueTerm on nyt valmis ja käyttökelpoinen tuote kehittelyyn.
+
+	Olen viime päivinä alkanut käyttää vimiä hyvin emacsmaisesti. Se on tietenkin...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../565/mita-on-kehittaa-clojurella">Mitä on kehittää&#160;Clojurella</a></span> &#183; <span class="published">2012-02-05</span>
+<br /><span class="smallexcerpt">C- ja muunkielisissä projekteissa tavataan kirjoittaa koodia ensin, ja sitten testataan. Tietysti vaatimus osittain syntyy koodin kääntämisestä; ilman kääntöä ei...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../564/ranskalaisten-viivojen-parsimista-clojurella">Ranskalaisten viivojen parsimista&#160;Clojurella</a></span> &#183; <span class="published">2012-02-02</span>
+<br /><span class="smallexcerpt">Kirjoitin männäviikolla kokeilumielessä ohjelman, joka kääntää ranskalaiset viivat Beamer-Latexiksi. Ideana olisi tuottaa esityksen lihapuoli nopeasti rustaamalla tiivistä merkintää ja sitten...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../556/korintaytto-ja-ahne-menetelma">Korintäyttö ja ahne&#160;menetelmä</a></span> &#183; <span class="published">2011-10-23</span>
+<br /><span class="smallexcerpt">Mietiskelen tässä korintäyttöä (bin packing) ja sitä, miten ahne menetelmä on joko ylipolynomiaalinen tai sitten epäoptimaalinen.  Luultavasti se on...</span>
+</li>
+
+</ul>
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>
