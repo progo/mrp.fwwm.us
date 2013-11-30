@@ -1,0 +1,296 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <!-- standard -->
+	<title>Mr. P: Vaihtele arvoja Vimissä</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=mietteet" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=mietteet" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="mietteet">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="vaihtele-arvoja-vimissa#content">Siirry sisältöön</a></li>
+        <li><a href="vaihtele-arvoja-vimissa#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            &raquo;
+            <a href="../index.html">Mietteet</a>
+            
+                <!--<ul>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/598/blogille-idea">Blogille&#160;idea</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/597/wes-mckinney-python-for-data-analysis-oreilly">Wes McKinney - Python For Data Analysis (O&#39;Reilly)</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/596/org-blogaaminen-vaikeata">Org-blogaaminen&#160;vaikeata</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/595/twitterointia-emacsilla">Twitteröintiä&#160;Emacsilla</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/594/weboodi-aikataulut-orgiin">WebOodi-aikataulut&#160;orgiin</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/592/emacs-has-me">Emacs has&#160;me.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/591/editorien-taistelu-tietamyshallinnassa">Editorien taistelu&#160;tietämyshallinnassa</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/590/think-vimorganizer">Think&#160;VimOrganizer.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/589/think-orgmode">Think&#160;orgmode.</a>
+                </li>
+</ul>-->
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="/kategoria/hifi/">Hifi</a></li>
+	<li><a href="/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="/kategoria/rauta/">Rauta</a></li>
+	<li><a href="/kategoria/viihde/">Viihde</a></li>
+	<li><a href="/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../../tag/blogisäätöä/index.html" class="tagSizeMedium tagSize9" style="font-size: 100%;">blogisäätöä</a></li>
+	<li><a href="../../tag/gentoo/index.html" class="tagSizeLargest tagSize89" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../../tag/hifi/index.html" class="tagSizeMedium tagSize15" style="font-size: 100%;">hifi</a></li>
+	<li><a href="../../tag/musiikki/index.html" class="tagSizeMedium tagSize7" style="font-size: 100%;">musiikki</a></li>
+	<li><a href="../../tag/opiskelu/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">opiskelu</a></li>
+	<li><a href="../../tag/palvelin/index.html" class="tagSizeMedium tagSize21" style="font-size: 100%;">palvelin</a></li>
+	<li><a href="../../tag/rauta/index.html" class="tagSizeMedium tagSize7" style="font-size: 100%;">rauta</a></li>
+	<li><a href="../../tag/vim/index.html" class="tagSizeMedium tagSize18" style="font-size: 100%;">vim</a></li>
+</ul>
+        <p><a href="../../tag/index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=mietteet" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=mietteet" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- not tag view, it's the main view -->
+
+
+        
+
+        <div class="hfeed">
+            <!-- five articles to list here, or only one. It depends. -->
+            <!-- default form -->
+
+<p class="published">29. tammikuu 2011, 16:10</p>
+<h1 class="entry-title"><a rel="bookmark" href="vaihtele-arvoja-vimissa">Vaihtele arvoja&#160;Vimissä</a></h1>
+
+
+<div class="entry-content">
+	<p>Aika harva tietää, että Vimissä on kaksi hauskaa pikanäppäintä numeroarvojen muuttelemiseen: <code>&lt;C-a&gt;</code> kasvattaa kursorin alla olevaa lukua yhdellä. Vastaavasti <code>&lt;C-x&gt;</code> vähentää. Se on melko ok, mutta enemmän käyttöä näen, jos samalla yhdistelmällä voisi vaihtaa boolean-arvoja koodin seasta! Let&#8217;s do it!</p>
+
+	<p>Okei, minua laiskottaa. Otetaan hyvin toimiva valmis skripti pohjalle, ja lisätään siihen puuttuvat palaset. Ehkä sinulle riittää jo se, jos <code>&lt;C-a&gt;</code> ei ollut tuttu entuudestaan. Saattaa olla helpompaa opiskella sitten joku uusi yhdistelmä. Mutta minä haluan yhdistää lukujen kasvattelua booleanin kasvattelun kanssa. Ehkä se ei kuulosta fiksulta, mutta jos booleaneja ajattelee kokonaislukuina &#8220;modulo 2&#8221;, saattaa käydä järkeen, että 1+1 = 0.  No, ainakin minulla on näin.</p>
+
+	<p>Totta kai haluan säilyttää vanhan toiminnallisuuden! Eli jos kursori on luvun päällä, <code>&lt;C-a&gt;</code> toimii kuten aiemminkin. Mutta jos kursori onkin tekstin <code>true</code> tai <code>false</code> päällä, silloin ryhdytään käyttämään uutta skriptiä.</p>
+
+	<p>Ja se skripti on upeasti toimiva (nopeasti kokeilin) <a href="http://www.vim.org/scripts/script.php?script_id=1676">ToggleWords</a>. Saamme sen kautta uuden ex-komennon <code>:ToggleWord</code>, jota voimme bindailla mielinmäärin. Nyt tämä skripti tukee paljon muitakin vaihtoja, mutta minulle riittää alustavasti pelkkä <code>true</code> &lt;&gt; <code>false</code> -vaihdos. Siispä käymme toimeen:</p>
+
+<pre class="vim">fun! NewCA()
+    let cw = tolower(expand(&quot;&lt;cword&gt;&quot;))
+    if cw == &quot;true&quot; || cw == &quot;false&quot;
+        ToggleWord
+    else
+        &quot; run the built-in &lt;C-a&gt;
+        execute &quot;normal! \&lt;C-a&gt;&quot;
+    endif
+endfun
+nnoremap &lt;C-a&gt; :call NewCA()&lt;cr&gt;
+</pre>
+
+	<p>Ahh. Olisimme jo perillä, <strong>mutta</strong> tämä ei toimi. Ongelmaksi tulee, että rekursiota estävä <code>nnoremap</code> ei tee syväluotaavaa katsausta, mitä kaikkea pinnan alla tehdään. Minun pitäisi toisin sanoen löytää synonyymi tuolle kutsulle <code>&lt;C-a&gt;</code>, mutta sellaista ei näy olevan! Muilta osin tuo toimii, eli jos kursori on joko sanan <code>true</code> tai sanan <code>false</code> päällä, se vaihtuu peilikuvakseen. Muuten vim kääntyy tekemään ikirekursiota, joskaan ei kaatumiseen saakka.</p>
+
+	<p>Edit: ratkaisu oli lähempänä kuin älysin etsiä. Ex-komennon <code>normal</code> huutomerkkiversio <code>normal!</code> takaa sen, että komennoista sen jälkeen käytetään sisäänrakennettuja versioita. Korjasin niin pienen virheen suoraan ylempään koodiliuskaan, joten siinäpä olette.</p>
+
+	<p>Tässä kohtaa Emacsin lähestymistapa olisi superässä. Kaikki löytyy lisp-funktioina, joten pikanäppäimet ovat merkityksettömiä. Se olisi upeaa, mutta nyt joudun elämään ilman sitä.</p>
+</div>
+
+<p class="tags"> 
+
+
+Tageja: <a href="../../tag/vim/index.html" rel="tag">vim</a>
+
+
+</p>
+
+
+
+<div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+
+        </div>
+
+ <!-- now, common stuff -->
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+        <p><a rel="prev" href="../416/blogia-nyt-komentorivilta" title="Blogia nyt komentoriviltä">&#171; Blogia nyt komentoriviltä</a> 
+           &mdash; <a rel="next" href="../447/pathogen-selvittelemaan-vimin-plugineita" title="Pathogen selvittelemään Vimin plugineita">Pathogen selvittelemään Vimin plugineita &#187;</a>
+        </p>
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+        <h2>Aiheen vierestä</h2>
+        <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../594/weboodi-aikataulut-orgiin">WebOodi-aikataulut&#160;orgiin</a></span> &#183; <span class="published">2012-10-23</span>
+<br /><span class="smallexcerpt">Itä-Suomen yliopiston weboodissa alkaa olla aika usein kurssi-infot hyvässä kunnossa, ja nyt on myös joensuulaisille olemassa tuota lukkaria, joka on...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a></span> &#183; <span class="published">2012-10-17</span>
+<br /><span class="smallexcerpt">Tässä on ihmetelty jo hyvän aikaa uusissa maailmoissa, ja pitkälle on päästy. En olisi itsestäni uskonut, että Emacsissa ollaan jonain...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../592/emacs-has-me">Emacs has&#160;me.</a></span> &#183; <span class="published">2012-09-22</span>
+<br /><span class="smallexcerpt">Emacs alkaa ottaa otetta minusta. Olen yrittänyt olla pyristelemättä vastaan, eikä ole asiaa vastaan mitään sanottavaa. Kaikki ne herkut ja...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../591/editorien-taistelu-tietamyshallinnassa">Editorien taistelu&#160;tietämyshallinnassa</a></span> &#183; <span class="published">2012-09-14</span>
+<br /><span class="smallexcerpt">Kun päädyin pari viikkoa sitten Org-formaattiin, oli se luonnollisesti edellytys, että Vim ja sen VimOrganizer saadaan kuntoon. Nyt kuitenkin on...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../590/think-vimorganizer">Think&#160;VimOrganizer.</a></span> &#183; <span class="published">2012-09-02</span>
+<br /><span class="smallexcerpt">Asiat rullaavat eteenpäin tyydyttävää tahtia tämän uuden tiedonhallinnan kanssa. Nyt olen säätänyt kuntoon jokaisesta kulmasta toimivan org-capture -variantin, jolla saan...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../589/think-orgmode">Think&#160;orgmode.</a></span> &#183; <span class="published">2012-08-31</span>
+<br /><span class="smallexcerpt">Teemme taas täyden ympyrän palatessamme orgmodeen, tuohon viha-rakkaussuhteen saaneeseen pakettiin. Edellinen thinktank-idea lopulta vääntyy siihen, että voin joko tehdä simppelin...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../587/tehokkaat-kayttoliittymat-vaivatta">Tehokkaat käyttöliittymät&#160;vaivatta</a></span> &#183; <span class="published">2012-08-16</span>
+<br /><span class="smallexcerpt">Ohjelmoijan onni on elää komentorivillä. Tehokkaiden käyttöliittymien rustaaminen on varsin nopeata, kunhan luottaa siihen, että suurta suosiota tuotokset eivät tule...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../584/pythonin-vastaisku-lispeille-ipython-ja-vim-ipython">Pythonin vastaisku lispeille: IPython ja vim-ipython</a></span> &#183; <span class="published">2012-07-25</span>
+<br /><span class="smallexcerpt">Tai &#8220;Pythonin uusi toivo&#8221; tai &#8220;Pythonin paluu&#8221;. Mistä on kyse? Pythonin tulkin me kaikki kai tiedämme: kaikki siinä periaatteessa on,...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../581/sumitup-puutteet-ja-mihin-suuntaan-edetaan">SumItUp: puutteet ja mihin suuntaan&#160;edetään</a></span> &#183; <span class="published">2012-07-12</span>
+<br /><span class="smallexcerpt">Esittelin pari postausta sitten Soulver-kloonin raakileen, SumItUpin. Nyt se on GitHubissa kaikkien pällisteltävänä ja sellaisella raakileasteella, jotta sitä voi jo...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../579/soulver-kloonia-rakentelemassa">Soulver-kloonia&#160;rakentelemassa</a></span> &#183; <span class="published">2012-07-07</span>
+<br /><span class="smallexcerpt">Erittäin upealla konseptilla varustettu laskinohjelma Soulver kaatuu siihen, että sen saa vain Mäkille. Vapaamuotoinen näpertelyalusta on usein ainut asia, mitä...</span>
+</li>
+
+</ul>
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

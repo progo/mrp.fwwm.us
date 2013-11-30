@@ -1,0 +1,195 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <title>Mr. P: aiheesta haskell</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=tag" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=tag" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="tag">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="index.html#content">Siirry sisältöön</a></li>
+        <li><a href="index.html#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../mietteet/index.html">Mietteet</a>
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="http://progo.viuhka.fi/kategoria/hifi/">Hifi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/rauta/">Rauta</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/viihde/">Viihde</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../blogisäätöä/index.html" class="tagSizeMedium tagSize15" style="font-size: 100%;">blogisäätöä</a></li>
+	<li><a href="../gentoo/index.html" class="tagSizeLargest tagSize95" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../musiikki/index.html" class="tagSizeMedium tagSize13" style="font-size: 100%;">musiikki</a></li>
+	<li><a href="../ohjelmointi/index.html" class="tagSizeMedium tagSize32" style="font-size: 100%;">ohjelmointi</a></li>
+	<li><a href="../opiskelu/index.html" class="tagSizeMedium tagSize7" style="font-size: 100%;">opiskelu</a></li>
+	<li><a href="../ostoksia/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">ostoksia</a></li>
+	<li><a href="../rauta/index.html" class="tagSizeMedium tagSize13" style="font-size: 100%;">rauta</a></li>
+	<li><a href="../vim/index.html" class="tagSizeMedium tagSize24" style="font-size: 100%;">vim</a></li>
+</ul>
+        <p><a href="../index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=tag" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=tag" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- tag view -->
+
+    <h1 class="mainheader">Juttuja aiheesta haskell </h1>
+    <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/529/konffitiedostojen-toteuttamisesta">Konffitiedostojen&#160;toteuttamisesta</a></span> &#183; <span class="published">2011-05-28</span>
+<br /><span class="smallexcerpt">Erilaisia rc-tiedostoja (runtime configuration) on vaikka pilvin pimein, ja syitä tähän on monia. Yksi on erilaiset vaatimukset hyvältä konffilta, ja...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/357/clojure-ja-haskell">Clojure ja&#160;Haskell</a></span> &#183; <span class="published">2010-12-01</span>
+<br /><span class="smallexcerpt">Funktionaalinen ohjelmointi; Haskell. Niinhän se on yleensä lukenut, mutta nyt olen tainnut päästä Clojuresta kiinni. Clojure on vain käytännönläheisempi ja...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/348/funktionaaliset-kielet">Funktionaaliset&#160;kielet</a></span> &#183; <span class="published">2010-10-20</span>
+<br /><span class="smallexcerpt">Gentoon portageen on vakaaksi (stable) paukahtanut nyt GHC 6.12.  Hieno homma, sikäli kun se tarjoaa kaikenlaista kivaa Haskell-koodaajille, ollen...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/340/rainlendar-pitaa-paikkansa">Rainlendar pitää&#160;paikkansa</a></span> &#183; <span class="published">2010-09-23</span>
+<br /><span class="smallexcerpt">Uskomatonta, todella uskomatonta. Eilen kirjoitin Rainlendarin ja Xmonadin välisistä kahnauksista, sekä hahmottelin alustavaa korvaajaa Rainlendarille Luan ja Pythonin kanssa. Mutta...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/332/lomien-loppu">Lomien&#160;loppu</a></span> &#183; <span class="published">2010-08-31</span>
+<br /><span class="smallexcerpt">Viimeistä kesälomaksi luokiteltavaa päivää vietetään. Ei se koulunpenkki kuitenkaan aivan piinaten ala, joten leppoisa elo jatkuu vielä hyvän aikaa. Viime...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/326/haskell-paassee-viimein-tositoimiin">Haskell päässee viimein&#160;tositoimiin?</a></span> &#183; <span class="published">2010-07-26</span>
+<br /><span class="smallexcerpt">Aikani kirjailtuani tuota Pythonilla väsättyä sovellusta välillä tekee mieli aloitella aivan kokonaan uusi projekti. Vaihtoehtoina voisi olla C++:lla viritelty Tower...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/323/mpd-kirjastoja-ja-asiakkaita">MPD-kirjastoja ja&#160;asiakkaita</a></span> &#183; <span class="published">2010-06-10</span>
+<br /><span class="smallexcerpt">Huu, kunhan huomisen tentin (Ihminen ja vuorovaikutteinen teknologia) vetäisee alta pois, malttaa viimein alkaa tammikuussa aloitettuun, mutta sittemmin keskeytyneeseen projektiin...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/300/python-ja-pikkuohjelmat">Python ja&#160;pikkuohjelmat</a></span> &#183; <span class="published">2010-04-02</span>
+<br /><span class="smallexcerpt">Sain tässä jonkin aikaa sitten pienen kipinän kirjoitella eräänlainen medianhallintaohjelma. Hyvin pieni sellainen, joka ei käyttäisi paljoa hienoja ominaisuuksia, mutta...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/5/xmonad">Xmonad</a></span> &#183; <span class="published">2010-02-15</span>
+<br /><span class="smallexcerpt">Sitten viime jakson on tapahtunut kaikenlaista tässä. Viikko sitten kirjoittamassani jutussa valittelin sitä, kun Xinerama tuhoaa suorituskyvyn ja kaiken siihen...</span>
+</li>
+
+</ul>
+    <h2>Lyhyitä sutkautuksia</h2>
+    
+
+
+ <!-- now, common stuff -->
+
+<!-- txp:older ei toimi kunnolla tagien kanssa. -->
+        <p>
+             
+            
+        </p>
+
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

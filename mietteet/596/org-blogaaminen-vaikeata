@@ -1,0 +1,306 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <!-- standard -->
+	<title>Mr. P: Org-blogaaminen vaikeata</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=mietteet" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=mietteet" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="mietteet">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="org-blogaaminen-vaikeata#content">Siirry sisältöön</a></li>
+        <li><a href="org-blogaaminen-vaikeata#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            &raquo;
+            <a href="../index.html">Mietteet</a>
+            
+                <!--<ul>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/598/blogille-idea">Blogille&#160;idea</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/597/wes-mckinney-python-for-data-analysis-oreilly">Wes McKinney - Python For Data Analysis (O&#39;Reilly)</a>
+                </li>
+	<li>
+                    &rsaquo;
+                    <a rel="bookmark" href="/mietteet/596/org-blogaaminen-vaikeata">Org-blogaaminen&#160;vaikeata</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/595/twitterointia-emacsilla">Twitteröintiä&#160;Emacsilla</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/594/weboodi-aikataulut-orgiin">WebOodi-aikataulut&#160;orgiin</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/592/emacs-has-me">Emacs has&#160;me.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/591/editorien-taistelu-tietamyshallinnassa">Editorien taistelu&#160;tietämyshallinnassa</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/590/think-vimorganizer">Think&#160;VimOrganizer.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/589/think-orgmode">Think&#160;orgmode.</a>
+                </li>
+</ul>-->
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="/kategoria/hifi/">Hifi</a></li>
+	<li><a href="/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="/kategoria/rauta/">Rauta</a></li>
+	<li><a href="/kategoria/viihde/">Viihde</a></li>
+	<li><a href="/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../../tag/emacs/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">emacs</a></li>
+	<li><a href="../../tag/gentoo/index.html" class="tagSizeLargest tagSize106" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../../tag/ohjelmistot/index.html" class="tagSizeMedium tagSize5" style="font-size: 100%;">ohjelmistot</a></li>
+	<li><a href="../../tag/ohjelmointi/index.html" class="tagSizeMedium tagSize43" style="font-size: 100%;">ohjelmointi</a></li>
+	<li><a href="../../tag/opiskelu/index.html" class="tagSizeMedium tagSize18" style="font-size: 100%;">opiskelu</a></li>
+	<li><a href="../../tag/pelaaminen/index.html" class="tagSizeMedium tagSize3" style="font-size: 100%;">pelaaminen</a></li>
+	<li><a href="../../tag/rauta/index.html" class="tagSizeMedium tagSize24" style="font-size: 100%;">rauta</a></li>
+	<li><a href="../../tag/vim/index.html" class="tagSizeMedium tagSize35" style="font-size: 100%;">vim</a></li>
+</ul>
+        <p><a href="../../tag/index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=mietteet" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=mietteet" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- not tag view, it's the main view -->
+
+
+        
+
+        <div class="hfeed">
+            <!-- five articles to list here, or only one. It depends. -->
+            <!-- default form -->
+
+<p class="published">11. marraskuu 2012, 19:29</p>
+<h1 class="entry-title"><a rel="bookmark" href="org-blogaaminen-vaikeata">Org-blogaaminen&#160;vaikeata</a></h1>
+
+
+<div class="entry-content">
+	<p>Haluaisin kovasti hylätä periaatteessa lukitut blogialustat puhtaan tekstin edessä, ja erityisesti ottaa org-mode kovaan käyttöön. Mutta kaikenlaisia pieniä probleemia on tällä matkalla, kun haluaisin kokemuksestani tiiviin ja sopivasti raikkaan.</p>
+
+	<p>Org-mode osaa tehdä kivoja <span class="caps">HTML</span>-eksportteja. Org osaa tehdä isoja juttuja (koodipätkien värjäys, LaTeX-tuki ja muut hienot jutut) aika pienellä vaivalla. Ja ne toimivat <span class="caps">HTML</span>:ssäkin. Monia ratkaisuja on org-moden ja blogaamisen välille rakenneltu, mutta jokseenkin olen kokenut niiden kokeilemisen aika työläänä.</p>
+
+	<p>Haluaisin muutamia asioita org-blogaamiselleni:</p>
+
+	<ul>
+		<li>Staattinen sivukokonaisuus kaikilla herkuilla</li>
+		<li>Kaikki blogipostaukset yhdessä org-tiedostossa &#8212; esimerkiksi kukin ykköstason otsikko siirtyy omaksi blogijutukseen (<span class="caps">HTML</span>-tiedosto)</li>
+		<li>Edelliseen sitten: ristilinkkaukset org-tyyliin. Olisi helppoa lukea valmista blogia sitten hyperlinkitysten kanssa.</li>
+		<li>Org-otsakkeiden tagit siirtyvät luonnollisesti blogiviestien tageiksi.</li>
+		<li>Keskeneräiset (muut kuin <span class="caps">DONE</span>) blogijutut jäisivät luonnollisesti pimentoon.</li>
+		<li><span class="caps">RSS</span> pitää tietenkin generoida.</li>
+	</ul>
+
+	<h2>O-blog</h2>
+
+	<p>Valmiista tuotoksista <a href="http://renard.github.com/o-blog/">o-blog</a> on lähimpänä tavoitteitani. Mutta se ei osaa tyylikkäitä ristilinkkauksia, ja tuottaa kovasti Javascriptisää trendiroskaa.</p>
+
+	<h2>Org-export ja manuaalinen koodailu</h2>
+
+	<p>Ajattelin jo koodailevani kustomoitua purkkakoodia tavallisesta org-eksportista. Homma lähtisi alkuun <span class="caps">DOM</span>-parseroinnin avulla aika näpsäkästi, mutta siinä on itse asiassa sitten kovasti muita probleemia edellä, kuten about kaikki toivelistani jutut. Plus kymmeniä muita.</p>
+
+	<h2>Manuaalinen koodailu ja yksi iso <span class="caps">HTML</span></h2>
+
+	<p>Yksi ratkaisu olisi vain kirjoitella kaikki blogi samaan tiedostoon ja julkaista koko blogia yhtenä tiedostona. Ristilinkkaukset ja kaikki toimisi kunnolla. Ehkä pitkä <span class="caps">HTML</span>-tiedosto alkaisi käydä jonkun hermoille jossain vaiheessa.</p>
+
+	<p>Yhtä kaikki, jonkinlaista persoonallisuutta voisi tavoitella ratkaisussa, olipa se mikä hyvänsä. Ehkäpä voisin hylätä myös vaatimuksen all-in-one-file -ratkaisusta, jos se helpottaa ristilinkkauksia ja muuta sellaista.</p>
+
+	<h2>Vanhat romut talteen</h2>
+
+	<p>Nämä Textile-muotoiset tavarat voisi saada talteen, jos O-Blogin sijaan tutkisi Jekyll-pohjaisia ratkaisuja. <a href="http://jekyllrb.com/">Jekyll</a> on erilaisia kevyitä merkkauksia <span class="caps">HTML</span>:ksi muuntava ratkaisu, ja org-moden blogailuja on tiettävästi saatu jekyllin avulla tarjoiltua siistissä muodossa eteenpäin. Jekyllille on valmis TextPattern-import olemassa, joten se olisi hyvä vaihtoehto alusta alkaen. Mutta toimiiko org-eksportin kaikki hienoudet sitten: syntaksivärjätyt koodipätkät ja LaTeX?!</p>
+
+	<p>Monia vaihtoehtoja, joista mikään ei tunnu kamalan hyvältä. Koska tämä TextPattern-ratkaisu ei sekään aivan kamalin kaikista ole, olen hieman laiskan puolella tässä kokeilussani.</p>
+</div>
+
+<p class="tags"> 
+
+
+Tageja: <a href="../../tag/emacs/index.html" rel="tag">emacs</a>, 
+<a href="../../tag/org/index.html" rel="tag">org</a>
+
+
+</p>
+
+
+
+<div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+
+        </div>
+
+ <!-- now, common stuff -->
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+        <p><a rel="prev" href="../595/twitterointia-emacsilla" title="Twitteröintiä Emacsilla">&#171; Twitteröintiä Emacsilla</a> 
+           &mdash; <a rel="next" href="../597/wes-mckinney-python-for-data-analysis-oreilly" title="Wes McKinney - Python For Data Analysis (O&#39;Reilly)">Wes McKinney - Python For Data Analysis (O&#39;Reilly) &#187;</a>
+        </p>
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+        <h2>Aiheen vierestä</h2>
+        <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../598/blogille-idea">Blogille&#160;idea</a></span> &#183; <span class="published">2013-01-05</span>
+<br /><span class="smallexcerpt">Uuden org-pohjaisen blogialustan miettiminen ja kehittäminen on vasta aluillaan, vaikka yhä uskon joustavamman alustan tarjoavan paremman kanavan tajunnanvirtani ohjaamiselle. Ja...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../595/twitterointia-emacsilla">Twitteröintiä&#160;Emacsilla</a></span> &#183; <span class="published">2012-10-24</span>
+<br /><span class="smallexcerpt">Tänään piti viettää kiva päivä käymällä hyvällä luennolla ja sitten pakertaa vähän tehtävien kimpussa koululla. Toisin kävi, kun tehtäviä ei...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../594/weboodi-aikataulut-orgiin">WebOodi-aikataulut&#160;orgiin</a></span> &#183; <span class="published">2012-10-23</span>
+<br /><span class="smallexcerpt">Itä-Suomen yliopiston weboodissa alkaa olla aika usein kurssi-infot hyvässä kunnossa, ja nyt on myös joensuulaisille olemassa tuota lukkaria, joka on...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a></span> &#183; <span class="published">2012-10-17</span>
+<br /><span class="smallexcerpt">Tässä on ihmetelty jo hyvän aikaa uusissa maailmoissa, ja pitkälle on päästy. En olisi itsestäni uskonut, että Emacsissa ollaan jonain...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../592/emacs-has-me">Emacs has&#160;me.</a></span> &#183; <span class="published">2012-09-22</span>
+<br /><span class="smallexcerpt">Emacs alkaa ottaa otetta minusta. Olen yrittänyt olla pyristelemättä vastaan, eikä ole asiaa vastaan mitään sanottavaa. Kaikki ne herkut ja...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../591/editorien-taistelu-tietamyshallinnassa">Editorien taistelu&#160;tietämyshallinnassa</a></span> &#183; <span class="published">2012-09-14</span>
+<br /><span class="smallexcerpt">Kun päädyin pari viikkoa sitten Org-formaattiin, oli se luonnollisesti edellytys, että Vim ja sen VimOrganizer saadaan kuntoon. Nyt kuitenkin on...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../590/think-vimorganizer">Think&#160;VimOrganizer.</a></span> &#183; <span class="published">2012-09-02</span>
+<br /><span class="smallexcerpt">Asiat rullaavat eteenpäin tyydyttävää tahtia tämän uuden tiedonhallinnan kanssa. Nyt olen säätänyt kuntoon jokaisesta kulmasta toimivan org-capture -variantin, jolla saan...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../589/think-orgmode">Think&#160;orgmode.</a></span> &#183; <span class="published">2012-08-31</span>
+<br /><span class="smallexcerpt">Teemme taas täyden ympyrän palatessamme orgmodeen, tuohon viha-rakkaussuhteen saaneeseen pakettiin. Edellinen thinktank-idea lopulta vääntyy siihen, että voin joko tehdä simppelin...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../587/tehokkaat-kayttoliittymat-vaivatta">Tehokkaat käyttöliittymät&#160;vaivatta</a></span> &#183; <span class="published">2012-08-16</span>
+<br /><span class="smallexcerpt">Ohjelmoijan onni on elää komentorivillä. Tehokkaiden käyttöliittymien rustaaminen on varsin nopeata, kunhan luottaa siihen, että suurta suosiota tuotokset eivät tule...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../552/olen-editorifiili">Olen&#160;editorifiili</a></span> &#183; <span class="published">2011-09-18</span>
+<br /><span class="smallexcerpt">Ah, on aika aika myöntää, että olen pidän editoreista (kahdesta isosta) sillä tavalla paljon, että oikein tekee mieli keksiä jotain...</span>
+</li>
+
+</ul>
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

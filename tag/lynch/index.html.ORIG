@@ -1,0 +1,203 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <title>Mr. P: aiheesta lynch</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=tag" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=tag" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="tag">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="index.html#content">Siirry sisältöön</a></li>
+        <li><a href="index.html#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../mietteet/index.html">Mietteet</a>
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="http://progo.viuhka.fi/kategoria/hifi/">Hifi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/rauta/">Rauta</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/viihde/">Viihde</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../clojure/index.html" class="tagSizeMedium tagSize5" style="font-size: 100%;">clojure</a></li>
+	<li><a href="../gentoo/index.html" class="tagSizeLargest tagSize109" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../musiikki/index.html" class="tagSizeMedium tagSize27" style="font-size: 100%;">musiikki</a></li>
+	<li><a href="../nethack/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">nethack</a></li>
+	<li><a href="../ohjelmistot/index.html" class="tagSizeMedium tagSize8" style="font-size: 100%;">ohjelmistot</a></li>
+	<li><a href="../ohjelmointi/index.html" class="tagSizeMedium tagSize46" style="font-size: 100%;">ohjelmointi</a></li>
+	<li><a href="../pelaaminen/index.html" class="tagSizeMedium tagSize6" style="font-size: 100%;">pelaaminen</a></li>
+	<li><a href="../rauta/index.html" class="tagSizeMedium tagSize27" style="font-size: 100%;">rauta</a></li>
+</ul>
+        <p><a href="../index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=tag" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=tag" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- tag view -->
+
+    <h1 class="mainheader">Juttuja aiheesta lynch </h1>
+    <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/33/muisto-menneisyydestae">Muisto&#160;menneisyydestä</a></span> &#183; <span class="published">2009-08-24</span>
+<br /><span class="smallexcerpt">Tänään kokeilin noita Stax-kuulokkeitani pitkästä aikaa (viimeksi käytin niitä lyhyesti demotessani niitä heinäkuussa) kunnolla. Kuuntelin niitä näitä, selasin levyhyllystä niitä...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/104/tutustuminen-uuteen-kuvioon">Tutustuminen uuteen&#160;kuvioon.</a></span> &#183; <span class="published">2008-05-04</span>
+<br /><span class="smallexcerpt">Ubuntu on varmasti monelle teistä lukijoista tuttu sana, olkoonkin sitten vaikka kirosana. Uuden Ubuntun myötä distro sisälsi uuden Mozilla Firefox...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/142/garmonbozia-vaihtaa">Garmonbozia&#160;vaihtaa</a></span> &#183; <span class="published">2007-10-17</span>
+<br /><span class="smallexcerpt">Tämä kermamaissi siirtyi kuuselta pois. Mutta nyt se onkin paremman letkun varassa. Paremmin visuaalisesti tyydyttävän lopputuloksen päällä. Voin keskittyä miettimään...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/180/hupia">Hupia</a></span> &#183; <span class="published">2007-09-04</span>
+<br /><span class="smallexcerpt">Taas sen näkee, että isot ongelmat on kalasteltu pois ja jäljelle jää pikkusinttien seuraaminen. Tein tänään oman grub-splashin. Olin aluksi...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/206/eloa">Eloa</a></span> &#183; <span class="published">2007-08-09</span>
+<br /><span class="smallexcerpt">Koitellaan herätellä tätä blogia nyt vähän epämääräisillä viesteillä ja postauksilla. Käytetään McGuffinina apassin päivitystä. Se päivittyi kivasti.
+Garmonbozia.us heräsi eloon. Vähempää...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/207/naseva-otsikko">Naseva&#160;otsikko</a></span> &#183; <span class="published">2007-08-05</span>
+<br /><span class="smallexcerpt">Eirikuva.fi &mdash; digitaalikuvien paperinnospalveluun syydin 272 jpeggiä. Osa png:itä. Osa bmp:itä. Kaikki eivät ollut minun. &#196;iteeltä about pari sataa kuvaa...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/208/garmonbozia">Garmonbozia</a></span> &#183; <span class="published">2007-07-28</span>
+<br /><span class="smallexcerpt">Twin Peaks -huumassa jatkoin ja tilasin Xonetista kahdeksi vuodeksi garmonbozia.us -osoitteen. 12 euroa, ei mikään paha. Seuraavan viikon kuluessa päässee...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/209/naeinhaen-se-on">Näinhän se&#160;on</a></span> &#183; <span class="published">2007-07-23</span>
+<br /><span class="smallexcerpt">Kesä on vähän tylsää aikaa ollut. No, ei se mitään. Edellisessä postauksessani mainitsin Twin Peaksin. No, elokuvan katsoin ja tykkäsin....</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/210/beyond-life-and-death">Beyond life and&#160;death</a></span> &#183; <span class="published">2007-07-08</span>
+<br /><span class="smallexcerpt">Kuuseni on kärsinyt kovalevyvioista. Se piippailee tuskissaan ja erilaisia ongelmia ilmenee. Olen aikeissa tehdä täysvarmistuksia pian. Nyt on tärkeimmät hötöt...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/220/aika">Aika</a></span> &#183; <span class="published">2007-04-22</span>
+<br /><span class="smallexcerpt">Tuntuu vähän typerältä tällä hetkellä.
+Olen samaistanut itseni nyt tiedon käyttäjäksi, sen hallitsijaksi. Tunnen tiedon ja sen lähteet. Kuitenkin hallitsen tuskin...</span>
+</li>
+
+</ul>
+    <h2>Lyhyitä sutkautuksia</h2>
+    
+
+
+ <!-- now, common stuff -->
+
+<!-- txp:older ei toimi kunnolla tagien kanssa. -->
+        <p>
+             
+            
+        </p>
+
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

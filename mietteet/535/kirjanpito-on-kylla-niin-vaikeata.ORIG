@@ -1,0 +1,234 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <!-- standard -->
+	<title>Mr. P: Kirjanpito on kyllä niin vaikeata</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=mietteet" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=mietteet" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="mietteet">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="kirjanpito-on-kylla-niin-vaikeata#content">Siirry sisältöön</a></li>
+        <li><a href="kirjanpito-on-kylla-niin-vaikeata#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            &raquo;
+            <a href="../index.html">Mietteet</a>
+            
+                <!--<ul>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/598/blogille-idea">Blogille&#160;idea</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/597/wes-mckinney-python-for-data-analysis-oreilly">Wes McKinney - Python For Data Analysis (O&#39;Reilly)</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/596/org-blogaaminen-vaikeata">Org-blogaaminen&#160;vaikeata</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/595/twitterointia-emacsilla">Twitteröintiä&#160;Emacsilla</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/594/weboodi-aikataulut-orgiin">WebOodi-aikataulut&#160;orgiin</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/592/emacs-has-me">Emacs has&#160;me.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/591/editorien-taistelu-tietamyshallinnassa">Editorien taistelu&#160;tietämyshallinnassa</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/590/think-vimorganizer">Think&#160;VimOrganizer.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/589/think-orgmode">Think&#160;orgmode.</a>
+                </li>
+</ul>-->
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="http://progo.viuhka.fi/kategoria/hifi/">Hifi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/rauta/">Rauta</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/viihde/">Viihde</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../../tag/blogisäätöä/index.html" class="tagSizeMedium tagSize26" style="font-size: 100%;">blogisäätöä</a></li>
+	<li><a href="../../tag/emacs/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">emacs</a></li>
+	<li><a href="../../tag/hifi/index.html" class="tagSizeMedium tagSize32" style="font-size: 100%;">hifi</a></li>
+	<li><a href="../../tag/musiikki/index.html" class="tagSizeMedium tagSize24" style="font-size: 100%;">musiikki</a></li>
+	<li><a href="../../tag/ohjelmointi/index.html" class="tagSizeLargest tagSize43" style="font-size: 100%;">ohjelmointi</a></li>
+	<li><a href="../../tag/palvelin/index.html" class="tagSizeMedium tagSize38" style="font-size: 100%;">palvelin</a></li>
+	<li><a href="../../tag/rauta/index.html" class="tagSizeMedium tagSize24" style="font-size: 100%;">rauta</a></li>
+	<li><a href="../../tag/vim/index.html" class="tagSizeMedium tagSize35" style="font-size: 100%;">vim</a></li>
+</ul>
+        <p><a href="../../tag/index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=mietteet" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=mietteet" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- not tag view, it's the main view -->
+
+
+        
+
+        <div class="hfeed">
+            <!-- five articles to list here, or only one. It depends. -->
+            <!-- default form -->
+
+<p class="published">14. heinäkuu 2011, 14:52</p>
+<h1 class="entry-title"><a rel="bookmark" href="kirjanpito-on-kylla-niin-vaikeata">Kirjanpito on kyllä niin&#160;vaikeata</a></h1>
+
+
+<div class="entry-content">
+	<p>Gah. Silloin tällöin sitä pysähtyy miettimään, että olisipa se mukavaa, jos opettelisi tuon GnuCashin ja raha-asiat maagisesti selviäisivät sillä myöten. Koskaan ei vain sitten ole tullut opeteltua. Tänään taisin päästä vähän jyvälle, mutta pientä jatkojalostelua kaipaisi vielä.</p>
+
+	<p>Idea syttyi tänään siitä, kun minulla on OO Calc -taulukkona hifiostokseni ja -myyntini. Ajattelin, että olisipa mukava ottaa samanlainen taulukko <span class="caps">ATK</span>-ostoille. Yhdenkertainen listaushan se vain on. Tietenkin halusin yleistää nämä kaikenlaiset ostokset yhdeksi suureksi kokonaisuudeksi, ja GnuCash on eräs suurimpia tekijöitä.</p>
+
+	<p>GnuCash on hyvin monipuolinen, mutta nyt sain itsestäni hyvän otteen lukea noita aloitustutoriaaleja sen käytön opettelemiseksi. Nythän siellä jo voisi periaatteessa pitää kirjojaan. Kahdenkertaiset kirjanpidot ovat onneksi hyvässä muistissa yläkoulussa talouskurssin jäljiltä. Mutta jotain se GnuCash vielä kaipaisi: komentoriviä!</p>
+
+	<p>Nimittäin onhan tuo vähän työlästä aina avata tuo ohjelma (joka vielä käynnistyy hitaahkosti) ja hiirellä sohia oikeaan paikkaan oikeat luvut. Toki se hoitaa sitten pikkuseikat automaattisesti alta pois. Mutta yksittäisiä maksuja olisi mukava panna komentoriviltä ylös. Googletellessani asiaa löysin toisen kirjanpitosovelluksen nimeltä <a href="http://ledger-cli.org/">Ledger</a>, mutta siinä on se ongelma, että se  ei ole GnuCash. Toinen on ehtaa tavaraa, tuettu hyvin laajalti. Ja toinen on pieni komentoriviohjelma, joka kyllä tarjoaisi herkulliset ominaisuudet käyttöäni ajatellen.</p>
+
+	<p>Tietenkin koodaajana herkuttelin myös ajatuksella koodata itse oma ja siro kirjanpitosovellus. <span class="caps">SQL</span>ite-kantaa esille vain ja joitain skriptejä pythonilla ja schemellä sitten käsittelemään. Se on helposti kuopattu ajatus, koska vaikka se kyllä onnistuisi nopeastikin, niin kirjanpidoksi ei sellaista voi sanoa. Kaikki hienompi puuttuu, ominaisuudet, joita en edes osaisi ajatella tässä vaiheessa.</p>
+
+	<p>Nyt jatkan tutkimaan tuota GnuCashin komentorivipuolta. Kymmenen vuotta sitten on esitelty <a href="http://lists.gnucash.org/pipermail/gnucash-devel/2001-January/002382.html">samanlaisia toiveita</a> ja täytyykin katsoa, mihin se johtaa.</p>
+</div>
+
+<p class="tags"> 
+
+
+Tageja: <a href="../../tag/kirjanpito/index.html" rel="tag">kirjanpito</a>
+
+
+</p>
+
+
+
+<div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+
+        </div>
+
+ <!-- now, common stuff -->
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+        <p><a rel="prev" href="../534/kielikatsastelu" title="Kielikatsastelu">&#171; Kielikatsastelu</a> 
+           &mdash; <a rel="next" href="../536/ledger-tosimiehen-kirjanpito" title="Ledger -- tosimiehen kirjanpito">Ledger -- tosimiehen kirjanpito &#187;</a>
+        </p>
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+        <h2>Aiheen vierestä</h2>
+        <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../563/ledgeria-jo-puoli-vuotta">Ledgeriä jo puoli&#160;vuotta!</a></span> &#183; <span class="published">2012-01-15</span>
+<br /><span class="smallexcerpt">Olen ollut aikeissa kirjoitella ja ylistää lisää Ledgerin, tuon Unix-miehen kirjanpidon, mahtavuutta. Nyt huomasin lisäksi, että olen käytellyt tätä hienoa...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../536/ledger-tosimiehen-kirjanpito">Ledger -- tosimiehen&#160;kirjanpito</a></span> &#183; <span class="published">2011-07-14</span>
+<br /><span class="smallexcerpt">Ah. Aiemmin päivällä kipinäni syttyi tuonne kirjanpitojen ihmeelliseen maailmaan. Ja silmäni osui tuohon Ledgeriin, josta kerroinkin aiemmin päivällä. En saanutkaan...</span>
+</li>
+
+</ul>
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

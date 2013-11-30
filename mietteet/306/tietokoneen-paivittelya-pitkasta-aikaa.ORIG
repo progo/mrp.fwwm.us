@@ -1,0 +1,318 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <!-- standard -->
+	<title>Mr. P: Tietokoneen päivittelyä pitkästä aikaa</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=mietteet" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=mietteet" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="mietteet">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="tietokoneen-paivittelya-pitkasta-aikaa#content">Siirry sisältöön</a></li>
+        <li><a href="tietokoneen-paivittelya-pitkasta-aikaa#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            &raquo;
+            <a href="../index.html">Mietteet</a>
+            
+                <!--<ul>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/598/blogille-idea">Blogille&#160;idea</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/597/wes-mckinney-python-for-data-analysis-oreilly">Wes McKinney - Python For Data Analysis (O&#39;Reilly)</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/596/org-blogaaminen-vaikeata">Org-blogaaminen&#160;vaikeata</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/595/twitterointia-emacsilla">Twitteröintiä&#160;Emacsilla</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/594/weboodi-aikataulut-orgiin">WebOodi-aikataulut&#160;orgiin</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/592/emacs-has-me">Emacs has&#160;me.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/591/editorien-taistelu-tietamyshallinnassa">Editorien taistelu&#160;tietämyshallinnassa</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/590/think-vimorganizer">Think&#160;VimOrganizer.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/589/think-orgmode">Think&#160;orgmode.</a>
+                </li>
+</ul>-->
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="http://progo.viuhka.fi/kategoria/hifi/">Hifi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/rauta/">Rauta</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/viihde/">Viihde</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../../tag/blogisäätöä/index.html" class="tagSizeMedium tagSize26" style="font-size: 100%;">blogisäätöä</a></li>
+	<li><a href="../../tag/emacs/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">emacs</a></li>
+	<li><a href="../../tag/gentoo/index.html" class="tagSizeLargest tagSize106" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../../tag/hifi/index.html" class="tagSizeMedium tagSize32" style="font-size: 100%;">hifi</a></li>
+	<li><a href="../../tag/musiikki/index.html" class="tagSizeMedium tagSize24" style="font-size: 100%;">musiikki</a></li>
+	<li><a href="../../tag/ohjelmistot/index.html" class="tagSizeMedium tagSize5" style="font-size: 100%;">ohjelmistot</a></li>
+	<li><a href="../../tag/ohjelmointi/index.html" class="tagSizeMedium tagSize43" style="font-size: 100%;">ohjelmointi</a></li>
+	<li><a href="../../tag/palvelin/index.html" class="tagSizeMedium tagSize38" style="font-size: 100%;">palvelin</a></li>
+</ul>
+        <p><a href="../../tag/index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=mietteet" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=mietteet" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- not tag view, it's the main view -->
+
+
+        
+
+        <div class="hfeed">
+            <!-- five articles to list here, or only one. It depends. -->
+            <!-- default form -->
+
+<p class="published">14. huhtikuu 2010, 15:27</p>
+<h1 class="entry-title"><a rel="bookmark" href="tietokoneen-paivittelya-pitkasta-aikaa">Tietokoneen päivittelyä pitkästä&#160;aikaa</a></h1>
+
+
+<div class="entry-content">
+	<p>Siitä on jo pitkä aika kun viimeksi olen uusinut kokoonpanoani. Olenhan moneen otteeseen puhunut siitä, että linux-kokoonpanoni ei varsinaisesti edellytä puolivuosittaista upgreidausta, sillä asiat tapahtuvat smoothisti tykkänään joka tapauksessa. No, kuitenkin nyt minulle avautui tilaisuus saada vanhaa kokoonpanoa eteenpäin (l. varma ostaja käytetyille komponenteille) ja laitoin tulemaan pientä kivaa.</p>
+
+	<p>Pieni kiva koostuu:</p>
+
+	<table>
+		<tr>
+			<th>Uutta</th>
+			<th>Nykyistä</th>
+		</tr>
+		<tr>
+			<td><span class="caps"><span class="caps">AMD</span></span> Phenom II X2 555 BE 3.2Ghz</td>
+			<td><span class="caps"><span class="caps">AMD</span></span> Athlon64 X2 3800+ 2.0Ghz</td>
+		</tr>
+		<tr>
+			<td>Gigabyte GA-MA770-US3 (SB710)</td>
+			<td><span class="caps"><span class="caps">MSI</span></span> K9N Neo V2 (<span class="caps"><span class="caps">VIA</span></span>)</td>
+		</tr>
+		<tr>
+			<td>4 gigaa Kingstonin halvinta DDR3:sta</td>
+			<td>3 gigaa Kinstonin halvinta DDR2:sta</td>
+		</tr>
+	</table>
+
+	<p>Ensin pari voivottelua näihin ostoksiin suorasti liittyen: aluksi tein Intel-pohjaisen ratkaisun, joka osoittautui todella surkeaksi heti sillä sekunnilla, kun tarkasti vastaavien <span class="caps">AMD</span>-tuotteiden hinnat. Mutta kääntöpuolena Intelin piirisarjat tukevat paremmin USB3.0:sta, ja jo melko halvoissakin emoissa oli pari USB3-porttia. Näissä <span class="caps">AMD</span> 770 / SB710 -piirillisissä lankuissa ei sellaista ole, joten valitsin ehkä huonon emon tulevaisuutta ajatellen.</p>
+
+	<p><span class="caps">PCI</span>-väylä ei näytä vieläkään kuolevan pois. Vain övereimmissä tapauksissa puuttuvat <span class="caps">PCI</span>-väylät kokonaan. Hyvä niinkin, sillä minun rakas äänikorttini Audiophile 192 toimii sangen hyvin sellaisenaan, ja sen korvaaminen jollain <span class="caps">PCI</span>e-mallilla tulee olemaan sekä kallista että luultavasti bugista aikaa. </p>
+
+	<p>Muistia olisin halunnut enemmänkin, mutta havaittuani sen aika tyyriiksi (30 euroa per giga ja paljousalennuksia ehkä 10 %) tyydyn nyt neljään. Kapulat ovat pakettina 2&#215;2, joten voin tuplata muistit vaikka myöhemmin (mikä ei tule tapahtumaan).</p>
+
+	<p>Nokkela murottaja taikka muuten raudasta perillä pysyvä havaitsee ehkä selvän syyn siihen, miksi valitsin suorittimeksi varsin oudon kapistuksen. Onhan se tehokas, joo, mutta gentoomiehenä minulle olisi kai maittanut mielellään useampikin ydin? Ja tuo <span class="caps">TDP</span>-arvo, 80 W, on aika kova. Satasen arvoisena laitteena tuo Phenom II 555 jää lämpötuotossa ja coreissa jälkeen esimerkiksi Athlon X2/X3 -mallistoja, joissa on kolmiytimisiä ja hyvin vähän virtaasyöviä malleja 30 euroa halvemmalla. Teho per core on tietysti alhaista, mutta ehkä enemmänkin se skaalaus minua miellyttäisikin.</p>
+
+	<p>Murottaja <a href="http://plaza.fi/muropaketti/artikkelit/prosessorit/amd-phenom-ii-x2-555-black-edition-nelja-ydinta-alle-satasella">huomaa</a>, että tuo Phenom-malli on itse asiassa neliytiminen, ja josta on havaittu lisäydinten olevan jollain tapaa epävakaita tai muuten kehnoja. Nythän on niin, että varsin pienellä jysähdysprosentilla (villit huhut kertovat, että 10 %) kaikki neljä ydintä saa virheettöminä käyttöönsä, kunhan emolevy tukee sitä. Onneksi Gigabyten emolevyssä, SB710-sarjansa kanssa, on kyseinen tuki. Myönnetään, että loppuun asti en ole ajatellut, että miten joudun varautumaan mahdollisesti lisääntyvään lämmöntuottoon. Huh, nyt tarkastin asian käyttämällä klassikko-ohjelmaa <a href="http://www.cpuid.com/cpuz.php"><span class="caps">CPU</span>-Z</a> winen avulla (suorittimen osasi hyvin tavata) ja se sanoo malliksi <em>Windsor</em>. <a href="http://en.wikipedia.org/wiki/Athlon_64_X2#Athlon_64_X2">Wikipediasta</a> eteenpäin katseltuna Windsor syö 89 wattia, joten olen ainakin kaksiytimellisen Phenomin kanssa selvillä vesillä. Neliytimellinen malli oletettavasti lisää 30-40 prosenttia lisää kulutusta ja lämpöä.</p>
+
+	<p>Himottaisi jo saada enemmänkin kuin neljä ydintä käyttöön. 24 gigaa muistia ja vaikkapa 12-ytimellinen suoritus? Jos sellaista tarjoiltaisiin, voisin olla valmis siirtymään 64-bittiseen ympäristöön. </p>
+
+	<p>Ja kaipa tästä nuo pelitkin vähän nopeutuvat. Puhuin aiemmin syksyllä siitä, kun M2N-E hajosi ja hommasin <span class="caps">MSI</span>:n tilalle, koneen yleinen nopeus tuntui hieman tippuvan. Piirisarja on astetta tehottomampi, ja halpiskamaa tämä kaikin puolin onkin. <span class="caps">AMD</span>:n lanseerama piirisarja (770 / SB710/SB750) tuntuu olevan käytössä kaikkialla aina tehokkaimmissakin lankuissa, joten elättelen toivoa siitä, että vaikka uusi gigabyten lankku onkin 70 euron hintalapullaan aika halpiskamaa, niin se palauttaa takaisin nopeat aikani.</p>
+
+	<p>Laitoin muuten Prime95:n pyörimään winen välityksellä. Monissa screenshoteissa näkyvät ikkunat eivät auenneet, mutta prosessori jauhaa tokkiisa. Heti kun laitoin pyörimään, alkaa tuntua olemaan sähköä ilmassa&#8230;</p>
+</div>
+
+<p class="tags"> 
+
+
+Tageja: <a href="../../tag/ostoksia/index.html" rel="tag">ostoksia</a>, 
+<a href="../../tag/rauta/index.html" rel="tag">rauta</a>
+
+
+</p>
+
+
+
+<div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+
+        </div>
+
+ <!-- now, common stuff -->
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+        <p><a rel="prev" href="../305/vi-nappaimet-shellikaytossa" title="Vi-näppäimet shellikäytössä">&#171; Vi-näppäimet shellikäytössä</a> 
+           &mdash; <a rel="next" href="../307/xmonad-on-_super_" title="Xmonad on super">Xmonad on super &#187;</a>
+        </p>
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+        <h2>Aiheen vierestä</h2>
+        <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../557/palvelin-tulossa-sittenkin">Palvelin tulossa&#160;sittenkin</a></span> &#183; <span class="published">2011-11-10</span>
+<br /><span class="smallexcerpt">Vaikka taannoin järkeilin palvelimen ostoa vastaan aika onnistunein argumentein, niin nyt sellaisen olen kuitenkin hommannut. Käytetystä raudasta kootan murossa jonkinlaisen...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../554/tulipa-netbook-ostettua">Tulipa netbook&#160;ostettua</a></span> &#183; <span class="published">2011-10-01</span>
+<br /><span class="smallexcerpt">Elitegroupin G10IL -mallinen miniläppäriksi luokiteltavissa netbook tuli ostettua. Saamme nähdä, miten tässä vielä käy.
+
+	Tämä on tavallinen nykynetbook, jossa on 10-tuumainen...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../549/uusi-filco-on-asemissa">Uusi Filco on&#160;asemissa</a></span> &#183; <span class="published">2011-09-07</span>
+<br /><span class="smallexcerpt">Tänään se Filco Majestouch tuli. Ei siinä pitkään mennyt! Aika jännä fiilis kaikkinensa dassikkaan nähden, tämä.
+
+	Cherry MX Brown -kytkimet ovat...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../548/uusi-nappaimistoni-filco-majestouch-2">Uusi näppäimistöni, Filco Majestouch-2</a></span> &#183; <span class="published">2011-09-04</span>
+<br /><span class="smallexcerpt">Aikaisempi ostoslistapostaus oli vähän kirottu, koska sen kirjoitettuani minulle valkeni, että voin &#8220;hyvillä mielin&#8221; nyt valita yhden kohteista, ja jättää...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../546/asioita-joita-olisi-mukava-omistaa">Asioita, joita olisi mukava&#160;omistaa</a></span> &#183; <span class="published">2011-09-01</span>
+<br /><span class="smallexcerpt">Ihan kirjoittamisen ilosta listailen vähän asioita, joita haluaisin omistaa. Mutta eivät ole välttämättömiä, eikä niihin voi perustella rahankäyttöäkään. Mutta olisivat...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../514/amazon-kindle-yllattavan-hyva-laite">Amazon Kindle yllättävän hyvä&#160;laite</a></span> &#183; <span class="published">2011-02-27</span>
+<br /><span class="smallexcerpt">Amazon Kindle 3 on yllättävän hyvä ebook-lukija. Sitä suhtautuu skeptisesti pienien laitteiden voimiin, kun pöytäkoneidenkin verraten rajattomat resurssit eivät aina...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../345/muistinkulutuksesta-vol-n">Muistinkulutuksesta, vol.&#160;n</a></span> &#183; <span class="published">2010-10-14</span>
+<br /><span class="smallexcerpt">On jälleen aika valistaa lukijoita hourailulla, kuinka ennen oli asiat toisin ja muistinkäyttökin aisoissa. Paitsi, että nykyisellään näyttää aika hyvältä.
+
+	Laitetaanpa...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../311/ensimmainen-taistelu-havittiin">Ensimmäinen taistelu&#160;hävittiin</a></span> &#183; <span class="published">2010-04-26</span>
+<br /><span class="smallexcerpt">Aiemmin tuskailin mm. jäähdytyksen kanssa, kehuin nopeita kiintolevyosioita ja muuta sellaista kivaa. Tänään otin tuumasta toimen, ja vaihdoin liimat jäähdyttimen...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../310/nopeutusta">Nopeutusta</a></span> &#183; <span class="published">2010-04-25</span>
+<br /><span class="smallexcerpt">Pelailin vähän Civilization IV:tä äsken. Uusi suoritin ja Reiserille siirretty pelialusta toimii aivan huikean vauhdikkaasti.
+
+	Etenkin pelin latautuminen on ääliömäisen nopeata....</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../309/osiot-uusiksi">Osiot&#160;uusiksi</a></span> &#183; <span class="published">2010-04-25</span>
+<br /><span class="smallexcerpt">Kävin eilen Ubuntun livedistron puolella tekemässä osiointia ja siirtelin tiedostoja. Kovalevyistä vanhin, 250-gigainen Seagate, vaihtoi kokonaan ryhtiänsä sellaiseksi, mihin olisi...</span>
+</li>
+
+</ul>
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,264 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <!-- standard -->
+	<title>Mr. P: Vuorokausi Twitterissä</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=mietteet" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=mietteet" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="mietteet">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="vuorokausi-twitterissa#content">Siirry sisältöön</a></li>
+        <li><a href="vuorokausi-twitterissa#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            &raquo;
+            <a href="../index.html">Mietteet</a>
+            
+                <!--<ul>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/598/blogille-idea">Blogille&#160;idea</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/597/wes-mckinney-python-for-data-analysis-oreilly">Wes McKinney - Python For Data Analysis (O&#39;Reilly)</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/596/org-blogaaminen-vaikeata">Org-blogaaminen&#160;vaikeata</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/595/twitterointia-emacsilla">Twitteröintiä&#160;Emacsilla</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/594/weboodi-aikataulut-orgiin">WebOodi-aikataulut&#160;orgiin</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/592/emacs-has-me">Emacs has&#160;me.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/591/editorien-taistelu-tietamyshallinnassa">Editorien taistelu&#160;tietämyshallinnassa</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/590/think-vimorganizer">Think&#160;VimOrganizer.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/589/think-orgmode">Think&#160;orgmode.</a>
+                </li>
+</ul>-->
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="/kategoria/hifi/">Hifi</a></li>
+	<li><a href="/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="/kategoria/rauta/">Rauta</a></li>
+	<li><a href="/kategoria/viihde/">Viihde</a></li>
+	<li><a href="/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../../tag/blogisäätöä/index.html" class="tagSizeMedium tagSize22" style="font-size: 100%;">blogisäätöä</a></li>
+	<li><a href="../../tag/gentoo/index.html" class="tagSizeLargest tagSize102" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../../tag/musiikki/index.html" class="tagSizeMedium tagSize20" style="font-size: 100%;">musiikki</a></li>
+	<li><a href="../../tag/ohjelmistot/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">ohjelmistot</a></li>
+	<li><a href="../../tag/opiskelu/index.html" class="tagSizeMedium tagSize14" style="font-size: 100%;">opiskelu</a></li>
+	<li><a href="../../tag/ostoksia/index.html" class="tagSizeMedium tagSize8" style="font-size: 100%;">ostoksia</a></li>
+	<li><a href="../../tag/palvelin/index.html" class="tagSizeMedium tagSize34" style="font-size: 100%;">palvelin</a></li>
+	<li><a href="../../tag/vim/index.html" class="tagSizeMedium tagSize31" style="font-size: 100%;">vim</a></li>
+</ul>
+        <p><a href="../../tag/index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=mietteet" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=mietteet" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- not tag view, it's the main view -->
+
+
+        
+
+        <div class="hfeed">
+            <!-- five articles to list here, or only one. It depends. -->
+            <!-- default form -->
+
+<p class="published">22. helmikuu 2011, 13:08</p>
+<h1 class="entry-title"><a rel="bookmark" href="vuorokausi-twitterissa">Vuorokausi&#160;Twitterissä</a></h1>
+
+
+<div class="entry-content">
+	<p>Olen nyt ollut reilun vuorokauden Twitterissä, ja päässyt nauttimaan osani muiden ihmisten ympäröimistä aatteista ja siitä &#8220;virtauksesta&#8221;, joka ainakin rekisteröimättömän Twitterin etusivulla näkyy. Onneksi todellisuus on vähän helpompaa, mutta on tässä muita ongelmia.</p>
+
+	<p>Twitteriin kirjautuneen ihmisen etusivuna toimii hieno komentopaneeli, jossa näkyy kaikkien seurattujen tuoreimmat viestit. Vieressä näkyy tilastoja omista twiittauksista ja sen sellaista. Jokseenkin mac-henkinen selailu ei ole kamalan monimutkaista, ja totta kai vuorokaudessa ei vielä kaikkia temppuja omaksu, joten katsellaan.</p>
+
+	<p>Minulla ei ole nyt seurannassa kuin pari hassua nimeä, useimmat julkimoita. Niitä se Twitter tyrkyttää ensimmäisenä kun ehdottelee seurattavia. Kuudella ihmisellä ei sentään ole niin paljoa sanottavaa, että tulisi mahdoton ryöppy viestejä seurattavaksi. Sen sijaan onkin ollut harvinaisen hiljaista. Nyt Uudessa-Seelannissa nähtävästi järisee maa, joten sieltä tulee viestiä. Mutta ei minulle; keitä minä seuraan, ei ole ollut vielä aikaa jakaa tätä tietoa. Mihinköhän pyrin tällä? Totta puhuen lämpimikseen mietin. Mahtaa olla aikamoinen työ heillä, ketkä seuraavat satoja nimiä. Se täyttää pienen timeline-listauksen aika herkästi, jos ihmiset vähänkään pälpättävät useammin kuin päivässä.</p>
+
+	<h2>Menestyksen salaisuus ja sosiaalisuuden vastapuoli</h2>
+
+	<p>Ollakseen menestyvä ja suosittu blogailija pitäisi keskittyä yhteen, tarkkaan valittuun aiheeseen. Suodattavat blogiaggregoinnit toki poistavat ongelmaa jossain määrin, mutta usein suosittuja aggregointeja ei ole. Tällöin aktiivisen blogin pitäisi keskittyä siihen yhteen aiheeseen. Jos haluaa blogailla useasta aiheesta, sisarblogien avaaminen on usein ainut vaihtoehto. Tai tietysti yhden blogin alle voi rakentaa alaosastoja, jos moottori tukee sellaista. Vähintään <span class="caps">RSS</span>-feedit pitää saada osioittain.</p>
+
+	<p>Samanlainen yhden teeman vaalinta saattaa piinata myös Twitteriä. Jaksaako joku hifisti seurailla, jos kerron hifin lisäksi kaikesta muusta tilpehööristä. Etenkin kun se seuraaminen voi johtaa aika isoon floodiin seurannassa.</p>
+
+	<p>Sosiaalisuuden vastapuoli. Twitterissä seurailee julkimoita, joilla on kaikenlaista projektia meneillään. Miten siinä kehtaa itse kirjoitella, että &#8220;olipas tänään kiinnostavaa. Koodailin ohjelmaa viisi tuntia&#8221;. Nopea rationalisointi auttaa asiaan: kukaan ei tule lukemaan, ellei hän seuraa. Ja jos ei seuraa, ja lukee silti, miten siinä voi hävitä. Siispä itse ainakin järkeilen, ettei kannata jättää teknisiäkään juttuja kertomatta vain sen takia, etteivät ne luultavasti kiinnosta muita. Twitter hämää tässä suhteessa. Keskustelu ei ole aina molemminpuolista.</p>
+
+	<p>Tämä kyllä vähän hämmentää edelleenkin: kehtaanko kehua Blue Velvetiä loistoelokuvaksi kun samalla seurailen David Lynchiä? Pitääkö nämä tiedonjyvät jättää (edelleen) omaksi tiedokseen? Molemminpuolisuus ei ehkä tapahdu, mutta mistä minä tiedän, mitä siellä oikeasti tapahtuu.</p>
+
+	<h2>Seuraajia, vaan ei ihmisiä</h2>
+
+	<p>Kun liityin, heti seuraavaksi tarjottiin listoja ihmisistä, joita voisin seurata. Klikkailin siinä pari julkimoa ja sitten lähdin kai kahville. Palatessani olin pienessä shokissa, kun minun seuraajalistalle oli ilmestynyt ConanOBrien-kuvake, ja joku toinen. Eihän Conan seuraa kuin yhtä ihmistä, valitsiko hän nyt toisen? Tarkempi tarkastelu osoittaa, että kyseessä onkin joku automaattinen seurantabotti. Onko tämä jokin tapa, jolla suositummat ihmiset voivat rajata vastineiden määrää. Jonkinlainen työryhmä siellä seurailee epäilemättä. Vastaukset ja epäsuorat osoitukset ihmisille, joka tapahtuu @-merkkiä käyttämällä, eivät ehkä sittenkään välity suoraan. Tässä on jokin omituisuus, mutta en anna sen häiritä.</p>
+
+	<p>Lisäksi minua tuli seuraamaan joku ei-bottikin. Ainakin Twitter ilmoitti siitä minulle juhlallisesti sähköpostilla. Kuitenkin tämä seuraaja taitaa olla vain oman sivustonsa mainos. Antaa seurailla, jos siltä tuntuu.</p>
+
+	<p>Niin pitkään kun minulla ei ole mitään oikeasti ihmismäisiä seuraajia, voinen kirjailla vaikka mitä teknisiä diipadaapoja sinne. Risuaitamerkinnällä koitan nyt herätellä <span class="caps">AKG</span> K1000 -omistajia, mutta jospa sekin pitää tehdä jollain ihmetavalla.</p>
+
+	<p>Käykää <a href="http://twitter.com/progo_">katsomassa,</a> jos kiinnostaa. Ainakin tämä on hyvä tapa upottautua kivasti amerikkalaiseen elämäntapaan, vaikkakin julkimoiden sellaiseen. Pitäähän tässä totutella ajatukseen&#8230;</p>
+</div>
+
+<p class="tags"> 
+
+
+Tageja: <a href="../../tag/twitter/index.html" rel="tag">twitter</a>
+
+
+</p>
+
+
+
+<div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+
+        </div>
+
+ <!-- now, common stuff -->
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+        <p><a rel="prev" href="../504/sosiaaliset-palvelut" title="Sosiaaliset palvelut">&#171; Sosiaaliset palvelut</a> 
+           &mdash; <a rel="next" href="../514/amazon-kindle-yllattavan-hyva-laite" title="Amazon Kindle yllättävän hyvä laite">Amazon Kindle yllättävän hyvä laite &#187;</a>
+        </p>
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+        <h2>Aiheen vierestä</h2>
+        <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../586/puolitoista-vuotta-twitterissa">Puolitoista vuotta&#160;Twitterissä</a></span> &#183; <span class="published">2012-08-14</span>
+<br /><span class="smallexcerpt">Tänään kävelyllä tulin pohtineeksi hieman Twitterissä vietettyjä minuutteja. Suureksi sosiaaliseksi mediaksi Twitter on edelleen se paras kaikista, koska se ei...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../504/sosiaaliset-palvelut">Sosiaaliset&#160;palvelut</a></span> &#183; <span class="published">2011-02-19</span>
+<br /><span class="smallexcerpt">Milloinhan kannattaisi käyttää valmiita palveluita ja milloin käyttää yksityistä? Yleiset ja erikoistuneet sosiaaliset palvelut. 
+
+	Sosiaaliset palvelut
+
+	Katsotaan, mitä tässä jaksan tarinoida...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../381/mikrobloggailua-talossa">Mikrobloggailua&#160;talossa</a></span> &#183; <span class="published">2011-01-21</span>
+<br /><span class="smallexcerpt">Ja nyt sitä mikrobloggailua on tässä. Edellinen artikkeli johti mielettömän kovaan arpomiseen ja pohdintaan, onko se oikeasti sen arvoista kirjoittaa...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../368/mikrobloggailua-luvassa">Mikrobloggailua&#160;luvassa</a></span> &#183; <span class="published">2011-01-17</span>
+<br /><span class="smallexcerpt">Silloin tällöin hetkellinen mielenhäiriö saa minut harkitsemaan Twitterin kaltaisia mikroblogialustoja, sillä joskus saa niin hyviä fiiliksiä pienistä asioista. Sellaisia pikkuasioita...</span>
+</li>
+
+</ul>
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

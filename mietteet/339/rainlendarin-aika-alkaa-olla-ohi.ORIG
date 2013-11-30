@@ -1,0 +1,323 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <!-- standard -->
+	<title>Mr. P: Rainlendarin aika alkaa olla ohi?</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=mietteet" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=mietteet" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="mietteet">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="rainlendarin-aika-alkaa-olla-ohi#content">Siirry sisältöön</a></li>
+        <li><a href="rainlendarin-aika-alkaa-olla-ohi#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            &raquo;
+            <a href="../index.html">Mietteet</a>
+            
+                <!--<ul>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/598/blogille-idea">Blogille&#160;idea</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/597/wes-mckinney-python-for-data-analysis-oreilly">Wes McKinney - Python For Data Analysis (O&#39;Reilly)</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/596/org-blogaaminen-vaikeata">Org-blogaaminen&#160;vaikeata</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/595/twitterointia-emacsilla">Twitteröintiä&#160;Emacsilla</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/594/weboodi-aikataulut-orgiin">WebOodi-aikataulut&#160;orgiin</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/592/emacs-has-me">Emacs has&#160;me.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/591/editorien-taistelu-tietamyshallinnassa">Editorien taistelu&#160;tietämyshallinnassa</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/590/think-vimorganizer">Think&#160;VimOrganizer.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/589/think-orgmode">Think&#160;orgmode.</a>
+                </li>
+</ul>-->
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="http://progo.viuhka.fi/kategoria/hifi/">Hifi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/rauta/">Rauta</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/viihde/">Viihde</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../../tag/clojure/index.html" class="tagSizeMedium tagSize2" style="font-size: 100%;">clojure</a></li>
+	<li><a href="../../tag/emacs/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">emacs</a></li>
+	<li><a href="../../tag/gentoo/index.html" class="tagSizeLargest tagSize106" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../../tag/ostoksia/index.html" class="tagSizeMedium tagSize12" style="font-size: 100%;">ostoksia</a></li>
+	<li><a href="../../tag/palvelin/index.html" class="tagSizeMedium tagSize38" style="font-size: 100%;">palvelin</a></li>
+	<li><a href="../../tag/python/index.html" class="tagSizeMedium tagSize2" style="font-size: 100%;">python</a></li>
+	<li><a href="../../tag/skriptaus/index.html" class="tagSizeMedium tagSize2" style="font-size: 100%;">skriptaus</a></li>
+	<li><a href="../../tag/vim/index.html" class="tagSizeMedium tagSize35" style="font-size: 100%;">vim</a></li>
+</ul>
+        <p><a href="../../tag/index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=mietteet" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=mietteet" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- not tag view, it's the main view -->
+
+
+        
+
+        <div class="hfeed">
+            <!-- five articles to list here, or only one. It depends. -->
+            <!-- default form -->
+
+<p class="published">22. syyskuu 2010, 10:22</p>
+<h1 class="entry-title"><a rel="bookmark" href="rainlendarin-aika-alkaa-olla-ohi">Rainlendarin aika alkaa olla&#160;ohi?</a></h1>
+
+
+<div class="entry-content">
+	<p>Tuo rakas <a href="http://rainlendar.net"><strong>Rainlendar</strong></a>, työpöytiemme koriste ja muutenkin varsin näpsäkkä kalenterisovellus alkaa olla tiensä päässä omassa käytössäni.</p>
+
+	<p>Pääasialliset syyt ovat melko heppoiset: se ei ole toistaiseksi toiminut <a href="http://xmonad.org/">Xmonadin</a> kanssa kovin nätisti yhteen. Syytkin ovat ilmeiset: Rainlendar ei varsinaisesti tilety mukaan, eikä pidäkään tietenkään tilettyä. Oli suuri voitto kun sain homman pelaamaan Xmonadissa jo siten, että conky ja Rainlendar vievät pienen siivun näytön reunalta, ja loput näytöstä on sitten tiletyksen alla, tehokkaassa tilankäytössä. </p>
+
+	<p>Listataan kuitenkin ne epäkohdat, jotka oikeastaan kaikki liittyvät siihen, etten osaa hallita Xmonadia riittävästi:</p>
+
+	<ul>
+		<li>Ikkunoiden kanssa peuhailu <code>Win-j</code> ja <code>Win-k</code>-näppäimien kanssa kiertää fokuksen myös Rainlendarin näytölle. En varsinaisesti kaipaa sitä, sillä sitä ohjelmaa ei:
+	<ul>
+		<li>&#8220;näppäillä&#8221; kuin aniharvoin</li>
+		<li>käytetään silloinkin lähinnä hiirellä</li>
+	</ul></li>
+		<li>Toisaalta uusien tapahtumien lisääminen Rainlendariin on hyvin epäkäytettävää. Kellonaikojen lisäily ja näpräily vaatii kovasti tarkkuutta hiirellä sohiessa, ja liikaa kikkailua näppäimistöltäkään: dialogissa on liikaa tavaraa</li>
+		<li>Ja vielä kiellon päälle: Rainlendarin muuten hyvä toiminto, <em>Quick Add</em>, korjaa lisäilyn heikot ongelmat tarjoamalla joustavan syntaksin <em>remind</em>-tyyliin, mutta: silloin Xmonadin ikkunanpyörittelyssä on jouduttava kiertämään kahdet turhat ikkunat, ja vieläpä siten, että Quick Add -inputti kaappaa fokuksen aina kun mahdollista.</li>
+		<li>Ja vielä yksi hankaloittava piirre: Rainlendar näkyy luonnollisesti vain yhdellä työtilalla, vaikka haluaisin sen näkyvän kaikilla tiloilla conkyn kanssa. Tämä vaatii kyllä huomattavaa työtä Xmonadin puolesta saada ruotuun: pitäisi siis näyttää samaa instanssia ohjelmasta kaikilla työtiloilla, jotka ovat aktiivisena vasemmanpuoleisella näytöllä.</li>
+	</ul>
+
+	<p>Vuosi sitten syksyllä ostin Rainlendarin lisenssin tukeakseni hyvää ohjelmaa ja hakeakseni joustavan Google-synkronoinnin. No, Google-synkronointi pelaa hyvin ilman Rainlendaria, sillä <a href="http://gcaldaemon.sourceforge.net/">GCalDaemon</a> toimii edelleen hyvin, vaikka silloin vuosi sitten olinkin vähän turhautunut. </p>
+
+	<p>Muistinkäytön puolesta ei ole valittamista. Vaikka Rainlendar syö sen 60 megaa helposti kaikkine dependenssineen, vaihtoehtoinen ratkaisu GCalDaemonin kanssa syö about saman verran. Melko bloatti javatoteutus kerrassaan.</p>
+
+	<h2>Vaihtoehtoja</h2>
+
+	<p>Olisin laittanut Conkyn asialle. Joutuisin käyttämään inhoamaani Luaa skriptikielenä, mutta joskus pitää myöntyä vaatimuksille.  Asiaa helpotti valtavasti, kun Conkyn Wikistä löytyi valmis kalenteriskripti, johon pitäisi periaatteessa enää lisätä <acronym title="iCalendar"><span class="caps">ICS</span></acronym>-tiedoston parsiminen lähiaikoina tapahtuvien eventtien näyttämiseksi.</p>
+
+	<p>Valmiita algoritmeja voi käytellä luultavasti, kenties jopa käyttää vaikka Python-toteutusta kalenterin parsimiseksi &#8212; synkronointihan tapahtuu vain viiden minuutin välein, miksei ajaa parsimista sen kanssa &#8212; ja Luata vain ulostulon muotoilemiseen. Miksipä ei. Säästyisin monelta harmilta.</p>
+
+	<p>Tässä vaiheessa tarkennetaan, että olisin käyttämässä Googlen kalenteripuolta sitten tapahtumien lisäilyyn ja organisointiin, ja että työpöydälle välittyisi vain yhteenveto asioista. Näin se minulle riittääkin: tärkeintä on nähdä nopeasti, missä mennään, ja mitä pitää muistaa tehdä. Koska GCalDaemon osaa kuitenkin kaksisuuntaisen synkronoinnin, voisin kokeilla jotain widgettiä sille, että voisin komentoriviltä antaa sutjakasti tapahtumia Googlelle.  Se se sopisi minun tyyliini.</p>
+
+	<p>Mutta työtä olisi edessä, ja sitä rataa. Rainlendarin konffaaminen näkymään haluamallani tavalla vaatii huomattavaa panostusta, enkä ole maililistoiltakaan saanut kovin hyviä neuvoja, joista ymmärtäisin paljoakaan. Ehkäpä annan vielä pari mahdollisuutta heillekin, ennen kuin alan toteuttaa uutta suunnitelmaani.</p>
+</div>
+
+<p class="tags"> 
+
+
+Tageja: <a href="../../tag/lua/index.html" rel="tag">lua</a>, 
+<a href="../../tag/ohjelmointi/index.html" rel="tag">ohjelmointi</a>
+
+
+</p>
+
+
+
+<div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+
+        </div>
+
+ <!-- now, common stuff -->
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+        <p><a rel="prev" href="../338/unia-lisaa-unia" title="Unia, lisää unia">&#171; Unia, lisää unia</a> 
+           &mdash; <a rel="next" href="../340/rainlendar-pitaa-paikkansa" title="Rainlendar pitää paikkansa">Rainlendar pitää paikkansa &#187;</a>
+        </p>
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+        <h2>Aiheen vierestä</h2>
+        <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../587/tehokkaat-kayttoliittymat-vaivatta">Tehokkaat käyttöliittymät&#160;vaivatta</a></span> &#183; <span class="published">2012-08-16</span>
+<br /><span class="smallexcerpt">Ohjelmoijan onni on elää komentorivillä. Tehokkaiden käyttöliittymien rustaaminen on varsin nopeata, kunhan luottaa siihen, että suurta suosiota tuotokset eivät tule...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../584/pythonin-vastaisku-lispeille-ipython-ja-vim-ipython">Pythonin vastaisku lispeille: IPython ja vim-ipython</a></span> &#183; <span class="published">2012-07-25</span>
+<br /><span class="smallexcerpt">Tai &#8220;Pythonin uusi toivo&#8221; tai &#8220;Pythonin paluu&#8221;. Mistä on kyse? Pythonin tulkin me kaikki kai tiedämme: kaikki siinä periaatteessa on,...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../581/sumitup-puutteet-ja-mihin-suuntaan-edetaan">SumItUp: puutteet ja mihin suuntaan&#160;edetään</a></span> &#183; <span class="published">2012-07-12</span>
+<br /><span class="smallexcerpt">Esittelin pari postausta sitten Soulver-kloonin raakileen, SumItUpin. Nyt se on GitHubissa kaikkien pällisteltävänä ja sellaisella raakileasteella, jotta sitä voi jo...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../579/soulver-kloonia-rakentelemassa">Soulver-kloonia&#160;rakentelemassa</a></span> &#183; <span class="published">2012-07-07</span>
+<br /><span class="smallexcerpt">Erittäin upealla konseptilla varustettu laskinohjelma Soulver kaatuu siihen, että sen saa vain Mäkille. Vapaamuotoinen näpertelyalusta on usein ainut asia, mitä...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../566/terminaaleja-vimista-kasin">Terminaaleja Vimistä&#160;käsin</a></span> &#183; <span class="published">2012-02-11</span>
+<br /><span class="smallexcerpt">Vanha kunnon ConqueTerm on nyt valmis ja käyttökelpoinen tuote kehittelyyn.
+
+	Olen viime päivinä alkanut käyttää vimiä hyvin emacsmaisesti. Se on tietenkin...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../565/mita-on-kehittaa-clojurella">Mitä on kehittää&#160;Clojurella</a></span> &#183; <span class="published">2012-02-05</span>
+<br /><span class="smallexcerpt">C- ja muunkielisissä projekteissa tavataan kirjoittaa koodia ensin, ja sitten testataan. Tietysti vaatimus osittain syntyy koodin kääntämisestä; ilman kääntöä ei...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../564/ranskalaisten-viivojen-parsimista-clojurella">Ranskalaisten viivojen parsimista&#160;Clojurella</a></span> &#183; <span class="published">2012-02-02</span>
+<br /><span class="smallexcerpt">Kirjoitin männäviikolla kokeilumielessä ohjelman, joka kääntää ranskalaiset viivat Beamer-Latexiksi. Ideana olisi tuottaa esityksen lihapuoli nopeasti rustaamalla tiivistä merkintää ja sitten...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../556/korintaytto-ja-ahne-menetelma">Korintäyttö ja ahne&#160;menetelmä</a></span> &#183; <span class="published">2011-10-23</span>
+<br /><span class="smallexcerpt">Mietiskelen tässä korintäyttöä (bin packing) ja sitä, miten ahne menetelmä on joko ylipolynomiaalinen tai sitten epäoptimaalinen.  Luultavasti se on...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../551/tekijoita-clojurella">Tekijöitä&#160;Clojurella</a></span> &#183; <span class="published">2011-09-17</span>
+<br /><span class="smallexcerpt">Nyt olen joutunut opiskelemaan tuota lukuteoriaa ja sen alkeita, ja monet niistä teorioista ovat innoittaneet minulle pieniä Clojure-ohjelmia. Se pää...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../547/pieni-tiedostolistausapu">Pieni&#160;tiedostolistausapu</a></span> &#183; <span class="published">2011-09-04</span>
+<br /><span class="smallexcerpt">Pitäisi viritellä joku zsh-funktio tekemään seuraavanlaisia tiedostolistauksia nykyisestä hakemistosta:
+
+$ ls -1
+foo.txt
+bar.txt
+paperi.tex
+vanhapaperi.tex.gz
+$ l .txt
+foo.txt
+bar.txt
+$ l peri
+paperi.tex
+vanhapaperi.tex.gz
+$ l v*p
+vanhapaperi.tex.gz
+$ ls $files
+vanhapaperi.tex.gz
+
+
+	Eli sen...</span>
+</li>
+
+</ul>
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

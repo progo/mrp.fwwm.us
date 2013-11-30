@@ -1,0 +1,281 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <!-- standard -->
+	<title>Mr. P: Staattiset kielet kiinnostavat</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=mietteet" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=mietteet" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="mietteet">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="staattiset-kielet-kiinnostavat#content">Siirry sisältöön</a></li>
+        <li><a href="staattiset-kielet-kiinnostavat#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            &raquo;
+            <a href="../index.html">Mietteet</a>
+            
+                <!--<ul>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/598/blogille-idea">Blogille&#160;idea</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/597/wes-mckinney-python-for-data-analysis-oreilly">Wes McKinney - Python For Data Analysis (O&#39;Reilly)</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/596/org-blogaaminen-vaikeata">Org-blogaaminen&#160;vaikeata</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/595/twitterointia-emacsilla">Twitteröintiä&#160;Emacsilla</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/594/weboodi-aikataulut-orgiin">WebOodi-aikataulut&#160;orgiin</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/592/emacs-has-me">Emacs has&#160;me.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/591/editorien-taistelu-tietamyshallinnassa">Editorien taistelu&#160;tietämyshallinnassa</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/590/think-vimorganizer">Think&#160;VimOrganizer.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/589/think-orgmode">Think&#160;orgmode.</a>
+                </li>
+</ul>-->
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="/kategoria/hifi/">Hifi</a></li>
+	<li><a href="/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="/kategoria/rauta/">Rauta</a></li>
+	<li><a href="/kategoria/viihde/">Viihde</a></li>
+	<li><a href="/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../../tag/blogisäätöä/index.html" class="tagSizeMedium tagSize22" style="font-size: 100%;">blogisäätöä</a></li>
+	<li><a href="../../tag/gentoo/index.html" class="tagSizeLargest tagSize102" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../../tag/hifi/index.html" class="tagSizeMedium tagSize28" style="font-size: 100%;">hifi</a></li>
+	<li><a href="../../tag/ohjelmistot/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">ohjelmistot</a></li>
+	<li><a href="../../tag/ohjelmointi/index.html" class="tagSizeMedium tagSize39" style="font-size: 100%;">ohjelmointi</a></li>
+	<li><a href="../../tag/ostoksia/index.html" class="tagSizeMedium tagSize8" style="font-size: 100%;">ostoksia</a></li>
+	<li><a href="../../tag/palvelin/index.html" class="tagSizeMedium tagSize34" style="font-size: 100%;">palvelin</a></li>
+	<li><a href="../../tag/rauta/index.html" class="tagSizeMedium tagSize20" style="font-size: 100%;">rauta</a></li>
+</ul>
+        <p><a href="../../tag/index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=mietteet" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=mietteet" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- not tag view, it's the main view -->
+
+
+        
+
+        <div class="hfeed">
+            <!-- five articles to list here, or only one. It depends. -->
+            <!-- default form -->
+
+<p class="published">16. elokuu 2011, 16:06</p>
+<h1 class="entry-title"><a rel="bookmark" href="staattiset-kielet-kiinnostavat">Staattiset kielet&#160;kiinnostavat</a></h1>
+
+
+<div class="entry-content">
+	<p>Satuin törmäämään <a href="http://technomancy.us/152">erääseen blogipostaukseen</a>, jossa toteutetaan alkeellinen <a href="http://tools.suckless.org/dmenu/-korvike">dmenu</a> OCamlilla hyvin tiiviiseen tahtiin, ja esitellään kyseisen kielen staattisen tyypityksen hienoutta. Muutenkin staattinen tyypitys on kovaa kamaa ns. &#8220;pyramidirakentamisessa&#8221;. Se on vain niin pahkeisen erilaista dynaamiseen tyypittelyyn nähden, vähän vaikeampaa.</p>
+
+	<p>Muistin virkistämiseksi eräs hyvä sitaatti (Alan Perlis) tuohon pyramidirakentamiseen liittyen:</p>
+
+	<blockquote>
+		<p>Pascal is for building pyramids – imposing, breathtaking, static structures built by armies pushing heavy blocks into place. Lisp is for building organisms – imposing, breathtaking, dynamic structures built by squads fitting fluctuating myriads of simpler organisms into place.</p>
+	</blockquote>
+
+	<p>Ekosysteemit ja organismit ovat kivoja. Mutta mitä vikaa on pyramideissa? Ei mitään&#8212;Perlis ei siihen ottanutkaan kantaa. Pyramidit, kuten muutkin rakennelmat, vaativat hyvät piirustukset etukäteen onnistuakseen. Tämä etukäteissuunnittelu on myös pakollista, jos käytetään staattisesti tyypitettyä kieltä. C++ ja Java molemmat vähän vaativat visionäärisiä lahjoja. Haskell myös. Mutta Clojuren kanssa on voinut lähteä niistä pienimmistä palikoista liikkeelle, ja lopulta nousta palikoidensa kanssa kohti isompia kokonaisuuksia. Ei se huono systeemi ole, mutta joskus staattinen tyypitys kiinnostaisi. Se ensinnäkin on enemmän matemaattinen ja elegantimpi ratkaisu.</p>
+
+	<p>Ja Ocamlia kohtaan kiinnostukseni taas vähän kohosi tuon blogipostauksen myötä. Kieliperheenä ML herättää jonkin verran kiinnostusta, mutta ei kriittisen paljoa. Siihen olisi ehkä syytä: ML-sarjaa voi harjoittaa monella tasolla, ja viimeisellä tasolla on .NET-kieli F#, josta voi työelämässä olla paljon apua. OCaml tunnetaan myös suhteellisen hyvinkäännettävänä kielenä, jonka suoritusteho on C++:n maastossa. Sekös on aina hyvä idea. Luonnollisesti OCaml sisältää erinomaisen <span class="caps">FFI</span>:n C-kielien kanssa. Samoin kuin Haskell.</p>
+
+	<p>Hyvä <span class="caps">FFI</span> on ehdottomasti tärkeä asia pienille funktionaalikielille. Clojuren valinta Javan puolelle on supererinomainen, mutta se kostautuu sitten kriittisesti noissa käynnistysajoissa. Eihän se iso homma ole, mutta komentorivisoftat teen mieluummin Schemellä, jota olen harjoitellut. Chicken Scheme ei ole yleisimpiä schemejä, mutta se on nopeaa kieltä, ja pystyy kääntämään binääriksi.</p>
+
+	<p>Staattisissa kielissä on sitä jotain. Funktioprototyyppien kirjoittaminen muotoihin <code>f : String -&gt; [Int]</code> kertoo jo paljon, mitä kyseinen funktio parsii. Tai vielä paremmin tyypitystä käyttäviä datatyyppejä: <code>parseTimes : String -&gt; [Time]</code>. Haskell on kova tekijä näissä. Olisin kirjoittanut erään parsimisohjelman Haskellilla mieluusti, mutta se alkusuunnittelu ei ottanut tuulta alleen. Siirsin sen projektin sitten Clojuren puolelle, ja projekti onnistui hyvin.</p>
+</div>
+
+<p class="tags"> 
+
+
+Tageja: <a href="../../tag/haskell/index.html" rel="tag">haskell</a>, 
+<a href="../../tag/ocaml/index.html" rel="tag">ocaml</a>
+
+
+</p>
+
+
+
+<div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+
+        </div>
+
+ <!-- now, common stuff -->
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+        <p><a rel="prev" href="../542/git-repon-aktiivisuus-graafiksi" title="Git-repon aktiivisuus graafiksi">&#171; Git-repon aktiivisuus graafiksi</a> 
+           &mdash; <a rel="next" href="../544/electrocompaniet-vikuroi-mika-tekee-hyvan-dac-muuntajan" title="Electrocompaniet vikuroi, mikä tekee hyvän DAC-muuntajan?">Electrocompaniet vikuroi, mikä tekee hyvän DAC-muuntajan? &#187;</a>
+        </p>
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+        <h2>Aiheen vierestä</h2>
+        <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../529/konffitiedostojen-toteuttamisesta">Konffitiedostojen&#160;toteuttamisesta</a></span> &#183; <span class="published">2011-05-28</span>
+<br /><span class="smallexcerpt">Erilaisia rc-tiedostoja (runtime configuration) on vaikka pilvin pimein, ja syitä tähän on monia. Yksi on erilaiset vaatimukset hyvältä konffilta, ja...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../357/clojure-ja-haskell">Clojure ja&#160;Haskell</a></span> &#183; <span class="published">2010-12-01</span>
+<br /><span class="smallexcerpt">Funktionaalinen ohjelmointi; Haskell. Niinhän se on yleensä lukenut, mutta nyt olen tainnut päästä Clojuresta kiinni. Clojure on vain käytännönläheisempi ja...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../348/funktionaaliset-kielet">Funktionaaliset&#160;kielet</a></span> &#183; <span class="published">2010-10-20</span>
+<br /><span class="smallexcerpt">Gentoon portageen on vakaaksi (stable) paukahtanut nyt GHC 6.12.  Hieno homma, sikäli kun se tarjoaa kaikenlaista kivaa Haskell-koodaajille, ollen...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../340/rainlendar-pitaa-paikkansa">Rainlendar pitää&#160;paikkansa</a></span> &#183; <span class="published">2010-09-23</span>
+<br /><span class="smallexcerpt">Uskomatonta, todella uskomatonta. Eilen kirjoitin Rainlendarin ja Xmonadin välisistä kahnauksista, sekä hahmottelin alustavaa korvaajaa Rainlendarille Luan ja Pythonin kanssa. Mutta...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../332/lomien-loppu">Lomien&#160;loppu</a></span> &#183; <span class="published">2010-08-31</span>
+<br /><span class="smallexcerpt">Viimeistä kesälomaksi luokiteltavaa päivää vietetään. Ei se koulunpenkki kuitenkaan aivan piinaten ala, joten leppoisa elo jatkuu vielä hyvän aikaa. Viime...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../326/haskell-paassee-viimein-tositoimiin">Haskell päässee viimein&#160;tositoimiin?</a></span> &#183; <span class="published">2010-07-26</span>
+<br /><span class="smallexcerpt">Aikani kirjailtuani tuota Pythonilla väsättyä sovellusta välillä tekee mieli aloitella aivan kokonaan uusi projekti. Vaihtoehtoina voisi olla C++:lla viritelty Tower...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../323/mpd-kirjastoja-ja-asiakkaita">MPD-kirjastoja ja&#160;asiakkaita</a></span> &#183; <span class="published">2010-06-10</span>
+<br /><span class="smallexcerpt">Huu, kunhan huomisen tentin (Ihminen ja vuorovaikutteinen teknologia) vetäisee alta pois, malttaa viimein alkaa tammikuussa aloitettuun, mutta sittemmin keskeytyneeseen projektiin...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../300/python-ja-pikkuohjelmat">Python ja&#160;pikkuohjelmat</a></span> &#183; <span class="published">2010-04-02</span>
+<br /><span class="smallexcerpt">Sain tässä jonkin aikaa sitten pienen kipinän kirjoitella eräänlainen medianhallintaohjelma. Hyvin pieni sellainen, joka ei käyttäisi paljoa hienoja ominaisuuksia, mutta...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../5/xmonad">Xmonad</a></span> &#183; <span class="published">2010-02-15</span>
+<br /><span class="smallexcerpt">Sitten viime jakson on tapahtunut kaikenlaista tässä. Viikko sitten kirjoittamassani jutussa valittelin sitä, kun Xinerama tuhoaa suorituskyvyn ja kaiken siihen...</span>
+</li>
+
+</ul>
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

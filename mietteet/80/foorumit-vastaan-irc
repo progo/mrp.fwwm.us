@@ -1,0 +1,282 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <!-- standard -->
+	<title>Mr. P: Foorumit vastaan IRC</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=mietteet" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=mietteet" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="mietteet">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="foorumit-vastaan-irc#content">Siirry sisältöön</a></li>
+        <li><a href="foorumit-vastaan-irc#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            &raquo;
+            <a href="../index.html">Mietteet</a>
+            
+                <!--<ul>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/598/blogille-idea">Blogille&#160;idea</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/597/wes-mckinney-python-for-data-analysis-oreilly">Wes McKinney - Python For Data Analysis (O&#39;Reilly)</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/596/org-blogaaminen-vaikeata">Org-blogaaminen&#160;vaikeata</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/595/twitterointia-emacsilla">Twitteröintiä&#160;Emacsilla</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/594/weboodi-aikataulut-orgiin">WebOodi-aikataulut&#160;orgiin</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/592/emacs-has-me">Emacs has&#160;me.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/591/editorien-taistelu-tietamyshallinnassa">Editorien taistelu&#160;tietämyshallinnassa</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/590/think-vimorganizer">Think&#160;VimOrganizer.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/589/think-orgmode">Think&#160;orgmode.</a>
+                </li>
+</ul>-->
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="/kategoria/hifi/">Hifi</a></li>
+	<li><a href="/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="/kategoria/rauta/">Rauta</a></li>
+	<li><a href="/kategoria/viihde/">Viihde</a></li>
+	<li><a href="/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../../tag/blogisäätöä/index.html" class="tagSizeMedium tagSize9" style="font-size: 100%;">blogisäätöä</a></li>
+	<li><a href="../../tag/gentoo/index.html" class="tagSizeLargest tagSize89" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../../tag/musiikki/index.html" class="tagSizeMedium tagSize7" style="font-size: 100%;">musiikki</a></li>
+	<li><a href="../../tag/ohjelmointi/index.html" class="tagSizeMedium tagSize26" style="font-size: 100%;">ohjelmointi</a></li>
+	<li><a href="../../tag/opiskelu/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">opiskelu</a></li>
+	<li><a href="../../tag/palvelin/index.html" class="tagSizeMedium tagSize21" style="font-size: 100%;">palvelin</a></li>
+	<li><a href="../../tag/rauta/index.html" class="tagSizeMedium tagSize7" style="font-size: 100%;">rauta</a></li>
+	<li><a href="../../tag/vim/index.html" class="tagSizeMedium tagSize18" style="font-size: 100%;">vim</a></li>
+</ul>
+        <p><a href="../../tag/index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=mietteet" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=mietteet" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- not tag view, it's the main view -->
+
+
+        
+
+        <div class="hfeed">
+            <!-- five articles to list here, or only one. It depends. -->
+            <!-- default form -->
+
+<p class="published">17. joulukuu 2008, 18:31</p>
+<h1 class="entry-title"><a rel="bookmark" href="foorumit-vastaan-irc">Foorumit vastaan&#160;IRC</a></h1>
+
+
+<div class="entry-content">
+<p>Olen pitkään kannattanut foorumeita internetyhteisöjen ultimaattisena ja pääosin parhaana kommunikointikanavana. Etenkin monet nuoret ja vähän varttuneemmatkin suosivat kuitenkin reaaliaikaisempaa irkkailua, jossa viesti kulkee siis alle sekunneissa toisille keskustelijoille ja yksityisjutustelut ovat helppoja järjestää ajasta ja paikasta riippumatta. Kummassakin keskustelutekniikassa ovat omat heikkoutensa, joita yritän kattaa tässä tasapuolisesti. Jätän näiden vehkeiden ja keksintöjen historian muille ja kirjoitan tekstini lukijalle, joka tuntee molempien käytön perusteet ja kantavan toimintatavan. Ehkä vertailusta tulisi järkevämpi, jos vertaisin irkkiä nykyfoorumien edeltäjään, uutisryhmiin eli tuttavallisemmin nyysseihin. Mutta kun en sitä tee, en ole koskaan ollut nyyssisukupolvea, vaikka se erittäin kunniakas arvo olisi ollutkin. </p>
+<p>Esitän pari casea alkulämmittelyiksi. Ehkäpä ne hyvällä tuurilla kuvaavat todellisuutta, josta olen vieraantunut. Kuvitteellisia ne ainakin kirjoitushetkellä ovat.</p>
+<h3><strong>IRC</strong></h3>
+<p>Pertsa joinaa mIRC-asiakasohjelmallaan irkkailemaan IRCnetin kanavalle <code>#kahvinjuojat</code> ja siellä onkin samaan aikaan muitakin kanavan vakiovierailijoita. Viisi aktiivista kahviaddiktia, yksi botti ja kymmenkunta idlaajaa. Jauni innostuneena Pertsan nähneenä herkeääkin selittämään, miten hyvää kahvia hän tuli nauttineeksi viime perjantaina kaupungilla käydessään. Henkilöt käyvät sujuvaa keskustelua aiheesta ja homma etenee hyvin, mutta Jaunin seudulla iskeekin lyhyt mutta sitäkin ikävämpi sähkökatkos. Pertsa joutuu lähtemään töihin Jaunin katkon aikana, eikä hänellä ole oikein viestintämahdollisuuksia, koska kumpikaan ei käytä shellejä taikka edes bounsereita apunansa. Jauni tulee nopeasti takaisin, mutta ei tavoitakaan enää Pertsaa ja kummastelee tämän äkkinäistä häipymistä. Hän joutuu nauttimaan käsinpainetun espressonsa nyt yksin. </p>
+<h3><strong>Foorumit</strong></h3>
+<p>Pertsa kirjautuu Kahvinjuojat-foorumille sisään ja tarkistaa, onko tullut uusia yksityisviestejä. Sen jälkeen hän suuntaa joko kohti yleiskeskustelun "tsättithreadia" kohden tai tarkistaa foorumin työkaluilla uusimmat kirjoitetut viestit. Hän näkee, että Jauni on online-tilassa ja suuntaa kohti tsättikeskustelua. Foorumilla käy parisen kymmentä vierailijaa säännöllisesti, joista puolet eivät omista tunnuksia, eli ircmäisesti vain idlaavat. Pienikokoinen kun on, foorumilla ei ole kuin yksi osasto, jossa on vajaa tuhat postausta kirjoitettuna foorumin puolivuotisen taipaleen aikana. Meno on kuitenkin hehkeätä ja parhaat kahvilavinkit ja omat keittoniksit jaetaan tunnollisesti ja välillä huuli lentää muissakin merkeissä. Meno on käytännössä kuin irkissä, mutta aavistuksen verran hitaampaa. Kun ne sähköt taas katkeavat Jaunin seudulta, Pertsa ei tätä näe, mutta töihin lähtiessään saattaa kuitenkin huikkaista asiasta. Tämä ei kuitenkaan kuulu perinteiseen foorumikulttuuriin. Otetaan vähän kärkevämpi esimerkki: foorumia ylläpitävä palvelin joutuu sähkökatkon tai vastaavan alle. Kumpikaan, tai kukaan ei pääse katkon aikana vaihtamaan viestiä ja uusavuttomat vierailijat joutuvat juomaan kahvinsa kylmänä.</p>
+<h3><strong>Mikä tekee foorumista selkeämmän tavan viestiä?</strong></h3>
+<p>Huonojen tarinoiden jälkeen itse asiaan: foorumeilla on selkeyteen liittyviä etuja IRC:iin verrattuna. Esimerkiksi tekstin asiallinen väritys, muotoilu, kappalerakenteisiin upotetut kuvat ja joskus jopa youtube-videot onnistuvat suoraan postauksesta käsin ja mitä ei voida saumattomasti liittää mukaan, voidaan lisätä liitetiedostona viestiin. Useimmissa moderneissa foorumiohjelmistoissa on käytettävissä peräti wysiwyg<sup><a href="foorumit-vastaan-irc#fn15846502294a043483aca30">1</a></sup> -editori viestien kirjoittelua ja muokkaamista varten. Ja vaikk'ei sellaista toimintoa löytyisikään, suurin osa foorumeista tarjoaa käytännöllisiä pikanäppäimiä ja 'painikkeita' tekstin muotoilua varten. Ja de-facto -standardiksi muodostuneet BBcode-tagit voi aina kirjoittaa itsekin koodin sekaan. </p>
+<p>Useimmat foorumiohjelmistot tarjoavat myös mainitut pikaviestit kahden (tai joissain tapauksissa myös useamman) käyttäjän välillä, ja ne loputkin tarjoavat tavan ilmoittaa oman sähköpostiosoitteensa käyttäjäprofiilissa. Kaikenlaisen kilketoiminnan (avatarit, allekirjoitukset eli 'sigut') voi halutessaan poistaa näkyvistä tai sitä voi käyttää itsekin maltillisesti ja säädättää foorumin käyttösäännöissä. Henkilökohtainen mielipide on, että persoonalliset avatarit (ei vain lähin googlella löytynyt tissikuva) ja mieleenpainuvat allekirjoitukset (ei vain jotain joutavia koneenspeksejä tai kuvia) tuovat ulottuvuutta käyttäjiin ja uudet jäsenet voivat päästä nopeasti kärryille vakiokeskustelijoista lukemalla vanhoja kirjoituksia tai tutkimalla sigujen perusteella kunkin elämänfilosofioita. Ei tule väheksyä näitä ominaisuuksia vain siksi, että jotkut eivät niitä osaa käyttää.</p>
+<p>Eivät pelkästään yksittäisen postauksen nätit kuvat, lihavoidut väliotsikot tai punaisella värjätty kappaleen ydin auta foorumia voittoon selkeydessä, vaan konteksti, postaustenväliset merkityssuhteet ja aiemman lainaaminen on toimivaa, toisin kuin irkissä. Jos irc-kanavalla käyttäjä <em>foo</em> sanoo aamulla jotain ja käyttäjä <em>bar</em> illalla huomaa sen, eikä halua ottaa yksityisviestillä yhteyttä, hän kopioi ja liittää <em>foon</em> tekemän repliikin sekä kirjoittaa siihen sitten vastineensa. Ei varmastikaan mikään selkein tapa viestiä, koska on hankala hahmottaa uuden ja vanhan raja, sekä tehdä päätöksiä merkityssuhteista. Toinen, minimaalinen tapa on viitata käyttäjän <em>foo</em> tekemän repliikin aikaleimaan, mutta ongelmana on, että sekunnin tarkkuus ei toimi, koska irc-asiakasohjelmat käyttävät lokaalia aikaleimaa apunansa. Ja jotkut eivät käytä muutenkaan sekunteja aikaleimoissaan. &#196;äritapauksissa ei käytetä leimoja lainkaan tai eletään toisella aikavyöhykkeellä. Foorumeilla toimivat nätit, usein laatikoidut sitaatit ja monesti mukana on linkki alkuperäiseen viestiin, jotta itse kukin voi tarkistaa että onko viittaus oikein (jos irkissä tulee joku käyttäjä <em>foon</em> viestin jälkeen ja ennen <em>barin</em> vastakommenttia kanavalle, hän ei voi todistaa <em>barin</em> siteerauksen aitoutta) ja väärentämätön.</p>
+<p>Muutenkin kaikki modernit foorumiohjelmistot tukevat esimerkiksi taulukoita, muotoiltuja linkkejä, sisennyksiä, erikoisfontteja, kuvia, upotettua kiinteäleveyksistä fonttia tai peräti värjättyä ohjelmakoodia. Voidaan luoda esimerkiksi artikkeleita, jotka voidaan merkitä nostoiksi (esimerkiksi FAQit, erilaiset oppaat tai vaikkapa laitearvostelut). Viestejä voidaan muokata, niissä näkyy selvästi, että tätä on muokattu alkuperäiseen nähden jotta kiistatapauksissa vältytään sekaannuksilta. Tämä blogipostauskin menisi täysin näppärästi BBcode-tuellisella foorumilla yhtenä ainokaisena postauksena. Ultimaattisena muotoiluesimerkkinä vBulletin osaa wysiwyg-editorissaan ottaa vastaan esimerkiksi OpenOffice-paketin Writer-muotoiltua tekstiä copypastena ja muuntaa sen bbcodeksi. En ole testannut taulukoiden osalta tätä, mutta ainakin perusmuotoilut ja värit sun muut se kykenee siirtämään uuteen muotoonsa.</p>
+<p>Mikä on huomioon otettavaa on myös se, että foorumeilla viesti kestää ja keskustelu voi olla vuosiakin vanha (tästä lisää tuonnenpana) ja silti siihen voi tarttua aivan tuosta vain. Irkissä on hankala tai mahdotonta seurata edes edellispäivän juttuja ellei omista shelliä tai bounseria taikka joku tarjoa kanavalogeja julkisesti saataville, mikä on silloinkin äärimmäisen epäkätevää.</p>
+<h3><strong>Kontrolli ja valvonta</strong></h3>
+<p>Mainitsin yllä foorumien säännöt. Sääntöihin liittyy se, että jonkun pitää olla vahtimassa jotta niitä totellaan. Tämähän ei suinkaan ole pelkkä foorumien vitsaus, vaan samalla tavalla irkissä on kanavaoperaattorit, jotka poistavat häiriköt keskustelusta ja jos huonosti käy esimerkiksi yöaikaan, saa häirikkö pelleillä sydämensä kyllyydestä pitkäänkin vakiokeskustelijoiden kiusaksi. Hyvää foorumia saa ja tuleekin moderoida vahvalla otteella. Sama pätee irkkiinkin. Erona onkin se, että monella vähemmän asioihin sitoutuneella kanavalla (siis eräänlaisilla yleiskanavilla, kuten esimerkiksi suomalaisverkko <a href="http://www.nerv.fi/">Nervin</a> "pääkanavalla" <code>#nerv</code>:illä) aiheen sivusta puhuminen on pääasia ja keskustelu voi siirtyä aiheesta toiseen liiankin nopeasti ja paljon jää sanomatta. Foorumeilla ideaalitapauksessa kukin oma keskustelunsa on omassa ketjussaan ja niihin voi palata myöhempäänkin, jopa vuosien jälkeen vaivatta ja ilman ongelmia selittää asiaa.</p>
+<p>Vastavedoksi: On totta, että foorumeilla on mahdollista kontrolloida puhetta ja viestejä. Ylläpitäjillä on pääsy tietokantoihin ja he voivat sensuroida epämieluisia aatteita sekä pahassa tapauksessa asetella sanoja käyttäjien suuhun. En ole varma näiden suosituimpien foorumien käyttämästä tekniikasta, mutta luulisin, että voi olla mahdollista suojata kryptausmenetelmillä kunkin viestin 'eheys' käyttäjien omia salasanoja hyväksikäyttäen, jolloin tietokannan säätely ei autakaan. Luultavasti olen väärässä, kannassahan ne käyttäjien salasanahäshitkin ovat, jolloin niitä voi käytellä ylläpitäjä aivan miten parhaaksi asian näkee. &#196;äritapaushan tämä on, ja samanlaisen ääritapauksen saa aikaan myös irkissä, koska se on tekstiprotokollainen systeemi. Kustomoitu irc-palvelinohjelmisto voisi filtteröidä kielteisiksi näkemiään kommentteja ja viestejä sekä estää kommunikointia käyttäjien välillä esimerkiksi hostmaskien perusteella. Molemmat tapaukset ovat yhtä kaukaa haettuja ja pääosin näkyviä menetelmiä.</p>
+<p>Mitäs muuta? Shell-käyttäjät tietävät sen, että tietoverkon välinen yhteys on aina selkeästi viipeellisempi kuin lokaali<sup><a href="foorumit-vastaan-irc#fn11371781554a043483ad9c8">2</a></sup> yhteys ja joskus pahoina 'ruuhka-aikoina' voi argumentointi keskustelun ohessa muuttua ylipääsemättömän raskaaksi, koska viivettä voi vaikka tilapäisen piikin vuoksi syntyä useita sekunteja. Tämä on erityisen hankalaa tekstinmuodostuksen aikana ja aiheuttaa turhautumia. Tällaista viivettä ei luonnollisestikaan ole lokaaleilla klienteillä (joita käytetään siis myös bounserien ja irssiproxyjen kanssa). WWW-pohjaiset foorumit toimivat pääsääntöisesti aina lokaalilta selaimelta käsin. Kirjoittaminen on viiveetöntä, tekstialuetta on paljon ja mahdollinen wysiwyg-editori helpottaa keskittymistä itse asiaan. Mukana ovat tarkat lainausmahdollisuudet muilta ja kaikki erilaiset menetelmät siistiä omaa ulostuloaan, puhumattakaan esimerkiksi mahdollisesta oikoluvusta (ainakin Firefox tarjoaa). Miksikö otin esille tapauksen, jossa syypäänä on irkissä shellin käyttö ja foorumeilla ei moista haittaa ole? Siksi, että irkkaaminen ilman shelliä on aika ongelmallista: yksityisviestit eivät kohtaa, lokaalit klientit ovat kotiyhteyden varassa ja moni ei sähkölaskuaan kartuta joutavalla koneen joutokäynnillä. Käytännössä on oltava paikalla, jotta viesti kulkee. Joissain verkoissa on MemoServ-tyyppiset palvelut käytössä viestinvälittämiseksi offline-käyttäjille, mutta ne eivät korvaa sähköpostia taikka oikeaoppista offline-kommunikointia.</p>
+<p><strong>Itse asiassa</strong>, vielä aikoinaan irkkaajien hostnameista sai selviteltyäkin sähköpostiosoitettaan<sup><a href="foorumit-vastaan-irc#fn17977950264a043483ae968">3</a></sup>, mutta nykyisin se on aika harvinaista, koska valtaosa irc-kansasta tulee kotiyhteyksiltään sen aikoisen yliopistoshellin sijasta. Joku saattaa toki whois-viestissäänkin email-osoitteensa ilmaista, mutta sekin näkyy vain kun käyttäjä on ollut yhteydessä paraikaa tai lähiaikoina (/whowas).</p>
+<p>Irkin edut ovat reaaliaikaisuudessa. Jotkut käyttäjät kenties arvostavat sen puhekielisyyttä ja kansanläheisyyttä: vastausten on oltava nopeita, jotta keskustelu pysyy pystyssä ja se tietää huolimattomuutta kielioppiasioissa tai peräti suoranaisessa asiansa ilmaisussa. Väärinkäsitykset voi kuitenkin oikoa kysely-vastausmenetelmällä, aivan kuten oikeassa kaksinpuhelussa. Painotan kuitenkin, että foorumikeskustelut pysyvät jostain kumman syystä myös pystyssä, vaikka viivettä voisi syntyä peräti päiviä viestien välillä. Syynä on usein mielenkiintoinen keskustelu ja hyvin perustellut viestit. Tekstiä voi ja saakin (kenties peräti tulisi) muotoilla asiatyyliin, kirjoittaa huumoria mukaan, maistella sanoja ennen lähettämistä. Keskustelu ei koostukaan vastausnopeudella kilpailemisesta, vaan kenties ideaalitapauksessa kilpailua syntyy vain viestien asiasisällöistä ja huumoriarvoista. Ja mikä suurin etu ehkä kaikesta: jos haluaakin vähän hullutella, voi tehdä uuden ketjun ja keskustella keksimästään vitsistä siellä eikä tarvitse toisen ketjun vakavaa tieteellistä kädenvääntöä häiritä aivan sinnekuulumattomalla tekstillä. Ircissä ei ole tähän eväitä, mitä nyt joillain kanavilla "toimiva" tekniikka, että pidetään kahta kanavaa auki: esimerkiksi kanava <code>#gentoo</code> on suunnattu tiukasti gentookäyttäjien helpdeskaukseen ja sen sisarkanava <code>#gentoo-chat</code>[4] on sitten aiheen vierestä ja hupsutuksia varten suunniteltu. Keskustelun tekevät aina käyttäjät ja tämmöiset syntyvät tarpeesta. Näen tässä epäkohtana sen, että kaikki 'mielenkiintoiset'[5] käyttäjät eivät jaksa tai vaivaudu näille ns. offtopic-kanaville tulemaan, joka voi syödä vähän niiden järkevyyttä.</p>
+<p>Toinen merkittävä etu IRC:in puolelle on saumattomuus ja virhesieto. Jos palvelin X tipahtaa verkosta, voidaan vaihtaa palvelinta ja jatkaa keskustelua siitä, mihin jäätiin. Tai vastaavasti. Yhteisön voi yhdistää nopeasti, samalla vauhdilla kun luo kanavan uudestaan haluamaansa verkkoon. Foorumin pystytys on hidasta, sitä pitää päivittää tietoturva-aukkojen varalta ja yleisesti ottaen järjestyksenpito voi olla vaativampaa kuin vastaavalla irc-kanavalla. Foorumipalvelimelta voi tuhoutua kovalevyt, jolloin pahassa tapauksessa kaikki postaukset ovat kadonneet iäksi. Näinhän käy myös irkissä, mutta moni loggaa itse keskustelut ylös. Näinhän saa tehdä myös foorumeillakin, kovin harva sitä vain toteuttaa. </p>
+<p>Välikatsaus: <strong>Irkin hyvät puolet:</strong></p>
+<ul>
+<li>Reaaliaikaisuus helpottaa teknofobisia ja luo nopeasti yhteenkuuluvuuden tunnetta</li>
+<li>Palvelinrikko ei tuhoa tai estä kommunikaatiota kanavan kanssa</li>
+<li>Yksityisviestit kulkevat näppärästi ja shell-käyttäjien tapauksessa niillä on jopa käyttöarvoa</li>
+<li>Asiakasohjelmat toimivat vähän heikommillakin koneilla tai suoraan merkkitilassa. 80&#215;24 ei ole mikään ongelma</li>
+</ul>
+<p><strong>Foorumien</strong> (+perushyvät softat ominaisuuksineen) hyvät puolet:</p>
+<li>Häiriköiltä voi suojautua helposti, moderointi toimii tehokkaasti (mukana vielä naapurivalvonta eli report-painikkeet)</li>
+<li>Omaa ilmaisuaan on äärettömän helppo pitää hyvänä ja viilailla, jopa ennen viestin lähettämistä</li>
+<li>Viestien kontekstit ja suhteet toisiin selkeästi ilmaistavissa</li>
+<li>Aihe per ketju. Jos offtopicia ilmenee, moderointi astuu kuvaan ja luodaan uusi ketju</li>
+<li>Keskustelut pysyvät ylläolevien kohtien ansiosta ruodussa ja todella "hyvinä"</li>
+<li>Uusi tulokas saa vanhoista käyttäjistä hyvän kuvan lukemalla heidän tekemiään aiempia viestejä sekä muuta</li>
+</ul>
+<p>Huonoja puolia saa kehittelemällä noista hyvistä puolista vastakohtiaan. Irkissä operaattorit voivat lastloggailla ja potkia yön häirikköjä pois, foorumeilla ei voi käydä järkevästi ilman graafista tilaa (tekstiselaimilla modernin foorumin selaaminen on tuskaa). Listaa saa kehitellä edelleen. Ja sanon kyllä suoraan, että vilkkailla foorumeilla (suomalaisista esimerkkinä surullisenkuuluisa MuroBBS ja kansainvälisillä markkinoilla seilaa esimerkiksi kuulokeyhteisö Head-fi) meno on hyvin reaaliaikaista huolimatta puitteistaan: F5-nappi toimii ja joillain foorumeilla voidaan jopa hyödyntää ajaxia ja muita vastaavia tekniikoita tehokkaan viestimisen kanssa. Pikaviestit (eli käytännössä toiselta nimeltään yksityisviestit) voivat olla tehokkaita ja vastaavat reaaliaikaisuutta.</p>
+<h3><strong>Peeloilu</strong></h3>
+<p>Nykyfoorumeilla ikävän tutut 'loorailijat' ja trollit<sup><a href="foorumit-vastaan-irc#fn5066991384a043483af909">6</a></sup> eivät ole mitään foorumien yksinoikeuksia, vaan samalla tavalla kuten irkissä voidaan perseillä, on se foorumeillakin mahdollista. Moni asia tällä saralla johtaa suoriin analogioihin:</p>
+<table>
+<tr>
+<th>Meininki </th>
+<th>IRC </th>
+<th>Foorumi</th>
+</tr>
+<tr>
+<td>Häiriköinti ennen kuin modet kerkeävät pamputtaa</td>
+<td>Ignorea ja messagea operaattorille</td>
+<td>Ilmoitus asiattomuuksista ja ignore</td>
+</tr>
+<tr>
+<td>Yleinen turha rivien revittely, omien statsien boostailu</td>
+<td>Poistetaan se kanavastatsien keräily ja generointi</td>
+<td>Poistetaan viestilukumäärä näkyvistä</td>
+</tr>
+<tr>
+<td>Häirikkö poistetaan rauhoittumaan</td>
+<td>Kick tai ban</td>
+<td>Parin päivän näpäytysbanni tai kirjoitusoikeuksien väliaikainen poisto</td>
+</tr>
+<tr>
+<td>Häirikkö bannataan pysyvästi</td>
+<td>Kick ja ban</td>
+<td>Tunnuksen sulkeminen, mahdollisesti IP banniin</td>
+</tr>
+</table>
+<p>Menetelmät ovat periaatteessa samoja siis molemmilla alustoilla. Muista hallinnollisista asioista sen verran, että foorumeilla on näppärää käsitellä erikoisryhmiin kuuluvia henkilöitä. Voidaan availla omia alafoorumeita pelkästään heidän käyttöönsä. Irkissä sama toimii hyvin manuaalisesti invite only -kanavien avulla. Meno on hankalaa, jos pitäisi samat henkilöt (toisin sanoen antaa samalle ryhmälle oikeudet) päästää usealle kanavalle. Foorumilla voidaan erottaa erikoiskäyttäjät omaksi ryhmäkseen ja luoda uuden alifoorumin, joka näkyy, kuuluu ja tuntuu vain tälle valitulle sakille sekä tietenkin moderaattoreille. Irkissä vaaditaan manuaalista nimilistausta ja monesti käytännön syistä käyttäjien omakohtaista huhuilua invitejä suorittavalle operaattorille.</p>
+<p>Foorumeillakin voi ottaa rennosti. Edesmennyt pienimuotoinen skeezunetin SMF-foorumi oli erittäin mukava käyttäjiensä puolesta. Ilmainen ja näppärä foorumiohjelma asentuu heikollekin alustalle ja se pystyy pyörittelemään riittävän isoa väkimäärää sellaisenaan.</p>
+<p><strong>Mikä</strong> olisi sitten se paras ratkaisu esimerkiksi jalkapallosta kiinnostuneiden keskinäiseen yhteydenpitoon ja keskusteluun? Voisin kai diplomaattisena sanoa, että molempi parempi, mutta en kyllä todellisuudessa pitäisi irkkiä kuin fallback-ratkaisuna. Silloin, kun palvelin olisi alhaalla. Mutta yhteispeli voisi varmasti oikeissa olosuhteissa onnistua. Silloin vain  tuppaa käymään niin, että aktiivisuus yksipuolistuu liiaksi toiseen osapuoleen, eikä sekään ole kivaa, että irkkaamista suosivat irkkaavat ja foorumia suosivat viettävät aikansa siellä. Kultainen keskitie on tässäkin tapauksessa hankala saavutettava. Jos minulla olisi vaikka joku pikku projekti, niin kallistuisin irkkiin, jos ei olisi mitään hyvää palvelinta, missä hostata foorumia. Ja IRC voisi kelvata myös jos olisi tiedossa, että aktiivisuus ei tule olemaan korkea. Kyllä muuten foorumit. Ja jos oikein jotain tosissaan tekisin, niin ostaisin vBulletin-lisenssin. On se niin hyvä ohjelmisto.</p>
+<p id="fn15846502294a043483aca30"><sup>1</sup> <em>What you see is what you get.</em> Saat nenäsi eteen suunnilleen RTF-tekstieditorin edestä toiminnallisuutta ja rumia BBcode-tageja ei tarvitse tuijotella.</p>
+<p id="fn11371781554a043483ad9c8"><sup>2</sup> Lokaalissa yhteydessä, siis käyttäjän näppäimistöstä näytölle siirtyvä info saattaa hyvällä tuurilla sen 10-30 millisekuntia ottaakin, eihän sitä koskaan tiedä.</p>
+<p id="fn17977950264a043483ae968"><sup>3</sup> Tämähän oli nyt pelkkää mutuilua. On siinä se totuudenjyvänen, että yliopistoshellin username näkyi aina kansalle ja sillä samalla usernamella voikin jo arpoa kohdeosoitetta.</p>
+<p id="fn4"><sup>4</sup> Saattoi hyvinkin olla, että kyseinen kanava ei ole ihan tuolla nimellä, mutta kuvitelkaapa termi 'gentoo' vaikka kuvitteelliseksi windows-peliksi jos ette muuten pääse asiasta yli.</p>
+<p id="fn5"><sup>5</sup> Mielenkiintoisella tarkoitan pääosin ihmisiä, jotka osaavat kertoa hyviä juttuja aiheesta kuin aiheesta, tuottavat siis mielenkiintoisia keskustelunaiheita ja juttuja aikaiseksi. </p>
+<p id="fn5066991384a043483af909"><sup>6</sup> Ajateltakoon trollit häiriköiksi sillä perusteella, että termi tarkoittaa henkilöä joka yltyy tahalliseen, provosoivaan kiihottamiseen, ja jolla ei ole tarkoitus osallistua keskusteluun rakentavasti.</p>
+</div>
+
+<p class="tags"> 
+
+
+
+</p>
+
+
+
+<div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+
+        </div>
+
+ <!-- now, common stuff -->
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+        <p><a rel="prev" href="../81/pelkkaeae-paeivitystae" title="Pelkkää päivitystä">&#171; Pelkkää päivitystä</a> 
+           &mdash; <a rel="next" href="../79/the-end-and-the-beginning" title="The End and the Beginning">The End and the Beginning &#187;</a>
+        </p>
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+        <h2>Aiheen vierestä</h2>
+        
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

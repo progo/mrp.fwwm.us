@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <title>Mr. P: aiheesta webbisuunnittelu</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=tag" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=tag" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="tag">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="index.html#content">Siirry sisältöön</a></li>
+        <li><a href="index.html#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../mietteet/index.html">Mietteet</a>
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="http://progo.viuhka.fi/kategoria/hifi/">Hifi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/rauta/">Rauta</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/viihde/">Viihde</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../gentoo/index.html" class="tagSizeLargest tagSize105" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../hifi/index.html" class="tagSizeMedium tagSize31" style="font-size: 100%;">hifi</a></li>
+	<li><a href="../musiikki/index.html" class="tagSizeMedium tagSize23" style="font-size: 100%;">musiikki</a></li>
+	<li><a href="../ohjelmistot/index.html" class="tagSizeMedium tagSize4" style="font-size: 100%;">ohjelmistot</a></li>
+	<li><a href="../opiskelu/index.html" class="tagSizeMedium tagSize17" style="font-size: 100%;">opiskelu</a></li>
+	<li><a href="../ostoksia/index.html" class="tagSizeMedium tagSize11" style="font-size: 100%;">ostoksia</a></li>
+	<li><a href="../palvelin/index.html" class="tagSizeMedium tagSize37" style="font-size: 100%;">palvelin</a></li>
+	<li><a href="../skriptaus/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">skriptaus</a></li>
+</ul>
+        <p><a href="../index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=tag" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=tag" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- tag view -->
+
+    <h1 class="mainheader">Juttuja aiheesta webbisuunnittelu </h1>
+    <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/16/vim-webbikirjoituksessa">Vim&#160;webbikirjoituksessa</a></span> &#183; <span class="published">2009-12-03</span>
+<br /><span class="smallexcerpt">Yksi pieni vinkki esimerkiksi sivun rakenteita tai tyylisivuja pähkäilevälle:
+:au BufWritePost &lt;buffer&gt; silent !opera -activetab % &gt; /dev/null
+Mitäpä tästä oikein nähdään?...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/19/pientae-css-saeaetoeae">Pientä CSS-säätöä</a></span> &#183; <span class="published">2009-11-20</span>
+<br /><span class="smallexcerpt">Meninkin puhumaan siitä TextPatternista tässä yksi päivä, ja tilasin jo Amazonista sen TextPattern Solutions -teoksen, josta olen puhunut vielä aiemmin....</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/20/rakenteisuuden-peraessae">Rakenteisuuden&#160;perässä</a></span> &#183; <span class="published">2009-11-15</span>
+<br /><span class="smallexcerpt">$$\LaTeX$$ ja kumppanit ovat taas minun perässäni.  Ja minä olen rakenteisuuden perässä. Mihin tässä vielä tullaan? Opiskelin perjantaina, vai...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/107/design-idea">Design-idea</a></span> &#183; <span class="published">2008-04-27</span>
+<br /><span class="smallexcerpt">Nyt sain idean blogin virkistämiseksi. Idea syntyi maistellessa vähän vohvelia. En nyt kykene sitä illustroimaan riittävän tarkasti, mutta siihen kuuluu...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/152/the-unbearable-sweetness-of-css">The Unbearable Sweetness of&#160;CSS</a></span> &#183; <span class="published">2007-09-29</span>
+<br /><span class="smallexcerpt">Kyllä jos jonkin asian kanssa saa kulumaan aikaa niin CSS:n. Olen tainnut jo pari tuntia ihmetellä erilaisia tekniikoita saada tehtyä...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/165/dum-du-dim-duu">Dum du dim&#160;duu</a></span> &#183; <span class="published">2007-09-20</span>
+<br /><span class="smallexcerpt">Laitoin tuommosen tuohon nurkkaan. Toivottavasti pidät pidätte. Gimpillä meni sorhatessa, ongelmana oli reunojen uskottava ja esteettinen häivyttäminen ja samalla pitää...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/198/vaeritys">Väritys</a></span> &#183; <span class="published">2007-08-19</span>
+<br /><span class="smallexcerpt">Tässä hyvän tovin säädin uuden systeemin kanssa. Ajattelin pientä kuvaa yläreunaan, mutta loppupelissä turhan iso siitä tuli, eikä kyllä enää...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/219/ulkoasu-vol-n">Ulkoasu, vol&#160;n.</a></span> &#183; <span class="published">2007-05-14</span>
+<br /><span class="smallexcerpt">Kuusi on saamassa uuden ulkoasun. Sitä on esitelty jo osin tuolla irkissä, mutta olkoon se nyt paljastamatta tässä. Tulkaamme ihastelemaan...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/222/ulkoasu">Ulkoasu</a></span> &#183; <span class="published">2006-12-30</span>
+<br /><span class="smallexcerpt">Kuusen latvan ulkoasu pitäisi lievästi uudestisuunnitella. En ole muuttelemassa väritystä, mutta jonkinmoinen navigointi puuttuu nimittäin kokonaan.
+Myös ajattelin pienehkön lapsisivuston NetHackista...</span>
+</li>
+
+</ul>
+    <h2>Lyhyitä sutkautuksia</h2>
+    
+
+
+ <!-- now, common stuff -->
+
+<!-- txp:older ei toimi kunnolla tagien kanssa. -->
+        <p>
+             
+            
+        </p>
+
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

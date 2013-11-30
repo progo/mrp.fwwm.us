@@ -1,0 +1,261 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <title>Mr. P: aiheesta python</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=tag" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=tag" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="tag">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="index.html#content">Siirry sisältöön</a></li>
+        <li><a href="index.html#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../mietteet/index.html">Mietteet</a>
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="http://progo.viuhka.fi/kategoria/hifi/">Hifi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/rauta/">Rauta</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/viihde/">Viihde</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../blogisäätöä/index.html" class="tagSizeMedium tagSize26" style="font-size: 100%;">blogisäätöä</a></li>
+	<li><a href="../emacs/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">emacs</a></li>
+	<li><a href="../hifi/index.html" class="tagSizeMedium tagSize32" style="font-size: 100%;">hifi</a></li>
+	<li><a href="../musiikki/index.html" class="tagSizeMedium tagSize24" style="font-size: 100%;">musiikki</a></li>
+	<li><a href="../ohjelmointi/index.html" class="tagSizeLargest tagSize43" style="font-size: 100%;">ohjelmointi</a></li>
+	<li><a href="../opiskelu/index.html" class="tagSizeMedium tagSize18" style="font-size: 100%;">opiskelu</a></li>
+	<li><a href="../ostoksia/index.html" class="tagSizeMedium tagSize12" style="font-size: 100%;">ostoksia</a></li>
+	<li><a href="../vim/index.html" class="tagSizeMedium tagSize35" style="font-size: 100%;">vim</a></li>
+</ul>
+        <p><a href="../index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=tag" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=tag" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- tag view -->
+
+    <h1 class="mainheader">Juttuja aiheesta python </h1>
+    <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/597/wes-mckinney-python-for-data-analysis-oreilly">Wes McKinney - Python For Data Analysis (O&#39;Reilly)</a></span> &#183; <span class="published">2012-11-30</span>
+<br /><span class="smallexcerpt">O&#8217;Reillyn hienon blogiohjelman kautta ilmaiseksi saamani kirja kertoo tyydyttävästi kaikenlaista, mitä Matlabia ja R:ää kammoksuva haluaa tietää! Tässä tapailen mietteitä...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/594/weboodi-aikataulut-orgiin">WebOodi-aikataulut&#160;orgiin</a></span> &#183; <span class="published">2012-10-23</span>
+<br /><span class="smallexcerpt">Itä-Suomen yliopiston weboodissa alkaa olla aika usein kurssi-infot hyvässä kunnossa, ja nyt on myös joensuulaisille olemassa tuota lukkaria, joka on...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/584/pythonin-vastaisku-lispeille-ipython-ja-vim-ipython">Pythonin vastaisku lispeille: IPython ja vim-ipython</a></span> &#183; <span class="published">2012-07-25</span>
+<br /><span class="smallexcerpt">Tai &#8220;Pythonin uusi toivo&#8221; tai &#8220;Pythonin paluu&#8221;. Mistä on kyse? Pythonin tulkin me kaikki kai tiedämme: kaikki siinä periaatteessa on,...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/581/sumitup-puutteet-ja-mihin-suuntaan-edetaan">SumItUp: puutteet ja mihin suuntaan&#160;edetään</a></span> &#183; <span class="published">2012-07-12</span>
+<br /><span class="smallexcerpt">Esittelin pari postausta sitten Soulver-kloonin raakileen, SumItUpin. Nyt se on GitHubissa kaikkien pällisteltävänä ja sellaisella raakileasteella, jotta sitä voi jo...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/579/soulver-kloonia-rakentelemassa">Soulver-kloonia&#160;rakentelemassa</a></span> &#183; <span class="published">2012-07-07</span>
+<br /><span class="smallexcerpt">Erittäin upealla konseptilla varustettu laskinohjelma Soulver kaatuu siihen, että sen saa vain Mäkille. Vapaamuotoinen näpertelyalusta on usein ainut asia, mitä...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/556/korintaytto-ja-ahne-menetelma">Korintäyttö ja ahne&#160;menetelmä</a></span> &#183; <span class="published">2011-10-23</span>
+<br /><span class="smallexcerpt">Mietiskelen tässä korintäyttöä (bin packing) ja sitä, miten ahne menetelmä on joko ylipolynomiaalinen tai sitten epäoptimaalinen.  Luultavasti se on...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/501/pythonin-multiprocessing">Pythonin&#160;multiprocessing</a></span> &#183; <span class="published">2011-02-19</span>
+<br /><span class="smallexcerpt">Python tarjoaa monia työkaluja samanaikaiseen laskentaan. Vanhanaikainen thread-moduuli alkaa väistyä korkeamman abstraktiotason laitoksilta, joista threading on säieystävällisille systeemeille ja multiprocessing prosessien...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/416/blogia-nyt-komentorivilta">Blogia nyt&#160;komentoriviltä</a></span> &#183; <span class="published">2011-01-29</span>
+<br /><span class="smallexcerpt">Noniin. Koska sain tuon lyhyiden mietteiden sovelman toimimaan melko hyvin, ajattelin nyt laajentaa tavalliset blogikirjoituksetkin tehtäväksi komentoriviltä, jossa olen melko...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/381/mikrobloggailua-talossa">Mikrobloggailua&#160;talossa</a></span> &#183; <span class="published">2011-01-21</span>
+<br /><span class="smallexcerpt">Ja nyt sitä mikrobloggailua on tässä. Edellinen artikkeli johti mielettömän kovaan arpomiseen ja pohdintaan, onko se oikeasti sen arvoista kirjoittaa...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/340/rainlendar-pitaa-paikkansa">Rainlendar pitää&#160;paikkansa</a></span> &#183; <span class="published">2010-09-23</span>
+<br /><span class="smallexcerpt">Uskomatonta, todella uskomatonta. Eilen kirjoitin Rainlendarin ja Xmonadin välisistä kahnauksista, sekä hahmottelin alustavaa korvaajaa Rainlendarille Luan ja Pythonin kanssa. Mutta...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/327/python-kuuluuko-alkio-joukkoon">Python, kuuluuko alkio&#160;joukkoon</a></span> &#183; <span class="published">2010-07-28</span>
+<br /><span class="smallexcerpt">Pääsin harjoittamaan kunnolla Pythonin paria funktionaalista rakennetta. Koodissa on tarkoitus selvittää, onko alkiolle määrätyt tagit minkälaisessa kunnossa. Tarkoitus on rakentaa...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/300/python-ja-pikkuohjelmat">Python ja&#160;pikkuohjelmat</a></span> &#183; <span class="published">2010-04-02</span>
+<br /><span class="smallexcerpt">Sain tässä jonkin aikaa sitten pienen kipinän kirjoitella eräänlainen medianhallintaohjelma. Hyvin pieni sellainen, joka ei käyttäisi paljoa hienoja ominaisuuksia, mutta...</span>
+</li>
+
+</ul>
+    <h2>Lyhyitä sutkautuksia</h2>
+    <ul class="directory">
+
+<li>
+
+<span class="smallexcerpt">Saipas tapella samanaikaisuuden kanssa Pythonissa. Omaksi prosessikseen forkkaaminen ei ollut fiksu idea, ja säikeetkään eivät tuntuneet luistavan, kunnes lopult sain...</span>
+
+<span class="published">
+  2011-02-10 18:59
+</span>
+
+</li>
+
+
+
+<li>
+
+<span class="smallexcerpt">Häkkäillyt wxPythonin kanssa tässä tämän iltaa. Tavoitteena kirjoitella graafinen albumienvalitsin MP3-soittimen täyttämistä varten.</span>
+
+<span class="published">
+  2011-02-08 20:03
+</span>
+
+</li>
+
+
+
+<li>
+
+<span class="smallexcerpt">Kunpa JVM7 toisi ratkaisun javan käynnistyshitauksiin. Tämäkin CLI-työkalu piti kirjoitella pythonilla.</span>
+
+<span class="published">
+  2011-01-21 15:19
+</span>
+
+</li>
+
+
+
+<li>
+
+<span class="smallexcerpt">Hiphei hallelujaa. Pythonilla tuli kirjoiteltua twiittailija.</span>
+
+<span class="published">
+  2011-01-21 15:16
+</span>
+
+</li>
+
+</ul>
+
+
+ <!-- now, common stuff -->
+
+<!-- txp:older ei toimi kunnolla tagien kanssa. -->
+        <p>
+             
+            
+        </p>
+
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

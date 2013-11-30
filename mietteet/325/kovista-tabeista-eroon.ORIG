@@ -1,0 +1,307 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <!-- standard -->
+	<title>Mr. P: Kovista tabeista eroon</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=mietteet" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=mietteet" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="mietteet">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="kovista-tabeista-eroon#content">Siirry sisältöön</a></li>
+        <li><a href="kovista-tabeista-eroon#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            &raquo;
+            <a href="../index.html">Mietteet</a>
+            
+                <!--<ul>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/598/blogille-idea">Blogille&#160;idea</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/597/wes-mckinney-python-for-data-analysis-oreilly">Wes McKinney - Python For Data Analysis (O&#39;Reilly)</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/596/org-blogaaminen-vaikeata">Org-blogaaminen&#160;vaikeata</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/595/twitterointia-emacsilla">Twitteröintiä&#160;Emacsilla</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/594/weboodi-aikataulut-orgiin">WebOodi-aikataulut&#160;orgiin</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/592/emacs-has-me">Emacs has&#160;me.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/591/editorien-taistelu-tietamyshallinnassa">Editorien taistelu&#160;tietämyshallinnassa</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/590/think-vimorganizer">Think&#160;VimOrganizer.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/589/think-orgmode">Think&#160;orgmode.</a>
+                </li>
+</ul>-->
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="http://progo.viuhka.fi/kategoria/hifi/">Hifi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/rauta/">Rauta</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/viihde/">Viihde</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../../tag/gentoo/index.html" class="tagSizeLargest tagSize105" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../../tag/hifi/index.html" class="tagSizeMedium tagSize31" style="font-size: 100%;">hifi</a></li>
+	<li><a href="../../tag/mpd/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">mpd</a></li>
+	<li><a href="../../tag/musiikki/index.html" class="tagSizeMedium tagSize23" style="font-size: 100%;">musiikki</a></li>
+	<li><a href="../../tag/ohjelmistot/index.html" class="tagSizeMedium tagSize4" style="font-size: 100%;">ohjelmistot</a></li>
+	<li><a href="../../tag/ohjelmointi/index.html" class="tagSizeMedium tagSize42" style="font-size: 100%;">ohjelmointi</a></li>
+	<li><a href="../../tag/opiskelu/index.html" class="tagSizeMedium tagSize17" style="font-size: 100%;">opiskelu</a></li>
+	<li><a href="../../tag/palvelin/index.html" class="tagSizeMedium tagSize37" style="font-size: 100%;">palvelin</a></li>
+</ul>
+        <p><a href="../../tag/index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=mietteet" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=mietteet" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- not tag view, it's the main view -->
+
+
+        
+
+        <div class="hfeed">
+            <!-- five articles to list here, or only one. It depends. -->
+            <!-- default form -->
+
+<p class="published">25. heinäkuu 2010, 14:12</p>
+<h1 class="entry-title"><a rel="bookmark" href="kovista-tabeista-eroon">Kovista tabeista&#160;eroon</a></h1>
+
+
+<div class="entry-content">
+	<p>Otin itselleni uuden mission: päästä eroon kovista tabeista ja siirtyä ns. <em>pehmeisiin</em> tabeihin, jotka ovat siis pelkkää välilyöntiä yhden <code>\t</code>-merkin sijaan. Tavoitteenani on universaalimpi ote maailmasta ja muista.</p>
+
+	<p>Ensin pahoittelen. Olen kovin, kovin väsynyt. Eilen vietin kovasti aikaa lukien tyylikästä opastani, <em>From Bash to Z Shell</em>, jossa esiintyy sivu toisensa perään uutta tietoa shelleistä, joita luulin osanneeni. Tänään on päivä lähtenyt kanssa aika huonosti käyntiin. Teksti voi siis olla epäselvää.</p>
+
+	<p>Eli mitä nämä tabulaattorimerkit, <code>^I</code>:t ovat sitten tehneet, kun minä niistä haluan niin kovasti eroon? No, eivät ne paljoa. Yleinen konsensus on kuitenkin niitä vastaan, ja syyt on helppo löytää ilman lunttaamistakin:</p>
+
+	<ul>
+		<li>Koodin sisentäminen tabilla johtaa ulkoasun hallitsemattomuuteen. Käytän editorissani tabin leveytenä nelosta, ja yritän luonnollisesti pitää koodin 80 merkin rivipituuden rajoissa, kuten kunnon unix-parran kuuluu tehdä. Toisaalta jos ajan samaa tekstiä vaikka <code>cat</code>-komennolla, rivit ovat luultavasti jostain kohden nousseet yli 80 merkin mittaisiksi. Standardi on aina standardi, eli 8 merkkiä pitkä tabulaattori on voimissaan.</li>
+		<li>Toisaalta välien käyttäminen sisentämiseen on joustavaa. If-lohkon voi sisentää vaikka kahdella välilyönnillä ja tavallisen funktiolohkon neljällä. Editorisi antaa luultavasti kaikki eväät tehdä tämänkaltaista joustavasti, ellei peräti automaattisesti (vimin <em>cindent</em> -toiminto hoitaa tätä automaattisesti). Tabi on aina sen, mitä editori määrää. Ja vaikka se osaisikin kontekstiriippuvaisesti vaihdella tabin pituutta, taatusti mikä tahansa editori ei sitä tee</li>
+		<li>Sopivalla editorilla eroa välien ja tabien välillä on tasan ei-mitään. Toisin sanoen, saat saman käytettävyyden kuin tabien kanssa toimiessa, mutta lisää joustavuutta. Rutkasti lisää sitä.</li>
+	</ul>
+
+	<h2>Vim</h2>
+
+	<p>Vim toimii about identtisesti kummassakin asetuksessa. Käydään läpi, mitä kaikkea tämä siis tarkoittaa. Ensimmäinen asetus on tietysti <code>expandtab</code>, joka aivan nimensämukaisesti laajentaa tabulaattoripainalluksen sopivaksi määräksi välilyöntejä. Sopiva määrä asetetaan <code>softtabstop</code>-asetuksella. Minulla on systeemin oletusarvona 4, mutta erityisesti asetin python-tiedostoille arvon 2.</p>
+
+	<p>Jos painan näillä asetuksilla tabia, saan neljä välilyöntiä. Hankalaa pyyhkiä? Ei ollenkaan: backspacen painaminen pyyhkii myös neljä väliä pois. Samalla tavalla se toimii, vaikka välit olisin lisännyt tekstiin pitämällä välilyöntiä pohjassa kotvasen aikaa.</p>
+
+	<p>Ja entäpä jos minulla on rivillä yksi välilyönti, ja painan tabia? Onko rivillä nyt viisi väliä? Ei minulla, sillä olen asettanut asetuksen <code>shiftround</code> päälle. Silloin väliä lisätään siten, että pysähdyspaikat ovat kuten tabeilla.</p>
+
+	<p>Erikseen on syytä lisätä vielä asetukselle <code>shiftwidth</code> sopiva arvo. Kyseinen määre kertoo, paljonko automaattinen sisennys antaa väliä. Jos käytät manuaalista sisennystä tai <code>autoindenttiä</code>, asetuksella ei ole paljoa merkitystä. Se kuitenkin toimii myös, kun sisentelet kappaleita komennoilla <code>&lt;&lt;</code> ja <code>&gt;&gt;</code>. Lisäksi jos kirjoitat C-sukuisia kieliä, tutustu komentoon <code>cindent</code>, jolle voi määrätä tarkkaan, montako väliä sisennetään minkäkin merkin jälkeen. En itse välttämättä nauti moisesta ratkaisusta, mutta moni tekee.</p>
+
+	<p>Pientä herkkua tekisi mieli myös konffailla. Tätä tuntuu Emacs-käyttäjien piirissä esiintyvän paljon, joten miksei vimissäkin. Tämänlaisessa koodissa olisi oikein mojova:</p>
+
+<pre>printf(&quot;Hello dear, don\&#39;t give a damn? &quot;
+       &quot;Let&#39;s continue this discussion in another line.\n&quot;);
+</pre>
+
+	<p>Eli jos ja kun rivin katkoo toiselle, voisi ideaalisti joko automaattisesti tai yhdellä tabinpainalluksella päästä samaan sarakkeeseen kuin mihin ylemmällä rivillä jäätiin. Näyttää kivalta ja varmasti onkin sitä.</p>
+
+	<p>Ja piti vielä mainita: tabeja vaativissa formaateissa, kuten Makefileissä, voi taas suoraan Vim ottaa suoraan <code>expandtab</code>in pois päältä, tai vaihtoehtoisesti pitää uhrautua, ja kirjailla peräti yksi ylimääräinen näppäinyhdistelmä lisää. Nimittäin <code>autoindent</code> käyttää samaa sisennystä kuin edeltävällä rivillä, joten yksi raaka-tabi (lisäysmoodissa <code>&lt;C-v&gt;&lt;Tab&gt;</code>) riittää. Riviä vaihdettaessa sisennykset ovat tabeina, kuten pitääkin.</p>
+
+	<h2>Git</h2>
+
+	<p>Tuli paha tilanne eteen, kun käänsin tekeillä olleen projektini tabeista välilyöntilöiksi. Miten git siihen suhtautuu? Moisen teon jälkeen miltei jokainen rivi koodistani tulisi muuttumaan gitin silmissä, ja se tekisi vertailusta aika hankalaa. Gitin <code>diff</code> -komento toki tukee asetusta <code>-w</code>, joka pyrkii olemaan välittämättä tyhjeistä. Mutta committi on nyt silti ruma. Joudun nyt elämään tämän asian kanssa. Jatkossa sitten helpottaa, kun pysyn suosiolla alusta loppuun saman sisennyksen kanssa.</p>
+</div>
+
+<p class="tags"> 
+
+
+Tageja: <a href="../../tag/git/index.html" rel="tag">git</a>, 
+<a href="../../tag/vim/index.html" rel="tag">vim</a>
+
+
+</p>
+
+
+
+<div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+
+        </div>
+
+ <!-- now, common stuff -->
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+        <p><a rel="prev" href="../323/mpd-kirjastoja-ja-asiakkaita" title="MPD-kirjastoja ja asiakkaita">&#171; MPD-kirjastoja ja asiakkaita</a> 
+           &mdash; <a rel="next" href="../326/haskell-paassee-viimein-tositoimiin" title="Haskell päässee viimein tositoimiin?">Haskell päässee viimein tositoimiin? &#187;</a>
+        </p>
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+        <h2>Aiheen vierestä</h2>
+        <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../594/weboodi-aikataulut-orgiin">WebOodi-aikataulut&#160;orgiin</a></span> &#183; <span class="published">2012-10-23</span>
+<br /><span class="smallexcerpt">Itä-Suomen yliopiston weboodissa alkaa olla aika usein kurssi-infot hyvässä kunnossa, ja nyt on myös joensuulaisille olemassa tuota lukkaria, joka on...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a></span> &#183; <span class="published">2012-10-17</span>
+<br /><span class="smallexcerpt">Tässä on ihmetelty jo hyvän aikaa uusissa maailmoissa, ja pitkälle on päästy. En olisi itsestäni uskonut, että Emacsissa ollaan jonain...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../592/emacs-has-me">Emacs has&#160;me.</a></span> &#183; <span class="published">2012-09-22</span>
+<br /><span class="smallexcerpt">Emacs alkaa ottaa otetta minusta. Olen yrittänyt olla pyristelemättä vastaan, eikä ole asiaa vastaan mitään sanottavaa. Kaikki ne herkut ja...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../591/editorien-taistelu-tietamyshallinnassa">Editorien taistelu&#160;tietämyshallinnassa</a></span> &#183; <span class="published">2012-09-14</span>
+<br /><span class="smallexcerpt">Kun päädyin pari viikkoa sitten Org-formaattiin, oli se luonnollisesti edellytys, että Vim ja sen VimOrganizer saadaan kuntoon. Nyt kuitenkin on...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../590/think-vimorganizer">Think&#160;VimOrganizer.</a></span> &#183; <span class="published">2012-09-02</span>
+<br /><span class="smallexcerpt">Asiat rullaavat eteenpäin tyydyttävää tahtia tämän uuden tiedonhallinnan kanssa. Nyt olen säätänyt kuntoon jokaisesta kulmasta toimivan org-capture -variantin, jolla saan...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../589/think-orgmode">Think&#160;orgmode.</a></span> &#183; <span class="published">2012-08-31</span>
+<br /><span class="smallexcerpt">Teemme taas täyden ympyrän palatessamme orgmodeen, tuohon viha-rakkaussuhteen saaneeseen pakettiin. Edellinen thinktank-idea lopulta vääntyy siihen, että voin joko tehdä simppelin...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../587/tehokkaat-kayttoliittymat-vaivatta">Tehokkaat käyttöliittymät&#160;vaivatta</a></span> &#183; <span class="published">2012-08-16</span>
+<br /><span class="smallexcerpt">Ohjelmoijan onni on elää komentorivillä. Tehokkaiden käyttöliittymien rustaaminen on varsin nopeata, kunhan luottaa siihen, että suurta suosiota tuotokset eivät tule...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../584/pythonin-vastaisku-lispeille-ipython-ja-vim-ipython">Pythonin vastaisku lispeille: IPython ja vim-ipython</a></span> &#183; <span class="published">2012-07-25</span>
+<br /><span class="smallexcerpt">Tai &#8220;Pythonin uusi toivo&#8221; tai &#8220;Pythonin paluu&#8221;. Mistä on kyse? Pythonin tulkin me kaikki kai tiedämme: kaikki siinä periaatteessa on,...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../581/sumitup-puutteet-ja-mihin-suuntaan-edetaan">SumItUp: puutteet ja mihin suuntaan&#160;edetään</a></span> &#183; <span class="published">2012-07-12</span>
+<br /><span class="smallexcerpt">Esittelin pari postausta sitten Soulver-kloonin raakileen, SumItUpin. Nyt se on GitHubissa kaikkien pällisteltävänä ja sellaisella raakileasteella, jotta sitä voi jo...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../579/soulver-kloonia-rakentelemassa">Soulver-kloonia&#160;rakentelemassa</a></span> &#183; <span class="published">2012-07-07</span>
+<br /><span class="smallexcerpt">Erittäin upealla konseptilla varustettu laskinohjelma Soulver kaatuu siihen, että sen saa vain Mäkille. Vapaamuotoinen näpertelyalusta on usein ainut asia, mitä...</span>
+</li>
+
+</ul>
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,311 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <!-- standard -->
+	<title>Mr. P: Akustische und Kino-Geräte K-1000</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=mietteet" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=mietteet" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="mietteet">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="akustische-und-kino-geraete-k-1000#content">Siirry sisältöön</a></li>
+        <li><a href="akustische-und-kino-geraete-k-1000#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            &raquo;
+            <a href="../index.html">Mietteet</a>
+            
+                <!--<ul>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/598/blogille-idea">Blogille&#160;idea</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/597/wes-mckinney-python-for-data-analysis-oreilly">Wes McKinney - Python For Data Analysis (O&#39;Reilly)</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/596/org-blogaaminen-vaikeata">Org-blogaaminen&#160;vaikeata</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/595/twitterointia-emacsilla">Twitteröintiä&#160;Emacsilla</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/594/weboodi-aikataulut-orgiin">WebOodi-aikataulut&#160;orgiin</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/592/emacs-has-me">Emacs has&#160;me.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/591/editorien-taistelu-tietamyshallinnassa">Editorien taistelu&#160;tietämyshallinnassa</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/590/think-vimorganizer">Think&#160;VimOrganizer.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/589/think-orgmode">Think&#160;orgmode.</a>
+                </li>
+</ul>-->
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="http://progo.viuhka.fi/kategoria/hifi/">Hifi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/rauta/">Rauta</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/viihde/">Viihde</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../../tag/blogisäätöä/index.html" class="tagSizeMedium tagSize26" style="font-size: 100%;">blogisäätöä</a></li>
+	<li><a href="../../tag/clojure/index.html" class="tagSizeMedium tagSize2" style="font-size: 100%;">clojure</a></li>
+	<li><a href="../../tag/emacs/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">emacs</a></li>
+	<li><a href="../../tag/ohjelmointi/index.html" class="tagSizeLargest tagSize43" style="font-size: 100%;">ohjelmointi</a></li>
+	<li><a href="../../tag/ostoksia/index.html" class="tagSizeMedium tagSize12" style="font-size: 100%;">ostoksia</a></li>
+	<li><a href="../../tag/palvelin/index.html" class="tagSizeMedium tagSize38" style="font-size: 100%;">palvelin</a></li>
+	<li><a href="../../tag/python/index.html" class="tagSizeMedium tagSize2" style="font-size: 100%;">python</a></li>
+	<li><a href="../../tag/rauta/index.html" class="tagSizeMedium tagSize24" style="font-size: 100%;">rauta</a></li>
+</ul>
+        <p><a href="../../tag/index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=mietteet" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=mietteet" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- not tag view, it's the main view -->
+
+
+        
+
+        <div class="hfeed">
+            <!-- five articles to list here, or only one. It depends. -->
+            <!-- default form -->
+
+<p class="published">27. kesäkuu 2009, 13:57</p>
+<h1 class="entry-title"><a rel="bookmark" href="akustische-und-kino-geraete-k-1000">Akustische und Kino-Geräte K-1000</a></h1>
+
+
+<div class="entry-content">
+<p>Täytyy sanoa, että omalla tavallani osuin kultasuoneen tämän kuulokkeen kanssa.</p>
+<p><!--more-->Aiemmin olin siinä tuloksessa, että fraasi  "Mikä kaiutin? Kuulen pelkkää musiikkia." on vain hifistien välistä vitsailua ja mainosmiesten kuuminta myyntipuhetta. Olen ollut valitettavasti väärässä: AKG K-1000 on tällainen peli.</p>
+<div id="attachment_689" class="wp-caption aligncenter" style="width: 310px"><a href="../../wp-content/uploads/2009/06/IMG_3419.JPG"><img class="size-medium wp-image-689" title="K1000_pakkaus" src="../../wp-content/uploads/2009/06/IMG_3419-300x225.jpg" alt="AKG K1000 puulaatikossaan" width="300" height="225" /></a><p class="wp-caption-text">AKG K1000 puulaatikossaan</p></div>
+<p>K1000 on ollut Itävaltalaisen AKG-yrityksen lippulaivamalli 15 vuoden ajan, aina vuodesta 1989 vuoteen 2004. Valmistusta olisi voitu jatkaa senkin jälkeen, mutta tuotantolinjojen uusimiseen tarvittavat varat olisivat jääneet saamatta heikon myynnin vuoksi. Kuulokkeita kuitenkin kerettiin valmistaa yli 12000 paria. Nämähän ovat suunniteltu alunperin vain ja ainoastaan studiokäyttöä varten, mutta hifistit huomasivat niiden neutraaliudessa potentiaalia: mihin tarvitaan korostumia kun voi olla neutraali?</p>
+<p>En ajatellut tehdä isoa arvostelua, koska erinomaisia sellaisia löytyy <a href="http://www.enjoythemusic.com/superioraudio/equipment/0903/akgk1000.htm" target="_blank">jo</a> <a href="http://www.head-fi.org/forums/f13/review-akg-k1000-218445/" target="_blank">yllin</a> <a href="http://www.head-fi.org/forums/f5/review-akg-k1000-sophia-baby-tube-amp-vs-hd580-sugden-headmaster-36830/" target="_blank">kyllin</a>. Halusin vain sanoa sanottavani niiden erinomaisesta toteutuksesta. Tai melkein erinomaisesta. Tai miten sen ottaa: taitaa olla hyvin tapauskohtaista. Kyse on kuulokkeiden erinomaisesta tekniikasta, jossa elementit roikkuvat mikrofonihäkeissään ja eivät ole siten mitenkään suljettuja korvan kanssa. Tämä luo studiokäytössä vapautta tutkia miksauksen vakautta ja sijoittelua, hifikäytössä taas normaaleihin kuulokkeisiin nähden äärettömän paljon parempaa äänikuvaa ja ilmavuutta. Moni luulee virheellisesti näitä sähköstaattisiksi kuulokkeiksi. Kenties juuri ilmavuuden ja positioinnin vuoksi? Nämä ovat aivan puhdasoppiset dynaamiset kuulokkeet magneetteineen päivineen. Kuitenkin, ne tykkäävät virrasta sen verran, että perinteiset kuulokevahvistimet eivät jaksa näitä ajaa mitenkään. On siis käytettävä kaiutinvahvistimia ja niiden kaiutinpäätteitä! Tämä on yksi syy, miksi K1000:t ovat niin erinomaiset.</p>
+<p>Luettelen alle hyviä ja huonoja puolia K1000:sta. Huom! Nämä ovat vain kahden päivän ajalta kerättyä, omakohtaista tietoa, joten jotkut asianlaidat saattavat muuttua.</p>
+<table border="0" align="center">
+<tbody>
+<tr>
+<td>
+<p style="text-align: center;">
+<p style="text-align: center;"><strong>Hyvää:</strong></p>
+<ul>
+<li>&#196;äni on äärimmäisen ilmava, hyvin säädeltävissä ja neutraali: erotteleva, tarkka ja detaljeja riittää</li>
+<li>Kaiutinpäätteiden käyttö vahvistamiseen: valinnanvaraa riittää</li>
+<li>Mukavat päässä, jos tyynyt eivät häiritse: kesäkuumilla ykköskuulokkeet!</li>
+<li>Mukaansatempaavat ja rokkaavat</li>
+</ul>
+</td>
+<td>
+<p style="text-align: center;"><strong>Huonoa: </strong></p>
+<ul>
+<li>Eivät kovin mukanakulkevat</li>
+<li>Ulkoiset äänet häiritsevät mitä syvimmin kuuntelukokemusta</li>
+<li>Vahvistamisen suhteen nirso ja tai valikoivia</li>
+<li>Ohimoille sijoittuvat tyynyt painavat isopäisiä, pienipäisillä taasen liian "löysät" päässä</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Erittelen näitä vielä lyhyesti: kaiutinvahvistimien käyttö näiden vahvistamiseen voi olla joillekin kaksipiippuinen juttu: toisaalta on ostettu arvokas kuulokevahvistin, joka vahvistaa perinteisiä high end -kuulokkeita hyvin (Sennheisereitä, Gradoja, Beyerdynamiceja) mutta AKG K1000 onkin toista maata, eikä lopputulos ole luultavasti toivottu. Minua ei itseäni tämä haitannut, koska superkuulokevahvistimia ei tullut osteltua. Se äärimmäisen iso hyvä puoli kaiutinvahvistamisessa on se, että kaiutinpäätteitä, vintageviritinvahvistimia ja integroituja, jopa moderneja AV-vahvistimia ovat kaupat ja myyntipalstat pullollaan. Samaa ei totisestikaan voi sanoa kuulokevahvistimista, joiden pienet markkinat ovat pitäneet niiden hinnatkin vielä suhteellisen korkeina. Sopivia kaiutinpäätteitä voi metsästää monestakin paikasta ja käytettyjen vintagelaitteiden kanssa voi onni potkaista kovaakin. Esimerkiksi tämä minun SA-120 on jo yli 20 vuotta vanha vempele, ja nykyarvo on ehkä 10 euroa, mutta toimii varsin kelvollisena vahvistimena.</p>
+<p>Täytyy sanoa, että he, ketkä ovat luulleet K1000:tta staatiksi, eivät ole olleet kovinkaan hakoteillä päättelynsä kanssa: se tapa, millä K1000 järjestää lyömäsoittimien ja symbaalien jälkikaiut (decay) on hyvin sähköstaattinen ja nautinnollinen. Kun lautasta lyödään, se helisee aina viimeiseen asti. Jotkut aiemmista dynaamisista kuulokkeista eivät yksinkertaisesti osaa soittaa lautasta. Elektrostaatit osaavat tämän "luonnostaan" hyvin, mutta K1000 vetää kaikki kuulemani ratkaisut kaivoon.</p>
+<p style="text-align: center;"><img class="aligncenter" title="progo iloisena K1000:n (siivet ääriasennossa) kanssa" src="http://skeezu.net/~progo/kuvat/K1000Happy.jpeg" alt="" width="599" height="449" /></p>
+</div>
+
+<p class="tags"> 
+
+
+Tageja: <a href="../../tag/hifi/index.html" rel="tag">hifi</a>
+
+
+</p>
+
+
+
+<div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+
+        </div>
+
+ <!-- now, common stuff -->
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+        <p><a rel="prev" href="../43/kuusi-kaatuu" title="Kuusi kaatuu">&#171; Kuusi kaatuu</a> 
+           &mdash; <a rel="next" href="../41/onko-kiinteaeleveyksinen-fontti-tarpeen-koodatessa" title="Onko kiinteäleveyksinen fontti tarpeen koodatessa?">Onko kiinteäleveyksinen fontti tarpeen koodatessa? &#187;</a>
+        </p>
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+        <h2>Aiheen vierestä</h2>
+        <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../582/electrocompaniet-on-elossa">Electrocompaniet on&#160;elossa!</a></span> &#183; <span class="published">2012-07-18</span>
+<br /><span class="smallexcerpt">Melkein vuosi sitten rakas Electrocompaniet ECD1 pimeni kokonaan, ja sain vasta pari viikkoa sitten asiaan kunnollisen ratkaisun (nämä väliinjääneet 11...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../578/uusia-hifinakymia">Uusia&#160;hifinäkymiä</a></span> &#183; <span class="published">2012-06-23</span>
+<br /><span class="smallexcerpt">Syksyn opintolainat jo tilillä sitä tuntee itsensä niin kovin rikkaaksi ja vapaaksi törsäilemään. Schiit lupailee uuden MOSFET-pohjaisen balansoidun kuulokevahvistimen, joka...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../546/asioita-joita-olisi-mukava-omistaa">Asioita, joita olisi mukava&#160;omistaa</a></span> &#183; <span class="published">2011-09-01</span>
+<br /><span class="smallexcerpt">Ihan kirjoittamisen ilosta listailen vähän asioita, joita haluaisin omistaa. Mutta eivät ole välttämättömiä, eikä niihin voi perustella rahankäyttöäkään. Mutta olisivat...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../544/electrocompaniet-vikuroi-mika-tekee-hyvan-dac-muuntajan">Electrocompaniet vikuroi, mikä tekee hyvän DAC-muuntajan?</a></span> &#183; <span class="published">2011-08-26</span>
+<br /><span class="smallexcerpt">Hieno Electrocompaniet ECD1 -DAC:ini tykkää taas vähän vikuroida, ja se pitäisi epäilemättä kiikuttaa huoltoon. Paha vain, että lähin huolto on...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../352/oopperaa-rumiluksilla-kaunotar-ja-hirvio">Oopperaa&#160;rumiluksilla</a></span> &#183; <span class="published">2010-11-07</span>
+<br /><span class="smallexcerpt">Ostin tässä taannoin hauskat kuulokkeet, sveitsiläiset Ergo 2:t.
+
+	Ne ovat dynaamiset, kuten valtaosa muistakin markkinoiden kuulottimista. Elementit on kuitenkin kääritty upeasti...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../331/kohti-absoluuttista-hiljaisuutta-osa-3">Kohti absoluuttista hiljaisuutta, osa 3</a></span> &#183; <span class="published">2010-08-28</span>
+<br /><span class="smallexcerpt">Nyt on hiljaisuuden vaaliminen valmista, ja kaikki kuulostaa briljantilta.  Tämäntasoista hiljaisuutta on tavattu kuulla vain nappikuulokkeillani, hiljaisuudessa. Nyt saman...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../329/kohti-absoluuttista-hiljaisuutta-osa-2">Kohti absoluuttista hiljaisuutta, osa 2</a></span> &#183; <span class="published">2010-08-13</span>
+<br /><span class="smallexcerpt">Juuri ennen myrskyä on aina kaikkein hiljaisinta.
+
+	Olen nyt elellyt miltei kaksi viikkoa uudessa kämpässä, ja pikku hiljaa tässä alkavat huonekalut...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../328/toinen-muutto-ja-kohti-absoluuttista-hiljaisuutta">Toinen muutto ja kohti absoluuttista&#160;hiljaisuutta</a></span> &#183; <span class="published">2010-08-03</span>
+<br /><span class="smallexcerpt">Ystävät hyvät, olemme nyt hyvin lähellä hiljaisen hifistelyn kynnystä. Se ei ole edes järin korkea kynnys. Kirjoittelin kesällä 2009 vähän...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../322/meng-mini-p1">Meng Mini P1</a></span> &#183; <span class="published">2010-05-28</span>
+<br /><span class="smallexcerpt">Hommasin edullisesti käytetyn putkivahvistimen, kiinanihme Meng Mini P1 -vahvistimen. Tämä on ensimmäinen kosketukseni putkivermeisiin, ja pirun hieno ensikosketus onkin. Kymmentä...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../13/ostoksia">Ostoksia</a></span> &#183; <span class="published">2010-01-12</span>
+<br /><span class="smallexcerpt">Eilen tuli uusi soittopeli, tänään vähän musiikkia kyytipojaksi. En ryhdy vallan arvostelua tekemään tässä, vaan pohdin vähän.
+Ensin "pakollinen" kuvasarja:
+Marantz paketissaan,...</span>
+</li>
+
+</ul>
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,325 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <!-- standard -->
+	<title>Mr. P: Näyttöjä</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=mietteet" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=mietteet" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="mietteet">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="naeyttoejae#content">Siirry sisältöön</a></li>
+        <li><a href="naeyttoejae#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            &raquo;
+            <a href="../index.html">Mietteet</a>
+            
+                <!--<ul>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/598/blogille-idea">Blogille&#160;idea</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/597/wes-mckinney-python-for-data-analysis-oreilly">Wes McKinney - Python For Data Analysis (O&#39;Reilly)</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/596/org-blogaaminen-vaikeata">Org-blogaaminen&#160;vaikeata</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/595/twitterointia-emacsilla">Twitteröintiä&#160;Emacsilla</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/594/weboodi-aikataulut-orgiin">WebOodi-aikataulut&#160;orgiin</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/592/emacs-has-me">Emacs has&#160;me.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/591/editorien-taistelu-tietamyshallinnassa">Editorien taistelu&#160;tietämyshallinnassa</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/590/think-vimorganizer">Think&#160;VimOrganizer.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/589/think-orgmode">Think&#160;orgmode.</a>
+                </li>
+</ul>-->
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="/kategoria/hifi/">Hifi</a></li>
+	<li><a href="/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="/kategoria/rauta/">Rauta</a></li>
+	<li><a href="/kategoria/viihde/">Viihde</a></li>
+	<li><a href="/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../../tag/emacs/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">emacs</a></li>
+	<li><a href="../../tag/gentoo/index.html" class="tagSizeLargest tagSize106" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../../tag/hifi/index.html" class="tagSizeMedium tagSize32" style="font-size: 100%;">hifi</a></li>
+	<li><a href="../../tag/musiikki/index.html" class="tagSizeMedium tagSize24" style="font-size: 100%;">musiikki</a></li>
+	<li><a href="../../tag/ohjelmointi/index.html" class="tagSizeMedium tagSize43" style="font-size: 100%;">ohjelmointi</a></li>
+	<li><a href="../../tag/opiskelu/index.html" class="tagSizeMedium tagSize18" style="font-size: 100%;">opiskelu</a></li>
+	<li><a href="../../tag/palvelin/index.html" class="tagSizeMedium tagSize38" style="font-size: 100%;">palvelin</a></li>
+	<li><a href="../../tag/pelaaminen/index.html" class="tagSizeMedium tagSize3" style="font-size: 100%;">pelaaminen</a></li>
+</ul>
+        <p><a href="../../tag/index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=mietteet" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=mietteet" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- not tag view, it's the main view -->
+
+
+        
+
+        <div class="hfeed">
+            <!-- five articles to list here, or only one. It depends. -->
+            <!-- default form -->
+
+<p class="published">17. tammikuu 2010, 12:39</p>
+<h1 class="entry-title"><a rel="bookmark" href="naeyttoejae">Näyttöjä</a></h1>
+
+
+<div class="entry-content">
+<p>Huonojen otsikoiden sarja jatkukoon. Lyhyesti viikonlopun ohjelmista: sain "lahjaksi" 22-tuumaisen Acerin ja koodailin lyhyen skriptin MPD:lle.</p>
+<p><!--more-->Näyttö on ihan mukava. En ehkä ole laajakuvanäyttöjen kovin puolestapuhuja, mutta on tällä etuja, kun korkeutta on kuitenkin about saman verran kuin noissa vanhoissa näytöissäkin. Eikä kukaan pakota sitä selainta pitämään kokoruudulla, joten luulen selviäväni. Pari uutta positiivista, taktista uudistusta tämä toki tuo:</p>
+<ol>
+<li>Suuremman pikselikokonsa puolesta fonttikokoa voi joissain tapauksissa pienentää vähän, ja tämä tuo tietty lisää tilaa ruudulle</li>
+<li>Edelliseen lisäyksenä 25 lisäpikselin korkeus ei tietty paljoa paina, mutta toisaalta selainikkunan uudelleensijoituksella syntyi mielenkiintoinen asetelma, jossa ruudun koko on jämäkkä 1050&#215;1050</li>
+<li>Suuren paneelikoon puolesta elokuvien katselu tietokoneella voi olla kerrankin mukavaa, eikä ainaista tihrustamista. Enpä ole noilla pienillä näytöillä paljoa katsellutkaan leffoja, mutta nyt varmasti on uusi ääni kellossa</li>
+</ol>
+<div id="attachment_967" class="wp-caption alignleft" style="width: 310px"><a href="../../wp-content/uploads/2010/01/IMG_3666.jpg"><img class="size-medium wp-image-967" title="Vanha näyttökaksikko" src="../../wp-content/uploads/2010/01/IMG_3666-300x225.jpg" alt="" width="300" height="225" /></a><p class="wp-caption-text">Vanha näyttökaksikko</p></div>
+<div id="attachment_968" class="wp-caption alignleft" style="width: 310px"><a href="../../wp-content/uploads/2010/01/IMG_3670.jpg"><img class="size-medium wp-image-968" title="Uusi näyttökaksikko" src="../../wp-content/uploads/2010/01/IMG_3670-300x225.jpg" alt="" width="300" height="225" /></a><p class="wp-caption-text">Uusi näyttökaksikko</p></div>
+<p>Näyttö on näitä halpapaneeleita, TN-mallia ja inputtejakin on vain analoogista mallia. No, hyvin tästä näkee, ei siinä mitään. Kuvapinta-alaa on häkellyttävästi, se on sanottava. Kuten joku saattaa muistella eräästä vanhasta kirjoituksestani, voi olla haastavaa suunnitella ja mukautua uuteen näyttöasetelmaan. Minullakin on tässä nyt ollut mietinnän alla, kuinka käyttää tila tehokkaasti. Onhan tässä erilaisia mahdollisuuksia. &#196;h, nyt kun tutkailin, <a href="/2008/01/tyoepoeytaelayouteista/" target="_blank">työpöytälayouttikirjoitukseni</a> kuvat ovat kadonneet jonnekin. No onneksi ne löytyivät. Epäonneksi ne kuvat eivät oikein toimi mustaa vasten. Joko virittelen niitä tahi en. Ehkä kirjoitan uuden kirjoituksen, kuinka nykyisemmin asian hoitaisin.</p>
+<p>Toisekseen, nyt minulla on kolme näyttöä, kaksi 17-tuumaista ja uusi 22-tuumainen. Lienee sanomattakin selvää, että otin jo selvää, missä hinnoissa halvimmat näytönohjaimet liikkuvat. Emolevyni asettaa pieniä rajoitteita, esimerkiksi siten, että siinä on vain yksi 16x-väylä (vai onko se 8x?) ja pari 1x-väylää. PCI Express tukee todellakin korttien lisäilyä mihin väylään vain haluaa, eli iso korttikin toimisi kaikkein pienimmästä väylästä käsin, kunhan se siihen fyysisesti mahtuu. Jotkut näistä käytetyistä muovirungoista ovat päästään avoimia, toiset suljettuja. Minun tapauksessani suljettuja. Ratkaisuksi jää pari vaihtoehtoa: joko avaan emolevyn päästä sen aukon jollain työkalulla tai sitten naputan näytönohjaimen puolelta ylimääräiset pinnit pois. Näinkin se kuulema voi tapahtua. Jos ostan 30 euron passiivikortin, ei siinä paljoa jälleenmyyntiarvoakaan menetä. Harmi kun valtaosa 1x-korteista on niin kalliita, pitää sitten ostaa noita täyskokoisia ennemmin. 30 euroon muuten sisältyy jo postikulutkin (Multitronic ja GeForce 6200 TC).</p>
+<p>Vielä vähän konffauspuolesta: homma on melko selvä, riippuen toki vähän. Xorg-konffini on hyvin vanha ja käytännössä pariin vuoteen en ole koskenutkaan siihen. Siellä ei ole esimerkiksi mitään mainintaa muista näytöistä taikka muusta sellaisesta, olen vain jotenkin sen saanut toimimaan. Syynä ovatkin NVidian TwinView-toiminnot ajuripuolelta. Sitä kautta saa muuten näppärästi säädettyä resoluutiot sun muut kohdilleen. Oikein hyvä homma, toivottavasti ne asetukset myös säilyvät. Jos eivät säily, joudun purkamaan sen konffin ja kirjoittamaan uudestaan. Sama homma sitten mahdollisesti sen kolmannen näytön kanssa. Nyt eletään lupaavia aikoja, kuomaseni! <a href="http://havu.viuhka.fi/kuvat/desktop_2010_01_16.jpeg" target="_blank">Kuvaruutukaappaus</a> näyttää, miltä se nyt ainakin tällä hetkellä näyttää. Luultavasti jopa vaihdan näyttöjen paikkaa fyysisesti, jotta pääsen paremmin hallitsemaan tietoa.</p>
+<h2>Pieni skripti MPD-käyttöä sujuvoittamaan</h2>
+<p>Amarok-aikoinani kun tutkiskelin MPD:tä, moni asia otti päähän: mm. tiedostopohjaisuus ja se, että useimmat (kaikki kokeilemani) asiakasohjelmat aakkostivat The-alkuiset bändit T:hen. Myös eräs pienempi häiriö oli mukana pelissä, nimittäin Amarokissa oli kiva toiminto "stop at the end of the track". Joskus pitää käydä jättämässä nesteitä ulos taikka muuta sellaista, eikä sitten malta tehdä asiaa jos toista, koska kappale on kesken. Ja voi olla hyväkin kappale! Ja sitten muuta sellaista voi asiaan liittyä. MPD:ssä ei ole sellaista lippua, jota voisi asiakasohjelmat kutsua, ja siten jäljelle jää asiakasohjelman tekemä suoritus. En pidä asiakasohjelmia päällä turhanpäiten, joten sekään ajatus ei käynyt. Asia jäi hautumaan vuosiksi, kunnes tänään tajusin, että eihän se perhana ole homma eikä mikään, kun  käyttää vähän skriptausta apunaan. Kirjoitin sen bashilla:</p>
+<pre>#!/bin/bash
+# Pause at the track change
+
+# pause command
+pausecommand="mpc pause"
+
+# get remaining time in seconds
+remainingtime=`mpc | awk '<span style="color: #ff99cc;">BEGIN { FS="[ /]" }
+   /playing/ { split($6, curTime, ":"); split($7, wholeTime, ":");
+   ct = (curTime[1] * 60)  + curTime[2]; wt = (wholeTime[1]*60)
+   + wholeTime[2]; print wt-ct; }</span>'`
+
+# 2 seconds off
+(( remainingtime -= 2 ))
+sleep $remainingtime
+
+# Now let's poll more frequently for the track change
+# (the song is at its end now)
+# and compare the track numbers for accurate change point
+
+track=`mpc|awk <span style="color: #ffcc99;">'/playing/{print $2}'</span>`
+newtrack=`mpc|awk <span style="color: #ffcc99;">'/playing/{print $2}'</span>`
+while [ "$track" == "$newtrack" ]
+do
+ sleep 0.1
+ newtrack=`mpc|awk '<span style="color: #ffcc99;">/playing/{print $2}'</span>`
+done
+
+$pausecommand &gt; /dev/null
+</pre>
+<p>Tökeröä paikoitellen, myönnetään. Pinkillä maalattu awk-oksennus laskee jäljelläolevien sekuntien määrän kappaleesta (se parsitaan muodosta m:ss/m:ss) ja tulostaa ne bashille, joka laitetaan nukkumaan siten, että se herää paria sekuntia ennen kappaleen päättymistä. Sitten pollataan tiuhemmin, ja vertaillaan (oranssi) milloin MPC:n esittämä kappalenumero vaihtuu. Kyseessä on MPD:n sisäinen soittolistanumero, joten se ei mene sekaisin jos kappale vaihtuu jonkun toisen levyn samannumeroiseen kappaleeseen. Se on muotoa "#2/10&#8243;, ja sitä ei parsita, koska vain erilaista lukua etsitään.</p>
+<p>Skripti sekoaa tai muuten toimii väärin, jos soittolistalle heitetään uusia kappaleita tai poistetaan vanhoja sillä välin, kun se odottelee tai pyörii loopissansa. Myöskin tulee odottamattomuuksia, jos kappaletta kelaillaan eteenpäin nukkumisvaiheessa (silloin todennäköisesti skripti alkaa pollailemaan liian myöhään, seuraavaa kappaletta) ja taaksepäin kelatessa ei taida tulla ongelmia. Kuitenkin, omaan käyttöön kirjoitettuani sen se tuntuu toimivan hyvin olosuhteisiin nähden (en itse käytä stop-toimintoja kovin usein, vaan kuitenkin joskus sitä tarvitsee). Paussikomennon laitoin ohjelman alkuun, koska paussin lisäksi stop olisi hyvä toteuttaa. Ajattelin ottaa sen argumenttina, ja käyttää paussia oletusarvona.</p>
+</div>
+
+<p class="tags"> 
+
+
+Tageja: <a href="../../tag/kolmoisnäytöt/index.html" rel="tag">kolmoisnäytöt</a>, 
+<a href="../../tag/mpd/index.html" rel="tag">mpd</a>, 
+<a href="../../tag/rauta/index.html" rel="tag">rauta</a>
+
+
+</p>
+
+
+
+<div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+
+        </div>
+
+ <!-- now, common stuff -->
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+        <p><a rel="prev" href="../13/ostoksia" title="Ostoksia">&#171; Ostoksia</a> 
+           &mdash; <a rel="next" href="../11/tyoepoeytaelayouteista-revisited" title="Työpöytälayouteista revisited">Työpöytälayouteista revisited &#187;</a>
+        </p>
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+        <h2>Aiheen vierestä</h2>
+        <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../569/satunnaiset-jazzit-soittolistalta">Satunnaiset jazzit&#160;soittolistalta</a></span> &#183; <span class="published">2012-03-18</span>
+<br /><span class="smallexcerpt">Jonkin aikaa sitten kirjailin nopean bash-skriptin, joka hakee haluamastaan MPD-soittolistasta tietyn verran kappaleita. Siten, että musiikkia saadaan noin tietyn aikarajan...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../557/palvelin-tulossa-sittenkin">Palvelin tulossa&#160;sittenkin</a></span> &#183; <span class="published">2011-11-10</span>
+<br /><span class="smallexcerpt">Vaikka taannoin järkeilin palvelimen ostoa vastaan aika onnistunein argumentein, niin nyt sellaisen olen kuitenkin hommannut. Käytetystä raudasta kootan murossa jonkinlaisen...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../554/tulipa-netbook-ostettua">Tulipa netbook&#160;ostettua</a></span> &#183; <span class="published">2011-10-01</span>
+<br /><span class="smallexcerpt">Elitegroupin G10IL -mallinen miniläppäriksi luokiteltavissa netbook tuli ostettua. Saamme nähdä, miten tässä vielä käy.
+
+	Tämä on tavallinen nykynetbook, jossa on 10-tuumainen...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../549/uusi-filco-on-asemissa">Uusi Filco on&#160;asemissa</a></span> &#183; <span class="published">2011-09-07</span>
+<br /><span class="smallexcerpt">Tänään se Filco Majestouch tuli. Ei siinä pitkään mennyt! Aika jännä fiilis kaikkinensa dassikkaan nähden, tämä.
+
+	Cherry MX Brown -kytkimet ovat...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../548/uusi-nappaimistoni-filco-majestouch-2">Uusi näppäimistöni, Filco Majestouch-2</a></span> &#183; <span class="published">2011-09-04</span>
+<br /><span class="smallexcerpt">Aikaisempi ostoslistapostaus oli vähän kirottu, koska sen kirjoitettuani minulle valkeni, että voin &#8220;hyvillä mielin&#8221; nyt valita yhden kohteista, ja jättää...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../541/levyjen-hakemista-ihmisheuristiikoin">Levyjen hakemista&#160;ihmisheuristiikoin</a></span> &#183; <span class="published">2011-08-04</span>
+<br /><span class="smallexcerpt">Omasta musiikkisoittimesta on kai joskus tullut puhuttua. Nyt MPD-aikoina on luonnollista hakea sen sijaan oman MPD-asiakasohjelman pariin. Hitsi kun en...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../537/gentoomies-on-nyt-radeonissa">Gentoomies on nyt&#160;Radeonissa</a></span> &#183; <span class="published">2011-07-20</span>
+<br /><span class="smallexcerpt">Nyt kävi näin. Passiivinen GeForce 7600GS vaihtui järeähköön Club3D:n HD6790 -korttiin, joka on eräänlainen välimalli siellä jossain. Kovasti on puhuttu...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../353/kehitysta">Kehitystä</a></span> &#183; <span class="published">2010-11-09</span>
+<br /><span class="smallexcerpt">Kaiken tämän jatkuvan tietokonekäytön keskellä osaa välillä pysähtyä, ja katsoa, miten ollaan edistytty. Se on upea tunne, kun keksii, että...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../345/muistinkulutuksesta-vol-n">Muistinkulutuksesta, vol.&#160;n</a></span> &#183; <span class="published">2010-10-14</span>
+<br /><span class="smallexcerpt">On jälleen aika valistaa lukijoita hourailulla, kuinka ennen oli asiat toisin ja muistinkäyttökin aisoissa. Paitsi, että nykyisellään näyttää aika hyvältä.
+
+	Laitetaanpa...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../323/mpd-kirjastoja-ja-asiakkaita">MPD-kirjastoja ja&#160;asiakkaita</a></span> &#183; <span class="published">2010-06-10</span>
+<br /><span class="smallexcerpt">Huu, kunhan huomisen tentin (Ihminen ja vuorovaikutteinen teknologia) vetäisee alta pois, malttaa viimein alkaa tammikuussa aloitettuun, mutta sittemmin keskeytyneeseen projektiin...</span>
+</li>
+
+</ul>
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,297 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <!-- standard -->
+	<title>Mr. P: Koneenjaosta</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=mietteet" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=mietteet" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="mietteet">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="koneenjaosta#content">Siirry sisältöön</a></li>
+        <li><a href="koneenjaosta#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            &raquo;
+            <a href="../index.html">Mietteet</a>
+            
+                <!--<ul>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/598/blogille-idea">Blogille&#160;idea</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/597/wes-mckinney-python-for-data-analysis-oreilly">Wes McKinney - Python For Data Analysis (O&#39;Reilly)</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/596/org-blogaaminen-vaikeata">Org-blogaaminen&#160;vaikeata</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/595/twitterointia-emacsilla">Twitteröintiä&#160;Emacsilla</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/594/weboodi-aikataulut-orgiin">WebOodi-aikataulut&#160;orgiin</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/592/emacs-has-me">Emacs has&#160;me.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/591/editorien-taistelu-tietamyshallinnassa">Editorien taistelu&#160;tietämyshallinnassa</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/590/think-vimorganizer">Think&#160;VimOrganizer.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/589/think-orgmode">Think&#160;orgmode.</a>
+                </li>
+</ul>-->
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="http://progo.viuhka.fi/kategoria/hifi/">Hifi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/rauta/">Rauta</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/viihde/">Viihde</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../../tag/blogisäätöä/index.html" class="tagSizeMedium tagSize9" style="font-size: 100%;">blogisäätöä</a></li>
+	<li><a href="../../tag/gentoo/index.html" class="tagSizeLargest tagSize89" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../../tag/hifi/index.html" class="tagSizeMedium tagSize15" style="font-size: 100%;">hifi</a></li>
+	<li><a href="../../tag/musiikki/index.html" class="tagSizeMedium tagSize7" style="font-size: 100%;">musiikki</a></li>
+	<li><a href="../../tag/opiskelu/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">opiskelu</a></li>
+	<li><a href="../../tag/palvelin/index.html" class="tagSizeMedium tagSize21" style="font-size: 100%;">palvelin</a></li>
+	<li><a href="../../tag/rauta/index.html" class="tagSizeMedium tagSize7" style="font-size: 100%;">rauta</a></li>
+	<li><a href="../../tag/vim/index.html" class="tagSizeMedium tagSize18" style="font-size: 100%;">vim</a></li>
+</ul>
+        <p><a href="../../tag/index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=mietteet" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=mietteet" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- not tag view, it's the main view -->
+
+
+        
+
+        <div class="hfeed">
+            <!-- five articles to list here, or only one. It depends. -->
+            <!-- default form -->
+
+<p class="published">22. heinäkuu 2011, 14:10</p>
+<h1 class="entry-title"><a rel="bookmark" href="koneenjaosta">Koneenjaosta</a></h1>
+
+
+<div class="entry-content">
+	<p>Hitsi vieköön. Eilisen kirjoitelman jälkeen onkin aika kulunut pohtiessa tätä systeemiä ja sitä rahanmenoa. Ei periaatteessa moisten turhuuksien &#8212; pelien &#8212; tähden pitäisi laittaa nappulaa likoon. Erityisesti kun sitä tietää, mihin se johtaa: kiihtyvään päivitysrumbaan ja siihen pelien saamaan etusijaan. Voi. Miksi minun piti edes kokeilla kolmosnäyttöä silloin aikoinani. Nyt olen yltäpäältä pelisuunnitelmissa, ja menoeriä syntyy kuin itsestään.</p>
+
+	<p><strong>Voisin periaatteessa vielä hylätä kaiken tämän</strong>, ja äkkiä myydä tuon Radeonin eteenpäin. Vaihtaisin kivan Geforcen takaisin ja elelisin tuplanäytöllä taloudellisesti varmempaan aikaan. Civ 5 sujuisi edes jotenkuten sen ohjaimen kanssa, eikä tarvitsisi rahaa käyttää yhtään. Saisin jatkaa Unix-partaisuuttani ja nauttia shell-skriptaamisesta ja pitkistä uptimeistä. Saisin hekumaa elokuvien ja hifin kautta. En vain jotenkin kestä ajatusta, että palaisin entisaikoihin, jossa saattoi pelit maistua koko päivän, ja sitten päivän tuotteliaisuus on tasan nollassa. Sentään musiikkia kuunnellessa käteni ovat vapaat tekemään kaikenlaista: skriptausta, koodia, oppia blogeista tai kirjoittaa sellaista. </p>
+
+	<p><strong>Voisin myös ostaa pelkän näytön</strong>, noin 130 euroa, ja luopua näistä vähistäkin pelailuistani kun mikään 3D ei toimi kovin nätisti Raadon kanssa. Ehkä jonain päivänä Civ 5 toimii hyvin Radeonilla, ja sitten on kiva pelailla ostamaani peliä. Mutta pelit ovat aina niin köykäisiä Winellä, ja aina tulee olemaan ongelmia. Jagged Alliancekin lakkasi toimimasta, eikä edes winen syytä ollut. Tämä olisi sitä purismia, jota harjoitin kolmen näytön kanssa silloin viime vuonna. Tetris ja NetHack. Kuitenkin sillä erolla, että 2D-kiihdytys toimii hyvin. Mutta enhän ole edes varma, että toimiiko nämä ajurit kolmella näytöllä niin hyvin kuin sanotaan. Tämä vaihtoehto olisi se ultimaattinen hakkerivalinta.</p>
+
+	<p><strong>Voin jatkaa nykysuunnitelmieni kanssa, ja käyttää vähän rahaa</strong> ostaessani jonkun mopokoneen 50 euron pintaan ajamaan puhtaasti noita kevyitä palvelinjuttuja. Mopokoneissa on kuitenkin ongelmana se, että rauta on juuri ja juuri sen ikäistä, että se on liian energiatehotonta ja luultavasti meluaa kuin pieni apina. Sen sijaan sitten fiksummat mopokoneet (C2D E4xxx, tai peräti dualcore Atom-koneet)  ovat hivenen liian kalliita.</p>
+
+	<p><strong>Voin ostaa toki kalliillakin kivan ja hiljaisen palvelinsetin</strong>, ja rahaa palaisi reilusti päälle 200 euron. Siitä olisi hyvä pikkuhiljaa laajentaa kohti ideaalikokoonpanoa, kun jatkuvasti alkaa enemmän tuntua siltä, että siinä on juuri ja juuri liian paljon pikkuongelmia luvassa, että jaksaisin viritellä tuota dualboottia jatkuvasti.</p>
+
+	<p>Ainakin neljä ratkaisua, joista vain yksi tarjoaa helpotuksenomaista tyydytystä, ja vieläpä halvalla. Valinta on liian helppo tällä tavalla tarkasteltuna.</p>
+
+	<h1>Valinta</h1>
+
+	<p>Valinta on tehty: tilaan Verkkokaupasta jonkun uuden kovalevyn korvaamaan sektorivikaista Samsungia (ja mielellään vanhan WD:nkin laittaisin eläkkeelle) ja sitten kun se tulee, niin vaihdan näyttiksenkin takaisin samalla vaihdolla. Jahka saan enemmän tavaroita myydyksi niin ehkä sitten voisi katsella uudestaan näitä valintoja. </p>
+
+	<p>Radeonia voisin käyttää elokuussa talouden toisessa tietokoneessa, jos vaikka vähän aikaa saisin vietettyä pelivetoista kesälomaakin. Civ 5 toimii sen Nvidian kanssa, jos jaksaa odotella tai pelata huonommassa strategiamoodissa.</p>
+</div>
+
+<p class="tags"> 
+
+
+Tageja: <a href="../../tag/gentoo/index.html" rel="tag">gentoo</a>, 
+<a href="../../tag/pelaaminen/index.html" rel="tag">pelaaminen</a>
+
+
+</p>
+
+
+
+<div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+
+        </div>
+
+ <!-- now, common stuff -->
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+        <p><a rel="prev" href="../538/pelisettia-ja-ideaaleja" title="Pelisettiä ja ideaaleja">&#171; Pelisettiä ja ideaaleja</a> 
+           &mdash; <a rel="next" href="../540/koneenjaosta-viela-kerran" title="Koneenjaosta vielä kerran">Koneenjaosta vielä kerran &#187;</a>
+        </p>
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+        <h2>Aiheen vierestä</h2>
+        <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../587/tehokkaat-kayttoliittymat-vaivatta">Tehokkaat käyttöliittymät&#160;vaivatta</a></span> &#183; <span class="published">2012-08-16</span>
+<br /><span class="smallexcerpt">Ohjelmoijan onni on elää komentorivillä. Tehokkaiden käyttöliittymien rustaaminen on varsin nopeata, kunhan luottaa siihen, että suurta suosiota tuotokset eivät tule...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../571/tv-saato-on-nyt-valmis">TV-säätö on nyt&#160;valmis</a></span> &#183; <span class="published">2012-03-23</span>
+<br /><span class="smallexcerpt">No niin. Uuden NVidia-kortin ansiosta TV-episodi on käsitelty voitokkaasti. Jos rahalla asiasta selviämistä ei lasketa huijaamiseksi.
+
+	Oppirahoja tuli taas tosiaankin hassattua....</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../568/avoimet-suljetut-ja-se-vastapuoli">Avoimet, suljetut ja se&#160;vastapuoli</a></span> &#183; <span class="published">2012-03-11</span>
+<br /><span class="smallexcerpt">Radeonien kanssa on todellakin painittavaa. Kompromisseista on jotain valittava kontolleen, jos muut sitten sujuvatkin.
+
+	fglrx &#8212; se suljettu
+
+	Kaikki työpöytäkäyttö sujuu erihyvin....</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../567/tv-monitorit-ja-gentoo">TV, Monitorit ja&#160;Gentoo</a></span> &#183; <span class="published">2012-03-09</span>
+<br /><span class="smallexcerpt">Pari viikkoa sitten sain lahjaksi taulu-TV:n (Philipsin 42FPL3606, eli 42 tuumaa) ja totta kai se pitää saada kiinni tietokoneeseen pikselitarkalla...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../562/pelikonsoli-ostossa-nyt">Pelikonsoli ostossa&#160;nyt</a></span> &#183; <span class="published">2011-12-12</span>
+<br /><span class="smallexcerpt">Nyt sitten sain päätettyä, että PS3 on se fiksumpi valinta, vaikka en olekaan vielä täysin varma päätöksestäni. Se helpottaa heti...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../561/pelaaminen">Pelaaminen</a></span> &#183; <span class="published">2011-12-10</span>
+<br /><span class="smallexcerpt">GTA 4 on ollut ilmestymisestään lähtien eräs suosikeistani &#8212;- vaikka pelitunteja on kertynyt ehkäpä kokonaisuudessaan kaksi. Minkäs teet kun PC-porttaus...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../560/informaation-jarjestely-tietamyksenhallinta">Informaation järjestely:&#160;tietämyksenhallinta</a></span> &#183; <span class="published">2011-12-10</span>
+<br /><span class="smallexcerpt">Tietoa, eli kaikenlaista pientä tietämystä, on kaikkialla. Ihminen oppii kyllä paljon, ja erityisesti kun on motivoitunut omaksumaan. Mutta edes kaikkein...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../557/palvelin-tulossa-sittenkin">Palvelin tulossa&#160;sittenkin</a></span> &#183; <span class="published">2011-11-10</span>
+<br /><span class="smallexcerpt">Vaikka taannoin järkeilin palvelimen ostoa vastaan aika onnistunein argumentein, niin nyt sellaisen olen kuitenkin hommannut. Käytetystä raudasta kootan murossa jonkinlaisen...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../555/virtamittailuja">Virtamittailuja</a></span> &#183; <span class="published">2011-10-20</span>
+<br /><span class="smallexcerpt">Olen muuttamassa uuteen asuntoon Outokummussa, ja nyt pitää katsella muiden toimien ohella myös sähkönkulutusta uudella silmällä. Erityisesti mieltä polttelee kysymys:...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../554/tulipa-netbook-ostettua">Tulipa netbook&#160;ostettua</a></span> &#183; <span class="published">2011-10-01</span>
+<br /><span class="smallexcerpt">Elitegroupin G10IL -mallinen miniläppäriksi luokiteltavissa netbook tuli ostettua. Saamme nähdä, miten tässä vielä käy.
+
+	Tämä on tavallinen nykynetbook, jossa on 10-tuumainen...</span>
+</li>
+
+</ul>
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

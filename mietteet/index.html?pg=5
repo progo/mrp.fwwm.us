@@ -1,0 +1,312 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <!-- standard -->
+	<title>Mr. P: Mietteet</title>
+
+
+	<link rel="home" href="../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../atom/index.html?section=mietteet" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../rss/index.html?section=mietteet" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../rpc/index.html" />
+</head>
+
+<body id="mietteet">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="index.html?pg=5#content">Siirry sisältöön</a></li>
+        <li><a href="index.html?pg=5#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            &raquo;
+            <a href="index.html">Mietteet</a>
+            
+                <!--<ul>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/598/blogille-idea">Blogille&#160;idea</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/597/wes-mckinney-python-for-data-analysis-oreilly">Wes McKinney - Python For Data Analysis (O&#39;Reilly)</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/596/org-blogaaminen-vaikeata">Org-blogaaminen&#160;vaikeata</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/595/twitterointia-emacsilla">Twitteröintiä&#160;Emacsilla</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/594/weboodi-aikataulut-orgiin">WebOodi-aikataulut&#160;orgiin</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/592/emacs-has-me">Emacs has&#160;me.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/591/editorien-taistelu-tietamyshallinnassa">Editorien taistelu&#160;tietämyshallinnassa</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/590/think-vimorganizer">Think&#160;VimOrganizer.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/589/think-orgmode">Think&#160;orgmode.</a>
+                </li>
+</ul>-->
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="/kategoria/hifi/">Hifi</a></li>
+	<li><a href="/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="/kategoria/rauta/">Rauta</a></li>
+	<li><a href="/kategoria/viihde/">Viihde</a></li>
+	<li><a href="/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../tag/blogisäätöä/index.html" class="tagSizeMedium tagSize9" style="font-size: 100%;">blogisäätöä</a></li>
+	<li><a href="../tag/gentoo/index.html" class="tagSizeLargest tagSize89" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../tag/musiikki/index.html" class="tagSizeMedium tagSize7" style="font-size: 100%;">musiikki</a></li>
+	<li><a href="../tag/ohjelmointi/index.html" class="tagSizeMedium tagSize26" style="font-size: 100%;">ohjelmointi</a></li>
+	<li><a href="../tag/opiskelu/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">opiskelu</a></li>
+	<li><a href="../tag/palvelin/index.html" class="tagSizeMedium tagSize21" style="font-size: 100%;">palvelin</a></li>
+	<li><a href="../tag/rauta/index.html" class="tagSizeMedium tagSize7" style="font-size: 100%;">rauta</a></li>
+	<li><a href="../tag/vim/index.html" class="tagSizeMedium tagSize18" style="font-size: 100%;">vim</a></li>
+</ul>
+        <p><a href="../tag/index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../rss/index.html?section=mietteet" title="RSS 0.92">RSS</a> / <a href="../atom/index.html?section=mietteet" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- not tag view, it's the main view -->
+
+
+        
+            <h1 class="mainheader">Mietteet</h1>
+        
+
+        <div class="hfeed">
+            <!-- five articles to list here, or only one. It depends. -->
+            <!-- article_listing_own -->
+<div class="blog_entry" >
+    <p class="published">27. toukokuu 2012, 13:12</p>
+    <h3 class="entry-title"><a rel="bookmark" href="577/kesapeleista">
+        Kesäpeleistä
+    </a></h3>
+    <p>Muutamia hyviä pelihetkiä on tässä keväällä koettu. Parhaan pelin sija taitaa siirtyä pois Vice Citystä viimein.</p>
+<p><a rel="bookmark" href="577/kesapeleista">Lue lisää</a></p>
+    
+
+
+<p class="tags smalltags"> 
+<!--
+
+
+
+
+-->
+
+Tageja: <a href="../tag/pelailu/index.html" rel="tag">pelailu</a>
+
+
+</p>
+    <div class="divider"><img src="../images/1.gif" alt="---" width="400" height="1" /></div>
+</div><!-- article_listing_own -->
+<div class="blog_entry" >
+    <p class="published"> 6. toukokuu 2012, 11:36</p>
+    <h3 class="entry-title"><a rel="bookmark" href="576/elokuvista-ja-sarjoista">
+        Elokuvista ja&#160;sarjoista
+    </a></h3>
+    <p>Viihde on arvokas osa jokapäiväistä elämääni. Musiikki virtaa tälläkin hetkellä, ja nautin muista taiteenlajeista säännöllisesti. Fiktiiviset kuvaukset tuovat kaivattua vastapainoa nettisurffailun varsin faktapainotteiselle sisällölle. Fiktio on oiva tapa nollata ilman liuottimia.</p>
+<p><a rel="bookmark" href="576/elokuvista-ja-sarjoista">Lue lisää</a></p>
+    
+
+
+<p class="tags smalltags"> 
+<!--
+
+
+
+
+-->
+
+Tageja: <a href="../tag/elokuvat/index.html" rel="tag">elokuvat</a>, 
+<a href="../tag/televisio/index.html" rel="tag">televisio</a>
+
+
+</p>
+    <div class="divider"><img src="../images/1.gif" alt="---" width="400" height="1" /></div>
+</div><!-- article_listing_own -->
+<div class="blog_entry" >
+    <p class="published">28. huhtikuu 2012, 18:21</p>
+    <h3 class="entry-title"><a rel="bookmark" href="575/vim-kayttotaito-portaina">
+        Vim-käyttötaito&#160;portaina
+    </a></h3>
+    <p>Mieltäni aina piristää nähdä kanssavimistelijä, etenkin työn touhussa. Mutta usein hymy hyytyy tavasta, jolla editoria käsitellään. Nuolinäppäimiä, haasteita kopioinnissa. Ei sovi moittiakaan, koska itsekin aloitin pohjalta ja etenin hienosti kohti pilviä. Sen sijaan ajattelin reflektoida omista kokemuksistani ja näkemyksistäni ja johtaa jonkinlaisen tasoasteikon, joka karakterisoisi joitakin Vim-käytön piirteitä luokkajaoksi.</p>
+<p><a rel="bookmark" href="575/vim-kayttotaito-portaina">Lue lisää</a></p>
+    
+
+
+<p class="tags smalltags"> 
+<!--
+
+
+
+
+-->
+
+Tageja: <a href="../tag/vim/index.html" rel="tag">vim</a>
+
+
+</p>
+    <div class="divider"><img src="../images/1.gif" alt="---" width="400" height="1" /></div>
+</div><!-- article_listing_own -->
+<div class="blog_entry" >
+    <p class="published">24. huhtikuu 2012, 18:40</p>
+    <h3 class="entry-title"><a rel="bookmark" href="574/suklaa-adminin-paras-sokeri">
+        Suklaa, adminin paras&#160;sokeri
+    </a></h3>
+    <p>Kaikenlaisista makeisista ylläpitosuosikkini on suklaa, koska se toimii hyvin kahvin kanssa. Kunhan niitä kahta ei sekoiteta keskenään. Suklaarusinat erityisesti, mutta tyypillisesti se on Fazerin levy paloittain.</p>
+<p><a rel="bookmark" href="574/suklaa-adminin-paras-sokeri">Lue lisää</a></p>
+    
+
+
+<p class="tags smalltags"> 
+<!--
+
+
+
+
+-->
+
+Tageja: <a href="../tag/makeiset/index.html" rel="tag">makeiset</a>
+
+
+</p>
+    <div class="divider"><img src="../images/1.gif" alt="---" width="400" height="1" /></div>
+</div><!-- article_listing_own -->
+<div class="blog_entry" >
+    <p class="published">10. huhtikuu 2012, 17:37</p>
+    <h3 class="entry-title"><a rel="bookmark" href="573/vim-oikolukuhommissa">
+        Vim&#160;oikolukuhommissa
+    </a></h3>
+    <p>Kandintyö on nyt siinä pisteessä, että vain oikoluku on jäljellä. Plus sitten kaikki, mitä se ohjaaja keksii huomauttaa. Oikoluvusta kaikki varmaan tietävätkin, että tympeätä hommaa, se. Auttaisikohan Vim asiassa?</p>
+<p><a rel="bookmark" href="573/vim-oikolukuhommissa">Lue lisää</a></p>
+    
+
+
+<p class="tags smalltags"> 
+<!--
+
+
+
+
+-->
+
+Tageja: <a href="../tag/opiskelut/index.html" rel="tag">opiskelut</a>, 
+<a href="../tag/tietämyksenhallinta/index.html" rel="tag">tietämyksenhallinta</a>, 
+<a href="../tag/vim/index.html" rel="tag">vim</a>
+
+
+</p>
+    <div class="divider"><img src="../images/1.gif" alt="---" width="400" height="1" /></div>
+</div>
+        </div>
+
+ <!-- now, common stuff -->
+
+<!-- txp:older ei toimi kunnolla tagien kanssa. -->
+        <p>
+            <a href="/mietteet/?pg=6">&#171; vanhemmat</a> 
+            <a href="index.html?pg=4">uudemmat &#187;</a>
+        </p>
+
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

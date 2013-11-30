@@ -1,0 +1,404 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <!-- standard -->
+	<title>Mr. P: ZSH syntaksivärityksellä!</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=mietteet" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=mietteet" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="mietteet">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="zsh-syntaksivarityksella#content">Siirry sisältöön</a></li>
+        <li><a href="zsh-syntaksivarityksella#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            &raquo;
+            <a href="../index.html">Mietteet</a>
+            
+                <!--<ul>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/598/blogille-idea">Blogille&#160;idea</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/597/wes-mckinney-python-for-data-analysis-oreilly">Wes McKinney - Python For Data Analysis (O&#39;Reilly)</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/596/org-blogaaminen-vaikeata">Org-blogaaminen&#160;vaikeata</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/595/twitterointia-emacsilla">Twitteröintiä&#160;Emacsilla</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/594/weboodi-aikataulut-orgiin">WebOodi-aikataulut&#160;orgiin</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/592/emacs-has-me">Emacs has&#160;me.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/591/editorien-taistelu-tietamyshallinnassa">Editorien taistelu&#160;tietämyshallinnassa</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/590/think-vimorganizer">Think&#160;VimOrganizer.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/589/think-orgmode">Think&#160;orgmode.</a>
+                </li>
+</ul>-->
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="http://progo.viuhka.fi/kategoria/hifi/">Hifi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/rauta/">Rauta</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/viihde/">Viihde</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../../tag/blogisäätöä/index.html" class="tagSizeMedium tagSize25" style="font-size: 100%;">blogisäätöä</a></li>
+	<li><a href="../../tag/clojure/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">clojure</a></li>
+	<li><a href="../../tag/gentoo/index.html" class="tagSizeLargest tagSize105" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../../tag/ohjelmointi/index.html" class="tagSizeMedium tagSize42" style="font-size: 100%;">ohjelmointi</a></li>
+	<li><a href="../../tag/ostoksia/index.html" class="tagSizeMedium tagSize11" style="font-size: 100%;">ostoksia</a></li>
+	<li><a href="../../tag/pelaaminen/index.html" class="tagSizeMedium tagSize2" style="font-size: 100%;">pelaaminen</a></li>
+	<li><a href="../../tag/python/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">python</a></li>
+	<li><a href="../../tag/vim/index.html" class="tagSizeMedium tagSize34" style="font-size: 100%;">vim</a></li>
+</ul>
+        <p><a href="../../tag/index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=mietteet" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=mietteet" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- not tag view, it's the main view -->
+
+
+        
+
+        <div class="hfeed">
+            <!-- five articles to list here, or only one. It depends. -->
+            <!-- default form -->
+
+<p class="published"> 9. maaliskuu 2011, 19:33</p>
+<h1 class="entry-title"><a rel="bookmark" href="zsh-syntaksivarityksella">ZSH&#160;syntaksivärityksellä!</a></h1>
+
+
+<div class="entry-content">
+	<p>Tajusin eräs kaunis päivä, että <span class="caps">ZSH</span> voisi oman tekstinsyöttökoneensa ansiosta tukea myös reaaliaikaista syntaksivärjäystä. Komentokehote ottaa koodikieltä vastaan, joten miksi meidän pitäisi elää ilman värjäyksiä? Merkkijonojen korostus on jo osoittanut itsensä arvokkaaksi voimavaraksi.</p>
+
+	<p>Työkalun nimi on <a href="https://github.com/nicoulaj/zsh-syntax-highlighting">zsh-syntax-highlighting</a> ja se ei juuri tarvitse asennuksia. Värit ovat oletuksena melko rumat ainakin Xtermissäni, joten on aika siirtyä miettimään jotain sopivia värösiä. Värien numerokoodit voi onneksi zsh:n koneistoon syöttää suoraan numeroarvoina, joten koko 8-bittinen paletti on mahdollisesti helpossa käytössä! Karttana on Ian Wardin kirjoittama ja minun kustomoima kartasto. Huomatkaa, että värit vaihtelevat termeittäin, joten kannattaa ajella <a href="http://excess.org/article/2007/10/xterm-256-colour-chart-20/">oma versio</a>. Kuva on näytteen vuoksi.</p>
+
+	<p><img src="../../kuvat/xterm_colour_table.png" alt="" /></p>
+
+	<h2>Tweakkailuun</h2>
+
+	<p>Alkuperäiset värit ovat tämännäköistä:</p>
+
+	<p><img src="../../kuvat/zsh_orig_colors.png" alt="" /></p>
+
+	<p>Eli aika karmeata. Vielä tuollainen tumma sininen wildcardina. Siinä voisi nopeasti katsoen jäädä näkemättä ylimääräinen asteriski fataalissa <code>rm</code>-lausekkeessa. Väriä voi lennosta vaihtaa, esimerkin <em>globbing</em> -patterneja esimerkiksi seuraavasti:</p>
+
+<pre class="bash">ZSH_HIGHLIGHT_STYLES[globbing]=&quot;fg=214&quot;
+</pre>
+
+	<p>asettaisi kivan oranssin kaikelle sellaiselle, mikä kattaa useita tiedostoja. Väritysskriptin lähdekoodista näkeekin sitten, mitä kaikkea voi säädellä. Listaan ne:</p>
+
+	<table>
+		<tr>
+			<td> <strong>Väriryhmä</strong> </td>
+			<td> <strong>Oletustyyli</strong> </td>
+		</tr>
+		<tr>
+			<td> default </td>
+			<td>&#8216;none&#8217;</td>
+		</tr>
+		<tr>
+			<td> unknown-token </td>
+			<td>&#8216;fg=red,bold&#8217;</td>
+		</tr>
+		<tr>
+			<td> reserved-word </td>
+			<td>&#8216;fg=yellow&#8217;</td>
+		</tr>
+		<tr>
+			<td> alias </td>
+			<td>&#8216;fg=green&#8217;</td>
+		</tr>
+		<tr>
+			<td> builtin </td>
+			<td>&#8216;fg=green&#8217;</td>
+		</tr>
+		<tr>
+			<td> function </td>
+			<td>&#8216;fg=green&#8217;</td>
+		</tr>
+		<tr>
+			<td> command </td>
+			<td>&#8216;fg=green&#8217;</td>
+		</tr>
+		<tr>
+			<td> hashed-command </td>
+			<td>&#8216;fg=green&#8217;</td>
+		</tr>
+		<tr>
+			<td> path </td>
+			<td>&#8216;underline&#8217;</td>
+		</tr>
+		<tr>
+			<td> globbing </td>
+			<td>&#8216;fg=blue&#8217;</td>
+		</tr>
+		<tr>
+			<td> history-expansion </td>
+			<td>&#8216;fg=blue&#8217;</td>
+		</tr>
+		<tr>
+			<td> single-hyphen-option </td>
+			<td>&#8216;none&#8217;</td>
+		</tr>
+		<tr>
+			<td> double-hyphen-option </td>
+			<td>&#8216;none&#8217;</td>
+		</tr>
+		<tr>
+			<td> back-quoted-argument </td>
+			<td>&#8216;none&#8217;</td>
+		</tr>
+		<tr>
+			<td> single-quoted-argument </td>
+			<td>&#8216;fg=yellow&#8217;</td>
+		</tr>
+		<tr>
+			<td> double-quoted-argument </td>
+			<td>&#8216;fg=yellow&#8217;</td>
+		</tr>
+		<tr>
+			<td> dollar-double-quoted-argument </td>
+			<td>&#8216;fg=cyan&#8217;</td>
+		</tr>
+		<tr>
+			<td> back-double-quoted-argument </td>
+			<td>&#8216;fg=cyan&#8217;</td>
+		</tr>
+		<tr>
+			<td> assign </td>
+			<td>&#8216;none&#8217;</td>
+		</tr>
+	</table>
+
+	<p>Useimmat kohdat lienevät melko yksiselitteisiä. Kivasti erotellaan aliaksien, funktioiden ja suoritettavien ohjelmien välillä, joten saa komentoriville eri värisävyin kivaa eloisuutta.</p>
+
+	<p>Useimmat värit helppo hakea, mutta tiedostopolkujen värjäys askarruttaa. Oletus on melko kamala, alleviivaus. Mutta mitä siihen osaa muutakaan pistää? Toistaiseksi poistan siitä tyylit, joten se käyttäytyy kuten ennenkin: ei mitään värejä.</p>
+
+	<p>Vielä nuo sulut, jotka lasketaan toisaalla. Oletus on tummahko sininen tummaa taustaa varten, ei hyvä. Mutta sentään skripti osaa sisäkkäisiä sulkuja! Erinomaista. Sulkuja varten määrittelee vain listan eri värejä:</p>
+
+<pre class="bash">ZSH_HIGHLIGHT_MATCHING_BRACKETS_STYLES=(
+    &#39;fg=cyan,bold&#39;
+    &#39;fg=cyan&#39;
+    &#39;fg=green&#39;
+) 
+</pre>
+
+	<p>Esimerkiksi ylläoleva määrittelee kolme eriväristä sulkua, joita jaksotellaan, jos joku oikeasti kirjoittaa vielä enemmän sisäkkäisiä lausekkeita.</p>
+
+	<p>Tulokset ovat toistaiseksi vielä hakemassa muotoaan:</p>
+
+	<p><img src="../../kuvat/zsh_new_colourings.png" alt="" /></p>
+
+	<p>Kuvassa kokeilen toisenlaisia lainauksia, vaikka määrä on valita vain yksi voittaja. Taustavalaistus auttaa hahmottamaan merkkijonojen reunoja, jos vaikka sattuu sellaisia olemaan useita lausekkeessa. Koko sininen juttu oli vain kokeilu. Yleensä olen valinnut keltaisen ja oranssin sävyjä. Nyt niihin voisi yhdistää vihreätä; sininen on yksinkertaisesti värikartankin perusteella hankalasti sotkettavissa muiden värien kanssa. No, pinkki olisi, mutta tulee liian voimakasta kontrastia.</p>
+
+	<p>Mukavaa, että tämä toimii hienosti.</p>
+</div>
+
+<p class="tags"> 
+
+
+Tageja: <a href="../../tag/gentoo/index.html" rel="tag">gentoo</a>, 
+<a href="../../tag/zsh/index.html" rel="tag">zsh</a>
+
+
+</p>
+
+
+
+<div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+
+        </div>
+
+ <!-- now, common stuff -->
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+        <p><a rel="prev" href="../516/levytilahuolia" title="Levytilahuolia">&#171; Levytilahuolia</a> 
+           &mdash; <a rel="next" href="../518/henkilokohtaiset-wikit" title="Henkilökohtaiset wikit">Henkilökohtaiset wikit &#187;</a>
+        </p>
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+        <h2>Aiheen vierestä</h2>
+        <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../587/tehokkaat-kayttoliittymat-vaivatta">Tehokkaat käyttöliittymät&#160;vaivatta</a></span> &#183; <span class="published">2012-08-16</span>
+<br /><span class="smallexcerpt">Ohjelmoijan onni on elää komentorivillä. Tehokkaiden käyttöliittymien rustaaminen on varsin nopeata, kunhan luottaa siihen, että suurta suosiota tuotokset eivät tule...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../571/tv-saato-on-nyt-valmis">TV-säätö on nyt&#160;valmis</a></span> &#183; <span class="published">2012-03-23</span>
+<br /><span class="smallexcerpt">No niin. Uuden NVidia-kortin ansiosta TV-episodi on käsitelty voitokkaasti. Jos rahalla asiasta selviämistä ei lasketa huijaamiseksi.
+
+	Oppirahoja tuli taas tosiaankin hassattua....</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../568/avoimet-suljetut-ja-se-vastapuoli">Avoimet, suljetut ja se&#160;vastapuoli</a></span> &#183; <span class="published">2012-03-11</span>
+<br /><span class="smallexcerpt">Radeonien kanssa on todellakin painittavaa. Kompromisseista on jotain valittava kontolleen, jos muut sitten sujuvatkin.
+
+	fglrx &#8212; se suljettu
+
+	Kaikki työpöytäkäyttö sujuu erihyvin....</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../567/tv-monitorit-ja-gentoo">TV, Monitorit ja&#160;Gentoo</a></span> &#183; <span class="published">2012-03-09</span>
+<br /><span class="smallexcerpt">Pari viikkoa sitten sain lahjaksi taulu-TV:n (Philipsin 42FPL3606, eli 42 tuumaa) ja totta kai se pitää saada kiinni tietokoneeseen pikselitarkalla...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../560/informaation-jarjestely-tietamyksenhallinta">Informaation järjestely:&#160;tietämyksenhallinta</a></span> &#183; <span class="published">2011-12-10</span>
+<br /><span class="smallexcerpt">Tietoa, eli kaikenlaista pientä tietämystä, on kaikkialla. Ihminen oppii kyllä paljon, ja erityisesti kun on motivoitunut omaksumaan. Mutta edes kaikkein...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../557/palvelin-tulossa-sittenkin">Palvelin tulossa&#160;sittenkin</a></span> &#183; <span class="published">2011-11-10</span>
+<br /><span class="smallexcerpt">Vaikka taannoin järkeilin palvelimen ostoa vastaan aika onnistunein argumentein, niin nyt sellaisen olen kuitenkin hommannut. Käytetystä raudasta kootan murossa jonkinlaisen...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../555/virtamittailuja">Virtamittailuja</a></span> &#183; <span class="published">2011-10-20</span>
+<br /><span class="smallexcerpt">Olen muuttamassa uuteen asuntoon Outokummussa, ja nyt pitää katsella muiden toimien ohella myös sähkönkulutusta uudella silmällä. Erityisesti mieltä polttelee kysymys:...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../554/tulipa-netbook-ostettua">Tulipa netbook&#160;ostettua</a></span> &#183; <span class="published">2011-10-01</span>
+<br /><span class="smallexcerpt">Elitegroupin G10IL -mallinen miniläppäriksi luokiteltavissa netbook tuli ostettua. Saamme nähdä, miten tässä vielä käy.
+
+	Tämä on tavallinen nykynetbook, jossa on 10-tuumainen...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../553/videoeditoinnit-linuxissa">Videoeditoinnit&#160;linuxissa</a></span> &#183; <span class="published">2011-09-24</span>
+<br /><span class="smallexcerpt">Huoh. Täytyy sanoa, että en aivan mieluiten valitsisi linux-ohjelmia isompien projektien editointiin. Nykytarjonta on aika heikkoa, edelleenkin. Vaikka Cinelerra (tai...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../550/aakkoset-hieman-uusiin-paikkoihin">Ääkköset hieman uusiin&#160;paikkoihin</a></span> &#183; <span class="published">2011-09-09</span>
+<br /><span class="smallexcerpt">Us-alt-intl on muuten ihan hyvä, mutta ö-kirjain on huonossa paikassa näppäinfysiologian kannalta.  Nytpä muokkasin vähän tuota leiskaa, ja ääkköset...</span>
+</li>
+
+</ul>
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

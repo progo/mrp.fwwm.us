@@ -1,0 +1,234 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <!-- standard -->
+	<title>Mr. P: Ledgeriä jo puoli vuotta!</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=mietteet" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=mietteet" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="mietteet">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="ledgeria-jo-puoli-vuotta#content">Siirry sisältöön</a></li>
+        <li><a href="ledgeria-jo-puoli-vuotta#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            &raquo;
+            <a href="../index.html">Mietteet</a>
+            
+                <!--<ul>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/598/blogille-idea">Blogille&#160;idea</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/597/wes-mckinney-python-for-data-analysis-oreilly">Wes McKinney - Python For Data Analysis (O&#39;Reilly)</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/596/org-blogaaminen-vaikeata">Org-blogaaminen&#160;vaikeata</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/595/twitterointia-emacsilla">Twitteröintiä&#160;Emacsilla</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/594/weboodi-aikataulut-orgiin">WebOodi-aikataulut&#160;orgiin</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/592/emacs-has-me">Emacs has&#160;me.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/591/editorien-taistelu-tietamyshallinnassa">Editorien taistelu&#160;tietämyshallinnassa</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/590/think-vimorganizer">Think&#160;VimOrganizer.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/589/think-orgmode">Think&#160;orgmode.</a>
+                </li>
+</ul>-->
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="http://progo.viuhka.fi/kategoria/hifi/">Hifi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/rauta/">Rauta</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/viihde/">Viihde</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../../tag/blogisäätöä/index.html" class="tagSizeMedium tagSize15" style="font-size: 100%;">blogisäätöä</a></li>
+	<li><a href="../../tag/gentoo/index.html" class="tagSizeLargest tagSize95" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../../tag/hifi/index.html" class="tagSizeMedium tagSize21" style="font-size: 100%;">hifi</a></li>
+	<li><a href="../../tag/opiskelu/index.html" class="tagSizeMedium tagSize7" style="font-size: 100%;">opiskelu</a></li>
+	<li><a href="../../tag/ostoksia/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">ostoksia</a></li>
+	<li><a href="../../tag/palvelin/index.html" class="tagSizeMedium tagSize27" style="font-size: 100%;">palvelin</a></li>
+	<li><a href="../../tag/rauta/index.html" class="tagSizeMedium tagSize13" style="font-size: 100%;">rauta</a></li>
+	<li><a href="../../tag/vim/index.html" class="tagSizeMedium tagSize24" style="font-size: 100%;">vim</a></li>
+</ul>
+        <p><a href="../../tag/index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=mietteet" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=mietteet" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- not tag view, it's the main view -->
+
+
+        
+
+        <div class="hfeed">
+            <!-- five articles to list here, or only one. It depends. -->
+            <!-- default form -->
+
+<p class="published">15. tammikuu 2012, 20:46</p>
+<h1 class="entry-title"><a rel="bookmark" href="ledgeria-jo-puoli-vuotta">Ledgeriä jo puoli&#160;vuotta!</a></h1>
+
+
+<div class="entry-content">
+	<p>Olen ollut aikeissa kirjoitella ja ylistää lisää <a href="http://ledger-cli.org/">Ledgerin</a>, tuon Unix-miehen kirjanpidon, mahtavuutta. Nyt huomasin lisäksi, että olen käytellyt tätä hienoa ohjelmaa jo puolisen vuotta! Niin se aika rientää hyvien työkalujen kanssa.</p>
+
+	<p>Joskus vuosia sitten pohdiskelin GnuCashin käyttöönottoa ja siitä ei oikein tullut mitään. Puolisen vuotta sitten tilikirjanpidon käsite nousi jälleen pinnalle, ja tutkin GnuCashia hieman syvällisemmin. Tällä kertaa tiesinkin, mitä vaatii, että pystyn oikeasti aloittamaan jonkun tämänkaltaisen käyttämisen päivittäisesti: hyvää komentorivitukea ja skriptattavuutta. Ja tutkiskelujeni aikana löysin täydellisen vaihtoehdon: Ledgerin.</p>
+
+	<p>Ohjelman käytön rytmi on mennyt jo vereen, eikä se aiheuta mitään probleemaa. Käyn kaupassa tai maksan jotain verkkopankin kautta. Jos maksan kortilla, niin otan kuitit talteen. Kotia tultuani kerään lompakkooni kertyneet kuitit pöydälle ja naputtelen ne sisään vimillä. Olen kotihakemistooni pyhittänyt sitä varten tiedoston nimeltä <code>tilikirja</code>. Käyttöä sujuvoittamaan olen myös määritellyt <code>LEDGER_FILE</code>-nimisen ympäristömuuttujan osoittamaan kyseiseen tilikirja-tiedostoon.</p>
+
+	<p>Ledgerin kehitysversion mukana on korjattuna kaikki isommat bugit pois (UTF8 ja muu sellainen). Lisäksi mukana tulee Emacs- ja Vim-pluginit sujuvaa editoimista varten. En olekaan edes kaivannut näiden kuukausien aikana mitään valmispohjia tai bash-skriptejä, vaikka niitä voisi erittäin potentiaalisesti kehitellä. Kuukausien toteutuneita budjetteja on helppo tutkiskella: <code>ledger -b &#39;this month&#39; balance</code> tekee listauksen tileistä, joissa on muutoksia tämän kalenterikuukauden aikana. Eli vakiintuneen kirjanpitomerkinnän ansiosta näen, paljonko on mennyt ruokaan, paljonko bussimatkusteluun tai vaikkapa ostamieni kirjojen tai elektroniikan määrän. Jos luku on punaisella, olen myynyt siinä kuussa enemmän kuin ostanut. Rahapeleihin olen upottanut näköjään 4,60 euroa ja voittoja on tullut yhdellä eurolla. Visalla on vastattavaa 4,61 euron edestä, ja sama luku miellyttävästi näkyy edessäolevasta laskustanikin. Kaikki on siis kirjanpidossani kunnossa.</p>
+
+	<p>Pankkitilit käyn katsastamassa noin viikoittain, että ne varmasti vastaavat kirjanpitoani. Usein vastaavat; joskus eivät. Sitten katson, mistä kiikastaa ja lisään tarvittavat merkinnät kirjanpitooni. Ledger pitää huolen kirjanpidon kahdenkertaisuudesta, eli mitään ei voi mennä sotkemaan huomaamattaan. Lisäksi kirjanpidon tekstimuotoisuus on valtava plussa, kuten Unix-filosofit tietävätkin. Olen voinut refaktoroida kirjanpitoa etsi-korvaa -toimintojen avulla moneen otteeseen. Ehkä GnuCash tukee sitä, ehkä ei. Jotkut tilit ovat olleet yksinkertaisesti väärin, ja olen sitten jälkikäteen yhdistellyt asioita. Ledgerin kannalta kaikki on ok, kunhan syntaksi on kunnossa. Tiedostoihin voi lisätä kommentteja ja muotoilukin on melko vapaata. Kaikki Vim-skriptaus ja miksei vaikka <code>sed</code>-purkkailukin onnistuu triviaalisti. Voisin rakennella vaikka minkälaista kivaa.</p>
+
+	<p>Graafejakin saa mukanatulevalla skriptillä. Niitä en ole kuitenkaan saanut toimimaan syystä tai toisesta. Liian kryptinen kai minulle. Ledgerissä on valtavasti potentiaalia, josta en osaa unelmoidakaan. Manuaalit ovat kattavat, mutta ehkä hieman pohjatietoa tileistä tarvitaan, sekä paljon omaa kokeilumieltä. Kaikkea ei käydä manuaaleissa läpi tai se on vähän hujanhajaista. Kuitenkin loistava ohjelma kaikin puolin.</p>
+</div>
+
+<p class="tags"> 
+
+
+Tageja: <a href="../../tag/kirjanpito/index.html" rel="tag">kirjanpito</a>
+
+
+</p>
+
+
+
+<div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+
+        </div>
+
+ <!-- now, common stuff -->
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+        <p><a rel="prev" href="../562/pelikonsoli-ostossa-nyt" title="Pelikonsoli ostossa nyt">&#171; Pelikonsoli ostossa nyt</a> 
+           &mdash; <a rel="next" href="../564/ranskalaisten-viivojen-parsimista-clojurella" title="Ranskalaisten viivojen parsimista Clojurella">Ranskalaisten viivojen parsimista Clojurella &#187;</a>
+        </p>
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+        <h2>Aiheen vierestä</h2>
+        <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../536/ledger-tosimiehen-kirjanpito">Ledger -- tosimiehen&#160;kirjanpito</a></span> &#183; <span class="published">2011-07-14</span>
+<br /><span class="smallexcerpt">Ah. Aiemmin päivällä kipinäni syttyi tuonne kirjanpitojen ihmeelliseen maailmaan. Ja silmäni osui tuohon Ledgeriin, josta kerroinkin aiemmin päivällä. En saanutkaan...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../535/kirjanpito-on-kylla-niin-vaikeata">Kirjanpito on kyllä niin&#160;vaikeata</a></span> &#183; <span class="published">2011-07-14</span>
+<br /><span class="smallexcerpt">Gah. Silloin tällöin sitä pysähtyy miettimään, että olisipa se mukavaa, jos opettelisi tuon GnuCashin ja raha-asiat maagisesti selviäisivät sillä myöten....</span>
+</li>
+
+</ul>
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

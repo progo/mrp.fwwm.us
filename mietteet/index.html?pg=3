@@ -1,0 +1,317 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <!-- standard -->
+	<title>Mr. P: Mietteet</title>
+
+
+	<link rel="home" href="../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../atom/index.html?section=mietteet" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../rss/index.html?section=mietteet" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../rpc/index.html" />
+</head>
+
+<body id="mietteet">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="index.html?pg=3#content">Siirry sisältöön</a></li>
+        <li><a href="index.html?pg=3#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            &raquo;
+            <a href="index.html">Mietteet</a>
+            
+                <!--<ul>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/598/blogille-idea">Blogille&#160;idea</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/597/wes-mckinney-python-for-data-analysis-oreilly">Wes McKinney - Python For Data Analysis (O&#39;Reilly)</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/596/org-blogaaminen-vaikeata">Org-blogaaminen&#160;vaikeata</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/595/twitterointia-emacsilla">Twitteröintiä&#160;Emacsilla</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/594/weboodi-aikataulut-orgiin">WebOodi-aikataulut&#160;orgiin</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/592/emacs-has-me">Emacs has&#160;me.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/591/editorien-taistelu-tietamyshallinnassa">Editorien taistelu&#160;tietämyshallinnassa</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/590/think-vimorganizer">Think&#160;VimOrganizer.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/589/think-orgmode">Think&#160;orgmode.</a>
+                </li>
+</ul>-->
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="/kategoria/hifi/">Hifi</a></li>
+	<li><a href="/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="/kategoria/rauta/">Rauta</a></li>
+	<li><a href="/kategoria/viihde/">Viihde</a></li>
+	<li><a href="/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../tag/blogisäätöä/index.html" class="tagSizeMedium tagSize15" style="font-size: 100%;">blogisäätöä</a></li>
+	<li><a href="../tag/gentoo/index.html" class="tagSizeLargest tagSize95" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../tag/hifi/index.html" class="tagSizeMedium tagSize21" style="font-size: 100%;">hifi</a></li>
+	<li><a href="../tag/musiikki/index.html" class="tagSizeMedium tagSize13" style="font-size: 100%;">musiikki</a></li>
+	<li><a href="../tag/ohjelmointi/index.html" class="tagSizeMedium tagSize32" style="font-size: 100%;">ohjelmointi</a></li>
+	<li><a href="../tag/ostoksia/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">ostoksia</a></li>
+	<li><a href="../tag/rauta/index.html" class="tagSizeMedium tagSize13" style="font-size: 100%;">rauta</a></li>
+	<li><a href="../tag/vim/index.html" class="tagSizeMedium tagSize24" style="font-size: 100%;">vim</a></li>
+</ul>
+        <p><a href="../tag/index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../rss/index.html?section=mietteet" title="RSS 0.92">RSS</a> / <a href="../atom/index.html?section=mietteet" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- not tag view, it's the main view -->
+
+
+        
+            <h1 class="mainheader">Mietteet</h1>
+        
+
+        <div class="hfeed">
+            <!-- five articles to list here, or only one. It depends. -->
+            <!-- article_listing_own -->
+<div class="blog_entry" >
+    <p class="published">21. elokuu 2012, 15:49</p>
+    <h3 class="entry-title"><a rel="bookmark" href="588/think">
+        Think.
+    </a></h3>
+    <p>Hyvät ideat menevät usein hukkaan joko hajaantumisen tai unohtamisen merkeissä. Lyhyilläkin ajatuksilla on kovasti arvoa, jos useampi sellainen muodostaakin fiksuja kokonaisuuksia.</p>
+<p><a rel="bookmark" href="588/think">Lue lisää</a></p>
+    
+
+
+<p class="tags smalltags"> 
+<!--
+
+
+
+
+-->
+
+Tageja: <a href="../tag/koodailu/index.html" rel="tag">koodailu</a>, 
+<a href="../tag/tietämyksenhallinta/index.html" rel="tag">tietämyksenhallinta</a>
+
+
+</p>
+    <div class="divider"><img src="../images/1.gif" alt="---" width="400" height="1" /></div>
+</div><!-- article_listing_own -->
+<div class="blog_entry" >
+    <p class="published">16. elokuu 2012, 12:00</p>
+    <h3 class="entry-title"><a rel="bookmark" href="587/tehokkaat-kayttoliittymat-vaivatta">
+        Tehokkaat käyttöliittymät&#160;vaivatta
+    </a></h3>
+    <p>Ohjelmoijan onni on elää komentorivillä. Tehokkaiden käyttöliittymien rustaaminen on varsin nopeata, kunhan luottaa siihen, että suurta suosiota tuotokset eivät tule nauttimaan. Olen saattanut tarinoida samasta aiheesta aiemminkin, mutta kertaus tekee hyvää.</p>
+<p><a rel="bookmark" href="587/tehokkaat-kayttoliittymat-vaivatta">Lue lisää</a></p>
+    
+
+
+<p class="tags smalltags"> 
+<!--
+
+
+
+
+-->
+
+Tageja: <a href="../tag/editorit/index.html" rel="tag">editorit</a>, 
+<a href="../tag/emacs/index.html" rel="tag">emacs</a>, 
+<a href="../tag/gentoo/index.html" rel="tag">gentoo</a>, 
+<a href="../tag/ohjelmointi/index.html" rel="tag">ohjelmointi</a>, 
+<a href="../tag/vim/index.html" rel="tag">vim</a>
+
+
+</p>
+    <div class="divider"><img src="../images/1.gif" alt="---" width="400" height="1" /></div>
+</div><!-- article_listing_own -->
+<div class="blog_entry" >
+    <p class="published">14. elokuu 2012, 14:52</p>
+    <h3 class="entry-title"><a rel="bookmark" href="586/puolitoista-vuotta-twitterissa">
+        Puolitoista vuotta&#160;Twitterissä
+    </a></h3>
+    <p>Tänään kävelyllä tulin pohtineeksi hieman Twitterissä vietettyjä minuutteja. Suureksi sosiaaliseksi mediaksi Twitter on edelleen se paras kaikista, koska se ei edellytä suurta läsnäoloa. Mutta kovin turhaa kaikki se on kuitenkin.</p>
+<p><a rel="bookmark" href="586/puolitoista-vuotta-twitterissa">Lue lisää</a></p>
+    
+
+
+<p class="tags smalltags"> 
+<!--
+
+
+
+
+-->
+
+Tageja: <a href="../tag/twitter/index.html" rel="tag">twitter</a>
+
+
+</p>
+    <div class="divider"><img src="../images/1.gif" alt="---" width="400" height="1" /></div>
+</div><!-- article_listing_own -->
+<div class="blog_entry" >
+    <p class="published">25. heinäkuu 2012, 13:27</p>
+    <h3 class="entry-title"><a rel="bookmark" href="584/pythonin-vastaisku-lispeille-ipython-ja-vim-ipython">
+        Pythonin vastaisku lispeille: IPython ja vim-ipython
+    </a></h3>
+    <p>Tai &#8220;Pythonin uusi toivo&#8221; tai &#8220;Pythonin paluu&#8221;. Mistä on kyse? Pythonin tulkin me kaikki kai tiedämme: kaikki siinä periaatteessa on, mutta ei sillä mitään kunnollista rakentele. Koska se on niin rajoittunut. Sillä voi tehdä pikaiset kokeilut, mutta eipä paljoa muuta. Nyt ilmeisesti asian on moni python-koodailija aina eksperttejäkin myöten huomannut, ja on kehitetty aikojen saatossa paranneltu tulkki- ja kehitysympäristö <a href="http://ipython.org/">IPython</a>.</p>
+<p><a rel="bookmark" href="584/pythonin-vastaisku-lispeille-ipython-ja-vim-ipython">Lue lisää</a></p>
+    
+
+
+<p class="tags smalltags"> 
+<!--
+
+
+
+
+-->
+
+Tageja: <a href="../tag/ohjelmointi/index.html" rel="tag">ohjelmointi</a>, 
+<a href="../tag/python/index.html" rel="tag">python</a>, 
+<a href="../tag/vim/index.html" rel="tag">vim</a>
+
+
+</p>
+    <div class="divider"><img src="../images/1.gif" alt="---" width="400" height="1" /></div>
+</div><!-- article_listing_own -->
+<div class="blog_entry" >
+    <p class="published">20. heinäkuu 2012, 19:03</p>
+    <h3 class="entry-title"><a rel="bookmark" href="583/tou-hum-fem-neu-ascended">
+        Tou-Hum-Fem-Neu&#160;ascended
+    </a></h3>
+    <p>Pitkästä aikaa Nethackia, ja sain turistini turvallisesti yläilmoihin. Koska kuusi-palvelimeni alla toiminut nethack-alasivusto on kuopattu jonnekin, kirjoitan vaihtelun vuoksi pienen <acronym title="Yet Another Ascension Post"><span class="caps">YAAP</span></acronym>-viestin tänne blogiini.</p>
+<p><a rel="bookmark" href="583/tou-hum-fem-neu-ascended">Lue lisää</a></p>
+    
+
+
+<p class="tags smalltags"> 
+<!--
+
+
+
+
+-->
+
+Tageja: <a href="../tag/nethack/index.html" rel="tag">nethack</a>, 
+<a href="../tag/pelailut/index.html" rel="tag">pelailut</a>
+
+
+</p>
+    <div class="divider"><img src="../images/1.gif" alt="---" width="400" height="1" /></div>
+</div>
+        </div>
+
+ <!-- now, common stuff -->
+
+<!-- txp:older ei toimi kunnolla tagien kanssa. -->
+        <p>
+            <a href="index.html?pg=4">&#171; vanhemmat</a> 
+            <a href="index.html?pg=2">uudemmat &#187;</a>
+        </p>
+
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

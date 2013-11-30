@@ -1,0 +1,307 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <!-- standard -->
+	<title>Mr. P: DVD-Audio toimii Linuxilla</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=mietteet" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=mietteet" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="mietteet">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="dvd-audio-toimii-linuxilla#content">Siirry sisältöön</a></li>
+        <li><a href="dvd-audio-toimii-linuxilla#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            &raquo;
+            <a href="../index.html">Mietteet</a>
+            
+                <!--<ul>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/598/blogille-idea">Blogille&#160;idea</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/597/wes-mckinney-python-for-data-analysis-oreilly">Wes McKinney - Python For Data Analysis (O&#39;Reilly)</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/596/org-blogaaminen-vaikeata">Org-blogaaminen&#160;vaikeata</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/595/twitterointia-emacsilla">Twitteröintiä&#160;Emacsilla</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/594/weboodi-aikataulut-orgiin">WebOodi-aikataulut&#160;orgiin</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/592/emacs-has-me">Emacs has&#160;me.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/591/editorien-taistelu-tietamyshallinnassa">Editorien taistelu&#160;tietämyshallinnassa</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/590/think-vimorganizer">Think&#160;VimOrganizer.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/589/think-orgmode">Think&#160;orgmode.</a>
+                </li>
+</ul>-->
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="http://progo.viuhka.fi/kategoria/hifi/">Hifi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/rauta/">Rauta</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/viihde/">Viihde</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../../tag/blogisäätöä/index.html" class="tagSizeMedium tagSize25" style="font-size: 100%;">blogisäätöä</a></li>
+	<li><a href="../../tag/gentoo/index.html" class="tagSizeLargest tagSize105" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../../tag/hifi/index.html" class="tagSizeMedium tagSize31" style="font-size: 100%;">hifi</a></li>
+	<li><a href="../../tag/ohjelmointi/index.html" class="tagSizeMedium tagSize42" style="font-size: 100%;">ohjelmointi</a></li>
+	<li><a href="../../tag/opiskelu/index.html" class="tagSizeMedium tagSize17" style="font-size: 100%;">opiskelu</a></li>
+	<li><a href="../../tag/palvelin/index.html" class="tagSizeMedium tagSize37" style="font-size: 100%;">palvelin</a></li>
+	<li><a href="../../tag/python/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">python</a></li>
+	<li><a href="../../tag/rauta/index.html" class="tagSizeMedium tagSize23" style="font-size: 100%;">rauta</a></li>
+</ul>
+        <p><a href="../../tag/index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=mietteet" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=mietteet" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- not tag view, it's the main view -->
+
+
+        
+
+        <div class="hfeed">
+            <!-- five articles to list here, or only one. It depends. -->
+            <!-- default form -->
+
+<p class="published"> 4. elokuu 2009, 19:07</p>
+<h1 class="entry-title"><a rel="bookmark" href="dvd-audio-toimii-linuxilla">DVD-Audio toimii&#160;Linuxilla</a></h1>
+
+
+<div class="entry-content">
+<p>Hitto soikoon. Heti kun 24-bittinen soitto alkoi taas toimia, ryhdyin toimiin ja nyt se on totta: olen ripannut onnistuneesti kuusikanavaääntä DVD-Audiolevyltä, ja se on pakattu flac-tiedostoksi. Tällä hetkellä soitan ripattua kappalettani, Tchaikovskyn 1812 Overtuuria.</p>
+<p><!--more-->Tämä on käsittämättömän hieno homma! Monella tapaa&#8230; Tässä syötettä:</p>
+<pre>progo@pihlaja ~/temp/DVDA_extraction/output $ ls
+test.flac  test - Log.txt  track-01-01[1]-01-[Lf-Rf-Ls-Rs-C-LFE]-24-88200.mlp
+progo@pihlaja ~/temp/DVDA_extraction/output $ audacity test.flac
+progo@pihlaja ~/temp/DVDA_extraction/output $ mplayer test.flac
+MPlayer 29040-4.1.2 (C) 2000-2009 MPlayer Team
+
+Playing test.flac.
+Audio only file format detected.
+==========================================================================
+Opening audio decoder: [ffmpeg] FFmpeg/libavcodec audio decoders
+<span style="color: #ffff99;">AUDIO: 88200 Hz, 6 ch, s32le, 5079.7 kbit/30.00% (ratio: 634958-&gt;2116800)</span>
+Selected audio codec: [ffflac] afm: ffmpeg (FFmpeg FLAC audio)
+==========================================================================
+AO: [alsa] 88200Hz 6ch s32le (4 bytes per sample)
+Video: no video
+Starting playback...</pre>
+<p>Hailaittasin merkitsevän rivin teille. Tämä on jännää, koska kaikki toimii kuin suoraan. Ehkä vähän oudoksuttaa tapa, jolla mplayer soittaa useita kanavia (luultavasti karsii takakanavat pois, välillä on epäilyttävän hiljaista). Kuitenkin ääni on hifiä parhaimmillaan. Seuraavaksi miettimään, kuinka toteutan LOTR-soundtrackien rippaamiset.</p>
+<p>Niin, kuinkas tämä nyt sitten tapahtuikaan? No minäpä kerron. Doom9-foorumit käyttöön ja pienen haun jälkeen tuli kourallinen ketjuja esille, joista viimeisin oli lupaava: "<a href="http://forum.doom9.org/showthread.php?t=145251">DVD-Audio to flac</a>". Se paljastui tutoriaaliksi, ja selkeäksi sellaiseksi. Hyvältä näyttää!</p>
+<p>Tämänhetkisellä wine-versiolla (1.1.26) molemmat tarvittavista rippausohjelmista käynnistyivät ja toimivat moitteettomasti. Käyn lyhyen summauksen tähän siltä varalta, että linkki ei enää päde jossain vaiheessa:</p>
+<ol>
+<li>DVDAudio Explorerilla ajetaan kiekolta halutut raidat mlp-tiedostoiksi. Extract-nappulan kautta avautuvassa ikkunassa valitaan ruksi kohtaan "ignore stream encryption" ja siirretään tavara kovalevylle.</li>
+<li>Sitten tämä mlp-tiedosto yksinkertaisesti ajetaan eac3to-ohjelman lävitse. Ohjelmalle annetaan parametrejä niukanlaisesti tavallisessa käännösoperaatiossa: syntaksi menee näin: eac3to in.mlp out.flac</li>
+<li>Enjoy.</li>
+</ol>
+<p>Minun pitää itse henkkoht vielä tässä vaiheessa löytää toimiva keino downmiksata kuusi kanavaa kahteen ilman vakavaa klippautumista. Audacityllä onnistunee.</p>
+</div>
+
+<p class="tags"> 
+
+
+Tageja: <a href="../../tag/gentoo/index.html" rel="tag">gentoo</a>, 
+<a href="../../tag/hifi/index.html" rel="tag">hifi</a>
+
+
+</p>
+
+
+
+<div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+
+        </div>
+
+ <!-- now, common stuff -->
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+        <p><a rel="prev" href="../37/varsinainen-24-bittinen-ihme" title="Varsinainen 24-bittinen ihme">&#171; Varsinainen 24-bittinen ihme</a> 
+           &mdash; <a rel="next" href="../35/tuoreet-mpd-versiot-ja-lastfm" title="Tuoreet MPD-versiot ja Last.fm">Tuoreet MPD-versiot ja Last.fm &#187;</a>
+        </p>
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+        <h2>Aiheen vierestä</h2>
+        <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../587/tehokkaat-kayttoliittymat-vaivatta">Tehokkaat käyttöliittymät&#160;vaivatta</a></span> &#183; <span class="published">2012-08-16</span>
+<br /><span class="smallexcerpt">Ohjelmoijan onni on elää komentorivillä. Tehokkaiden käyttöliittymien rustaaminen on varsin nopeata, kunhan luottaa siihen, että suurta suosiota tuotokset eivät tule...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../582/electrocompaniet-on-elossa">Electrocompaniet on&#160;elossa!</a></span> &#183; <span class="published">2012-07-18</span>
+<br /><span class="smallexcerpt">Melkein vuosi sitten rakas Electrocompaniet ECD1 pimeni kokonaan, ja sain vasta pari viikkoa sitten asiaan kunnollisen ratkaisun (nämä väliinjääneet 11...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../578/uusia-hifinakymia">Uusia&#160;hifinäkymiä</a></span> &#183; <span class="published">2012-06-23</span>
+<br /><span class="smallexcerpt">Syksyn opintolainat jo tilillä sitä tuntee itsensä niin kovin rikkaaksi ja vapaaksi törsäilemään. Schiit lupailee uuden MOSFET-pohjaisen balansoidun kuulokevahvistimen, joka...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../571/tv-saato-on-nyt-valmis">TV-säätö on nyt&#160;valmis</a></span> &#183; <span class="published">2012-03-23</span>
+<br /><span class="smallexcerpt">No niin. Uuden NVidia-kortin ansiosta TV-episodi on käsitelty voitokkaasti. Jos rahalla asiasta selviämistä ei lasketa huijaamiseksi.
+
+	Oppirahoja tuli taas tosiaankin hassattua....</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../568/avoimet-suljetut-ja-se-vastapuoli">Avoimet, suljetut ja se&#160;vastapuoli</a></span> &#183; <span class="published">2012-03-11</span>
+<br /><span class="smallexcerpt">Radeonien kanssa on todellakin painittavaa. Kompromisseista on jotain valittava kontolleen, jos muut sitten sujuvatkin.
+
+	fglrx &#8212; se suljettu
+
+	Kaikki työpöytäkäyttö sujuu erihyvin....</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../567/tv-monitorit-ja-gentoo">TV, Monitorit ja&#160;Gentoo</a></span> &#183; <span class="published">2012-03-09</span>
+<br /><span class="smallexcerpt">Pari viikkoa sitten sain lahjaksi taulu-TV:n (Philipsin 42FPL3606, eli 42 tuumaa) ja totta kai se pitää saada kiinni tietokoneeseen pikselitarkalla...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../560/informaation-jarjestely-tietamyksenhallinta">Informaation järjestely:&#160;tietämyksenhallinta</a></span> &#183; <span class="published">2011-12-10</span>
+<br /><span class="smallexcerpt">Tietoa, eli kaikenlaista pientä tietämystä, on kaikkialla. Ihminen oppii kyllä paljon, ja erityisesti kun on motivoitunut omaksumaan. Mutta edes kaikkein...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../557/palvelin-tulossa-sittenkin">Palvelin tulossa&#160;sittenkin</a></span> &#183; <span class="published">2011-11-10</span>
+<br /><span class="smallexcerpt">Vaikka taannoin järkeilin palvelimen ostoa vastaan aika onnistunein argumentein, niin nyt sellaisen olen kuitenkin hommannut. Käytetystä raudasta kootan murossa jonkinlaisen...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../555/virtamittailuja">Virtamittailuja</a></span> &#183; <span class="published">2011-10-20</span>
+<br /><span class="smallexcerpt">Olen muuttamassa uuteen asuntoon Outokummussa, ja nyt pitää katsella muiden toimien ohella myös sähkönkulutusta uudella silmällä. Erityisesti mieltä polttelee kysymys:...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../554/tulipa-netbook-ostettua">Tulipa netbook&#160;ostettua</a></span> &#183; <span class="published">2011-10-01</span>
+<br /><span class="smallexcerpt">Elitegroupin G10IL -mallinen miniläppäriksi luokiteltavissa netbook tuli ostettua. Saamme nähdä, miten tässä vielä käy.
+
+	Tämä on tavallinen nykynetbook, jossa on 10-tuumainen...</span>
+</li>
+
+</ul>
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

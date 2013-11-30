@@ -1,0 +1,520 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <!-- standard -->
+	<title>Mr. P: Hetkessä</title>
+
+
+	<link rel="home" href="../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../atom/index.html?section=hetket" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../rss/index.html?section=hetket" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../rpc/index.html" />
+</head>
+
+<body id="hetket">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="index.html?pg=3#content">Siirry sisältöön</a></li>
+        <li><a href="index.html?pg=3#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            &raquo;
+            <a href="index.html">Hetkessä</a>
+            
+                <!--<ul>
+	<li>
+                    
+                    <a rel="bookmark" href="/hetket/515/hetkessa-nro-514">hetkessä nro 514</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/hetket/513/hetkessa-nro-512">hetkessä nro 512</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/hetket/511/hetkessa-nro-511">hetkessä nro 511</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/hetket/510/hetkessa-nro-510">hetkessä nro 510</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/hetket/509/hetkessa-nro-509">hetkessä nro 509</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/hetket/508/hetkessa-nro-508">hetkessä nro 508</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/hetket/507/hetkessa-nro-507">hetkessä nro 507</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/hetket/506/hetkessa-nro-506">hetkessä nro 506</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/hetket/505/hetkessa-nro-504">hetkessä nro 504</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/hetket/503/hetkessa-nro-503">hetkessä nro 503</a>
+                </li>
+</ul>-->
+            
+        </li>
+	<li>
+            
+            <a href="../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            
+            <a href="../mietteet/index.html">Mietteet</a>
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="/kategoria/hifi/">Hifi</a></li>
+	<li><a href="/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="/kategoria/rauta/">Rauta</a></li>
+	<li><a href="/kategoria/viihde/">Viihde</a></li>
+	<li><a href="/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../tag/blogisäätöä/index.html" class="tagSizeMedium tagSize15" style="font-size: 100%;">blogisäätöä</a></li>
+	<li><a href="../tag/gentoo/index.html" class="tagSizeLargest tagSize95" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../tag/musiikki/index.html" class="tagSizeMedium tagSize13" style="font-size: 100%;">musiikki</a></li>
+	<li><a href="../tag/ohjelmointi/index.html" class="tagSizeMedium tagSize32" style="font-size: 100%;">ohjelmointi</a></li>
+	<li><a href="../tag/opiskelu/index.html" class="tagSizeMedium tagSize7" style="font-size: 100%;">opiskelu</a></li>
+	<li><a href="../tag/ostoksia/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">ostoksia</a></li>
+	<li><a href="../tag/palvelin/index.html" class="tagSizeMedium tagSize27" style="font-size: 100%;">palvelin</a></li>
+	<li><a href="../tag/rauta/index.html" class="tagSizeMedium tagSize13" style="font-size: 100%;">rauta</a></li>
+</ul>
+        <p><a href="../tag/index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../rss/index.html?section=hetket" title="RSS 0.92">RSS</a> / <a href="../atom/index.html?section=hetket" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+        
+            <h1 class="mainheader">Hetkessä</h1>
+        
+
+        <div class="hfeed">
+            <!-- five articles to list here, or only one. It depends. -->
+            <div class="blog_entry" >
+    <p class="published mb-published">
+      14.02. klo 20:13
+      (<b style="color: white;">14. helmikuu 2011, 20:13</b>):
+    </p>
+    <div class="mb-post">
+      	<p>Kehnoa kun säikeellinen ohjelma kaatuu mystisiin ääkkösongelmiin (segfault Pythonissa) ja säikeetön versio ei. Tylyä. Pitää kääntää projekti multiprocessia kohti.</p>
+    </div>
+    
+
+
+<p class="tags smalltags"> 
+<!--
+
+
+
+
+-->
+
+
+</p>
+    <div class="divider"><img src="../images/1.gif" alt="---" width="400" height="1" /></div>
+</div><div class="blog_entry" >
+    <p class="published mb-published">
+      14.02. klo 11:26
+      (<b style="color: white;">14. helmikuu 2011, 11:26</b>):
+    </p>
+    <div class="mb-post">
+      	<p>Täytyy sanoa, että kun kone on saatu riittävän hiljaisuuden alaiseksi, siitä äänitason mataluudesta osaa nauttia pidempään kuin vain parin tuulettimen korvaaminen hiljaisemmilla.</p>
+    </div>
+    
+
+
+<p class="tags smalltags"> 
+<!--
+
+
+
+
+-->
+
+
+</p>
+    <div class="divider"><img src="../images/1.gif" alt="---" width="400" height="1" /></div>
+</div><div class="blog_entry" >
+    <p class="published mb-published">
+      13.02. klo 20:58
+      (<b style="color: white;">13. helmikuu 2011, 20:58</b>):
+    </p>
+    <div class="mb-post">
+      	<p>Vastoin kaikkia odotuksia, nenäkarva irtosi vetämällä ilman pistävää kipua.</p>
+    </div>
+    
+
+
+<p class="tags smalltags"> 
+<!--
+
+
+
+
+-->
+
+
+</p>
+    <div class="divider"><img src="../images/1.gif" alt="---" width="400" height="1" /></div>
+</div><div class="blog_entry" >
+    <p class="published mb-published">
+      13.02. klo 19:51
+      (<b style="color: white;">13. helmikuu 2011, 19:51</b>):
+    </p>
+    <div class="mb-post">
+      	<p>Dreastic &#8211; Blade Runner soi yllättävän jymäkästi <span class="caps">AMT</span>:llä!</p>
+    </div>
+    
+
+
+<p class="tags smalltags"> 
+<!--
+
+
+
+
+-->
+
+Tageja: <a href="../tag/hifi/index.html" rel="tag">hifi</a>
+
+
+</p>
+    <div class="divider"><img src="../images/1.gif" alt="---" width="400" height="1" /></div>
+</div><div class="blog_entry" >
+    <p class="published mb-published">
+      13.02. klo 18:58
+      (<b style="color: white;">13. helmikuu 2011, 18:58</b>):
+    </p>
+    <div class="mb-post">
+      	<p>Järin omituista. Perl-paketteja asentava <code>g-cpan</code> loi ja asensi Time::Format -paketin <strong>proaudio</strong>-overlayhin. Ei oikein paras paikka.</p>
+    </div>
+    
+
+
+<p class="tags smalltags"> 
+<!--
+
+
+
+
+-->
+
+Tageja: <a href="../tag/gentoo/index.html" rel="tag">gentoo</a>
+
+
+</p>
+    <div class="divider"><img src="../images/1.gif" alt="---" width="400" height="1" /></div>
+</div><div class="blog_entry" >
+    <p class="published mb-published">
+      13.02. klo 18:55
+      (<b style="color: white;">13. helmikuu 2011, 18:55</b>):
+    </p>
+    <div class="mb-post">
+      	<p>Kyllä <em>The Wallin</em> kuunteleminen vie pois murheista. Comfortably Numb!</p>
+    </div>
+    
+
+
+<p class="tags smalltags"> 
+<!--
+
+
+
+
+-->
+
+Tageja: <a href="../tag/musiikki/index.html" rel="tag">musiikki</a>
+
+
+</p>
+    <div class="divider"><img src="../images/1.gif" alt="---" width="400" height="1" /></div>
+</div><div class="blog_entry" >
+    <p class="published mb-published">
+      13.02. klo 17:49
+      (<b style="color: white;">13. helmikuu 2011, 17:49</b>):
+    </p>
+    <div class="mb-post">
+      	<p>Ergo <span class="caps">AMT</span> on livekeikkojen kanssa uskomaton!</p>
+    </div>
+    
+
+
+<p class="tags smalltags"> 
+<!--
+
+
+
+
+-->
+
+Tageja: <a href="../tag/hifi/index.html" rel="tag">hifi</a>
+
+
+</p>
+    <div class="divider"><img src="../images/1.gif" alt="---" width="400" height="1" /></div>
+</div><div class="blog_entry" >
+    <p class="published mb-published">
+      12.02. klo 18:02
+      (<b style="color: white;">12. helmikuu 2011, 18:02</b>):
+    </p>
+    <div class="mb-post">
+      	<p>Aivan kauhea pikselinjumittaja tämä Acer P221w. Jos vähänkin hipaisee paneelia niin viisi kirkasta pikseliä jää jumittamaan. Toisaalta hyvin huolellisella hieronnalla kaikki saa takaisin toimimaan. Eipä pitäisi ilmaisesta näytöstä valittaa, hyvin toimii ja on muuten hyvä.</p>
+    </div>
+    
+
+
+<p class="tags smalltags"> 
+<!--
+
+
+
+
+-->
+
+
+</p>
+    <div class="divider"><img src="../images/1.gif" alt="---" width="400" height="1" /></div>
+</div><div class="blog_entry" >
+    <p class="published mb-published">
+      12.02. klo 17:20
+      (<b style="color: white;">12. helmikuu 2011, 17:20</b>):
+    </p>
+    <div class="mb-post">
+      	<p>Kuinka sattuikaan? <code>total size is 331826673275  speedup is 13.37</code></p>
+    </div>
+    
+
+
+<p class="tags smalltags"> 
+<!--
+
+
+
+
+-->
+
+
+</p>
+    <div class="divider"><img src="../images/1.gif" alt="---" width="400" height="1" /></div>
+</div><div class="blog_entry" >
+    <p class="published mb-published">
+      12.02. klo 17:07
+      (<b style="color: white;">12. helmikuu 2011, 17:07</b>):
+    </p>
+    <div class="mb-post">
+      	<p><code>rsync</code> on upea ohjelma.</p>
+    </div>
+    
+
+
+<p class="tags smalltags"> 
+<!--
+
+
+
+
+-->
+
+
+</p>
+    <div class="divider"><img src="../images/1.gif" alt="---" width="400" height="1" /></div>
+</div><div class="blog_entry" >
+    <p class="published mb-published">
+      12.02. klo 16:45
+      (<b style="color: white;">12. helmikuu 2011, 16:45</b>):
+    </p>
+    <div class="mb-post">
+      	<p>Löysin. Sen nimi on <code>noglob</code>, ja heitetään komentorivillä ensimmäiseksi.</p>
+    </div>
+    
+
+
+<p class="tags smalltags"> 
+<!--
+
+
+
+
+-->
+
+
+</p>
+    <div class="divider"><img src="../images/1.gif" alt="---" width="400" height="1" /></div>
+</div><div class="blog_entry" >
+    <p class="published mb-published">
+      12.02. klo 16:44
+      (<b style="color: white;">12. helmikuu 2011, 16:44</b>):
+    </p>
+    <div class="mb-post">
+      	<p>Löysinkös vihdoin <strong>zsh</strong>:n switchin, jonka avulla se jättää erikoismerkit rauhaan?</p>
+    </div>
+    
+
+
+<p class="tags smalltags"> 
+<!--
+
+
+
+
+-->
+
+
+</p>
+    <div class="divider"><img src="../images/1.gif" alt="---" width="400" height="1" /></div>
+</div><div class="blog_entry" >
+    <p class="published mb-published">
+      12.02. klo 12:43
+      (<b style="color: white;">12. helmikuu 2011, 12:43</b>):
+    </p>
+    <div class="mb-post">
+      	<p><a href="../kuvat/tweet-2011-02-12-124300.png"><img src="../kuvat/thumbs/thumb_tweet-2011-02-12-124300.png" title="" alt="" /></a></p>
+    </div>
+    
+
+
+<p class="tags smalltags"> 
+<!--
+
+
+
+
+-->
+
+
+</p>
+    <div class="divider"><img src="../images/1.gif" alt="---" width="400" height="1" /></div>
+</div><div class="blog_entry" >
+    <p class="published mb-published">
+      12.02. klo 12:35
+      (<b style="color: white;">12. helmikuu 2011, 12:35</b>):
+    </p>
+    <div class="mb-post">
+      	<p><a href="../kuvat/tweet-2011-02-12-123534.png"><img src="../kuvat/thumbs/thumb_tweet-2011-02-12-123534.png" title="" alt="" /></a></p>
+    </div>
+    
+
+
+<p class="tags smalltags"> 
+<!--
+
+
+
+
+-->
+
+
+</p>
+    <div class="divider"><img src="../images/1.gif" alt="---" width="400" height="1" /></div>
+</div><div class="blog_entry" >
+    <p class="published mb-published">
+      12.02. klo 11:59
+      (<b style="color: white;">12. helmikuu 2011, 11:59</b>):
+    </p>
+    <div class="mb-post">
+      	<p>Ensimmäiset <span class="caps">PNG</span>-kuvat generoitu clojurella. Helppoa on.</p>
+    </div>
+    
+
+
+<p class="tags smalltags"> 
+<!--
+
+
+
+
+-->
+
+
+</p>
+    <div class="divider"><img src="../images/1.gif" alt="---" width="400" height="1" /></div>
+</div>
+        </div>
+
+
+<!-- txp:older ei toimi kunnolla tagien kanssa. -->
+        <p>
+            <a href="index.html?pg=4">&#171; vanhemmat</a> 
+            <a href="index.html?pg=2">uudemmat &#187;</a>
+        </p>
+
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

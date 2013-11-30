@@ -1,0 +1,376 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <!-- standard -->
+	<title>Mr. P: Informaation järjestely: tietämyksenhallinta</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=mietteet" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=mietteet" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="mietteet">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="informaation-jarjestely-tietamyksenhallinta#content">Siirry sisältöön</a></li>
+        <li><a href="informaation-jarjestely-tietamyksenhallinta#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            &raquo;
+            <a href="../index.html">Mietteet</a>
+            
+                <!--<ul>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/598/blogille-idea">Blogille&#160;idea</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/597/wes-mckinney-python-for-data-analysis-oreilly">Wes McKinney - Python For Data Analysis (O&#39;Reilly)</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/596/org-blogaaminen-vaikeata">Org-blogaaminen&#160;vaikeata</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/595/twitterointia-emacsilla">Twitteröintiä&#160;Emacsilla</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/594/weboodi-aikataulut-orgiin">WebOodi-aikataulut&#160;orgiin</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/592/emacs-has-me">Emacs has&#160;me.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/591/editorien-taistelu-tietamyshallinnassa">Editorien taistelu&#160;tietämyshallinnassa</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/590/think-vimorganizer">Think&#160;VimOrganizer.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/589/think-orgmode">Think&#160;orgmode.</a>
+                </li>
+</ul>-->
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="/kategoria/hifi/">Hifi</a></li>
+	<li><a href="/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="/kategoria/rauta/">Rauta</a></li>
+	<li><a href="/kategoria/viihde/">Viihde</a></li>
+	<li><a href="/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../../tag/blogisäätöä/index.html" class="tagSizeMedium tagSize31" style="font-size: 100%;">blogisäätöä</a></li>
+	<li><a href="../../tag/clojure/index.html" class="tagSizeMedium tagSize7" style="font-size: 100%;">clojure</a></li>
+	<li><a href="../../tag/gentoo/index.html" class="tagSizeLargest tagSize111" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../../tag/näppäimistöt/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">näppäimistöt</a></li>
+	<li><a href="../../tag/ohjelmistot/index.html" class="tagSizeMedium tagSize10" style="font-size: 100%;">ohjelmistot</a></li>
+	<li><a href="../../tag/opiskelu/index.html" class="tagSizeMedium tagSize23" style="font-size: 100%;">opiskelu</a></li>
+	<li><a href="../../tag/palvelin/index.html" class="tagSizeMedium tagSize43" style="font-size: 100%;">palvelin</a></li>
+	<li><a href="../../tag/pelaaminen/index.html" class="tagSizeMedium tagSize8" style="font-size: 100%;">pelaaminen</a></li>
+</ul>
+        <p><a href="../../tag/index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=mietteet" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=mietteet" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- not tag view, it's the main view -->
+
+
+        
+
+        <div class="hfeed">
+            <!-- five articles to list here, or only one. It depends. -->
+            <!-- default form -->
+
+<p class="published">10. joulukuu 2011, 16:15</p>
+<h1 class="entry-title"><a rel="bookmark" href="informaation-jarjestely-tietamyksenhallinta">Informaation järjestely:&#160;tietämyksenhallinta</a></h1>
+
+
+<div class="entry-content">
+	<p>Tietoa, eli kaikenlaista pientä tietämystä, on kaikkialla. Ihminen oppii kyllä paljon, ja erityisesti kun on motivoitunut omaksumaan. Mutta edes kaikkein paneutunein ihminen ei aina opi kerrasta tehtyjä virheitä. Harvoin eteenosuvat toimintamallit jäävät herkästi unholaan, kun taito ei ehdi kehittyä rutiiniksi. Tämän asian korjaaminen on monenkin mielestä yksi avain onneen.</p>
+
+	<h2>Muistilaput: Janki ja Anki</h2>
+
+	<p>Luin päivä tai pari sitten niinsanotusta Janki-menetelmästä, joka on vain hieno sana perinteisille pänttäyslapuille. Kuitenkin sillä erotuksella, että annetaan aivojen hengähtää pänttäilyjen lomassa kunnolla. Jankin hienous paljastuu, kun pannaan tietokone asialle. Esilukemiseksi voi antaa <a href="http://www.jackkinsella.ie/2011/12/05/janki-method.html">Jack Kinsellan</a> kirjoittaman introduktion menetelmän etuihin. Artikkelissa esitellään menetelmää erityisen <a href="http://ankisrs.net/">Anki-ohjelman</a> avulla. Kuvaruutukaappaukset selventävät menetelmää mielestäni paremmin kuin tuo alkuesitelmä. Menetelmä olisi seuraava:</p>
+
+	<ol>
+		<li>Tehdään askareita; koodataan tai ylläpidetään systeemiä tai pohditaan matematiikkaa yms</li>
+		<li>Kiperän pohdinnan tai jonkun ongelman jälkeen kirjataan se ylös Anki-lapu(i)lle</li>
+		<li>Ohjelmaa konsultoidaan päivittäin, jossa se kertailee lappujen sisältöjä käyttäjältä. Tähän on varattu enintään 10 minuuttia päivässä</li>
+		<li>Jos kysymyslapun vastaus oli helppo tai tuli nopeasti mieleen, sen voi merkata helpoksi ja Anki ei kysy sitä vähään aikaan. Vastaavasti vaikeat tai virheelliset muistot merkataan vaikeiksi, jolloin Anki kysyy niitä aikaisemmin</li>
+		<li>Tietämyskantaa voi selata muutenkin, jos ongelma astuu esiin, eikä muista sitä. Jankkailun ansiosta kuitenkin pitäisi ennenpitkää osata kaikki ulkoa verraten vaivatta</li>
+	</ol>
+
+	<p>Ei sen kummempaa. Kieltenopiskelijat ovat käyttäneet samaa jo kauan. Kinsella kannattaa myös ohjelmointikielien samaistusta luonnollisten kielien opiskeluun. Nykykielien kanssa sujuva kielitaito ei ole kaikki kaikessa, koska meillä on IntelliSenset ja omnicompletiot. Kuitenkin voidaan perustella ohjelmoinnin sujuvoitumista, jos koodaajan ei tarvitse aivan jokaista koukkua hakea kehitysympäristönsä automaatioista.</p>
+
+	<p>Ankikin on ohjelmana kivan kypsä. Se tukee pilvisynkkausta ja valmiiden korttisettien lataamista. Graafisuuskaan ei ole este, koska vastineeksi on saatu mm. LaTeX-tuki ja näppäimistökäytettävyyteen on panostettu.</p>
+
+	<p>Mutta miltäs tämä nyt sitten oikeasti kuulostaa? Aivan kuin tietämystietokantoja olisi aiemminkin pohdittu tässä blogissakin. </p>
+
+	<h2>Henkilökohtaiset wikit jälleen</h2>
+
+	<p>Niin. Anki mahdollistaa selattavan kysymys-vastaus -kortiston luomisen. Ja minulla on jo ennestään jonkinlainen tietämystietokanta meneillään henkilökohtaisen wikin muodossa. Tästähän on puhuttu ja kaikkea. Mutta puhutaanpa lisää. Esimerkiksi siitä, mitä tämä vielä kaipaa, ja mikä on vialla. Onko mikään?</p>
+
+	<p>Ankissa listat olisivat yksiulotteisia kokonaisuuksia. Joko selaat niitä yksitellen löytääksesi haluamasi tai käytät hakutoimintoa. Wikissä tieto rakentuu puiden muotoon. Haku yhtä helppoa mutta myös selaamalla voi löytää. Ongelmana on se, että sitä kuitenkin haluaisi tehdä helposti selattavaa aineistoa sinne Wikiin, mutta se osoittautuu hankalaksi. Liian syvä puu vie paljon aikaa viedä päämääräänsä ja liian leveä puu on hitaampi katsella läpi.</p>
+
+	<p>Wikin hyvä puoli on tietenkin se, ettei kaiken tarvitse olla kysymys-vastaus -muotoista. Uusien sivujen tekeminen on helppoa ja VimWikin tapauksessa kaikki tapahtuu verraten sulavasti vim-komennoin. Haluaisinkin nyt puhua vähän henkilökohtaisen wikin organisoinnista. Tästä aiheesta on valitettavan vähän tietoa netissä. Joko se <code>org-mode</code> on niin näppärä hakemisessa ja organisoinnissa, että kukaan ei tarvitse apua siinä, tai sitten henkilökohtaisten wikien pito ei ole läheskään niin suosittua kuin olettaa saattaa.</p>
+
+	<p>Minun henkilökohtaisen wikin etusivu on käytännössä lista erilaisia linkkejä alasivuille ja sitten lopussa on joitain mielenkiintoisia vinkkejä ja huomioita itselleni. Etusivu on 67 riviä pitkä, eli ei mene yhdelle näytölliselle, ellen avaa master-ikkunaan (Xmonadin juttuja).</p>
+
+	<p>Ja aika kaoottinenhan tämä on:</p>
+
+<pre>= Sisältöä =
+
+- Pakastimen sisältö:
+    - maksalaatikkoa
+    - pihvi &amp; perunamuussi
+    - leipää
+
+- [[Matlab]]
+
+- [[Skeezujutut]]
+- [[Ideoita]]
+- [[Elokuvat]]
+- [[John Coltrane]]
+
+- [[Sähkö]]
+- [[Muutto]]
+- [[Asuntoja]]
+- [[Osoitteet]]
+
+- [[Pelailut]]
+
+= ATK-jutut =
+
+- [[tkt-2011]]
+- [[Koneenjako 2011]]
+- [[Gentoo]]
+- Katalystit wintoosassa ja Samsung: resoluutio kondikseen asettamalla
+  RGB-värikartat PC-moodiin
+
+- [[Civ 5 in Wine]]
+- MPD-klientti, tai [[Mediasoitin]]
+- [[PDF-lukijat]]
+- [X] Tapaus [[Verkko]]
+- [[Casino]]
+
+- [[Somentor]]
+</pre>
+
+	<p>Sekaisin on iloisesti alaosioita ja pieniä artikkeleita, joita ei tule luettua. Tämän jälkeen tulee vielä yksi <strong>Vinkit</strong>-osio, jossa on verraten siististi joitain huomioita. Aikoinaan oli myös <span class="caps">TODO</span>-lista tässä, mutta kun sitä ei saanutkaan siististi integroitua Conkyyn niin otin pois. Nykyisin Rainlendar synkkaa kalenterimerkintöjen lisäksi nuo Todo-jutut Googleen niin se kelpaa kivasti.</p>
+
+	<p>Kokeilin kerran laittaa noita linkkejä matriisiksi, mutta siitä tulee rumannäköinen selattaessa. VimWiki osaa piilottaa nuo hakasulkeet (vimin <code>conceal</code>-toiminto), mutta ne tulevat esille kursorin tullessa riville. VimWiki muuten hyppelee linkkien välillä tabulaattorin voimin, mutta toisaalta ensin teen alkunavigointia hakemalla <code>/</code>-näpin voimin.</p>
+
+	<p>Mutta nyt sitten se varsinainen mietintä: aina ensin selvästi työnnän tajunnanvirtaa suoraan etusivulle, koska nämä wikit ovat erittäin tarkoituksella suunniteltu jatkuvan muokkauksen alle. Mutta kuten näkyy, en minä jaksa sitä kokoajan olla muokkailemassa. Koitan jatkossa parantaa motivaatiota muokkailuun. Olen nyt esimerkiksi mapannut systeeminlaajuiseksi näppäinyhdistelmäksi <code>Win-g</code>:n, joka laukoo gvimin wikin kanssa ilmoille.</p>
+
+	<p>Nopea on käynnistää (onhan minulla nyt ollut muutenkin <code>wiki</code>-niminen alias zsh:ssa) mutta uskoisin, että organisointi pitäisi saada kunnolla aloilleen, jotta olisi sitten aitoa motivaatiota ja sujuvuutta lisätä helpommin kaikenlaista uutta. Työhommissakni pidin omaa työkirjanpitoa tuonne. Oikein mukavasti toimii siinäkin. Saa samalla vaikka raporttia, jos työnantaja olisi sellaista kaivannut. Myös se <code>org-mode</code> tukee tuntikirjanpitoa. Tai, no. &#8220;myös&#8221; on väärin ilmaistu termi, koska VimWiki ei tue.</p>
+
+	<p>Tavoitteita? Ehkä etusivun tulisi olla enemmän pelkkä lyhyehkö linkkilistaus siten, että ensimmäinen haarasto on pieni, ja sitten alaosiot saavat olla leveämpiä. Saada 67-rivinen etusivu ehkä 20 riviin, jotta se näkyy pienilläkin ikkunoilla melko kokonaan. Ehkä annan vinkkilistauksen olla siinä perässä. Kun olen omaksunut jonkun vinkin mielestäni hyvin, voin siirtää sen  pois tai perälle.</p>
+
+	<p>Mutta onko mitään konkreettista oppia asiasta tai tiukkaa teoriaa tästä tietämyksenhallinnasta. Isoissa yrityksissä voidaan käyttää dokumentinhallinnan lisäksi nettipohjaisia wikejä. Kaipaisin teoriaa tiedonhallinnasta. Liiallinen organisointi haittaa tiedon löytymistä ja liian löyhä tekee ylläolevan esimerkin mukaisia kasoja. Refaktorointi on onneksi helppoa. Mitenkähän tässä nyt tekisi, voi voi. No ei auta kuin sommitella:</p>
+
+	<ul>
+		<li>Gentoon ylläpitoon liittyvät jutut</li>
+		<li>Windowsin ylläpitoon liittyvät jutut</li>
+		<li>Ohjelmat (Matlab-linkin takaa löytyy luentomuistiinpanot kun tutustuimme Matlabin käyttöön)</li>
+		<li>Pelailut</li>
+		<li>Musiikki</li>
+		<li>Elokuvat</li>
+		<li>Opiskelu</li>
+		<li>Arkisto (!)</li>
+	</ul>
+
+	<p>No niin. Täällä on paljon vanhoja juttuja, jotka liittyvät  yhteen projektiin. Ja menevät vanhaksi kun projekti on päätöksessä. Esimerkiksi asunnonhakuprosessistani on jonkinlainen sivu tuolla, jota tuskin tarvitsee etusivulla roikottaa.</p>
+
+	<p>Sitten toisaalta alasivuillekaan ei välttämättä tarvitse heti tehdä uusia alasivuja. Sen sijaan tukea foldaamista paremmin. Tämä on <code>org-mode</code>:n yksi peruspilareista. Ainakin paljon käytetty, jos ei muuta.</p>
+
+	<p>Enpä jaksa enempää kirjoittaa tähän. Energiaa voisi kanavoida niihin virallisiin resursseihin, joita olen kyllä etsinyt jonkin verran. Toivottavasti tästä on jollekin muulle apua tai innoitusta ryhtyä omien mietteidensä mestariksi.</p>
+</div>
+
+<p class="tags"> 
+
+
+Tageja: <a href="../../tag/gentoo/index.html" rel="tag">gentoo</a>, 
+<a href="../../tag/tietämyksenhallinta/index.html" rel="tag">tietämyksenhallinta</a>
+
+
+</p>
+
+
+
+<div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+
+        </div>
+
+ <!-- now, common stuff -->
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+        <p><a rel="prev" href="../559/the-wall-tayttaa-32" title="The Wall täyttää 32">&#171; The Wall täyttää 32</a> 
+           &mdash; <a rel="next" href="../561/pelaaminen" title="Pelaaminen">Pelaaminen &#187;</a>
+        </p>
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+        <h2>Aiheen vierestä</h2>
+        <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../591/editorien-taistelu-tietamyshallinnassa">Editorien taistelu&#160;tietämyshallinnassa</a></span> &#183; <span class="published">2012-09-14</span>
+<br /><span class="smallexcerpt">Kun päädyin pari viikkoa sitten Org-formaattiin, oli se luonnollisesti edellytys, että Vim ja sen VimOrganizer saadaan kuntoon. Nyt kuitenkin on...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../590/think-vimorganizer">Think&#160;VimOrganizer.</a></span> &#183; <span class="published">2012-09-02</span>
+<br /><span class="smallexcerpt">Asiat rullaavat eteenpäin tyydyttävää tahtia tämän uuden tiedonhallinnan kanssa. Nyt olen säätänyt kuntoon jokaisesta kulmasta toimivan org-capture -variantin, jolla saan...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../589/think-orgmode">Think&#160;orgmode.</a></span> &#183; <span class="published">2012-08-31</span>
+<br /><span class="smallexcerpt">Teemme taas täyden ympyrän palatessamme orgmodeen, tuohon viha-rakkaussuhteen saaneeseen pakettiin. Edellinen thinktank-idea lopulta vääntyy siihen, että voin joko tehdä simppelin...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../588/think">Think.</a></span> &#183; <span class="published">2012-08-21</span>
+<br /><span class="smallexcerpt">Hyvät ideat menevät usein hukkaan joko hajaantumisen tai unohtamisen merkeissä. Lyhyilläkin ajatuksilla on kovasti arvoa, jos useampi sellainen muodostaakin fiksuja...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../587/tehokkaat-kayttoliittymat-vaivatta">Tehokkaat käyttöliittymät&#160;vaivatta</a></span> &#183; <span class="published">2012-08-16</span>
+<br /><span class="smallexcerpt">Ohjelmoijan onni on elää komentorivillä. Tehokkaiden käyttöliittymien rustaaminen on varsin nopeata, kunhan luottaa siihen, että suurta suosiota tuotokset eivät tule...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../573/vim-oikolukuhommissa">Vim&#160;oikolukuhommissa</a></span> &#183; <span class="published">2012-04-10</span>
+<br /><span class="smallexcerpt">Kandintyö on nyt siinä pisteessä, että vain oikoluku on jäljellä. Plus sitten kaikki, mitä se ohjaaja keksii huomauttaa. Oikoluvusta kaikki...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../571/tv-saato-on-nyt-valmis">TV-säätö on nyt&#160;valmis</a></span> &#183; <span class="published">2012-03-23</span>
+<br /><span class="smallexcerpt">No niin. Uuden NVidia-kortin ansiosta TV-episodi on käsitelty voitokkaasti. Jos rahalla asiasta selviämistä ei lasketa huijaamiseksi.
+
+	Oppirahoja tuli taas tosiaankin hassattua....</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../568/avoimet-suljetut-ja-se-vastapuoli">Avoimet, suljetut ja se&#160;vastapuoli</a></span> &#183; <span class="published">2012-03-11</span>
+<br /><span class="smallexcerpt">Radeonien kanssa on todellakin painittavaa. Kompromisseista on jotain valittava kontolleen, jos muut sitten sujuvatkin.
+
+	fglrx &#8212; se suljettu
+
+	Kaikki työpöytäkäyttö sujuu erihyvin....</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../567/tv-monitorit-ja-gentoo">TV, Monitorit ja&#160;Gentoo</a></span> &#183; <span class="published">2012-03-09</span>
+<br /><span class="smallexcerpt">Pari viikkoa sitten sain lahjaksi taulu-TV:n (Philipsin 42FPL3606, eli 42 tuumaa) ja totta kai se pitää saada kiinni tietokoneeseen pikselitarkalla...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../557/palvelin-tulossa-sittenkin">Palvelin tulossa&#160;sittenkin</a></span> &#183; <span class="published">2011-11-10</span>
+<br /><span class="smallexcerpt">Vaikka taannoin järkeilin palvelimen ostoa vastaan aika onnistunein argumentein, niin nyt sellaisen olen kuitenkin hommannut. Käytetystä raudasta kootan murossa jonkinlaisen...</span>
+</li>
+
+</ul>
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,286 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <!-- standard -->
+	<title>Mr. P: The Wall täyttää 32</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=mietteet" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=mietteet" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="mietteet">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="the-wall-tayttaa-32#content">Siirry sisältöön</a></li>
+        <li><a href="the-wall-tayttaa-32#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            &raquo;
+            <a href="../index.html">Mietteet</a>
+            
+                <!--<ul>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/598/blogille-idea">Blogille&#160;idea</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/597/wes-mckinney-python-for-data-analysis-oreilly">Wes McKinney - Python For Data Analysis (O&#39;Reilly)</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/596/org-blogaaminen-vaikeata">Org-blogaaminen&#160;vaikeata</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/595/twitterointia-emacsilla">Twitteröintiä&#160;Emacsilla</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/594/weboodi-aikataulut-orgiin">WebOodi-aikataulut&#160;orgiin</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/592/emacs-has-me">Emacs has&#160;me.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/591/editorien-taistelu-tietamyshallinnassa">Editorien taistelu&#160;tietämyshallinnassa</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/590/think-vimorganizer">Think&#160;VimOrganizer.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/589/think-orgmode">Think&#160;orgmode.</a>
+                </li>
+</ul>-->
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="http://progo.viuhka.fi/kategoria/hifi/">Hifi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/rauta/">Rauta</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/viihde/">Viihde</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../../tag/blogisäätöä/index.html" class="tagSizeMedium tagSize22" style="font-size: 100%;">blogisäätöä</a></li>
+	<li><a href="../../tag/gentoo/index.html" class="tagSizeLargest tagSize102" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../../tag/hifi/index.html" class="tagSizeMedium tagSize28" style="font-size: 100%;">hifi</a></li>
+	<li><a href="../../tag/ohjelmistot/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">ohjelmistot</a></li>
+	<li><a href="../../tag/ohjelmointi/index.html" class="tagSizeMedium tagSize39" style="font-size: 100%;">ohjelmointi</a></li>
+	<li><a href="../../tag/opiskelu/index.html" class="tagSizeMedium tagSize14" style="font-size: 100%;">opiskelu</a></li>
+	<li><a href="../../tag/ostoksia/index.html" class="tagSizeMedium tagSize8" style="font-size: 100%;">ostoksia</a></li>
+	<li><a href="../../tag/rauta/index.html" class="tagSizeMedium tagSize20" style="font-size: 100%;">rauta</a></li>
+</ul>
+        <p><a href="../../tag/index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=mietteet" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=mietteet" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- not tag view, it's the main view -->
+
+
+        
+
+        <div class="hfeed">
+            <!-- five articles to list here, or only one. It depends. -->
+            <!-- default form -->
+
+<p class="published">30. marraskuu 2011, 19:37</p>
+<h1 class="entry-title"><a rel="bookmark" href="the-wall-tayttaa-32">The Wall täyttää 32</a></h1>
+
+
+<div class="entry-content">
+	<p>Vaihteeksi vähän kevyemmistä asioista. Eli tuli hyvä syy panna Pink Floydin legendaarinen <strong>The Wall</strong> soimaan. Tämä ikinuori mutta täyttää jo 32 vuotta. Tänään. </p>
+
+	<p><img src="http://t2.gstatic.com/images?q=tbn:ANd9GcSOPbFc7sCBHRDOoRJf_2Zfeu1Sd07LgUl__oCaFffywh6Mezpm" alt="" /></p>
+
+	<p>Oma suhteeni tähän levyyn on hypellyt aikojen saatossa. Toki arvostin tätä heti alusta alkaen, mutta joskus se innostus hiipui kun aloin kunnolla suosia alkuaikojen levyjä. Sitten välissä oli kova Gilmour-suosio, ja vasta viimeisenä, vuosi tai kaksi sitten nousi Roger Waters kirjoitustaitojensa ansiosta kovaan huutoon. Sieltähän se tietysti Muurikin tulee, 95-prosenttisesti Watersin käsialaa. Nyt on hankala sanoa, onko tämä paras vai toiseksi paras Floyd-levy. Pidättäydyn vastaamasta.</p>
+
+	<p>Ja ah, miten synkkä luomus tämä onkaan. Etenkin Alan Parsonin visuaalinen elokuvaversio nostaa hyvin esille levyn synkimmät sopukat. Kiva oli myös nähdä livenä, vaikka Waters olikin päivittänyt agendaansa hieman.</p>
+
+	<p>Vaikka tämä levy onkin tiukka kokonaisuus, on silti saatava sanoa omat suosikit: Hey You ja C-Numb tietysti. Hey You ehkäpä kaunein ja samalla synkkä, ja mikseipä C-Numb enemmän unenomaisena kuin synkistelynä. Erittäin kauniit lyriikat ja soolot. Ja ensimmäinen puolisko on silkkaa kultaa. The Thin Ice erityisesti soolollansa. Ja dynamiikkaa huokuu yli äyräiden.</p>
+
+	<p>Äänellisesti ja musiikillisesti tiptop-levy totisesti.</p>
+
+	<p>Ja saisi jo tulla se luvattu live-<span class="caps">DVD</span> tästä Watersin kiertueesta 2010-2012. Todella upeita lisäsooloja luvassa sielläkin.</p>
+</div>
+
+<p class="tags"> 
+
+
+Tageja: <a href="../../tag/musiikki/index.html" rel="tag">musiikki</a>
+
+
+</p>
+
+
+
+<div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+
+        </div>
+
+ <!-- now, common stuff -->
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+        <p><a rel="prev" href="../558/palvelin-tulee-olenko-valmis" title="Palvelin tulee, olenko valmis?">&#171; Palvelin tulee, olenko valmis?</a> 
+           &mdash; <a rel="next" href="../560/informaation-jarjestely-tietamyksenhallinta" title="Informaation järjestely: tietämyksenhallinta">Informaation järjestely: tietämyksenhallinta &#187;</a>
+        </p>
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+        <h2>Aiheen vierestä</h2>
+        <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../569/satunnaiset-jazzit-soittolistalta">Satunnaiset jazzit&#160;soittolistalta</a></span> &#183; <span class="published">2012-03-18</span>
+<br /><span class="smallexcerpt">Jonkin aikaa sitten kirjailin nopean bash-skriptin, joka hakee haluamastaan MPD-soittolistasta tietyn verran kappaleita. Siten, että musiikkia saadaan noin tietyn aikarajan...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../530/levyt-ja-miten-niihin-paasee-sisaan">Levyt, ja miten niihin pääsee&#160;sisään</a></span> &#183; <span class="published">2011-05-30</span>
+<br /><span class="smallexcerpt">Eräs mielenkiintoinen, toistuva havainto kuuntelutottumuksissani on se, että uutta levyä maistellessani pääsen sisään jonkun poikkeavan kappaleen avulla. Mutta sitten kun...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../525/the-wall">The&#160;Wall</a></span> &#183; <span class="published">2011-05-04</span>
+<br /><span class="smallexcerpt">Viime torstaina kävin kuuntelemassa Roger Watersin hulppean The Wallin Helsingissä. Sen jälkeen olen ollutkin The Wall -tunnelmissa, ja Floyd-levyt ovat...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../520/ihmekuusessa-400-levya">Ihmekuusessa 400&#160;levyä</a></span> &#183; <span class="published">2011-03-25</span>
+<br /><span class="smallexcerpt">Nyt Audioslaven arvioituani Ihmekuusessa/Havuviuhkalla on selattavissa 400 levyn mietteet. Melko pyöreitä lukuja tuli tahattomasti myös statseihin. Sanoja on yhteensä näissä...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../329/kohti-absoluuttista-hiljaisuutta-osa-2">Kohti absoluuttista hiljaisuutta, osa 2</a></span> &#183; <span class="published">2010-08-13</span>
+<br /><span class="smallexcerpt">Juuri ennen myrskyä on aina kaikkein hiljaisinta.
+
+	Olen nyt elellyt miltei kaksi viikkoa uudessa kämpässä, ja pikku hiljaa tässä alkavat huonekalut...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../14/joululahjoja">Joululahjoja</a></span> &#183; <span class="published">2009-12-25</span>
+<br /><span class="smallexcerpt">Joulu tuli ja&#8211;no, meni. Vielä kinkusta ähkynä on hyvä tutkia saatuja vekottimia hyvin syväluotaavasti. Onneksi en saanut sen vaarallisempia laitoksia...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../17/taeydellinen-albumi">Täydellinen&#160;albumi?</a></span> &#183; <span class="published">2009-11-28</span>
+<br /><span class="smallexcerpt">Levy, jolla käsitellään rahan asemaa yhteiskunnassa, ihmisten hartaita toiveita ja median asemaa ja sotien merkityksiä, ei voi olla aivan huono....</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../22/hyvae-musiikki-ja-sen-komponentit">Hyvä musiikki ja sen&#160;komponentit</a></span> &#183; <span class="published">2009-10-25</span>
+<br /><span class="smallexcerpt">En aio tähän kommentoida tarkkaan sitä, millä tarkoilla kriteereillä albumit nostuvat toisiaan paremmiksi minun listoilla, vaan koitan toisenlaista lähtökohtaa määritellä...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../24/havuviuhkafi">Havu.viuhka.fi</a></span> &#183; <span class="published">2009-10-17</span>
+<br /><span class="smallexcerpt">Havuviuhka, tai aiemmin Ihmekuusi on nyt pyörinyt mukana jo kohtalaisen pitkään. Kun minä sain päähänpiston tammikuussa tehdä pienen levyarkistoprojektin internetteihin,...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../33/muisto-menneisyydestae">Muisto&#160;menneisyydestä</a></span> &#183; <span class="published">2009-08-24</span>
+<br /><span class="smallexcerpt">Tänään kokeilin noita Stax-kuulokkeitani pitkästä aikaa (viimeksi käytin niitä lyhyesti demotessani niitä heinäkuussa) kunnolla. Kuuntelin niitä näitä, selasin levyhyllystä niitä...</span>
+</li>
+
+</ul>
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

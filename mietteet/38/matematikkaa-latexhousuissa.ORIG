@@ -1,0 +1,296 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <!-- standard -->
+	<title>Mr. P: Matematikkaa latexhousuissa</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=mietteet" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=mietteet" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="mietteet">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="matematikkaa-latexhousuissa#content">Siirry sisältöön</a></li>
+        <li><a href="matematikkaa-latexhousuissa#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            &raquo;
+            <a href="../index.html">Mietteet</a>
+            
+                <!--<ul>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/598/blogille-idea">Blogille&#160;idea</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/597/wes-mckinney-python-for-data-analysis-oreilly">Wes McKinney - Python For Data Analysis (O&#39;Reilly)</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/596/org-blogaaminen-vaikeata">Org-blogaaminen&#160;vaikeata</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/595/twitterointia-emacsilla">Twitteröintiä&#160;Emacsilla</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/594/weboodi-aikataulut-orgiin">WebOodi-aikataulut&#160;orgiin</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/592/emacs-has-me">Emacs has&#160;me.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/591/editorien-taistelu-tietamyshallinnassa">Editorien taistelu&#160;tietämyshallinnassa</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/590/think-vimorganizer">Think&#160;VimOrganizer.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/589/think-orgmode">Think&#160;orgmode.</a>
+                </li>
+</ul>-->
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="http://progo.viuhka.fi/kategoria/hifi/">Hifi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/rauta/">Rauta</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/viihde/">Viihde</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../../tag/gentoo/index.html" class="tagSizeLargest tagSize102" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../../tag/hifi/index.html" class="tagSizeMedium tagSize28" style="font-size: 100%;">hifi</a></li>
+	<li><a href="../../tag/ohjelmistot/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">ohjelmistot</a></li>
+	<li><a href="../../tag/ohjelmointi/index.html" class="tagSizeMedium tagSize39" style="font-size: 100%;">ohjelmointi</a></li>
+	<li><a href="../../tag/opiskelu/index.html" class="tagSizeMedium tagSize14" style="font-size: 100%;">opiskelu</a></li>
+	<li><a href="../../tag/ostoksia/index.html" class="tagSizeMedium tagSize8" style="font-size: 100%;">ostoksia</a></li>
+	<li><a href="../../tag/palvelin/index.html" class="tagSizeMedium tagSize34" style="font-size: 100%;">palvelin</a></li>
+	<li><a href="../../tag/vim/index.html" class="tagSizeMedium tagSize31" style="font-size: 100%;">vim</a></li>
+</ul>
+        <p><a href="../../tag/index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=mietteet" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=mietteet" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- not tag view, it's the main view -->
+
+
+        
+
+        <div class="hfeed">
+            <!-- five articles to list here, or only one. It depends. -->
+            <!-- default form -->
+
+<p class="published"> 2. elokuu 2009, 19:14</p>
+<h1 class="entry-title"><a rel="bookmark" href="matematikkaa-latexhousuissa">Matematikkaa&#160;latexhousuissa</a></h1>
+
+
+<div class="entry-content">
+	<p>Xkcd-<a href="http://xkcd.com/55/" target="_blank">henkinen</a> testi:</p>
+
+	<p> <img class="tex" src="http://l.wordpress.com/latex.php?latex=F%5C%7B%5Cheartsuit%5C%7D%20%3D%20%5Cfrac%7B1%7D%7B%5Csqrt%7B2%5Cpi%7D%7D%20%5Cint%5E%7B%5Cinfty%7D_%7B%5Cinfty%7Df%28t%29%20e%5E%7Bit%5Cheartsuit%7D%7B%5Crm%20d%7Dt&s=1&fg=FFFFFF&bg=000000" alt="F\{\heartsuit\} = \frac{1}{\sqrt{2\pi}} \int^{\infty}_{\infty}f(t) e^{it\heartsuit}{\rm d}t" /></p>
+
+	<p>Olen kehitellyt pientä kiintymystä <img class="tex" src="http://l.wordpress.com/latex.php?latex=%5CLaTeX&s=1&fg=FFFFFF&bg=000000" alt="\LaTeX" />-notaatioon sen matemaattisten ansioiden takia. Muistaakseni pari kuukautta sitten turisin siitä <a href="http://progo.viuhka.fi/2009/04/latex-ja-tekstinkasittely/">blogiin</a>i, mutta nyt WordPress-aikana otin <a href="http://en.blog.wordpress.com/2007/02/17/math-for-the-masses/" target="_blank">härkää sarvista</a>.</p>
+
+<h3>Asennus ja pluginit</h3>
+
+	<p>Ensimmäinen vaihe oli tutkia WordPressin lisäosakatalogista hakusanalla &#8220;latex&#8221; sopivia vaihtoehtoja. Niitähän oli riittävästi. &#8220;WP Latex&#8221;, &#8220;Latex for Wordpress&#8221;, &#8220;Easy Latex&#8221; ja &#8220;Quick Latex&#8221; ainakin. Niistä kokeilin ensimmäisenä jälkimmäisenä mainittua, koska se näytti ulkoisesti hyvältä. Se itse asiassa olikin varmatoimisin kaikista, mutta se kaatui hyvin simppeliin ongelmaan: värejä ei voinut muutella, vaan oli tyydyttävä mustaa-valkoisella -skeemaan. Se nyt ei sattuneista syistä toimi, jos sivun leipäteksti on itsessään valkoista-mustalla -skeeman mukainen. Seuraava ei toiminut hyvin sekään: cachetus ei pelannut. En nyt muista, mitä kokeilin. Taisi olla toisena mainittu.</p>
+
+	<p>Mutta sitten Easy LaTeX nappasi potin: kaikki näistä tuntuu käyttävän samaa menetelmää: käytetään ulkopuolista tulkkia luomaan gif-kuva, ja se palautetaan koodin asemesta. Tällä palvelimella ei siis tarvitse olla kaikkea tarvittavaa härpäkettä. Useimmat skriptit tukevat myös cachetusta, jotta samoja kuvia ei aina tarvitse latailla uudestaan sieltä ulkopuolelta. Valitettavasti useimmissa käytetään vähän tietoepäturvallisia funktioita ja joudun ottamaan cachetuksen pois päältä. Quick Latexissa toimi cachetus hyvin, mutta muu ei sitten toiminutkaan. Ehkäpä yhdistelen QL:n ja EL:n ominaisuudet yhteen? Simppeleitähän nämä ovat toteutuksellisesti.</p>
+
+	<p>EasyLateX on nimensämukainen. Kaikki sujuu sulavasti, mukana tulee hyvin nätti asetussivu, jolla voi määritellä fonttikoot, värit ja muita ominaisuuksia sulavasti.</p>
+
+	<h2>Toiminta</h2>
+
+	<p>Tekniikka toimii yllättävän hyvin! Tosin, on eri asia sitten, että käytänkö minä tätä. Blogissani kun en pahemmin ole matemaattista teoriaa hieronut. Ja onko sekään niin hyvä, että satunnaiset matemaattiset <img class="tex" src="http://l.wordpress.com/latex.php?latex=x&s=1&fg=FFFFFF&bg=000000" alt="x" />-kirjaimet heitetään muotoillusti, samalla kun hävitetään tekstin mukana skaalautuminen ja muuta. Sentään alt-tagit taitaa kuvilla olla, joten nokkela selain osaa kopioida sen tekstin mukanaan. Lisäksi, kun näyttäisi vähän siltä, että ne kirjaimet hyppäävät jonnekin alas tekstitasolta.</p>
+
+	<p>Huhtikuun kirjoituksessa minä tyrmäsin osittain TeX-virittelyt tavallisessa tekstinkäsittelyssä, koska se ei vain ole nykypäivänä niin vitaalia. Mikä on matemaattisissa teksteissä vitaalia, on tietenkin hyvät matemaattiset latomiset, mutta muunlaisessa tekstissä en oikein näe merkittäviä hyötyjä. Vielä vähemmän tuosta on hyötyä, jos se ei edes asetu aloilleen tekstissä. Minun pitää tutkia kuvanupottamiseen liittyvissä asioissa. Joku alignment-määre sieltä kuitenkin löytyy</p>
+
+	<p>Velihän kuitenkin heräsi <img class="tex" src="http://l.wordpress.com/latex.php?latex=%5CLaTeX&s=1&fg=FFFFFF&bg=000000" alt="\LaTeX" />-ajatteluun tässä ensin kokeiltuaan LyXiä ja nyttemmin kirjoittaa puhtaana tekstinä. Hän on minua matemaattisempi, ja tekee aina välillä harjoituskokeita ja muuta oppikirja-aineistoa omaksi huvituksekseen. Ehkä LaTeX uppoaa sinne paremmin. Jahka yliopisto-opinnot alkavat, saa nähdä, mikä on minun ja matematiikan suhde tämän vuoden aikana. Vähän hermostuttaa, sillä jo kesäkuussa lähettämäni erillishakulomake ei ole saanut vastakaikua vieläkään. Viime kuussa laitoin toki sähköpostia sinne ja hakemuksen käsittelyaika selittyy kesälomilla. Silti hermostuttaa: josko tässä malttaa nukkua. Olen myös yrittänyt etsiskellä jotain pdf-kirjallisuutta aloitteleville opiskelijoille, mutta tullut tuloksetta. Sen sijaan hakutuloksissa on ollut Turun yliopiston LaTeX-sivustoja esillä. Siitä syystä oikeastaan konffasin sen tännekin ja kirjoitin postauksen.</p>
+</div>
+
+<p class="tags"> 
+
+
+Tageja: <a href="../../tag/blogisäätöä/index.html" rel="tag">blogisäätöä</a>, 
+<a href="../../tag/latex/index.html" rel="tag">latex</a>, 
+<a href="../../tag/matematiikka/index.html" rel="tag">matematiikka</a>
+
+
+</p>
+
+
+
+<div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+
+        </div>
+
+ <!-- now, common stuff -->
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+        <p><a rel="prev" href="../39/kannettava-uudistui-taas" title="Kannettava &#34;uudistui&#34; taas">&#171; Kannettava &#34;uudistui&#34; taas</a> 
+           &mdash; <a rel="next" href="../37/varsinainen-24-bittinen-ihme" title="Varsinainen 24-bittinen ihme">Varsinainen 24-bittinen ihme &#187;</a>
+        </p>
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+        <h2>Aiheen vierestä</h2>
+        <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../598/blogille-idea">Blogille&#160;idea</a></span> &#183; <span class="published">2013-01-05</span>
+<br /><span class="smallexcerpt">Uuden org-pohjaisen blogialustan miettiminen ja kehittäminen on vasta aluillaan, vaikka yhä uskon joustavamman alustan tarjoavan paremman kanavan tajunnanvirtani ohjaamiselle. Ja...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../524/blogin-varityksesta">Blogin&#160;värityksestä</a></span> &#183; <span class="published">2011-04-18</span>
+<br /><span class="smallexcerpt">Säädin blogin värejä. Rukoilkaa, etten säädä niitä enempää.
+
+	Tajusin, että ihmiset eivät välttämättä vastusta valkoista-mustalla -väriteemaa suinkaan tummasta taustasta johtuen, vaan...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../520/ihmekuusessa-400-levya">Ihmekuusessa 400&#160;levyä</a></span> &#183; <span class="published">2011-03-25</span>
+<br /><span class="smallexcerpt">Nyt Audioslaven arvioituani Ihmekuusessa/Havuviuhkalla on selattavissa 400 levyn mietteet. Melko pyöreitä lukuja tuli tahattomasti myös statseihin. Sanoja on yhteensä näissä...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../416/blogia-nyt-komentorivilta">Blogia nyt&#160;komentoriviltä</a></span> &#183; <span class="published">2011-01-29</span>
+<br /><span class="smallexcerpt">Noniin. Koska sain tuon lyhyiden mietteiden sovelman toimimaan melko hyvin, ajattelin nyt laajentaa tavalliset blogikirjoituksetkin tehtäväksi komentoriviltä, jossa olen melko...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../381/mikrobloggailua-talossa">Mikrobloggailua&#160;talossa</a></span> &#183; <span class="published">2011-01-21</span>
+<br /><span class="smallexcerpt">Ja nyt sitä mikrobloggailua on tässä. Edellinen artikkeli johti mielettömän kovaan arpomiseen ja pohdintaan, onko se oikeasti sen arvoista kirjoittaa...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../368/mikrobloggailua-luvassa">Mikrobloggailua&#160;luvassa</a></span> &#183; <span class="published">2011-01-17</span>
+<br /><span class="smallexcerpt">Silloin tällöin hetkellinen mielenhäiriö saa minut harkitsemaan Twitterin kaltaisia mikroblogialustoja, sillä joskus saa niin hyviä fiiliksiä pienistä asioista. Sellaisia pikkuasioita...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../361/syntaksivarjays-selaimesi-puolella">Syntaksivärjäys selaimesi&#160;puolella</a></span> &#183; <span class="published">2010-12-09</span>
+<br /><span class="smallexcerpt">Edelliset ratkaisut eivät sitten toimineet lainkaan siten kuten halusin. Pääsin jo hyvälle mallille edellisen pohjan kanssa, kun viilasin blogikoneemme Textile-koodia,...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../358/taalla-testataan-syntaksivarjaysta">Täällä testataan&#160;syntaksivärjäystä</a></span> &#183; <span class="published">2010-12-03</span>
+<br /><span class="smallexcerpt">Jaksoin ottaa nyt tätä syntaksivärjäyshommaa tehtäväksi. Jos nyt kaikki pelaa, kuten toivon, saan yksillä CSS-määritelmillä kaikille syntakseille jokseenkin samat (yhtenäiset)...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../355/textpatternille-varjaava-koodi">TextPatternille värjäävä&#160;koodi</a></span> &#183; <span class="published">2010-11-22</span>
+<br /><span class="smallexcerpt">Vähänkään suositummalle CMS-alustalle syntaksia värjäävän kooditoiminnon löytymisen ei pitäisi olla ongelma. No, ei ollutkaan. TextPatternin semantiikkaa etsitään kuitenkin muilta vesiltä...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../343/bloggaus-ohjelmointi">Bloggaus-ohjelmointi?</a></span> &#183; <span class="published">2010-10-09</span>
+<br /><span class="smallexcerpt">Edellinen blogikirjailu kehittyi muuten siten, että aloitin kirjoittamaan eilen luomastani täydennysmetodista, kunnes totesin, ettei tätä tässä muodossa kehtaa esitellä, joten...</span>
+</li>
+
+</ul>
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

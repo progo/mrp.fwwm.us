@@ -1,0 +1,295 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <!-- standard -->
+	<title>Mr. P: Näppäimistön nappikonffaus</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=mietteet" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=mietteet" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="mietteet">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="naeppaeimistoen-nappikonffaus#content">Siirry sisältöön</a></li>
+        <li><a href="naeppaeimistoen-nappikonffaus#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            &raquo;
+            <a href="../index.html">Mietteet</a>
+            
+                <!--<ul>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/598/blogille-idea">Blogille&#160;idea</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/597/wes-mckinney-python-for-data-analysis-oreilly">Wes McKinney - Python For Data Analysis (O&#39;Reilly)</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/596/org-blogaaminen-vaikeata">Org-blogaaminen&#160;vaikeata</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/595/twitterointia-emacsilla">Twitteröintiä&#160;Emacsilla</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/594/weboodi-aikataulut-orgiin">WebOodi-aikataulut&#160;orgiin</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/592/emacs-has-me">Emacs has&#160;me.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/591/editorien-taistelu-tietamyshallinnassa">Editorien taistelu&#160;tietämyshallinnassa</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/590/think-vimorganizer">Think&#160;VimOrganizer.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/589/think-orgmode">Think&#160;orgmode.</a>
+                </li>
+</ul>-->
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="/kategoria/hifi/">Hifi</a></li>
+	<li><a href="/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="/kategoria/rauta/">Rauta</a></li>
+	<li><a href="/kategoria/viihde/">Viihde</a></li>
+	<li><a href="/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../../tag/gentoo/index.html" class="tagSizeLargest tagSize102" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../../tag/hifi/index.html" class="tagSizeMedium tagSize28" style="font-size: 100%;">hifi</a></li>
+	<li><a href="../../tag/musiikki/index.html" class="tagSizeMedium tagSize20" style="font-size: 100%;">musiikki</a></li>
+	<li><a href="../../tag/ohjelmistot/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">ohjelmistot</a></li>
+	<li><a href="../../tag/ohjelmointi/index.html" class="tagSizeMedium tagSize39" style="font-size: 100%;">ohjelmointi</a></li>
+	<li><a href="../../tag/opiskelu/index.html" class="tagSizeMedium tagSize14" style="font-size: 100%;">opiskelu</a></li>
+	<li><a href="../../tag/ostoksia/index.html" class="tagSizeMedium tagSize8" style="font-size: 100%;">ostoksia</a></li>
+	<li><a href="../../tag/rauta/index.html" class="tagSizeMedium tagSize20" style="font-size: 100%;">rauta</a></li>
+</ul>
+        <p><a href="../../tag/index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=mietteet" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=mietteet" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- not tag view, it's the main view -->
+
+
+        
+
+        <div class="hfeed">
+            <!-- five articles to list here, or only one. It depends. -->
+            <!-- default form -->
+
+<p class="published"> 8. lokakuu 2007, 15:42</p>
+<h1 class="entry-title"><a rel="bookmark" href="naeppaeimistoen-nappikonffaus">Näppäimistön&#160;nappikonffaus</a></h1>
+
+
+<div class="entry-content">
+<p>Edellisen kerran puhuin <a href="/article/144/turn-to-linux">volymisäätönapeista</a> ja nyt olisi aika katsoa, mitä niille muille tekisi. Nyt vasta.</p>
+<p>Eli, greppaillaan heuristisesti kaikki hyvät ideat <a href="http://paste.kuusi.org/plain.php?pid=448">käydystä keskustelusta</a>. Käännetään samalla.</p>
+<ul>
+<li>Termiksen avaus</li>
+<li>Soittimen kappaleenvaihdos</li>
+<li>Workspacen vaihtaminen</li>
+<li><strong>tail -termiksen toglaus</strong></li>
+<li><strong>näytönsammuttaja</strong></li>
+<li>lukitse työpöytä</li>
+<li>mikserin starttaus</li>
+</ul>
+<p>Noista ehdottomasti boldatut ovat, mihin paneudun. Eikä /var/log/messagesin tailaus olisi pahitteeksi, etenkään kun olisi tosiaan se ikkuna toglattavissa. Aika hyvä!</p>
+<p><strong>Lisää</strong>: Portaittainen nuuskiminen eteni seuraavasti:</p>
+<ol>
+<li>gentoo wiki (xscreensaver)</li>
+<li>gentoo wiki (screensaver)</li>
+<li>xscreensaver</li>
+<li>man xscreensaver</li>
+<li>xscreensaver-demo</li>
+<li>man screensaver-command</li>
+<li>irc</li>
+<li>man xscreensaver-command</li>
+<li> <code> xset dpms force off </code></li>
+</ol>
+<p>Winnage. Paitsi TextPatternin typerä tapa käsitellä listoja. On lisättävä listan loppuun vielä yksi merkki, joka ei käänny listaksi, koska muuten listan viimeinen entry kääntyykin omaksi listakseen. Kuten näkyy postauksen ensimmäisessä listauksessa (view source auttaa kanssa). Ja lopullinen rivi, joka xbindkeysin jauhannan jälkeen on saanut lopullisen muotonsa multimedianäppiksen nuottinäppäimen alta:</p>
+<pre>"xset dpms force off"
+m:0&#215;10 + c:129
+Mod2 + NoSymbol</pre>
+</div>
+
+<p class="tags"> 
+
+
+Tageja: <a href="../../tag/näppäimistöt/index.html" rel="tag">näppäimistöt</a>
+
+
+</p>
+
+
+
+<div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+
+        </div>
+
+ <!-- now, common stuff -->
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+        <p><a rel="prev" href="../145/sennheiser" title="Sennheiser">&#171; Sennheiser</a> 
+           &mdash; <a rel="next" href="../143/hallelujah-ttvk" title="Hallelujah, TTVK!">Hallelujah, TTVK! &#187;</a>
+        </p>
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+        <h2>Aiheen vierestä</h2>
+        <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../572/vim-editointia-suominappaimistolla">Vim-editointia&#160;suominäppäimistöllä</a></span> &#183; <span class="published">2012-04-03</span>
+<br /><span class="smallexcerpt">Vi ja Vim on suunniteltu ensisijaisesti käytettäväksi 104-näppäimisellä US -näppäimistölayoutilla. Pohjoismaalaiset 105-näppäilijät eivät välttämättä edes tiedosta, mitä menettävät käyttämällä Vimiä...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../3/naeppaeimistoe-ja-blogihaaveita">Näppäimistö- ja&#160;blogihaaveita</a></span> &#183; <span class="published">2010-03-13</span>
+<br /><span class="smallexcerpt">Löysin uuden vanhan yhteisön, joka keskittyy näppäimistöjen suloiseen maailmaan. Ehkäpä Dassikka on pian siirtymässä takaisin kiertoon. Ehkäpä ei. Lisäksi olen...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../51/naeppaeimistoeistae-ja-tyoepoeytaeasetelmastani">Näppäimistöistä ja&#160;työpöytäasetelmastani</a></span> &#183; <span class="published">2009-05-23</span>
+<br /><span class="smallexcerpt">Kuten te kaikki varmasti tiedättekin, omistin aikoinani ICL:n tönkkökankean näppäimistön, jonka varsin mukava näppäinvastine sopi peleille hyvin, mutta sitäkin huonommin...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../82/paeivityksiae-rautaa">Päivityksiä,&#160;rautaa</a></span> &#183; <span class="published">2008-10-08</span>
+<br /><span class="smallexcerpt">Päivittelin kuusen tässä. Iloinen yllätys, että se jaksoi 48 päivitystä yhteen seisomaan, ilman faileja. Apassi sitten kiitteli ja kaatui, mutta...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../96/naeppaeimistoekuume">Näppäimistökuume</a></span> &#183; <span class="published">2008-06-01</span>
+<br /><span class="smallexcerpt">Tässä taas olen Das Keyboardin perään kuolannut. Luin että kakkosmallin valmistus on lopetettu ja sen korvaa pian kolmossarja, joka on...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../160/turn-to-linux">Turn to&#160;Linux</a></span> &#183; <span class="published">2007-09-22</span>
+<br /><span class="smallexcerpt">Nyt ulkoinen kovalevy on käännetty ext3:ksi. Onko se nyt järkevää, yhdentekevää. En minä tuota levyä muutenkaan ikinä liikuttele.
+Sitten vaan cp...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../162/hardwarea-lisaeae">Hardwarea&#160;lisää</a></span> &#183; <span class="published">2007-09-21</span>
+<br /><span class="smallexcerpt">Näppäimistöni, Logitech UltraX Media Keyboard, sisältää kuusi multimeedianäppäintä, jotka eivät toimi defaulttina. Mutta sepä ei ollut uutisoinnin aiheena. Vaan se,...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../219/ulkoasu-vol-n">Ulkoasu, vol&#160;n.</a></span> &#183; <span class="published">2007-05-14</span>
+<br /><span class="smallexcerpt">Kuusi on saamassa uuden ulkoasun. Sitä on esitelty jo osin tuolla irkissä, mutta olkoon se nyt paljastamatta tässä. Tulkaamme ihastelemaan...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../220/aika">Aika</a></span> &#183; <span class="published">2007-04-22</span>
+<br /><span class="smallexcerpt">Tuntuu vähän typerältä tällä hetkellä.
+Olen samaistanut itseni nyt tiedon käyttäjäksi, sen hallitsijaksi. Tunnen tiedon ja sen lähteet. Kuitenkin hallitsen tuskin...</span>
+</li>
+
+</ul>
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

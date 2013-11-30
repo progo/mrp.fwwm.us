@@ -1,0 +1,277 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <!-- standard -->
+	<title>Mr. P: Twin Peaks</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=mietteet" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=mietteet" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="mietteet">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="twin-peaks#content">Siirry sisältöön</a></li>
+        <li><a href="twin-peaks#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            &raquo;
+            <a href="../index.html">Mietteet</a>
+            
+                <!--<ul>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/598/blogille-idea">Blogille&#160;idea</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/597/wes-mckinney-python-for-data-analysis-oreilly">Wes McKinney - Python For Data Analysis (O&#39;Reilly)</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/596/org-blogaaminen-vaikeata">Org-blogaaminen&#160;vaikeata</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/595/twitterointia-emacsilla">Twitteröintiä&#160;Emacsilla</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/594/weboodi-aikataulut-orgiin">WebOodi-aikataulut&#160;orgiin</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/592/emacs-has-me">Emacs has&#160;me.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/591/editorien-taistelu-tietamyshallinnassa">Editorien taistelu&#160;tietämyshallinnassa</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/590/think-vimorganizer">Think&#160;VimOrganizer.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/589/think-orgmode">Think&#160;orgmode.</a>
+                </li>
+</ul>-->
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="http://progo.viuhka.fi/kategoria/hifi/">Hifi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/rauta/">Rauta</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/viihde/">Viihde</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../../tag/blogisäätöä/index.html" class="tagSizeMedium tagSize22" style="font-size: 100%;">blogisäätöä</a></li>
+	<li><a href="../../tag/gentoo/index.html" class="tagSizeLargest tagSize102" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../../tag/hifi/index.html" class="tagSizeMedium tagSize28" style="font-size: 100%;">hifi</a></li>
+	<li><a href="../../tag/musiikki/index.html" class="tagSizeMedium tagSize20" style="font-size: 100%;">musiikki</a></li>
+	<li><a href="../../tag/ohjelmistot/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">ohjelmistot</a></li>
+	<li><a href="../../tag/ohjelmointi/index.html" class="tagSizeMedium tagSize39" style="font-size: 100%;">ohjelmointi</a></li>
+	<li><a href="../../tag/ostoksia/index.html" class="tagSizeMedium tagSize8" style="font-size: 100%;">ostoksia</a></li>
+	<li><a href="../../tag/vim/index.html" class="tagSizeMedium tagSize31" style="font-size: 100%;">vim</a></li>
+</ul>
+        <p><a href="../../tag/index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=mietteet" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=mietteet" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- not tag view, it's the main view -->
+
+
+        
+
+        <div class="hfeed">
+            <!-- five articles to list here, or only one. It depends. -->
+            <!-- default form -->
+
+<p class="published">26. marraskuu 2007, 15:12</p>
+<h1 class="entry-title"><a rel="bookmark" href="twin-peaks">Twin&#160;Peaks</a></h1>
+
+
+<div class="entry-content">
+<p>Nyt kun osasin pyöritellä Xvidiä, niin voisin hyödyntää tänään postissa kolahtanutta Twin Peaks -kultasettiäni ja pyöritellä siitä laadukkaat xvidit jemmaan. Jos kirjoittelen pitkää settiä niistä niin xvidistä on vähän helpompi pyöritellä joku kohtaus esille kuin kaivaa DVD kaapista ja siitä navigoida. Jos vaikka about giga per jakso. Ehkä. Jos jaksan tehdä. Tykkään kuvanlaadusta.</p>
+</div>
+
+<p class="tags"> 
+
+
+Tageja: <a href="../../tag/video/index.html" rel="tag">video</a>
+
+
+</p>
+
+
+
+<div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+
+        </div>
+
+ <!-- now, common stuff -->
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+        <p><a rel="prev" href="../133/xvidit" title="Xvidit">&#171; Xvidit</a> 
+           &mdash; <a rel="next" href="../131/audiorippaus" title="Audiorippaus">Audiorippaus &#187;</a>
+        </p>
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+        <h2>Aiheen vierestä</h2>
+        <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../553/videoeditoinnit-linuxissa">Videoeditoinnit&#160;linuxissa</a></span> &#183; <span class="published">2011-09-24</span>
+<br /><span class="smallexcerpt">Huoh. Täytyy sanoa, että en aivan mieluiten valitsisi linux-ohjelmia isompien projektien editointiin. Nykytarjonta on aika heikkoa, edelleenkin. Vaikka Cinelerra (tai...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../98/cinelerra-epilogi">Cinelerra,&#160;epilogi</a></span> &#183; <span class="published">2008-05-22</span>
+<br /><span class="smallexcerpt">Cinelerraa vaivaa kyllä pieni bugisuus ja hitaus. Kameran 11025-hertsinen muta pitää erikseen upmiksata johonkin säädylliseen, ennen kuin cinelerra suostuu bugitta...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../101/cinelerra-os-editorien-aeiti">Cinelerra, OS-editorien&#160;äiti</a></span> &#183; <span class="published">2008-05-16</span>
+<br /><span class="smallexcerpt">Päätinpä vihdoinkin kokeilla tätä OS-projektin erästä saavutusta, Cinelerraa. Kyseessä on siis NLE -ympäristö, joka on vapaa ja ilmainen. 
+Olen käyttänyt...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../133/xvidit">Xvidit</a></span> &#183; <span class="published">2007-11-26</span>
+<br /><span class="smallexcerpt">Tulipa vihdoin opeteltua tuota xvid-pakkausta mencoderilla. Pohjana oli Gentoon Wikistä ihan asiallinen valmis litania. Mencoderin omista dokumenteista aikoinaan kokeilin two-passia...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../157/uusi-haaste">Uusi&#160;haaste</a></span> &#183; <span class="published">2007-09-25</span>
+<br /><span class="smallexcerpt">Nyt tuli se hetki eteen kun äitee toi DVD-elokuvan eteeni kopioita odottaen. Se elokuva on tietysti DVD-9, joten minun täytyy...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../181/aika-rientaeae">Aika&#160;rientää</a></span> &#183; <span class="published">2007-09-03</span>
+<br /><span class="smallexcerpt">Kylläpä se tosiaan juoksee.
+Tänään voisi vielä kokeilla semmoista, että ensin tekee imagen mkisofs:llä ja sitten polttaa sen suoriltaan growisofs:llä. Saattaahan...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../189/houston-we-have-coffee">Houston, we have&#160;coffee.</a></span> &#183; <span class="published">2007-08-23</span>
+<br /><span class="smallexcerpt">Lapinreissu saa potkua alleen pannukahvista. Makuupussin tutkiminen pitäisi suorittaa ja kaikkea sellaista.
+Poltin video-dvd:n, joka ei aukea VLC:llä eikä mplayerillakaan. Tosin...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../190/houston-we-solved-the-problem">Houston, we solved the&#160;problem.</a></span> &#183; <span class="published">2007-08-23</span>
+<br /><span class="smallexcerpt">DVD+RW-format -niminen ohjelma (gentoossa paketissa app-cdr/dvd+rw-tools) osasi formatoida levyn. Se ei enää, vihdoinkaan, mounttaa, ei mplayer löydä sieltä palasia vanhoista...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../195/paluu-uusiin-haasteisiin">Paluu uusiin&#160;haasteisiin</a></span> &#183; <span class="published">2007-08-21</span>
+<br /><span class="smallexcerpt">Palasin oppilaitoksesta.
+Nyt koitan cdrecordia verbatimille, jotta varmistuu, ettei vika ole mitenkään softissa tai muussa. Tosin aion polttaa levyn 4x -nopeudella,...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../196/uusiin-haasteisiin">Uusiin&#160;haasteisiin</a></span> &#183; <span class="published">2007-08-21</span>
+<br /><span class="smallexcerpt">Pelin nimi on dvd-poltto.
+First round: Computer 1 &#8211; 0 User. Käytin growisofsia ja lopputulos on tässä. Aika hiljaiselta näyttää. Taidan...</span>
+</li>
+
+</ul>
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,323 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <!-- standard -->
+	<title>Mr. P: Vimistä Emacsiin?</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=mietteet" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=mietteet" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="mietteet">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="vimista-emacsiin#content">Siirry sisältöön</a></li>
+        <li><a href="vimista-emacsiin#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            &raquo;
+            <a href="../index.html">Mietteet</a>
+            
+                <!--<ul>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/598/blogille-idea">Blogille&#160;idea</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/597/wes-mckinney-python-for-data-analysis-oreilly">Wes McKinney - Python For Data Analysis (O&#39;Reilly)</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/596/org-blogaaminen-vaikeata">Org-blogaaminen&#160;vaikeata</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/595/twitterointia-emacsilla">Twitteröintiä&#160;Emacsilla</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/594/weboodi-aikataulut-orgiin">WebOodi-aikataulut&#160;orgiin</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/592/emacs-has-me">Emacs has&#160;me.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/591/editorien-taistelu-tietamyshallinnassa">Editorien taistelu&#160;tietämyshallinnassa</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/590/think-vimorganizer">Think&#160;VimOrganizer.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/589/think-orgmode">Think&#160;orgmode.</a>
+                </li>
+</ul>-->
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="http://progo.viuhka.fi/kategoria/hifi/">Hifi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/rauta/">Rauta</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/viihde/">Viihde</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../../tag/blogisäätöä/index.html" class="tagSizeMedium tagSize24" style="font-size: 100%;">blogisäätöä</a></li>
+	<li><a href="../../tag/gentoo/index.html" class="tagSizeLargest tagSize104" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../../tag/hifi/index.html" class="tagSizeMedium tagSize30" style="font-size: 100%;">hifi</a></li>
+	<li><a href="../../tag/ohjelmointi/index.html" class="tagSizeMedium tagSize41" style="font-size: 100%;">ohjelmointi</a></li>
+	<li><a href="../../tag/opiskelu/index.html" class="tagSizeMedium tagSize16" style="font-size: 100%;">opiskelu</a></li>
+	<li><a href="../../tag/pelaaminen/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">pelaaminen</a></li>
+	<li><a href="../../tag/rauta/index.html" class="tagSizeMedium tagSize22" style="font-size: 100%;">rauta</a></li>
+	<li><a href="../../tag/vim/index.html" class="tagSizeMedium tagSize33" style="font-size: 100%;">vim</a></li>
+</ul>
+        <p><a href="../../tag/index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=mietteet" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=mietteet" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- not tag view, it's the main view -->
+
+
+        
+
+        <div class="hfeed">
+            <!-- five articles to list here, or only one. It depends. -->
+            <!-- default form -->
+
+<p class="published">10. syyskuu 2010, 17:03</p>
+<h1 class="entry-title"><a rel="bookmark" href="vimista-emacsiin">Vimistä&#160;Emacsiin?</a></h1>
+
+
+<div class="entry-content">
+	<p>Olen tässä viime päivinä aika ajoin pohtinut suhdettani Vimiin, ja että ehkäpä tarvitsen tehokkaamman alustan käyttöä varten. Ainut järkevä vaihtoehto Vimille olisi <strong><span class="caps">EMACS</span></strong>.</p>
+
+	<p>Teatraalinen ingressi on ehkä iltapäivälehtien tasoa, mutta mikäpäs minua estäisi. Tilanne kehittyi alunperin <a href="http://bradbeveridge.wordpress.com/2007/06/21/how-a-vim-user-converts-to-emacs/">blogipostauksesta</a>, jossa Lisp-kehittäjä sanoi vaihtaneensa Vimistä Emacsiin paremman Lisp-kehitysympäristön toivossa. Mikäpä olisi Emacsia parempi Lisp-ympäristö indeed? Ei sitä vimscriptiäkään kannata Emacsista käsin kirjoitella. Hän tykästyi siihen varsin kovasti. Mikäs siinä, antaa miehen käytellä.</p>
+
+	<p>Googlasin sitten simppeleillä hakusanoilla muutaman blogikirjoituksen, toivoakseni löytää eri ihmisten syitä vaihtaa editoria. Löysin oikein hyviä kirjoituksia, joita luen ja ehkäpä suoraan reflektoin omia mietteitäni tänne. Paras lukutyyli: lue ensin linkistä asia, ja sitten minun &#8220;kommenttini&#8221; tekstiin.</p>
+
+	<h3>Emacs-mies testasi Vimiä, eikä tykännyt</h3>
+
+	<p>Herra, jonka nimi ei nyt artikkelissa näy missään, on Emacs-mies, mutta <a href="http://changelog.complete.org/archives/661-so-long-vim-im-returning-to-emacs">testaillut Vimiä 8 kuukauden ajan</a>, ja todennut Emacsin paremmaksi. Hän listaa monia hyviä syitä kokemuksilleen.</p>
+
+	<p>Ensin hän kuitenkin esittelee syitä ja hypetystä, miksi häntä kiinnosti kokeilla Vimiä. Otetaan esille tuo minun henkilökohtainen suosikkini, Vi-näppäimet. Hän arvostaa ergonomiaa kuten minäkin, mutta kuitenkin nähtävästi 8 kuukaudessa ei aivan omaksuta kotirivin hienoutta. Tai kyseessä on mielipidekysymys.</p>
+
+	<p>Hän nostaa Vimin isoiksi puutteiksi huonon koodikontekstin, erityisesti syntaksivärjäyksen ja automaattisen sisennyksen. Olen ymmärtänyt siis asian oikein: Emacsin voimakas funktionaalinen moottori, Lisp, mahdollistaa enemmän ja helpommin. Vimin vimscript varmasti kykenisi vaikka minkälaiseen, mutta se olisi sama kuin kirjoittaa C:llä isoa ohjelmistoprojektia. Funktionaalisella kielellä olisi helppo kirjoittaa mukautuvia parsereita ymmärtämään koodia. Proseduraalinen paradigma ei helpota. </p>
+
+	<p>Ja yksi erityisen tärkeä asia: Emacs todella osaa avata useita (oikeita) ikkunoita saman serverin päälle. Tämä olisi asia, johon kiivaasti haluaisin parannusta Vimin saralla. Jakaa bufferit, rekisterit ja muut tauhkat helposti. </p>
+
+	<p>Kaiken kaikkiaan herra on tehnyt hyvän taustatutkimuksen Vimin saralle. Emacsissa on valtavasti potentiaalia, mutta kaikki tämä vaatii Lispin omaksumista. Vähän kuten tämän Xmonadin käyttö vaatii Haskellia. Ja hyvin olen pärjännyt.</p>
+
+	<h3>Toinen, vastaavanlainen tapaus</h3>
+
+	<p>Kolmisen vuotta sitten kirjoitettu vertailu <a href="http://gnuvince.wordpress.com/2007/02/24/emacs-and-vim/">Emacs and Vim</a> sisältää samanlaisen lähtökohdan kuin ensimmäinen kirjoitelma. Emacs-mies käyttää viikon ajan Vimiä, ja on kirjoittanut hyvän tekstin sitten eroista. </p>
+
+	<p>Kirjoittaja kehuu tekstin editoimista ja simppeliä liikkumista superina. En voi väittää vastaankaan. Emacs ei vain pääse samalle tasolle, ja tämän voin sanoa ilman, että olen sitä käyttänyt paria tuntia pidempään. Modaalisuutta ei päihitetä. Emacs Viper-moodin kanssa onkin sitten eri asia&#8230;</p>
+
+	<p>Kuten edellinen kirjailija, taas autosisennys saa moitteita vimissä. Puutteelliset kehitysvälineet, ja tähän on viime vuosina ainakin vimin postituslistoilla otettu kovasti kantaa. Ja on saatu parannuksia: nykyisin vim tukee perliä, rubya ja pythonia, pian myös javascriptiä vaihtelevin integroinnein. Ja nämä kaikki toisaalta hankaloittavat vimin käyttöä rajoitetuissa ympäristöissä (esimerkiksi jo niinkin vapaassa paikassa kuin yliopiston shellissä vimin tuotteliaisuutta parantavat plugarit voivat jäädä hyllylle, jos se vaatii vaikka python-tulkin ja vielä käännetyn tuen vimille), niin kuitenkin näillä eväillä päästään kohti Emacs-Lispin tasoa. </p>
+
+	<p>Kirjailija mainitsee Vimin foldauksen erityisen hienoksi ominaisuudeksi, emacsin vastaaviin nähden. En näe foldinkeja niin hyödyllisiksi itse.</p>
+
+	<p>Puhutaan ensin siitä, että Vim noudattaa Unix-filosofiaa paremmin, ja samaan hengenvetoon kehutaan, kuinka Vim sisältää kaiken itsessään: oikoluvut, grepit sun muut. Viimeisenä mainitaan suuri hienous: täydennys. Vimin täydennys on ainakin loistava, ja varmasti Emacs kykenee samoihin toiminallisuuksiin osaltaan.</p>
+
+	<h3>Ehta tapaus</h3>
+
+	<p>Kaksi edellistä kirjailijaa ovat kovasti Emacs-miehiä, jotka vain kokeilivat Vimiä, ja kertoivat näistä kokemuksista sitten ihan kiitettävästi. Mutta entäs ne tapaukset, joita <em>minä</em> alunperin olin googlailemassa?</p>
+
+	<p>On onneksi ainakin yksi kirjailija, joka on kirjoittanut kahden postauksen parin loistavaa tekstiä aiheesta. Vannoutunut Vim-mies on käyttänyt Emacsia ja jopa vaihtanut siihen. <a href="http://upsilon.cc/~zack/blog/posts/2008/10/from_Vim_to_Emacs_-_part_1/">Ensimmäisessä viestissä</a>  hän listaa joitain syitä, miksei Emacs ole kiinnostanut aiemmin. Neljässä pallukassa on vähän stereotypiaa ja muutama kuollut pointti: en edes tiennyt, että Emacsin kehitys oli melko jäissä 2000-luvun alkuvaiheessa, kunnes nyttemmin se on ottanut tuulta alleen.  Unicode-tuki on toki iso homma, joka on fiksattu vastikään.  </p>
+
+	<p>Kirjoituksessa paistaa hyvä kokeneisuus ja loistava tulevaisuus. Kuka tahansa tehokäyttäjä, vaihtaessaan editoria toiseen ei tee sitä perättömistä syistä. En voi olla kuin iloinen, jos joku saa parannettua työtehoaan entisestään. Emacsin nätti kustomoitavuus (kaikelle on selkeästi nimetyt lisp-funktiot valmiina bindattavaksi) ja tehokkaat toiminnot (kuten kauniit sisennykset ja toimivat syntaksivärjäykset) toki kiinnostaa minuakin. Lispin opiskelu ja emacsin sisäisen rakenteen omaksuminen taasen vaatii enemmän ja nostaa kynnystä.</p>
+
+	<p><a href="http://upsilon.cc/~zack/blog/posts/2008/11/from_Vim_to_Emacs_-_part_2/">Toisessa viestissä</a>  kirjailija viestii Vimin puutteita. Näitähän pitää syynätä tarkkaan, ja itse asiassa Zack on monessa asiassa samoilla linjoilla kuin minäkin.</p>
+
+	<p>Kirjailija listaa vimin hankalimmat seikat ihan näppärästi: kun Vim aikoinaan noudatti Vi:n jalanjäljillä Unix-filosofiaa, ei se enää voi saada puhtaita papereita tästä. Kieliopit, grepit, nämä kaikki. Miksi? Ja sitten prosessienvälinen kommunikointi, kirjailjan mukaan, on tavattoman vaikeata. Hyviä Vim-Debugger -konnektioita on yritetty tehdä, ja kai ne jotenkin toimivat. Mutta Emacsin voittanutta oheisohjelmistointegraatiossa ei taida näkyä.</p>
+
+	<p>Zack antaa noottia vimscriptille. Se toki selvästi häviää Emacs-Lispille joustavuudessa ja monikäytettävyydessä, mutta simppeleissä asioissa oma sisäinen kieli on ihan hyvä. Sitä on hyvin käytetty esimerkiksi syntaksitiedostoihin ja väriteemoihin. Vasta lisäosien kirjoittamisessa sen rajat tulevat vastaan, jonka kirjailijakin oli tiedostanut. Jättäisin vimscriptin perusversion sisään, ja panostaisin esimerkiksi Pythonin parempaan integrointiin lisäosien suhteen. Tämä onkin hyvällä mallilla, mikäli olen nyt asian ymmärtänyt oikein. Python 3:n käyttöä on listoilla paljon pohdittu, en ole sen tarkemmin tutkinut.  Pari vuotta tässä asiassa tulee näyttämään ihmeitä. En kyllä pidä siitä, että nykyisellään ollaan lisäilemässä kaikenlaisia kieliä mukaan. Se vain lisää dependenssien lukumäärää ja monimutkaistaa koodirunkoa. </p>
+
+	<p>Kirjailija mainitsee Emacsin saavuttamasta asemasta kokonaisena jakeluna. Se toimii Emacsille tosi hyvin, en vain osaa kuvitella Vimiä sellaisena. Kolmannen osapuolen skriptit ovat aina jäljessä tavalla tai toisella. Siitä ei pääse mihinkään. </p>
+
+	<h3>Loppukaneetti</h3>
+
+	<p>On todettu, että moderni Emacs syö vähemmän kuin Gvim usein hienoin pluginein.  Se myös käynnistyy nopeammin kuin Gvim, jos keskuspalvelin on viritelty toimimaan. Emacsin syntaksivärjäykset ja automaattisisennykset toimivat keskimäärin vimin vastaavia paremmin. Lisäksi Emacsin integraatio ulkomaailman kanssa on parempi, sisäinen skriptaus on tehokkaampaa ja monipuolisempaa, ja lisäksi graafinen puoli tukee <a href="http://www.terminally-incoherent.com/blog/wp-content/uploads/2007/12/auctex.jpg">useita fontteja</a> samanaikaisesti (asia, jota esimerkiksi LaTeX-koodeissa arvostaisi).</p>
+
+	<p>Tiedättekö mitä? Minun pitää asentaa Emacs ja siihen Viper-moodi, ja sitten pohtia ehkä lisää. Kuka tietää, jospa minustakin tulee Emacs-mies jonain päivänä.</p>
+</div>
+
+<p class="tags"> 
+
+
+Tageja: <a href="../../tag/emacs/index.html" rel="tag">emacs</a>, 
+<a href="../../tag/vim/index.html" rel="tag">vim</a>
+
+
+</p>
+
+
+
+<div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+
+        </div>
+
+ <!-- now, common stuff -->
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+        <p><a rel="prev" href="../335/versiohallitako-kotihakemiston-asetustiedostoja" title="Versiohallitako kotihakemiston asetustiedostoja?">&#171; Versiohallitako kotihakemiston asetustiedostoja?</a> 
+           &mdash; <a rel="next" href="../337/kuin-frodo-ja-sormus" title="Kuin Frodo ja Sormus">Kuin Frodo ja Sormus &#187;</a>
+        </p>
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+        <h2>Aiheen vierestä</h2>
+        <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../598/blogille-idea">Blogille&#160;idea</a></span> &#183; <span class="published">2013-01-05</span>
+<br /><span class="smallexcerpt">Uuden org-pohjaisen blogialustan miettiminen ja kehittäminen on vasta aluillaan, vaikka yhä uskon joustavamman alustan tarjoavan paremman kanavan tajunnanvirtani ohjaamiselle. Ja...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../596/org-blogaaminen-vaikeata">Org-blogaaminen&#160;vaikeata</a></span> &#183; <span class="published">2012-11-11</span>
+<br /><span class="smallexcerpt">Haluaisin kovasti hylätä periaatteessa lukitut blogialustat puhtaan tekstin edessä, ja erityisesti ottaa org-mode kovaan käyttöön. Mutta kaikenlaisia pieniä probleemia on...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../595/twitterointia-emacsilla">Twitteröintiä&#160;Emacsilla</a></span> &#183; <span class="published">2012-10-24</span>
+<br /><span class="smallexcerpt">Tänään piti viettää kiva päivä käymällä hyvällä luennolla ja sitten pakertaa vähän tehtävien kimpussa koululla. Toisin kävi, kun tehtäviä ei...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../594/weboodi-aikataulut-orgiin">WebOodi-aikataulut&#160;orgiin</a></span> &#183; <span class="published">2012-10-23</span>
+<br /><span class="smallexcerpt">Itä-Suomen yliopiston weboodissa alkaa olla aika usein kurssi-infot hyvässä kunnossa, ja nyt on myös joensuulaisille olemassa tuota lukkaria, joka on...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a></span> &#183; <span class="published">2012-10-17</span>
+<br /><span class="smallexcerpt">Tässä on ihmetelty jo hyvän aikaa uusissa maailmoissa, ja pitkälle on päästy. En olisi itsestäni uskonut, että Emacsissa ollaan jonain...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../592/emacs-has-me">Emacs has&#160;me.</a></span> &#183; <span class="published">2012-09-22</span>
+<br /><span class="smallexcerpt">Emacs alkaa ottaa otetta minusta. Olen yrittänyt olla pyristelemättä vastaan, eikä ole asiaa vastaan mitään sanottavaa. Kaikki ne herkut ja...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../591/editorien-taistelu-tietamyshallinnassa">Editorien taistelu&#160;tietämyshallinnassa</a></span> &#183; <span class="published">2012-09-14</span>
+<br /><span class="smallexcerpt">Kun päädyin pari viikkoa sitten Org-formaattiin, oli se luonnollisesti edellytys, että Vim ja sen VimOrganizer saadaan kuntoon. Nyt kuitenkin on...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../590/think-vimorganizer">Think&#160;VimOrganizer.</a></span> &#183; <span class="published">2012-09-02</span>
+<br /><span class="smallexcerpt">Asiat rullaavat eteenpäin tyydyttävää tahtia tämän uuden tiedonhallinnan kanssa. Nyt olen säätänyt kuntoon jokaisesta kulmasta toimivan org-capture -variantin, jolla saan...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../589/think-orgmode">Think&#160;orgmode.</a></span> &#183; <span class="published">2012-08-31</span>
+<br /><span class="smallexcerpt">Teemme taas täyden ympyrän palatessamme orgmodeen, tuohon viha-rakkaussuhteen saaneeseen pakettiin. Edellinen thinktank-idea lopulta vääntyy siihen, että voin joko tehdä simppelin...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../587/tehokkaat-kayttoliittymat-vaivatta">Tehokkaat käyttöliittymät&#160;vaivatta</a></span> &#183; <span class="published">2012-08-16</span>
+<br /><span class="smallexcerpt">Ohjelmoijan onni on elää komentorivillä. Tehokkaiden käyttöliittymien rustaaminen on varsin nopeata, kunhan luottaa siihen, että suurta suosiota tuotokset eivät tule...</span>
+</li>
+
+</ul>
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

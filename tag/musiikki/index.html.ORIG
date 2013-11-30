@@ -1,0 +1,435 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <title>Mr. P: aiheesta musiikki</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=tag" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=tag" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="tag">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="index.html#content">Siirry sisältöön</a></li>
+        <li><a href="index.html#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../mietteet/index.html">Mietteet</a>
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="http://progo.viuhka.fi/kategoria/hifi/">Hifi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/rauta/">Rauta</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/viihde/">Viihde</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../blogisäätöä/index.html" class="tagSizeMedium tagSize25" style="font-size: 100%;">blogisäätöä</a></li>
+	<li><a href="../gentoo/index.html" class="tagSizeLargest tagSize105" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../hifi/index.html" class="tagSizeMedium tagSize31" style="font-size: 100%;">hifi</a></li>
+	<li><a href="../mpd/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">mpd</a></li>
+	<li><a href="index.html" class="tagSizeMedium tagSize23 tagActive" style="font-size: 100%;">musiikki</a></li>
+	<li><a href="../ohjelmointi/index.html" class="tagSizeMedium tagSize42" style="font-size: 100%;">ohjelmointi</a></li>
+	<li><a href="../palvelin/index.html" class="tagSizeMedium tagSize37" style="font-size: 100%;">palvelin</a></li>
+	<li><a href="../rauta/index.html" class="tagSizeMedium tagSize23" style="font-size: 100%;">rauta</a></li>
+</ul>
+        <p><a href="../index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=tag" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=tag" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- tag view -->
+
+    <h1 class="mainheader">Juttuja aiheesta musiikki </h1>
+    <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/569/satunnaiset-jazzit-soittolistalta">Satunnaiset jazzit&#160;soittolistalta</a></span> &#183; <span class="published">2012-03-18</span>
+<br /><span class="smallexcerpt">Jonkin aikaa sitten kirjailin nopean bash-skriptin, joka hakee haluamastaan MPD-soittolistasta tietyn verran kappaleita. Siten, että musiikkia saadaan noin tietyn aikarajan...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/559/the-wall-tayttaa-32">The Wall täyttää 32</a></span> &#183; <span class="published">2011-11-30</span>
+<br /><span class="smallexcerpt">Vaihteeksi vähän kevyemmistä asioista. Eli tuli hyvä syy panna Pink Floydin legendaarinen The Wall soimaan. Tämä ikinuori mutta täyttää jo...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/530/levyt-ja-miten-niihin-paasee-sisaan">Levyt, ja miten niihin pääsee&#160;sisään</a></span> &#183; <span class="published">2011-05-30</span>
+<br /><span class="smallexcerpt">Eräs mielenkiintoinen, toistuva havainto kuuntelutottumuksissani on se, että uutta levyä maistellessani pääsen sisään jonkun poikkeavan kappaleen avulla. Mutta sitten kun...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/525/the-wall">The&#160;Wall</a></span> &#183; <span class="published">2011-05-04</span>
+<br /><span class="smallexcerpt">Viime torstaina kävin kuuntelemassa Roger Watersin hulppean The Wallin Helsingissä. Sen jälkeen olen ollutkin The Wall -tunnelmissa, ja Floyd-levyt ovat...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/520/ihmekuusessa-400-levya">Ihmekuusessa 400&#160;levyä</a></span> &#183; <span class="published">2011-03-25</span>
+<br /><span class="smallexcerpt">Nyt Audioslaven arvioituani Ihmekuusessa/Havuviuhkalla on selattavissa 400 levyn mietteet. Melko pyöreitä lukuja tuli tahattomasti myös statseihin. Sanoja on yhteensä näissä...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/329/kohti-absoluuttista-hiljaisuutta-osa-2">Kohti absoluuttista hiljaisuutta, osa 2</a></span> &#183; <span class="published">2010-08-13</span>
+<br /><span class="smallexcerpt">Juuri ennen myrskyä on aina kaikkein hiljaisinta.
+
+	Olen nyt elellyt miltei kaksi viikkoa uudessa kämpässä, ja pikku hiljaa tässä alkavat huonekalut...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/14/joululahjoja">Joululahjoja</a></span> &#183; <span class="published">2009-12-25</span>
+<br /><span class="smallexcerpt">Joulu tuli ja&#8211;no, meni. Vielä kinkusta ähkynä on hyvä tutkia saatuja vekottimia hyvin syväluotaavasti. Onneksi en saanut sen vaarallisempia laitoksia...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/17/taeydellinen-albumi">Täydellinen&#160;albumi?</a></span> &#183; <span class="published">2009-11-28</span>
+<br /><span class="smallexcerpt">Levy, jolla käsitellään rahan asemaa yhteiskunnassa, ihmisten hartaita toiveita ja median asemaa ja sotien merkityksiä, ei voi olla aivan huono....</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/22/hyvae-musiikki-ja-sen-komponentit">Hyvä musiikki ja sen&#160;komponentit</a></span> &#183; <span class="published">2009-10-25</span>
+<br /><span class="smallexcerpt">En aio tähän kommentoida tarkkaan sitä, millä tarkoilla kriteereillä albumit nostuvat toisiaan paremmiksi minun listoilla, vaan koitan toisenlaista lähtökohtaa määritellä...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/24/havuviuhkafi">Havu.viuhka.fi</a></span> &#183; <span class="published">2009-10-17</span>
+<br /><span class="smallexcerpt">Havuviuhka, tai aiemmin Ihmekuusi on nyt pyörinyt mukana jo kohtalaisen pitkään. Kun minä sain päähänpiston tammikuussa tehdä pienen levyarkistoprojektin internetteihin,...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/33/muisto-menneisyydestae">Muisto&#160;menneisyydestä</a></span> &#183; <span class="published">2009-08-24</span>
+<br /><span class="smallexcerpt">Tänään kokeilin noita Stax-kuulokkeitani pitkästä aikaa (viimeksi käytin niitä lyhyesti demotessani niitä heinäkuussa) kunnolla. Kuuntelin niitä näitä, selasin levyhyllystä niitä...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/48/amazon-tilausta-part-deux">Amazon-tilausta Part&#160;Deux</a></span> &#183; <span class="published">2009-06-03</span>
+<br /><span class="smallexcerpt">Hyvää kesäkuuta kaikille, olitte sitten lomien tai töiden merkeissä lukemassa tai viihteellä. Vaikka teinkin juuri äskettäin omissa nimissäni pienimuotoista tilausta...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/50/konsepteja-musiikkitoistimelle">Konsepteja&#160;musiikkitoistimelle</a></span> &#183; <span class="published">2009-05-29</span>
+<br /><span class="smallexcerpt">Useaan otteeseen on tullut pohdittua tätä arvoitusta syvintä: kuinka luoda digitaalinen musiikkitoistin, joka yrittää hakea ja noudattaa levymiesten musiikintoistoon liittyviä...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/53/uutta-luettavaa">Uutta&#160;luettavaa</a></span> &#183; <span class="published">2009-05-19</span>
+<br /><span class="smallexcerpt">
+A.k.a: Amazon on petollinen ja lompakonsyöjä. Tällä kertaa selvisin helpolla, koska tuloja ei ole. Pakko oli kuitenkin jotain pientä ostaa....</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/57/levyjen-tunne">Levyjen&#160;tunne</a></span> &#183; <span class="published">2009-05-09</span>
+<br /><span class="smallexcerpt">Tässä olen joutanut kokeilemaan tätä rakasta kaksikkoa, Pioneerin monisoitinta ja dacciani CD:iden kanssa. Saisinhan minä toki Ubuntullakin ääntä aikaan, mutta...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/76/tyoet-ja-kaikki-se-jazzi">Työt ja kaikki se&#160;jazzi</a></span> &#183; <span class="published">2009-01-19</span>
+<br /><span class="smallexcerpt">Vein roskia ulos. Pimeä keskitalvinen ilta ja kirpeä pakkanen kuunvaloineen toi mieleen vuodentakaiset lehtienjakelut. Lähteä ulos paukkupakkaseen, laittaa nappulahanskat käteen...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/92/relevation">Relevation</a></span> &#183; <span class="published">2008-07-15</span>
+<br /><span class="smallexcerpt">Oh shit, I discovered some totally forgotten.
+Tangerine Dream. Saksalainen ambient-teatteri, tämä on. Tuotantoa on valtavasti. Olen kuullut TD:tä useasti jo...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/93/pieni-katkos">Pieni&#160;katkos</a></span> &#183; <span class="published">2008-06-25</span>
+<br /><span class="smallexcerpt">Elisa tässä eräs kaunis päivä katkaisi. No, nyt jaksoin vaivautua tuohon kyykkimään koneen alle. 
+Haluan sanoa, että Kill Bill, Vol...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/112/pink-floyd-nautinnollinen-harrastus">Pink Floyd, nautinnollinen&#160;harrastus</a></span> &#183; <span class="published">2008-04-09</span>
+<br /><span class="smallexcerpt">Aloin innoissani kirjoittamaan tästä bändistä edelliseen postaukseen, mutta ajattelin, että tämä kaipaakin kunnollista lähestymistä ja siispä tehdään ja siirretään tekstit...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/114/vim-vaeritys">VIM –&#160;väritys</a></span> &#183; <span class="published">2008-04-08</span>
+<br /><span class="smallexcerpt">Vihdoin, oi vihdoin nyt päädyin kehittelemään rakkaaseen vimiini tarkennoksia värityksen suhteen. Ongelmahan tästä muodostui vasta kun luin hienosta VIM-oppaasta miten...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/117/hifismi-on-sairaus">Hifismi on&#160;sairaus</a></span> &#183; <span class="published">2008-02-26</span>
+<br /><span class="smallexcerpt">Ja kallis sellainen, kela ei todellakaan korvaa näistä lääkkeistä senttiäkään. Laitoin muutaman ykköslevyn tulemaan CDonista ja sitten Huuto.netistä vähän muuta...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/127/amarokki-beaten">Amarokki&#160;beaten</a></span> &#183; <span class="published">2007-12-14</span>
+<br /><span class="smallexcerpt">Vihdoin huomasin, missä lojuu ongelma amarokin aikoinaan erittäin typerässä bugissa. Kyseinen bugi aiheutti muutamien albumien kanssa (eritoten Mike Oldfieldin Crises-albumin...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/145/sennheiser">Sennheiser</a></span> &#183; <span class="published">2007-10-05</span>
+<br /><span class="smallexcerpt">Täytyy tosiaan kirjoittaa, että melodiset biitit ovat kivaa kuunneltavaa näillä. Esimerkkinä Son Kiten Colours (en tiedä, olenko mainostanut jo aiemmin)...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/149/astrix">Astrix</a></span> &#183; <span class="published">2007-10-02</span>
+<br /><span class="smallexcerpt">Suositellaanpa tämmöistä albumia kuin Astrixin Artcorea vuodelta 2004. Melodista psytrancea ja näppärää kuin mikä. Koin heräämisen tässä levyn toisella raidalla,...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/151/eargasm">Eargasm.</a></span> &#183; <span class="published">2007-09-30</span>
+<br /><span class="smallexcerpt">Sennheiser HD595:t ovat loistavat kuulokkeet. Niiden loistava ulkomuoto ja käyttömukavuus ovat ensiluokkaiset verrattuna edellisiin Trusteihin. Tämä on toki aihe, josta...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/184/back-to-the-civ">Back to the&#160;Civ</a></span> &#183; <span class="published">2007-09-02</span>
+<br /><span class="smallexcerpt">Welcome to the Jungle .. Guns'n'Roses veti sen, mutta Richard Cheese vetää hyvän coverin kappaleesta. Jotenkin se ja Pink Floydin...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/188/where-we-are-from">Where we are from…</a></span> &#183; <span class="published">2007-08-23</span>
+<br /><span class="smallexcerpt">..the birds sing a pretty song. And there's always music in the air.
+Kyse on siis niinkin elintärkeästä asiasta, kuin että...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/193/pakko-rajoittaa-vaehaen">Pakko rajoittaa&#160;vähän</a></span> &#183; <span class="published">2007-08-22</span>
+<br /><span class="smallexcerpt">Lapinvaellukseen pitää kerätä tavarat. Vaikutanko aivan pöntöltä, jos en ota mitään ylimääräistä ruokaa, mitä rehtori kehoittaa siihen tyyliin, että "kaikilta...</span>
+</li>
+
+</ul>
+    <h2>Lyhyitä sutkautuksia</h2>
+    <ul class="directory">
+
+<li>
+
+<span class="smallexcerpt">Richard Cheese on kyllä kunnon esittäjä.</span>
+
+<span class="published">
+  2011-02-21 11:04
+</span>
+
+</li>
+
+
+
+<li>
+
+<span class="smallexcerpt">Kylläpä nyt uppoutuu musiikkiin. Vangelis &#8211; Memories of Green.</span>
+
+<span class="published">
+  2011-02-19 19:00
+</span>
+
+</li>
+
+
+
+<li>
+
+<span class="smallexcerpt">Kyllä The Wallin kuunteleminen vie pois murheista. Comfortably Numb!</span>
+
+<span class="published">
+  2011-02-13 18:55
+</span>
+
+</li>
+
+
+
+<li>
+
+<span class="smallexcerpt">Tajusin tänään: jos musiikki yleisesti on elokuvaa, niin Roger Waters on teatteria.</span>
+
+<span class="published">
+  2011-02-10 12:38
+</span>
+
+</li>
+
+
+
+<li>
+
+<span class="smallexcerpt">Voi luoja kun IM &#8211; Bust a Move on upea kappale. Upea kliimaksi.</span>
+
+<span class="published">
+  2011-02-07 15:31
+</span>
+
+</li>
+
+
+
+<li>
+
+<span class="smallexcerpt">Ajattelinpas, että onpa Doomin midimusasta saatu tehtyä todella hyvä syntetisointi. Se olikin rokkibändin coveroimaa settiä. :|</span>
+
+<span class="published">
+  2011-02-06 11:31
+</span>
+
+</li>
+
+
+
+<li>
+
+<span class="smallexcerpt">Amarok! Upeinta sitten viime maanantain Oldfieldin.</span>
+
+<span class="published">
+  2011-02-02 18:29
+</span>
+
+</li>
+
+
+
+<li>
+
+<span class="smallexcerpt">Happoperjantai. Free Jazz ja Ascension.</span>
+
+<span class="published">
+  2011-01-28 18:19
+</span>
+
+</li>
+
+
+
+<li>
+
+<span class="smallexcerpt">Kenny Garrettin Beyond the Wall on erinomainen lätty!</span>
+
+<span class="published">
+  2011-01-23 15:07
+</span>
+
+</li>
+
+
+
+<li>
+
+<span class="smallexcerpt">Ai että kun Mastodonin Blood Mountain on parina viime päivänä kuulostanut loistavalta.</span>
+
+<span class="published">
+  2011-01-22 16:47
+</span>
+
+</li>
+
+</ul>
+
+
+ <!-- now, common stuff -->
+
+<!-- txp:older ei toimi kunnolla tagien kanssa. -->
+        <p>
+             
+            
+        </p>
+
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

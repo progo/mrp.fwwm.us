@@ -1,0 +1,325 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <!-- standard -->
+	<title>Mr. P: Havu.viuhka.fi</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=mietteet" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=mietteet" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="mietteet">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="havuviuhkafi#content">Siirry sisältöön</a></li>
+        <li><a href="havuviuhkafi#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            &raquo;
+            <a href="../index.html">Mietteet</a>
+            
+                <!--<ul>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/598/blogille-idea">Blogille&#160;idea</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/597/wes-mckinney-python-for-data-analysis-oreilly">Wes McKinney - Python For Data Analysis (O&#39;Reilly)</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/596/org-blogaaminen-vaikeata">Org-blogaaminen&#160;vaikeata</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/595/twitterointia-emacsilla">Twitteröintiä&#160;Emacsilla</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/594/weboodi-aikataulut-orgiin">WebOodi-aikataulut&#160;orgiin</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/592/emacs-has-me">Emacs has&#160;me.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/591/editorien-taistelu-tietamyshallinnassa">Editorien taistelu&#160;tietämyshallinnassa</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/590/think-vimorganizer">Think&#160;VimOrganizer.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/589/think-orgmode">Think&#160;orgmode.</a>
+                </li>
+</ul>-->
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="/kategoria/hifi/">Hifi</a></li>
+	<li><a href="/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="/kategoria/rauta/">Rauta</a></li>
+	<li><a href="/kategoria/viihde/">Viihde</a></li>
+	<li><a href="/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../../tag/blogisäätöä/index.html" class="tagSizeMedium tagSize15" style="font-size: 100%;">blogisäätöä</a></li>
+	<li><a href="../../tag/gentoo/index.html" class="tagSizeLargest tagSize95" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../../tag/hifi/index.html" class="tagSizeMedium tagSize21" style="font-size: 100%;">hifi</a></li>
+	<li><a href="../../tag/musiikki/index.html" class="tagSizeMedium tagSize13" style="font-size: 100%;">musiikki</a></li>
+	<li><a href="../../tag/opiskelu/index.html" class="tagSizeMedium tagSize7" style="font-size: 100%;">opiskelu</a></li>
+	<li><a href="../../tag/ostoksia/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">ostoksia</a></li>
+	<li><a href="../../tag/palvelin/index.html" class="tagSizeMedium tagSize27" style="font-size: 100%;">palvelin</a></li>
+	<li><a href="../../tag/vim/index.html" class="tagSizeMedium tagSize24" style="font-size: 100%;">vim</a></li>
+</ul>
+        <p><a href="../../tag/index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=mietteet" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=mietteet" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- not tag view, it's the main view -->
+
+
+        
+
+        <div class="hfeed">
+            <!-- five articles to list here, or only one. It depends. -->
+            <!-- default form -->
+
+<p class="published">17. lokakuu 2009, 16:01</p>
+<h1 class="entry-title"><a rel="bookmark" href="havuviuhkafi">Havu.viuhka.fi</a></h1>
+
+
+<div class="entry-content">
+<p>Havuviuhka, tai aiemmin Ihmekuusi on nyt pyörinyt mukana jo kohtalaisen pitkään. Kun minä sain päähänpiston tammikuussa tehdä pienen levyarkistoprojektin internetteihin, en uskonut, että se toimisi näinkin hyvin.</p>
+<p><!--more-->Ketä asia nyt onkaan kiinnostanut, siellä on ollut paljon erilaista musiikkia: sellaista musiikkia, jota minä kuuntelen ja sellaista, jota olen sivukorvalla päässyt kuuntelemaan ja sitten ilmaissut mietteeni siitä kärkevästi ylös. Noin ainakin ideaalitapauksessa. Nythän karu totuus on se, että kuuntelen levyjä eri lähteistä, ja vasta jos se aidosti innostaa jollain tasolla, kirjaan sen ylös. Tuloksena on se, että kyseinen kanta sisältää vain sellaista musiikkia, jota suosittelen muillekin. Eihän se läpeensä huono idea ole sekään, mutta ei aivan sitä, mitä suunnittelin. Se ei ole ns. kaikenkattava pakkaus.</p>
+<p>Kuitenkin ihan kelpo paketti siihen nähden, mitä silloin tammi-helmikuussa siitä povasin tulevaksi. Levyjä on sinne virrannut tasaista tahtia. Aluksi tietenkin paljon, kun oli niin paljon jaettavaa. Ja kuten jo silloin ennustelin, tahti tulee hidastumaan sitä mukaa kun omat kollektioni on kirjattu ylös, ja levyjen lisäilytahti riippuisi kovasti siitä, paljonko ostan levyjä ja jaksan niitä kuunnella. Nappasin tietokannasta pari attribuuttia ja pyörittelin niitä OpenOffice Calcissa:</p>
+<div id="attachment_859" class="wp-caption aligncenter" style="width: 628px"><a href="../../wp-content/uploads/2009/10/screenshot-20091017@152642.png"><img class="size-full wp-image-859" title="Havuviuhkan_lisayskayrat" src="../../wp-content/uploads/2009/10/screenshot-20091017@152642.png" alt="Havuviuhkan levyjen lisäysaste tässä vuoden 2009 mittaan. Suurenna klikkaamalla." width="618" height="567" /></a><p class="wp-caption-text">Havuviuhkan levyjen lisäysaste tässä vuoden 2009 mittaan </p></div>
+<p>Pystyakselilla tietokannassa olevien levyjen kokonaislukumäärä, vaaka-akselilla tilanne hetkellä $$t$$. Kuvaa luetaan siis siten, että mitä jyrkempi käyrä on, sen tiheämmin olen uusia levyjä lisäillyt kantaan. Nyt viime aikoina on ollut varsin verkkaista tämä kehitys, vaikka kaikenlaista olisi kuuntelematta. Ei tässä kuitenkaan nyt pyritä mihinkään lisäystalkoisiin. Tavoitteena voitaisiin pitää 300 levyä ensi helmikuuhun mennessä, jolloin päästäisiin teoriassa 0,8 levyn per päivä -lisäystahtiin. Viikossa noin 6 levyä.</p>
+<p>Nyt kun päästiin asiassa näinkin hyvin eteenpäin, katsotaan phpmyadminin välityksellä, mitkä ovat suosituimmat genret. SQL-magialla ilmaistuna siis näin:</p>
+<pre>SELECT genre, COUNT(id) AS lkm FROM `records` GROUP BY genre ORDER BY lkm DESC</pre>
+<p>Tuloksena syntyy tulosjoukko:</p>
+<table style="width: 200px;" border="0" align="left">
+<tbody>
+<tr>
+<td><strong>genre</strong></td>
+<td><strong>lukumäärä</strong></td>
+</tr>
+<tr>
+<td>rock</td>
+<td>95</td>
+</tr>
+<tr>
+<td>electronic</td>
+<td>43</td>
+</tr>
+<tr>
+<td>jazz</td>
+<td>36</td>
+</tr>
+<tr>
+<td>soundtrack</td>
+<td>22</td>
+</tr>
+<tr>
+<td>metal</td>
+<td>13</td>
+</tr>
+<tr>
+<td>classical</td>
+<td>6</td>
+</tr>
+<tr>
+<td>ambient</td>
+<td>4</td>
+</tr>
+<tr>
+<td>opera</td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+<p>Jätin vielä erikseen mainitsematta viittä riviä yhden saaneita. Niille kaikille taitaa olla yhteistä se, että ne ovat oikeastaan isompien genrejen alaluokitteluja, ei siis oikeaoppisesti nostettu jalustalle. Listatuista myöskin löytyy päällekkäisyyksiä: ambient voi kuulua rockiin tai elektroniseen tai "klassiseen" ja toisaalta metalli on rockin alalaji, ja soundtrack tarkoittaa ei-mitään musikaalisin termein ilmaistuna. Työtä olisi siis tehtävänä, jos haluaisi saada täydellisen paketin joskus aikaiseksi näistä genreistä.</p>
+<p>En ole Havuviuhkalle tehnyt uusia muutoksia tässä puoleen vuoteen. Systeemi on ihan toimiva, vaikka tietysti kaikenlaista pientä onkin siellä, mikä ei miellytä. Lisäksi nyt kun takana on vähän tiedonhallintaa ja tietokantasuunnittelua oppilaitoksista, havaitsen myös tietokannat kovin jäykiksi. Hyvin toimii pienissä tilaisuuksissa kuitenkin, en meinannut mennä sorkkimaan muurahaiskekoa. Se vaihtoehtoinen listaustapa olisi kuitenkin suunnitteilla, prioriteettina <em>kunhan kerkeää</em>.</p>
+<p>Yksi toinen asia, mikä on käynyt mielessä, on ollut kommentointimahdollisuuden lisääminen kannan asukkeja varten, mutta se tuntuu kovin turhalta, kun otetaan huomioon nämäkin yleisömassat, jotka tätäkin blogia lukevat. Turha yhtä ihmistä varten tehdä mitään erikoisuuksia.</p>
+</div>
+
+<p class="tags"> 
+
+
+Tageja: <a href="../../tag/musiikki/index.html" rel="tag">musiikki</a>, 
+<a href="../../tag/ohjelmointi/index.html" rel="tag">ohjelmointi</a>
+
+
+</p>
+
+
+
+<div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+
+        </div>
+
+ <!-- now, common stuff -->
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+        <p><a rel="prev" href="../25/kone-pamahti-paeaetoes-osa-2" title="Kone pamahti, päätös (osa 2)">&#171; Kone pamahti, päätös (osa 2)</a> 
+           &mdash; <a rel="next" href="../23/ohjelmointikielistae" title="Ohjelmointikielistä">Ohjelmointikielistä &#187;</a>
+        </p>
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+        <h2>Aiheen vierestä</h2>
+        <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../587/tehokkaat-kayttoliittymat-vaivatta">Tehokkaat käyttöliittymät&#160;vaivatta</a></span> &#183; <span class="published">2012-08-16</span>
+<br /><span class="smallexcerpt">Ohjelmoijan onni on elää komentorivillä. Tehokkaiden käyttöliittymien rustaaminen on varsin nopeata, kunhan luottaa siihen, että suurta suosiota tuotokset eivät tule...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../584/pythonin-vastaisku-lispeille-ipython-ja-vim-ipython">Pythonin vastaisku lispeille: IPython ja vim-ipython</a></span> &#183; <span class="published">2012-07-25</span>
+<br /><span class="smallexcerpt">Tai &#8220;Pythonin uusi toivo&#8221; tai &#8220;Pythonin paluu&#8221;. Mistä on kyse? Pythonin tulkin me kaikki kai tiedämme: kaikki siinä periaatteessa on,...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../581/sumitup-puutteet-ja-mihin-suuntaan-edetaan">SumItUp: puutteet ja mihin suuntaan&#160;edetään</a></span> &#183; <span class="published">2012-07-12</span>
+<br /><span class="smallexcerpt">Esittelin pari postausta sitten Soulver-kloonin raakileen, SumItUpin. Nyt se on GitHubissa kaikkien pällisteltävänä ja sellaisella raakileasteella, jotta sitä voi jo...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../579/soulver-kloonia-rakentelemassa">Soulver-kloonia&#160;rakentelemassa</a></span> &#183; <span class="published">2012-07-07</span>
+<br /><span class="smallexcerpt">Erittäin upealla konseptilla varustettu laskinohjelma Soulver kaatuu siihen, että sen saa vain Mäkille. Vapaamuotoinen näpertelyalusta on usein ainut asia, mitä...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../569/satunnaiset-jazzit-soittolistalta">Satunnaiset jazzit&#160;soittolistalta</a></span> &#183; <span class="published">2012-03-18</span>
+<br /><span class="smallexcerpt">Jonkin aikaa sitten kirjailin nopean bash-skriptin, joka hakee haluamastaan MPD-soittolistasta tietyn verran kappaleita. Siten, että musiikkia saadaan noin tietyn aikarajan...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../566/terminaaleja-vimista-kasin">Terminaaleja Vimistä&#160;käsin</a></span> &#183; <span class="published">2012-02-11</span>
+<br /><span class="smallexcerpt">Vanha kunnon ConqueTerm on nyt valmis ja käyttökelpoinen tuote kehittelyyn.
+
+	Olen viime päivinä alkanut käyttää vimiä hyvin emacsmaisesti. Se on tietenkin...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../565/mita-on-kehittaa-clojurella">Mitä on kehittää&#160;Clojurella</a></span> &#183; <span class="published">2012-02-05</span>
+<br /><span class="smallexcerpt">C- ja muunkielisissä projekteissa tavataan kirjoittaa koodia ensin, ja sitten testataan. Tietysti vaatimus osittain syntyy koodin kääntämisestä; ilman kääntöä ei...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../564/ranskalaisten-viivojen-parsimista-clojurella">Ranskalaisten viivojen parsimista&#160;Clojurella</a></span> &#183; <span class="published">2012-02-02</span>
+<br /><span class="smallexcerpt">Kirjoitin männäviikolla kokeilumielessä ohjelman, joka kääntää ranskalaiset viivat Beamer-Latexiksi. Ideana olisi tuottaa esityksen lihapuoli nopeasti rustaamalla tiivistä merkintää ja sitten...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../559/the-wall-tayttaa-32">The Wall täyttää 32</a></span> &#183; <span class="published">2011-11-30</span>
+<br /><span class="smallexcerpt">Vaihteeksi vähän kevyemmistä asioista. Eli tuli hyvä syy panna Pink Floydin legendaarinen The Wall soimaan. Tämä ikinuori mutta täyttää jo...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../556/korintaytto-ja-ahne-menetelma">Korintäyttö ja ahne&#160;menetelmä</a></span> &#183; <span class="published">2011-10-23</span>
+<br /><span class="smallexcerpt">Mietiskelen tässä korintäyttöä (bin packing) ja sitä, miten ahne menetelmä on joko ylipolynomiaalinen tai sitten epäoptimaalinen.  Luultavasti se on...</span>
+</li>
+
+</ul>
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

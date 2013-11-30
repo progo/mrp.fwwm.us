@@ -1,0 +1,274 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <!-- standard -->
+	<title>Mr. P: Kolme näyttöä, Xinerama ja Nvidia</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=mietteet" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=mietteet" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="mietteet">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="kolme-naeyttoeae-xinerama-ja-nvidia#content">Siirry sisältöön</a></li>
+        <li><a href="kolme-naeyttoeae-xinerama-ja-nvidia#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            &raquo;
+            <a href="../index.html">Mietteet</a>
+            
+                <!--<ul>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/598/blogille-idea">Blogille&#160;idea</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/597/wes-mckinney-python-for-data-analysis-oreilly">Wes McKinney - Python For Data Analysis (O&#39;Reilly)</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/596/org-blogaaminen-vaikeata">Org-blogaaminen&#160;vaikeata</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/595/twitterointia-emacsilla">Twitteröintiä&#160;Emacsilla</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/594/weboodi-aikataulut-orgiin">WebOodi-aikataulut&#160;orgiin</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/592/emacs-has-me">Emacs has&#160;me.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/591/editorien-taistelu-tietamyshallinnassa">Editorien taistelu&#160;tietämyshallinnassa</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/590/think-vimorganizer">Think&#160;VimOrganizer.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/589/think-orgmode">Think&#160;orgmode.</a>
+                </li>
+</ul>-->
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="/kategoria/hifi/">Hifi</a></li>
+	<li><a href="/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="/kategoria/rauta/">Rauta</a></li>
+	<li><a href="/kategoria/viihde/">Viihde</a></li>
+	<li><a href="/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../../tag/blogisäätöä/index.html" class="tagSizeMedium tagSize15" style="font-size: 100%;">blogisäätöä</a></li>
+	<li><a href="../../tag/hifi/index.html" class="tagSizeMedium tagSize21" style="font-size: 100%;">hifi</a></li>
+	<li><a href="../../tag/musiikki/index.html" class="tagSizeMedium tagSize13" style="font-size: 100%;">musiikki</a></li>
+	<li><a href="../../tag/ohjelmointi/index.html" class="tagSizeLargest tagSize32" style="font-size: 100%;">ohjelmointi</a></li>
+	<li><a href="../../tag/opiskelu/index.html" class="tagSizeMedium tagSize7" style="font-size: 100%;">opiskelu</a></li>
+	<li><a href="../../tag/ostoksia/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">ostoksia</a></li>
+	<li><a href="../../tag/palvelin/index.html" class="tagSizeMedium tagSize27" style="font-size: 100%;">palvelin</a></li>
+	<li><a href="../../tag/rauta/index.html" class="tagSizeMedium tagSize13" style="font-size: 100%;">rauta</a></li>
+</ul>
+        <p><a href="../../tag/index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=mietteet" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=mietteet" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- not tag view, it's the main view -->
+
+
+        
+
+        <div class="hfeed">
+            <!-- five articles to list here, or only one. It depends. -->
+            <!-- default form -->
+
+<p class="published"> 8. helmikuu 2010, 20:15</p>
+<h1 class="entry-title"><a rel="bookmark" href="kolme-naeyttoeae-xinerama-ja-nvidia">Kolme näyttöä, Xinerama ja&#160;Nvidia</a></h1>
+
+
+<div class="entry-content">
+<p>Tässäpä draamaa. Postissa kolahti minun näpsäkkä matala Geforce 6200 ja nyt kelpaa niiltä osin, kun on luvallista kelvata.</p>
+<p><!--more-->Iskin kortin kiinni ja kaikki toimi niin hyvin, kuin saattoi odottaakin. Huomiollepantavaa on kuitenkin se, että aiemmin en ole käyttänytkään tätä Xineramaa, jonka osaan varsin välittömällä nopeudella luokitella varsin hitaaksi laitokseksi. Peliteho tuntuu kaikonneen, selainkin hitailee ja paljon on nyt ns. pielessä. TwinView ei valitettavasti yllä näytönohjaimen ulkopuolelle, joten tässä on nyt keksittävä jotain muuta.</p>
+<p>Kokeilin Fluxboxia ilman Twinviewiä ensin&#8230; xineraman varassa siis. Hyvältä näyttää, sehän toimii. Sitten kokeilin ilman Xineramaakin. Sehän toimii yllättävän hyvin silloinkin! Kullakin näytöllä olisi omat ikkunat ja kursori liikkuu vapaasti akkunoiden välillä. Ikkunoita ei kuitenkaan voisi siirrellä managerien välillä&#8230; Yhdistelmä xinerama-twinview ei tunnu tekevän kovin hyvää tulosta. Silloin esimerkiksi jotkut jutut sekoavat kokonaan.</p>
+<p>No, päivä #1 päättyi siihen, sekasortoiseen hakemiseen ja lopulta sain selaimet sun muut startattua, elämä voi jatkua jälleen. No en tiedä. Päivä #2 on koittanut ja nyt hommien melskeessä olen kerennyt tehdä vain asiaankuuluvia hommia. Saan jatkettuakin tätä tekstiä vasta nyt, noin 22 tuntia myöhemmin aloittamisestani.</p>
+<h3>Awesome</h3>
+<p>Awesomen jostain polkaisin käyntiin, ja nyt "joudun" sitä käyttelemään kotvasen aikaa, jos vaikka tileäminen alkaisi sujua ja elämä hymyilisi. Jostain syystä awesome tekee ikkunat vähän oudosti. Kahdella sivunäytölläni voin siirrellä ikkunoita kuten pitääkin, mutta keskinäytöllä (laajakuvalla) ei jostain syystä onnistu. Epäilisikö tässä bugia? Lisäksi pikainen googlailu ei tarjoa apua siihen, että saisin varatuksi 200 pikseliä vapaata kaistaa conkylle ja rainlendarille. Se voi olla ns. dealbreaker täällä, mutta katsotaan kotvan vielä. Nytkin olen vähän hukassa kun en tiedä, mitä hommia minulla oli lähipäiville.</p>
+<p>Muuten Awesome on nätistynyt sitten viimenäkemäni. Ei ehkä tarpeeksi kunnon käyttöä varten, en tiedä. Kullakin näistä ikkunamanagereista on omat käyttäjäkuntansa ja esimerkiksi Xmonad varteenotettavana vaihtoehtona Haskell-konffeineen versus Ion3 ja Awesome lualla (yök) voisi olla se parempi juttu minulle. Tosin Haskellin vaikeus painaa kupissa, toisessa kupissa onkin sitten ystävälliset avusteet ja edellä kaivattu tilanvaraustoiminto. Koko hiton systeemiä voi koodata melkein lennosta Haskellin rakenteiden ansiosta.</p>
+<h2>Takaisin näyttöjen problematiikkaan</h2>
+<p>Xinerama on siis hidas. Se on myös googlailun perusteella vanhentuvaa tekniikkaa. Tuomo Valkonen (ionin kehittäjä)  on parjannut kyseistä menetelmää jo aiemminkin, mutta taidan vasta nyt ottaa asiasta onkeeni. XRandR on ilmeisesti tekniikka, joka jossain määrin tarjoaa myös näyttötukea. Nyt olen hämilläni asian suhteen. Fluxbox toimii Xineraman kanssa ihan kelvosti, XRandrin kanssa ei niinkään (minun pitää nyt vain olettaa, että kun kytkin Xineramatuen pois Nvidia-settings -ohjelmalla Xorg-konffistani, fluxbox sai näytöt kaikki haltuunsa tuon menetelmän ansiosta). Asia joutaa googlauslistalle.</p>
+<p>Ehkäpä XRandrin ja Twinviewin yhdistelmä sittenkin rokkaisi? Ehkäpä kyseinen menetelmä olisi nopeampi, vai olenko todellakin nyt kuristettu hivenen hitaammalle selailulle. GLXgearsin tuloksetkin tippuivat lähelle vsync-arvoja, joten syy voi olla myös siinäkin. Tässä on nyt paljon muutoksia luvassa, mutta alkushokki alkaa olla ohitse. Yksi asia on varmaa: enää ei selviä yhdellä selainikkunalla. Pitäisi kääntää katsetta liiaksi. Pikainen piirrostelu voisi olla tässä:</p>
+<div id="attachment_1035" class="wp-caption aligncenter" style="width: 310px"><a href="../../wp-content/uploads/2010/02/deski_awesome.png"><img class="size-medium wp-image-1035" title="deski_awesome" src="../../wp-content/uploads/2010/02/deski_awesome-300x74.png" alt="" width="300" height="74" /></a><p class="wp-caption-text">Awesome käytössä, klikkaa isompi</p></div>
+<p>Selaimia minulla taitaa olla kolme auki, joista kaksi näkösällä vasemmalla ja oikealla. Oikealla näkyvä awesome-tilettäminen on aika nokkela: taakse ruutuutuu (onpas siinä sana) muut ohjelmat, kun keskellä saa suuren osuuden aktiivinen ohjelma. Tulee eräänlainen suurennuslasiefekti, mikäli kukin ikkunoista (ohjelmista) jaksaisi piirtää itsensä uuteen kokoon tarpeeksi terhakkaasti. Tällä hetkellä vaikutelma kärsii jokseenkin. Puhumattakaan siitä, että nyt tässä on xtermejä auki. XTerm ei säilytä bufferidataa kunnolla, jos ikkunaa muutellaan kovasti. Pitää konffata käynnistämään urxvt:tä.</p>
+<p>Niin, awesome tarjoaa Xmonadin ja XRandR-fluxboxin tavoin kullekin fyysiselle näytölle omat virtuaalipöydät, mikä on ihan järkevä ajatus from the get-go, vaikka itse en henkilökohtaisesti toimintoa kaivannut fluxbox-päivilläni. Onhan se vähän ikävää, jos pitää vaikka Gimppiä varten erikseen hakea usealta eri näytöltä juuri ne samat ruudut auki, kun aiemmin voisi riittää pelkän virtuaalipöydän nro 5 hakeminen saadakseen kaikille kolmelle näytölle samat gimp-ali-ikkunat kerralla. Luulisinpa, että sieltä löytyy valmis kikka tähänkin. Ei tämä Awesome enää ole eilisen teeren poikia.</p>
+<h2>Päivä #2 kohta pulkassa</h2>
+<p>Vasta viikon mittaan näemme, miten tämä kehittyypi. Huomenna on enemmän aikaa kokeilla erilaisia Twinview-vaihtoehtoja, kenties tutkia XRandR-menetelmiä ja ehkäpä saada selaimet taas järkinopeuksiin. Esimerkiksi tämän blogisivun rullailu on tuhottoman hidasta nyt. TwinView oikoi monta mutkaa, nyt olen kiitollinen siitä.</p>
+</div>
+
+<p class="tags"> 
+
+
+Tageja: <a href="../../tag/awesome/index.html" rel="tag">awesome</a>, 
+<a href="../../tag/kolmoisnäytöt/index.html" rel="tag">kolmoisnäytöt</a>
+
+
+</p>
+
+
+
+<div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+
+        </div>
+
+ <!-- now, common stuff -->
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+        <p><a rel="prev" href="../7/tehokkuutta-tyoepoeytaekaeyttoeoen" title="Tehokkuutta työpöytäkäyttöön">&#171; Tehokkuutta työpöytäkäyttöön</a> 
+           &mdash; <a rel="next" href="../5/xmonad" title="Xmonad">Xmonad &#187;</a>
+        </p>
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+        <h2>Aiheen vierestä</h2>
+        <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../537/gentoomies-on-nyt-radeonissa">Gentoomies on nyt&#160;Radeonissa</a></span> &#183; <span class="published">2011-07-20</span>
+<br /><span class="smallexcerpt">Nyt kävi näin. Passiivinen GeForce 7600GS vaihtui järeähköön Club3D:n HD6790 -korttiin, joka on eräänlainen välimalli siellä jossain. Kovasti on puhuttu...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../345/muistinkulutuksesta-vol-n">Muistinkulutuksesta, vol.&#160;n</a></span> &#183; <span class="published">2010-10-14</span>
+<br /><span class="smallexcerpt">On jälleen aika valistaa lukijoita hourailulla, kuinka ennen oli asiat toisin ja muistinkäyttökin aisoissa. Paitsi, että nykyisellään näyttää aika hyvältä.
+
+	Laitetaanpa...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../301/paluu-kahteen-nayttoon">Paluu kahteen&#160;näyttöön</a></span> &#183; <span class="published">2010-04-06</span>
+<br /><span class="smallexcerpt">Ostin Acer P223W:n ja tällä korvasin kaksi 17-tuumaista näyttöäni yhdellä 22-tuumaisella. Hävisin tilaa aika reippaasti, mutta toisaalta kahdellakin pärjää superhyvin....</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../5/xmonad">Xmonad</a></span> &#183; <span class="published">2010-02-15</span>
+<br /><span class="smallexcerpt">Sitten viime jakson on tapahtunut kaikenlaista tässä. Viikko sitten kirjoittamassani jutussa valittelin sitä, kun Xinerama tuhoaa suorituskyvyn ja kaiken siihen...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../12/naeyttoejae">Näyttöjä</a></span> &#183; <span class="published">2010-01-17</span>
+<br /><span class="smallexcerpt">Huonojen otsikoiden sarja jatkukoon. Lyhyesti viikonlopun ohjelmista: sain "lahjaksi" 22-tuumaisen Acerin ja koodailin lyhyen skriptin MPD:lle.
+Näyttö on ihan mukava. En...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../25/kone-pamahti-paeaetoes-osa-2">Kone pamahti, päätös (osa 2)</a></span> &#183; <span class="published">2009-10-14</span>
+<br /><span class="smallexcerpt">Kun pöytäkone on poissa, ovat läppärit liikenteessä.
+
+Kannettavani ei ole järin mukava nykypäivän speksejä ajatellen. Kaikki takkuaa, ellei sitten käytä jotain...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../27/kone-pamahti">Kone&#160;pamahti</a></span> &#183; <span class="published">2009-10-10</span>
+<br /><span class="smallexcerpt">Olin virittelemässä eräänä keskiviikkona veljen konetta toimintakykyiseksi, (jotain häiriötä virransyötössä, luultavasti emolevyn ja virtalähteen yhteispeli ei sujunut) kun oma koneeni...</span>
+</li>
+
+</ul>
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

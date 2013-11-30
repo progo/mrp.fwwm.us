@@ -1,0 +1,305 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <!-- standard -->
+	<title>Mr. P: Amarok kiipelissä</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=mietteet" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=mietteet" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="mietteet">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="amarok-kiipelissae#content">Siirry sisältöön</a></li>
+        <li><a href="amarok-kiipelissae#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            &raquo;
+            <a href="../index.html">Mietteet</a>
+            
+                <!--<ul>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/598/blogille-idea">Blogille&#160;idea</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/597/wes-mckinney-python-for-data-analysis-oreilly">Wes McKinney - Python For Data Analysis (O&#39;Reilly)</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/596/org-blogaaminen-vaikeata">Org-blogaaminen&#160;vaikeata</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/595/twitterointia-emacsilla">Twitteröintiä&#160;Emacsilla</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/594/weboodi-aikataulut-orgiin">WebOodi-aikataulut&#160;orgiin</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/592/emacs-has-me">Emacs has&#160;me.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/591/editorien-taistelu-tietamyshallinnassa">Editorien taistelu&#160;tietämyshallinnassa</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/590/think-vimorganizer">Think&#160;VimOrganizer.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/589/think-orgmode">Think&#160;orgmode.</a>
+                </li>
+</ul>-->
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="/kategoria/hifi/">Hifi</a></li>
+	<li><a href="/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="/kategoria/rauta/">Rauta</a></li>
+	<li><a href="/kategoria/viihde/">Viihde</a></li>
+	<li><a href="/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../../tag/blogisäätöä/index.html" class="tagSizeMedium tagSize26" style="font-size: 100%;">blogisäätöä</a></li>
+	<li><a href="../../tag/clojure/index.html" class="tagSizeMedium tagSize2" style="font-size: 100%;">clojure</a></li>
+	<li><a href="../../tag/emacs/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">emacs</a></li>
+	<li><a href="../../tag/gentoo/index.html" class="tagSizeLargest tagSize106" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../../tag/ohjelmistot/index.html" class="tagSizeMedium tagSize5" style="font-size: 100%;">ohjelmistot</a></li>
+	<li><a href="../../tag/ohjelmointi/index.html" class="tagSizeMedium tagSize43" style="font-size: 100%;">ohjelmointi</a></li>
+	<li><a href="../../tag/opiskelu/index.html" class="tagSizeMedium tagSize18" style="font-size: 100%;">opiskelu</a></li>
+	<li><a href="../../tag/palvelin/index.html" class="tagSizeMedium tagSize38" style="font-size: 100%;">palvelin</a></li>
+</ul>
+        <p><a href="../../tag/index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=mietteet" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=mietteet" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- not tag view, it's the main view -->
+
+
+        
+
+        <div class="hfeed">
+            <!-- five articles to list here, or only one. It depends. -->
+            <!-- default form -->
+
+<p class="published">18. toukokuu 2009, 16:39</p>
+<h1 class="entry-title"><a rel="bookmark" href="amarok-kiipelissae">Amarok&#160;kiipelissä</a></h1>
+
+
+<div class="entry-content">
+<p>Onkohan tämä jo se hetki, jolloin pääsee käyttämään MPD:tä ihan oikealla syyllä. Viimeksihän se jäi eräistä syistä tekemättä. Syitä on monia: nyt ei tunnu tuo 24-bittinen äänentoisto ruveta toimimaan, joten taidan miettiä tavan downmiksata tarvittaessa alaspäin. Minulla ei tuota 24-bittistä ole paljoa, joten iso ongelma sen ei pitäisi olla. Amarok kyllä tukisi, jos toimisi ja MPD ei taida tukea sen toteuttaman ALSA-rajapinnan takia. Kuitenkin olen saanut sen käsityksen, ettei se Amarokkikaan oikeasti osaa, eli se kvantisoisi automaagisesti. Voisin periaatteessa tutkia sitä käyttämällä tuota koaksiaalikaapeliani ja nauhoittaisin ohjelman tulostusta, sitten vertailisin lähdetiedostoa ja nauhoitusta.</p>
+<p>Aina tämä MPD onnistuu aiheuttamaan pienen wow-efektin, kun sitä kokeilen. Kenties nyt tekemällä siistin hakemistorakenteen musiikkikokoelmaani pääsen siihen sisään sillä tavalla, kuin on tähtiin merkitty. <strong>Ario </strong>on mukava ohjelmanpala, jolla onnistuu käskyttäminen jämptisti. Audioscrobbler-demoni <strong>scmpc </strong>sekin ryhtyi heti toimimaan, kun sen käynnistin. &#196;äni on esimerkillinen ja kaikki tuntuu toimivan kuten pitääkin. Taasko minun pitää löytää ne huonot hetket?</p>
+<h2>MPD:n asennus ja konfigurointi gentoossa</h2>
+<p>Ajattelin tämmöisen tiivistelmän heitellä tähän itseäni ja muita (kuitenkin pääasiassa itseäni) ajatellen. Gentoossa riittää kun itse MPD:n saa toimimaan, kaikki klientit tuntuvat toimivan sellaisenaan, jos ovat toimiakseen. Sopivia klienttejä löytyy portagesta suoraan:</p>
+<ul>
+<li>media-sound/ario (rhythmbox-like, selaustoiminnot ja hyvä hakutoiminto)</li>
+<li>media-sound/mpc (konsolista ohjattava putkia hyödyntävä laitos)</li>
+<li>media-sound/scmpc (audioscrobbler/last.fm -demoni)</li>
+<li>media-sound/ncmpcpp (ncurses-pohjainen tasokas ohjain)</li>
+<li>media-sound/gmpc (ei järin hyvä, mutta sillä voi tutkia kyllä kantaa)</li>
+</ul>
+<p>Itse asiassa mitä katselin näitä valikoimia, valtaosassa näkyy olevan [1]-tägi perässä, eli aivan portagesta ei kaikkea löydy. <strong>mpd-portage</strong> -niminen overlay sisältää kaiken tarvittavan, jos kiinnostaa.  MPD sekä yllä mainittu <strong>scmpc </strong>heittävät gentoossa omat init.d-skriptit /etc/:lle, joten ne on helppo asettaa käynnistymään asennuksen mukana. Ja kun molemmat käynnistyvät varsin huomaamattomasti, ei tunnu olevan valinnanvaraa. Kuten kaikki tasokkaat musiikkitoistimet, mpd ei varaa äänikanavaa kuin musiikin soiton ajaksi, joten sekään ei tuota ongelmia esimerkiksi niille, ketkä käyttävät miksaamatonta ALSA-ratkaisua.</p>
+<p>Mielestäni MPD:n säätäminen kuntoon on varsin vaivatonta, vaikka se minullakin aluksi tuotti vaikeuksia. Kun MPD on asennettu, ne perinteiset säädöt /etc/mpd.confissa ovat toki simppeleitä. Oikeastaan ainut, mitä säätää, on tuo aivan alussa oleva <em>music_directory </em>-asetus. Mutta ei välttämättä sekään, jos pelaat MPD:n sääntöjen mukaan. En ole aivan varma siitä, mikä on asetuksen oletusarvo, mutta luulisin sen olevan jonnekin /var/lib/mpd:n puolelle kallistuva. Sinne on helpointa tehdä symlinkkejä, joita voi kasailla useita sinne. Näin saadaan kaikki näkymään MPD:lle. Aikaisissa versioissa oli tosin se ongelma, että useita symlinkkejä se ei osannut seurata. Hassu vika sekin, tosin sitäkin raivostuttavampi. Sitten siellä on näitä asetuksia, joiden oletusarvot ovat toimineet hyvin: MPD käynnistyessään vaihtaa käyttäjäkseen mpd:n ja luopuu superuserin oikeuksistaan, mikä on oikein. MPD:tä voi ajaa myös käyttäjänä, mutta itse tykkään valmiista init.d-tiedostoista sen verran kovasti, etten sellaista kokeillut.</p>
+<p>Konffitiedoston seuraava vaihe on tarjota AUDIO OUTPUT -osion alla säädöt äänilaitteisiin. Näiden kanssa taisin sekoilla aivan riittävästi ja sitten niitä ei edes käytetä!</p>
+<pre>audio_output {
+           type "alsa"
+           name "<span style="color: #ff0000;">foobar</span>"
+}</pre>
+<p>Mikäli nyt oikein testasin, nämä riittävät. Nimen toki vaihdat siksi, mikä löytyy ALSA-konffista /etc/asound.confista! Tämä on hyvin tärkeä huomata, ettei superuserin oikeuksilla oleva MPD lue suinkaan käyttäjän ~/.asoundrc -tiedostoa, vaan parempi on kopioida sisällöt suoraan. Huomasin muuten, että minun säädöissäni ei tällä hetkellä edes tarvitse name-kohtaa, vaan kunhan asound.conf -tiedostossa on toimiva default-asetus, pitäisi MPD:stä tulla ääntä ulos.</p>
+<pre>pcm.!default {
+     type plug
+     slave.pcm "hw:1,1"
+}
+ctl.!default {
+     type plug
+     slave.pcm "hw:1,1"
+}</pre>
+<p>Näin siis minun tapauksessani. Tuo säätö ei käsittääkseni tarjoile käyttäjälleen paljoa iloja esimerkiksi softamiksauksen puuttumisen vuoksi, mutta tämäpä ei ole mikään HOWTO: ALSA, vaan huonosti laadittu MPD-howto. Kjeh kjeh.</p>
+<p>Takaisin mpd.confiin. Minun asetuksissani kaikki miksaukseen liittyvät rivit ovat kommentoitu yli, joten kovin tärkeitä eivät ole. Normalisaatio kannattaa jättää pois. Buffering-arvotkin tuntuvat toimivan oletuksilla, sieltä kuitenkin voi jotain säätää, jos tuntuu esiintyvän katkoksia kappaleiden välissä tai muuten ongelmia siihen suuntaan. Alhaalla tiedostossa on päätettävä vanha vihollinen, merkistöenkoodaus. Minulla on siinä "UTF-8&#8243;, ja suurin piirtein taitavat tiedostot näkyä oikein. Ainakin näillä parilla ääkköstiedostolla joo.</p>
+<p>Scrobblaukseen sitten tarvitaan se scmpc, joka siis pollailee itsekseen mpd:tä säännöllisesti. Ei ehkä järkevin ratkaisu, mutta ei se hidastamaan meinaa ruveta. Tiedostossa /etc/scmpc.conf säilytetään last.fm -palvelun tunnuksia ja salasanaa selkokielisenä, joten tiedoston oikeudet on syytä tarkistaa. Tätäkin voisi ajaa lokaalina oman tunnuksen alta, jos mieli tekee. En ole kokeillut, mutta tuskin mitään vakavia ongelmia esiintyy. Tiedosto on hyvin kommentoitu, joten ei hämminkiä. Ylimpänä oleva <em>log_level </em>-asetus on tärkeä vikatilanteissa, sillä vähän purkkamaisena systeeminä scmpc ei aina ongelmitta selviydy. Debug-asetuksessa sieltä pursuaa varsin kiitettävästi tietoa. Helpoiten scmpc tuntuu sekoavan omiin lähetyksiinsä silloin kun joku toinen scroblaava ohjelma toimii koneella samaan aikaan: jos käytän amarokkia sillä aikaa kun scmpc on päällä, joudun käynnistämään scmpc:n uudelleen jotta se alkaisi lähettää onnistuneesti uusia kappaletietoja.</p>
+<p>Mitähän tästä jää vielä sanomatta?</p>
+</div>
+
+<p class="tags"> 
+
+
+Tageja: <a href="../../tag/amarok/index.html" rel="tag">amarok</a>, 
+<a href="../../tag/mpd/index.html" rel="tag">mpd</a>
+
+
+</p>
+
+
+
+<div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+
+        </div>
+
+ <!-- now, common stuff -->
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+        <p><a rel="prev" href="../55/nostalgia-yrittaeae-nostaa-paeaetaeaen" title="Nostalgia yrittää nostaa päätään">&#171; Nostalgia yrittää nostaa päätään</a> 
+           &mdash; <a rel="next" href="../53/uutta-luettavaa" title="Uutta luettavaa">Uutta luettavaa &#187;</a>
+        </p>
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+        <h2>Aiheen vierestä</h2>
+        <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../569/satunnaiset-jazzit-soittolistalta">Satunnaiset jazzit&#160;soittolistalta</a></span> &#183; <span class="published">2012-03-18</span>
+<br /><span class="smallexcerpt">Jonkin aikaa sitten kirjailin nopean bash-skriptin, joka hakee haluamastaan MPD-soittolistasta tietyn verran kappaleita. Siten, että musiikkia saadaan noin tietyn aikarajan...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../541/levyjen-hakemista-ihmisheuristiikoin">Levyjen hakemista&#160;ihmisheuristiikoin</a></span> &#183; <span class="published">2011-08-04</span>
+<br /><span class="smallexcerpt">Omasta musiikkisoittimesta on kai joskus tullut puhuttua. Nyt MPD-aikoina on luonnollista hakea sen sijaan oman MPD-asiakasohjelman pariin. Hitsi kun en...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../353/kehitysta">Kehitystä</a></span> &#183; <span class="published">2010-11-09</span>
+<br /><span class="smallexcerpt">Kaiken tämän jatkuvan tietokonekäytön keskellä osaa välillä pysähtyä, ja katsoa, miten ollaan edistytty. Se on upea tunne, kun keksii, että...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../323/mpd-kirjastoja-ja-asiakkaita">MPD-kirjastoja ja&#160;asiakkaita</a></span> &#183; <span class="published">2010-06-10</span>
+<br /><span class="smallexcerpt">Huu, kunhan huomisen tentin (Ihminen ja vuorovaikutteinen teknologia) vetäisee alta pois, malttaa viimein alkaa tammikuussa aloitettuun, mutta sittemmin keskeytyneeseen projektiin...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../7/tehokkuutta-tyoepoeytaekaeyttoeoen">Tehokkuutta&#160;työpöytäkäyttöön</a></span> &#183; <span class="published">2010-02-07</span>
+<br /><span class="smallexcerpt">Noniin, on aika viihdyttää taas teitä rakkaita kuuntelijoitani muutamalla pohdinnalla ja jäkätyksellä tehokkuudesta.
+Ensiksikin voisin puhua pitkään mieltäni kourineesta jutusta. Jos...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../9/naeytoet-ja-vim">Näytöt ja&#160;Vim</a></span> &#183; <span class="published">2010-01-25</span>
+<br /><span class="smallexcerpt">Unohdin tässä mainita, kuinka lauantainen operaationi sujui. Lisäksi lisää rakkaudenosoituksia Vimiä kohtaan. Ja lopuksi käydään läpi paranneltu MPD-skriptini, joka esiteltiin...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../12/naeyttoejae">Näyttöjä</a></span> &#183; <span class="published">2010-01-17</span>
+<br /><span class="smallexcerpt">Huonojen otsikoiden sarja jatkukoon. Lyhyesti viikonlopun ohjelmista: sain "lahjaksi" 22-tuumaisen Acerin ja koodailin lyhyen skriptin MPD:lle.
+Näyttö on ihan mukava. En...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../35/tuoreet-mpd-versiot-ja-lastfm">Tuoreet MPD-versiot ja Last.fm</a></span> &#183; <span class="published">2009-08-05</span>
+<br /><span class="smallexcerpt">Vähän näyttäisi siltä, että uusi MPD 0.15 on hankala tapaus klienteilleen, jotka toimivat audioscroblaajina. Olen pitkään käyttänyt scroblailuun hyvin toimivaa...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../37/varsinainen-24-bittinen-ihme">Varsinainen 24-bittinen&#160;ihme</a></span> &#183; <span class="published">2009-08-04</span>
+<br /><span class="smallexcerpt">Päivittelin tässä yksi päivä kerneliä ja sen jälkeen päivittyivät ALSA-viritelmien oheistyökalut. Sen jälkeen käyttämäni MPD ei enää osannut säätää volyymiä...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../45/pieni-oivallus-ja-muutoksia">Pieni oivallus ja&#160;muutoksia</a></span> &#183; <span class="published">2009-06-14</span>
+<br /><span class="smallexcerpt">Tänä viikonloppuna on käynyt kaikenlaista pientä. Ei mitään, mikä olisi normaalisti uutisoinnin arvoista, mutta ehkäpä me kehittelemme näistä jotain? Pitäisikö...</span>
+</li>
+
+</ul>
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

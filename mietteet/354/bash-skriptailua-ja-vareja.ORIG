@@ -1,0 +1,336 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <!-- standard -->
+	<title>Mr. P: Bash-skriptailua ja värejä</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=mietteet" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=mietteet" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="mietteet">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="bash-skriptailua-ja-vareja#content">Siirry sisältöön</a></li>
+        <li><a href="bash-skriptailua-ja-vareja#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            &raquo;
+            <a href="../index.html">Mietteet</a>
+            
+                <!--<ul>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/598/blogille-idea">Blogille&#160;idea</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/597/wes-mckinney-python-for-data-analysis-oreilly">Wes McKinney - Python For Data Analysis (O&#39;Reilly)</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/596/org-blogaaminen-vaikeata">Org-blogaaminen&#160;vaikeata</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/595/twitterointia-emacsilla">Twitteröintiä&#160;Emacsilla</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/594/weboodi-aikataulut-orgiin">WebOodi-aikataulut&#160;orgiin</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/592/emacs-has-me">Emacs has&#160;me.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/591/editorien-taistelu-tietamyshallinnassa">Editorien taistelu&#160;tietämyshallinnassa</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/590/think-vimorganizer">Think&#160;VimOrganizer.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/589/think-orgmode">Think&#160;orgmode.</a>
+                </li>
+</ul>-->
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="http://progo.viuhka.fi/kategoria/hifi/">Hifi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/rauta/">Rauta</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/viihde/">Viihde</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../../tag/blogisäätöä/index.html" class="tagSizeMedium tagSize22" style="font-size: 100%;">blogisäätöä</a></li>
+	<li><a href="../../tag/gentoo/index.html" class="tagSizeLargest tagSize102" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../../tag/hifi/index.html" class="tagSizeMedium tagSize28" style="font-size: 100%;">hifi</a></li>
+	<li><a href="../../tag/ohjelmistot/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">ohjelmistot</a></li>
+	<li><a href="../../tag/ohjelmointi/index.html" class="tagSizeMedium tagSize39" style="font-size: 100%;">ohjelmointi</a></li>
+	<li><a href="../../tag/opiskelu/index.html" class="tagSizeMedium tagSize14" style="font-size: 100%;">opiskelu</a></li>
+	<li><a href="../../tag/rauta/index.html" class="tagSizeMedium tagSize20" style="font-size: 100%;">rauta</a></li>
+	<li><a href="../../tag/vim/index.html" class="tagSizeMedium tagSize31" style="font-size: 100%;">vim</a></li>
+</ul>
+        <p><a href="../../tag/index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=mietteet" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=mietteet" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- not tag view, it's the main view -->
+
+
+        
+
+        <div class="hfeed">
+            <!-- five articles to list here, or only one. It depends. -->
+            <!-- default form -->
+
+<p class="published">22. marraskuu 2010, 15:31</p>
+<h1 class="entry-title"><a rel="bookmark" href="bash-skriptailua-ja-vareja">Bash-skriptailua ja&#160;värejä</a></h1>
+
+
+<div class="entry-content">
+	<p>Taas tuli esille pieni tarve kirjoittaa bash-skriptinpalasta, ja nyt tuntuu sujuvan vain paremmin kuin koskaan ennen. Sopivan värilistauksen ansiosta myös syötteen värjääminen (usein tarkoituksenmukaista) on nyt äärihelppoa. Kuinka kuitenkin organisoida skriptejä?</p>
+
+	<p>Vaikka olen <code>zsh</code>-shelliä käytellyt hyvän aikaa, skriptipuolella tyydyn bashiin erittäin hyvin parista syystä: bash-skriptaamiseen löytyy paremmat oppaat ja referenssit, bash-skriptit tavoittavat laajemman yleisön kuin zsh:n vastaavat, ja tärkeimpänä se, että bash-skriptejä osaan minäkin jotenkuten vääntää. Tärkeitä seikkoja nämä kaikki. </p>
+
+	<p>Tämänkertainen tarve oli tehdä skripti, joka kävisi annetun hakemiston musiikkikappaleet läpi ja tulostaisi kappaleiden metatiedot näkysälle nätissä muodossa. Voisin näin nopeasti tutkia, kaipaavatko kappaleet sitten tagien uudelleenhakemista raskaamman <strong>Easytag</strong>-ohjelman kanssa. </p>
+
+	<p>Lähdin ongelmanratkaisuun ottamalla vaikutteita vanhemmista projekteista: määritellään ensin mahdollisen tulevaisuuslaajentamisen mielessä pari helpottavaa muuttujaa.</p>
+
+<pre class="bash">dir=&quot;$1&quot;
+exts=( flac mp3 ogg )
+rec=false
+</pre>
+
+	<p>Voisin lisätä <code>exts</code>-listaan joitain myöhemmin käyttöönottamiani tiedostopäätteitä. Rekursiivista alihakemistojen käyntiä varten voisi olla <code>rec</code>. En ole kyllä varma, tukeeko bash totuusarvoja. En kyllä testannutkaan, koska nyt ei ole tarvetta sille. Se ei kuitenkaan haittaa modulaarisuutta tai myöhempää muokattavuutta, koska seuraavassa vaiheessa proseduraalista skriptinkäyntiä on helppoa laajentaa eteenpäin:</p>
+
+<pre class="bash">if [ ! -d &quot;$dir&quot; ]
+then
+    echo &quot;Bad directory: \&quot;$dir\&quot;&quot;
+    exit
+fi
+
+# jos rec käytössä, haetaan alihakemistoistakin
+findopts=&quot;&quot;
+if [ ! rec ]; then
+    findopts=&quot;-maxdepth 1&quot;
+fi
+</pre>
+
+	<p>Kuten näkyy, <code>find</code> hoitaisi kyllä rekursiivisen haeskelun ihan yhden lisäflagin voimin. No, käydään sitten päätteitä ja tiedostoja läpi. Kaava on tuttu, mutta nyt löysin sattumoisin hauskan tavan käsitellä find-ulostuloa. Xargsin kanssa pitäisi olla oma bash-skripti, eikä esimerkiksi yksittäistä funktiota kai saa passitettua sinne.  </p>
+
+<pre class="bash"># Käydään tiedostotyypit järjestyksessä läpi
+for filetype in ${exts[*]}
+do
+    find $findopts &quot;$dir&quot; -type f -iname &quot;*.$filetype&quot; |sort|while read file
+    do
+        print_tags &quot;$file&quot;
+    done
+done
+</pre>
+
+	<p>Tuollainen simppeli  <code>find-while-read</code> -rakenne tekee kivasti. Sorttauksen lisääminen toimii niissä tapauksissa, joissa tiedostonimet alkavat raidan numerolla. Putkituksien käyttöhän on muuten varsin funktionaalista. Funktioiden yhdistelemistä ilman, että sen kummemmin tarvitsee ihmetellä taustalla piileviä matemaattisia ratkaisuja. Ulkoistin yksittäisen kappaleen tulostamisen vielä omaksi funktiokseen:</p>
+
+<pre class="bash"># Tulosta nätti rivi tageista
+function print_tags {
+    title=`taginfo &quot;$1&quot; | grep TITLE | sed -e &quot;s/^.*=//&quot; | sed -e &quot;s/\&quot;//g&quot;`
+    artist=`taginfo &quot;$1&quot; | grep ARTIST | sed -e &quot;s/^.*=//&quot; | sed -e &quot;s/\&quot;//g&quot;`
+    album=`taginfo &quot;$1&quot;  | grep ALBUM | sed -e &quot;s/^.*=//&quot; | sed -e &quot;s/\&quot;//g&quot;`
+    track=`taginfo &quot;$1&quot;  | grep TRACK | sed -e &quot;s/^.*=//&quot; | sed -e &quot;s/\&quot;//g&quot;`
+    year=`taginfo &quot;$1&quot;  | grep YEAR | sed -e &quot;s/^.*=//&quot; | sed -e &quot;s/\&quot;//g&quot;`
+    echo -en &quot;(&quot;$album $bldgrn$year$txtrst&quot;)&quot;
+    printf &quot;%3d. &quot; $track
+    echo -e $txtgrn$artist&quot; - &quot;$title$txtrst
+}
+</pre>
+
+	<p>Ehkä ei nätein tai tehokkain funktio maailmassa, koodi on kopioitu toisesta tageja käyttävästä ratkaisusta sellaisenaan. Tulostusta on muotoiltu värien kanssa, siitä seuraavassa osiossa. Värit ovat fantsusti muuttujina, joita voi vain konkatenoida echo-tulosteen mukaan. Helppoa värinhallintaa, jolla on käytettävyysetuja.</p>
+
+	<h2>Värit</h2>
+
+	<p>No, värit voi aina kirjoitella esc-koodeina, tai tallentaa käyttämänsä värit muuttujiin ja lisäillä merkkijonoina tulosteisiin. Tätä varten googlasin valmiin listan värejä. Arpa osui <a href="https://wiki.archlinux.org/index.php/Color_Bash_Prompt">Arch Linuxin wikipalstalle</a>, ja fiksu ratkaisu kun on, tekisi mieli saada nuo muuttujat jotenkin yleiskäyttöisesti esille. Muutenhan joutuisin aina kopioimaan listan skriptiin. Eikä bash-skriptien suoritus mahda ajella <code>.bashrc</code>:tä. Ja ympäristöt ovat muutenkin skripteille suljetut, joten oma <code>.zshrc</code> ei sekään auttane. No, ehkä löydän jotain, ehkä en. Eihän se iso vaiva ole kopioida tarvittaessa tiedostoon.</p>
+</div>
+
+<p class="tags"> 
+
+
+Tageja: <a href="../../tag/bash/index.html" rel="tag">bash</a>, 
+<a href="../../tag/ohjelmointi/index.html" rel="tag">ohjelmointi</a>
+
+
+</p>
+
+
+
+<div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+
+        </div>
+
+ <!-- now, common stuff -->
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+        <p><a rel="prev" href="../353/kehitysta" title="Kehitystä">&#171; Kehitystä</a> 
+           &mdash; <a rel="next" href="../355/textpatternille-varjaava-koodi" title="TextPatternille värjäävä koodi">TextPatternille värjäävä koodi &#187;</a>
+        </p>
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+        <h2>Aiheen vierestä</h2>
+        <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../590/think-vimorganizer">Think&#160;VimOrganizer.</a></span> &#183; <span class="published">2012-09-02</span>
+<br /><span class="smallexcerpt">Asiat rullaavat eteenpäin tyydyttävää tahtia tämän uuden tiedonhallinnan kanssa. Nyt olen säätänyt kuntoon jokaisesta kulmasta toimivan org-capture -variantin, jolla saan...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../587/tehokkaat-kayttoliittymat-vaivatta">Tehokkaat käyttöliittymät&#160;vaivatta</a></span> &#183; <span class="published">2012-08-16</span>
+<br /><span class="smallexcerpt">Ohjelmoijan onni on elää komentorivillä. Tehokkaiden käyttöliittymien rustaaminen on varsin nopeata, kunhan luottaa siihen, että suurta suosiota tuotokset eivät tule...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../584/pythonin-vastaisku-lispeille-ipython-ja-vim-ipython">Pythonin vastaisku lispeille: IPython ja vim-ipython</a></span> &#183; <span class="published">2012-07-25</span>
+<br /><span class="smallexcerpt">Tai &#8220;Pythonin uusi toivo&#8221; tai &#8220;Pythonin paluu&#8221;. Mistä on kyse? Pythonin tulkin me kaikki kai tiedämme: kaikki siinä periaatteessa on,...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../581/sumitup-puutteet-ja-mihin-suuntaan-edetaan">SumItUp: puutteet ja mihin suuntaan&#160;edetään</a></span> &#183; <span class="published">2012-07-12</span>
+<br /><span class="smallexcerpt">Esittelin pari postausta sitten Soulver-kloonin raakileen, SumItUpin. Nyt se on GitHubissa kaikkien pällisteltävänä ja sellaisella raakileasteella, jotta sitä voi jo...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../579/soulver-kloonia-rakentelemassa">Soulver-kloonia&#160;rakentelemassa</a></span> &#183; <span class="published">2012-07-07</span>
+<br /><span class="smallexcerpt">Erittäin upealla konseptilla varustettu laskinohjelma Soulver kaatuu siihen, että sen saa vain Mäkille. Vapaamuotoinen näpertelyalusta on usein ainut asia, mitä...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../571/tv-saato-on-nyt-valmis">TV-säätö on nyt&#160;valmis</a></span> &#183; <span class="published">2012-03-23</span>
+<br /><span class="smallexcerpt">No niin. Uuden NVidia-kortin ansiosta TV-episodi on käsitelty voitokkaasti. Jos rahalla asiasta selviämistä ei lasketa huijaamiseksi.
+
+	Oppirahoja tuli taas tosiaankin hassattua....</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../569/satunnaiset-jazzit-soittolistalta">Satunnaiset jazzit&#160;soittolistalta</a></span> &#183; <span class="published">2012-03-18</span>
+<br /><span class="smallexcerpt">Jonkin aikaa sitten kirjailin nopean bash-skriptin, joka hakee haluamastaan MPD-soittolistasta tietyn verran kappaleita. Siten, että musiikkia saadaan noin tietyn aikarajan...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../566/terminaaleja-vimista-kasin">Terminaaleja Vimistä&#160;käsin</a></span> &#183; <span class="published">2012-02-11</span>
+<br /><span class="smallexcerpt">Vanha kunnon ConqueTerm on nyt valmis ja käyttökelpoinen tuote kehittelyyn.
+
+	Olen viime päivinä alkanut käyttää vimiä hyvin emacsmaisesti. Se on tietenkin...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../565/mita-on-kehittaa-clojurella">Mitä on kehittää&#160;Clojurella</a></span> &#183; <span class="published">2012-02-05</span>
+<br /><span class="smallexcerpt">C- ja muunkielisissä projekteissa tavataan kirjoittaa koodia ensin, ja sitten testataan. Tietysti vaatimus osittain syntyy koodin kääntämisestä; ilman kääntöä ei...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../564/ranskalaisten-viivojen-parsimista-clojurella">Ranskalaisten viivojen parsimista&#160;Clojurella</a></span> &#183; <span class="published">2012-02-02</span>
+<br /><span class="smallexcerpt">Kirjoitin männäviikolla kokeilumielessä ohjelman, joka kääntää ranskalaiset viivat Beamer-Latexiksi. Ideana olisi tuottaa esityksen lihapuoli nopeasti rustaamalla tiivistä merkintää ja sitten...</span>
+</li>
+
+</ul>
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

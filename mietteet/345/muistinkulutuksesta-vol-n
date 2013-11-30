@@ -1,0 +1,307 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <!-- standard -->
+	<title>Mr. P: Muistinkulutuksesta, vol. n</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=mietteet" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=mietteet" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="mietteet">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="muistinkulutuksesta-vol-n#content">Siirry sisältöön</a></li>
+        <li><a href="muistinkulutuksesta-vol-n#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            &raquo;
+            <a href="../index.html">Mietteet</a>
+            
+                <!--<ul>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/598/blogille-idea">Blogille&#160;idea</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/597/wes-mckinney-python-for-data-analysis-oreilly">Wes McKinney - Python For Data Analysis (O&#39;Reilly)</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/596/org-blogaaminen-vaikeata">Org-blogaaminen&#160;vaikeata</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/595/twitterointia-emacsilla">Twitteröintiä&#160;Emacsilla</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/594/weboodi-aikataulut-orgiin">WebOodi-aikataulut&#160;orgiin</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/592/emacs-has-me">Emacs has&#160;me.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/591/editorien-taistelu-tietamyshallinnassa">Editorien taistelu&#160;tietämyshallinnassa</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/590/think-vimorganizer">Think&#160;VimOrganizer.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/589/think-orgmode">Think&#160;orgmode.</a>
+                </li>
+</ul>-->
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="/kategoria/hifi/">Hifi</a></li>
+	<li><a href="/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="/kategoria/rauta/">Rauta</a></li>
+	<li><a href="/kategoria/viihde/">Viihde</a></li>
+	<li><a href="/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../../tag/blogisäätöä/index.html" class="tagSizeMedium tagSize22" style="font-size: 100%;">blogisäätöä</a></li>
+	<li><a href="../../tag/gentoo/index.html" class="tagSizeLargest tagSize102" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../../tag/hifi/index.html" class="tagSizeMedium tagSize28" style="font-size: 100%;">hifi</a></li>
+	<li><a href="../../tag/musiikki/index.html" class="tagSizeMedium tagSize20" style="font-size: 100%;">musiikki</a></li>
+	<li><a href="../../tag/ohjelmistot/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">ohjelmistot</a></li>
+	<li><a href="../../tag/ohjelmointi/index.html" class="tagSizeMedium tagSize39" style="font-size: 100%;">ohjelmointi</a></li>
+	<li><a href="../../tag/ostoksia/index.html" class="tagSizeMedium tagSize8" style="font-size: 100%;">ostoksia</a></li>
+	<li><a href="../../tag/palvelin/index.html" class="tagSizeMedium tagSize34" style="font-size: 100%;">palvelin</a></li>
+</ul>
+        <p><a href="../../tag/index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=mietteet" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=mietteet" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- not tag view, it's the main view -->
+
+
+        
+
+        <div class="hfeed">
+            <!-- five articles to list here, or only one. It depends. -->
+            <!-- default form -->
+
+<p class="published">14. lokakuu 2010, 11:34</p>
+<h1 class="entry-title"><a rel="bookmark" href="muistinkulutuksesta-vol-n">Muistinkulutuksesta, vol.&#160;n</a></h1>
+
+
+<div class="entry-content">
+	<p>On jälleen aika valistaa lukijoita hourailulla, kuinka ennen oli asiat toisin ja muistinkäyttökin aisoissa. Paitsi, että nykyisellään näyttää aika hyvältä.</p>
+
+	<p>Laitetaanpa kuulkaas heti kuvaa kehiin:</p>
+
+	<p><img src="../../kuvat/screenshot-20101014@121300.png" alt="" /></p>
+
+	<p>Tilanne on osin lavastettu että keskeytin <code>emerge</code>-käännösprosessit, mutta tarkoituksenani olikin luoda kuva arkisesta everyday-tilanteesta, jota kohtaan nykyisin varsin paljon. </p>
+
+	<p>Olen ajanut komennon <code>ps -eorss,cmd | sort -n</code>, tutkinut sitä, ajanut sitä uudestaan <code>awk</code>in kanssa ja filtteröinyt tulosteesta <span class="caps">CSV</span>-listan, jonka olen kopypastennut *OpenOffice Calc*ulatoriin. Ryhmittelin tietyn käyttötarkoituksen ajavat ohjelmat kokonaisuuksiksi: </p>
+
+	<ul>
+		<li>Internet-selailua harrastan yleensä vain yhdellä selainikkunalla (omassa käytössäni vasta kolmen näytön kokoonpano kaipaa toista akkunaa vakituiseen auki), joten Internet-osiossa on vain selaimeni, sekä selaimen käyttämän pluginin kehikko.</li>
+		<li>WM koostuu ikkunanhallinnasta, ja parista irto-ohjelmasta, jotka yleensä mielletään osaksi ikkunanhallintaa &#8212; makuasioista voi kiistellä: Xmonad, Xmobar ja Stalonetray; ensimmäinen hoitaa ikkunat, toinen hoitaa ikkunoiden otsikot ja työpöytätiedot ja kolmas hoitaa tray-toimintoja.</li>
+		<li>Xorg kattaa Xorgin, <span class="caps">GDM</span>:n ja näppäimistöä mappailevat pikkuohjelmat</li>
+		<li>Demo-<span class="caps">PDF</span>:t: aina on pari demoa kesken, etenkin kun nykyisellään eivät tunnu tulostavan opiskelijoille papereita. Niitä on siis auki näytöllä 2-3 aina, ja lisäksi päälle luentomateriaaleja. Olen käyttänyt kevyttä <span class="caps">XPDF</span>:ää, mutta silti tuppaa muistia kasautumaan</li>
+		<li>Muut graafiset sovellukset sisältävät melko kevyen conkyn (30 Mt) ja raskaamman Rainlendarin (60 Mt), sekä yllättäen terminaalit (urxvt) shelleineen (zsh)</li>
+		<li>Torrentti on yksinään, rtorrent syö yllättävän paljon</li>
+		<li>Musiikki tarkoittaa <span class="caps">MPD</span>:tä, joka hoitaa isoa roolia ja aika kevyesti. Mukana on parin megan syövä last.fm -scrobbleri. Jos joku klientti pitäisi siihen ilmoittaa, niin konsolipohjainen <code>pms</code> syö 10 megaa ja <code>gmpc</code> vain 780 kilotavua! Kumpaakaan en kyllä pidä auki sen pidempään kuin on tarvis.</li>
+		<li>Sekalainen systeemisälä on sitten sitä: cronia, nameddia, ohjainta ja ajuria. Yhteensä vievät aika paljon, kun menin heittämään <code>kde4init</code>-prosessin kulutuksen (22 Mt) siihen. Se käynnistyy Okularin takia, ei muuten.</li>
+	</ul>
+
+	<p>Vimejä on yleensä auki 1-3, projektien muodossa, ja ne hautautuvat yleensä muille työtiloille. Yksi instanssi oli tuossakin mukana, 30 megaa. Käynnistyttyään vim tuntuu vievän vakiomäärän muistia, ellen sitten avaa poikkeuksellisen isoa tiedostoa. Siinä mielessä Emacsin muistinkulutus ei ole järin perusteltua, kun yhdellä Emacsilla kattaisi juuri tuon 2 vimiä ja vain vähän menee yli.</p>
+
+	<p>Ja totta kai voidaan havaita, että se Firefox syö kuin hevonen. Melkein tuorein vakaa versio, 3.6.9-r1, nopeutui entiseen nähden aika hyvin, mutta vastineeksi se nyt haukkaa tukevammin muistista. Mieluummin näin päin.</p>
+
+	<p>Bloatteja terminaaleja käyttämällä graafiset sovellukset paisuvat aika isoksi osioksi. Yksi urxvt vie ikkunan koosta riippuen 20-30 megaa, joka on varmasti monelle aika iso pala purtavaksi. <span class="caps">XFT</span>-fontit on eräs syy muistinsyöntiin, mutta myös multibyte-fonttituki ja skriptaus varmasti nekin vaikuttavat. Kevyempään Xtermiin ei ole menemistä tilettävien managerien kanssa, sillä se hylkää välittömästi kaiken tekstin, joka ikkunan koon muutoksessa sattuu leikkaamaan. Muistia on, siksi en ole välittänyt asiasta. Jos oikein tiukalle menisi, voisin harkita <span class="caps">XFT</span>-tuen pudottamista. </p>
+
+	<p>Tämän tekstin ajattelin kirjoittaa lähinnä kertoen tuosta Firefoxin ainaisesta syönnistä, mutta samalla tuli sitten ilmoitettua, että yllättävän kevyesti tässä mennään. Monella koneella se raskain osio, ikkuna-/työpöytähallinta, on Xmonadille se helpoin nakkipala. Aivan käsittämätöntä, että vaikka mitä tahansa syöttäisin Xmonadille, sen kulutus pysyttelee siinä neljässä megatavussa. Saman verran söi kolmellakin näytöllä. On se vekotin.</p>
+</div>
+
+<p class="tags"> 
+
+
+Tageja: <a href="../../tag/kolmoisnäytöt/index.html" rel="tag">kolmoisnäytöt</a>, 
+<a href="../../tag/rauta/index.html" rel="tag">rauta</a>, 
+<a href="../../tag/xmonad/index.html" rel="tag">xmonad</a>
+
+
+</p>
+
+
+
+<div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+
+        </div>
+
+ <!-- now, common stuff -->
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+        <p><a rel="prev" href="../343/bloggaus-ohjelmointi" title="Bloggaus-ohjelmointi?">&#171; Bloggaus-ohjelmointi?</a> 
+           &mdash; <a rel="next" href="../347/verkkopapuja" title="Verkkopapuja">Verkkopapuja &#187;</a>
+        </p>
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+        <h2>Aiheen vierestä</h2>
+        <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../557/palvelin-tulossa-sittenkin">Palvelin tulossa&#160;sittenkin</a></span> &#183; <span class="published">2011-11-10</span>
+<br /><span class="smallexcerpt">Vaikka taannoin järkeilin palvelimen ostoa vastaan aika onnistunein argumentein, niin nyt sellaisen olen kuitenkin hommannut. Käytetystä raudasta kootan murossa jonkinlaisen...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../554/tulipa-netbook-ostettua">Tulipa netbook&#160;ostettua</a></span> &#183; <span class="published">2011-10-01</span>
+<br /><span class="smallexcerpt">Elitegroupin G10IL -mallinen miniläppäriksi luokiteltavissa netbook tuli ostettua. Saamme nähdä, miten tässä vielä käy.
+
+	Tämä on tavallinen nykynetbook, jossa on 10-tuumainen...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../549/uusi-filco-on-asemissa">Uusi Filco on&#160;asemissa</a></span> &#183; <span class="published">2011-09-07</span>
+<br /><span class="smallexcerpt">Tänään se Filco Majestouch tuli. Ei siinä pitkään mennyt! Aika jännä fiilis kaikkinensa dassikkaan nähden, tämä.
+
+	Cherry MX Brown -kytkimet ovat...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../548/uusi-nappaimistoni-filco-majestouch-2">Uusi näppäimistöni, Filco Majestouch-2</a></span> &#183; <span class="published">2011-09-04</span>
+<br /><span class="smallexcerpt">Aikaisempi ostoslistapostaus oli vähän kirottu, koska sen kirjoitettuani minulle valkeni, että voin &#8220;hyvillä mielin&#8221; nyt valita yhden kohteista, ja jättää...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../537/gentoomies-on-nyt-radeonissa">Gentoomies on nyt&#160;Radeonissa</a></span> &#183; <span class="published">2011-07-20</span>
+<br /><span class="smallexcerpt">Nyt kävi näin. Passiivinen GeForce 7600GS vaihtui järeähköön Club3D:n HD6790 -korttiin, joka on eräänlainen välimalli siellä jossain. Kovasti on puhuttu...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../529/konffitiedostojen-toteuttamisesta">Konffitiedostojen&#160;toteuttamisesta</a></span> &#183; <span class="published">2011-05-28</span>
+<br /><span class="smallexcerpt">Erilaisia rc-tiedostoja (runtime configuration) on vaikka pilvin pimein, ja syitä tähän on monia. Yksi on erilaiset vaatimukset hyvältä konffilta, ja...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../340/rainlendar-pitaa-paikkansa">Rainlendar pitää&#160;paikkansa</a></span> &#183; <span class="published">2010-09-23</span>
+<br /><span class="smallexcerpt">Uskomatonta, todella uskomatonta. Eilen kirjoitin Rainlendarin ja Xmonadin välisistä kahnauksista, sekä hahmottelin alustavaa korvaajaa Rainlendarille Luan ja Pythonin kanssa. Mutta...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../311/ensimmainen-taistelu-havittiin">Ensimmäinen taistelu&#160;hävittiin</a></span> &#183; <span class="published">2010-04-26</span>
+<br /><span class="smallexcerpt">Aiemmin tuskailin mm. jäähdytyksen kanssa, kehuin nopeita kiintolevyosioita ja muuta sellaista kivaa. Tänään otin tuumasta toimen, ja vaihdoin liimat jäähdyttimen...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../310/nopeutusta">Nopeutusta</a></span> &#183; <span class="published">2010-04-25</span>
+<br /><span class="smallexcerpt">Pelailin vähän Civilization IV:tä äsken. Uusi suoritin ja Reiserille siirretty pelialusta toimii aivan huikean vauhdikkaasti.
+
+	Etenkin pelin latautuminen on ääliömäisen nopeata....</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../309/osiot-uusiksi">Osiot&#160;uusiksi</a></span> &#183; <span class="published">2010-04-25</span>
+<br /><span class="smallexcerpt">Kävin eilen Ubuntun livedistron puolella tekemässä osiointia ja siirtelin tiedostoja. Kovalevyistä vanhin, 250-gigainen Seagate, vaihtoi kokonaan ryhtiänsä sellaiseksi, mihin olisi...</span>
+</li>
+
+</ul>
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,304 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <!-- standard -->
+	<title>Mr. P: Työpöytälayouteista revisited</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=mietteet" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=mietteet" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="mietteet">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="tyoepoeytaelayouteista-revisited#content">Siirry sisältöön</a></li>
+        <li><a href="tyoepoeytaelayouteista-revisited#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            &raquo;
+            <a href="../index.html">Mietteet</a>
+            
+                <!--<ul>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/598/blogille-idea">Blogille&#160;idea</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/597/wes-mckinney-python-for-data-analysis-oreilly">Wes McKinney - Python For Data Analysis (O&#39;Reilly)</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/596/org-blogaaminen-vaikeata">Org-blogaaminen&#160;vaikeata</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/595/twitterointia-emacsilla">Twitteröintiä&#160;Emacsilla</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/594/weboodi-aikataulut-orgiin">WebOodi-aikataulut&#160;orgiin</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/592/emacs-has-me">Emacs has&#160;me.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/591/editorien-taistelu-tietamyshallinnassa">Editorien taistelu&#160;tietämyshallinnassa</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/590/think-vimorganizer">Think&#160;VimOrganizer.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/589/think-orgmode">Think&#160;orgmode.</a>
+                </li>
+</ul>-->
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="http://progo.viuhka.fi/kategoria/hifi/">Hifi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/rauta/">Rauta</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/viihde/">Viihde</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../../tag/gentoo/index.html" class="tagSizeLargest tagSize102" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../../tag/hifi/index.html" class="tagSizeMedium tagSize28" style="font-size: 100%;">hifi</a></li>
+	<li><a href="../../tag/ohjelmistot/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">ohjelmistot</a></li>
+	<li><a href="../../tag/opiskelu/index.html" class="tagSizeMedium tagSize14" style="font-size: 100%;">opiskelu</a></li>
+	<li><a href="../../tag/ostoksia/index.html" class="tagSizeMedium tagSize8" style="font-size: 100%;">ostoksia</a></li>
+	<li><a href="../../tag/palvelin/index.html" class="tagSizeMedium tagSize34" style="font-size: 100%;">palvelin</a></li>
+	<li><a href="../../tag/rauta/index.html" class="tagSizeMedium tagSize20" style="font-size: 100%;">rauta</a></li>
+	<li><a href="../../tag/vim/index.html" class="tagSizeMedium tagSize31" style="font-size: 100%;">vim</a></li>
+</ul>
+        <p><a href="../../tag/index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=mietteet" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=mietteet" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- not tag view, it's the main view -->
+
+
+        
+
+        <div class="hfeed">
+            <!-- five articles to list here, or only one. It depends. -->
+            <!-- default form -->
+
+<p class="published">21. tammikuu 2010, 16:10</p>
+<h1 class="entry-title"><a rel="bookmark" href="tyoepoeytaelayouteista-revisited">Työpöytälayouteista&#160;revisited</a></h1>
+
+
+<div class="entry-content">
+<p>Aiempi, parin vuoden takainen <a href="http://progo.viuhka.fi/2008/01/tyoepoeytaelayouteista/" target="_blank">pohdintani</a> on aika saattaa uudelle vuosikymmenelle nyt kolmannen näytön hankkimisen kynnyksellä. Edessämme on monia kysymyksiä, joista varmastikaan vähäisin ei ole: mitä tehdä kaikella tällä tilalla?!</p>
+<p><!--more-->Ensimmäinen kysymys voisi olla: "<em>miten?</em>", toinen kysymys voisi olla: "<em>miksi?</em>" ja kolmas "<em>missä?</em>".</p>
+<p>Ensimmäiseen on helppo vastata vähän <a href="http://progo.viuhka.fi/2010/01/nayttoja/">edellisen postauksen</a> pohjilta: hankitaan toinen näytönohjain pikkurahalla (tässä tapauksessa 30,90 euroa postiinkannettuna), leikataan siitä ylimääräiset pinnit pois ja survotaan se 16 kertaa pienempään slottiin kuin mihin se on suunniteltu. Eikö kuulosta hyvältä? Toimii joka tapauksessa kuten pitääkin, mitä nyt prosentteja hitaammin. Ja työpöytäkäytössä tuskin lainkaan hitaammin.</p>
+<p>Toiseen kysymykseen voi sanoa, että hyppy yhden ja kahden näytön välillä oli valtava pomppu. Niin mieltävavisuttavan valtava, että paluu vanhaan ei yksinkertaisesti tule onnistumaan, vaikka paradoksaalisesti olen pari kertaa joutunut palaamaan taaksepäin peräti viikoksi, eikä edes vavisuttanut. Miten sitten kahdesta kolmeen siirtyminen? Varovaisesti voisi arvioida, että etua tulee entiseen nähden noin 20%, mikä on huonohko hyötysuhde. Tosin en tiedä, mihin tuota lukemaa voisi nyt edes verrata, kunhan heitin hatusta jonkun luvun. Jos tietokoneen käyttäminen yhdellä näytöllä olisi painokertoimeltaan $$1$$ niin kahdella näytöllä se olisi kenties lähellä $$2$$:ta. Ja nyt tuon hatusta heitetyn luvun ymppääminen mukaan tarkoittaisi lukuarvoa $$2,{}4$$. Ei ehkä noin paljoa kuitenkaan tule edes paranemaan. Saas nyt nähdä sitten.</p>
+<p>Kolmanteen kysymykseen voisi sanoa, että se on ehkä se suuritöisin ongelma tässä. Pöytätilaa on rajallinen määrä. Testasin kyllä jo, että kyllä se kolmas näyttö teoriassa menee, ja käytännössäkin voisi syntyä optimaalinen sijoitus, mutta kaunista katseltavaa se ei tule olemaan näin ahtaalla pöydällä, jonka syvyys on 60 senttimetriä ja tehokasta istumatyötä varten käyttäjän on istuttava alle puolen metrin päässä vasemmasta seinästä. Oikealle päin siirtymistä rajoittaa nimittäin jalkatilan katoaminen. Jahka viikonloppuna viilailen kortin paikoilleen ja näytönkin toivottavasti saan konffattu mukaan, tarjoilen kuvia sitten ratkaisuista. Nykytilanne on nähtävillä <a href="http://progo.viuhka.fi/2010/01/nayttoja/">edellisen kirjoitukseni</a> lomassa.</p>
+<h2>Näyttöjen fyysinen asemointi</h2>
+<p>Kolmella näytöllä voi tietty tehdä 9 erilaista kombinaatiota (jos pitäydymme vaakatasossa). Alustavasti ainakin ajattelisin ajatella 17-tuumaisia näyttöjäni samanarvoisina. Kolme erilaista vaakatasokombinaatiota allaolevassa kuvassa:</p>
+<p><a href="../../wp-content/uploads/2010/01/fyysinen_asettelu.png"><img class="aligncenter size-full wp-image-983" title="fyysinen_asettelu" src="../../wp-content/uploads/2010/01/fyysinen_asettelu.png" alt="" width="519" height="434" /></a>Ja lisäksi ehdotelmien lisäksi alimpana jo nyt vanhaksi mennyt asetelma. Siitä jäi nyt tämä välivaihdos näyttämättä, mutta se on selvä; vaihdetaan VS17 ruskealla Acerilla, you get the picture. Käydään vielä läpi kukin asetelmaehdokas, mikä niissä on oikein tai väärin.</p>
+<ol>
+<li>Asetelmassa on heti nähtävillä fyysisen sijoittelun puolesta ongelma: jos isoin ja kaunein näyttö jätetään kaikkein kauimmaiseksi huoneen toisessa päässä (vajaan kahden metrin) olevasta katselutuolista, menee jo paljon hukkaan. Toisaalta fyysisesti sijoiteltaessa kankeahko sijoitettava on hyvässä käytössä siellä lähellä seinää, ja saadaan noilla kapeammilla näytöillä helppoa kaartuvuutta kohti komentopistettä. Loogisesti katsottuna ongelmia on vähänlaisesti: ikkunat (niistä sitten tuonnempana) voivat osua hyvinkin nätisti keskenään.</li>
+<li>Tämä asetelma lienee monelle se itsestäänselvin vaihtoehto: niinhän se onkin. Toiminnan keskittäminen on vähintäänkin järkevää sille isolle näytölle. Tässä mallissa on kuitenkin ikkunasijoitusongelmia. Fyysisesti kuitenkin sekä helppo että näppärä.</li>
+<li>Tässä asetelmassa on mahdollista saada sitä kaartuvuutta (hyvä asia) kohti kuskinpenkkiä, elokuvanäyttö on kaikkein lähimmällään sekä suorimmassaan katselutuoliin nähden ja muutenkin ongelmia ei näytä olevan. Vaan on siellä yksi: järkälemäinen näyttö kirjoitustason vieressä ryöstää sekä ylimääräistä tilaa että asettaa tarpeettoman näköesteenkin. Ja elokuvatuolillekaan ei välttämättä kaartamisen jälkeen näe kovin hyvin, mutta ainahan näyttöä voi siirrellä tilapäisesti, kunhan se ei ole vaivalloista (tässä tapauksessa ei ole).</li>
+</ol>
+<p>Vanha asetelma on kokonsa puolesta niin sopusuhtainen, ettei aiheuttanut hämminkiä koskaan. Kokeillaan nyt niitä ikkunoita, nehän ne kiinnostavat meitä eniten.</p>
+<h2>Ikkunoiden asemointi</h2>
+<p>Ensin vähän muistellaan vanhoja, tai "uusia":</p>
+<p><a href="../../wp-content/uploads/2010/01/ikkunat_2.png"><img class="aligncenter size-full wp-image-985" title="ikkunat_2" src="../../wp-content/uploads/2010/01/ikkunat_2.png" alt="" width="665" height="392" /></a>Alemmassa kuvassa on nähtävillä pientä liikehdintää vasemmassa näytössä. Siihen olen nyt myöhempinä päivinäni availlut ja sulkenut satunnaiseen tahtiin ikkunoita. Vaikka merkkasin vihreät ikkunat tyypiltään "terminaaleiksi", ovat ne yleistäen kaikkia ikkunoita, jotka eivät ole selaimia (sininen), monitoriterminaaleja (pinkki) taikka inforuutuja (punainen). Inforuutu käsittää siis kalenterin ja pienen tietoruudun, jossa on tietoa soivasta musiikkikappaleesta, cpu-graafeja, verkkokäyttö ja neljä eniten syövää prosessia. Kalenterin ohessa on myös ruutuun sulautuva To Do -lista ja tulevat tapahtumat. Kätevää.</p>
+<p>Pientä muutosta laajakuva toi kuvaan (ylempi). Selain vaihtoi paikkaansa, mikä järkytti vähän itseänikin. Mutta nyt siihen on asennoitunut jo melko rauhallisesti. Selaimen viereen jäävät terminaalit ovat aika kapeita (88 merkkiä), mikä on huono asia järkevän työn kannalta. Käytänkin kirjoitushetkellä ylempää satunnaisena launcherina ja alempaa irssi-ruutuna. Oikealle näytölle avautuu isohko GVim ja yksi terminaali. Niiden koko on samaa luokkaa kuin entisen selainilmentymäni. Ei mitään mullistavaa.</p>
+<p>Päällisin puolin voisin jo nyt virkkoa, että mitään mullistavaa muutosta ikkuna-asenteisiin ei isonnus ole tehnyt. Käytän näitä kuin entisiä näyttöjäni, tilaa säästellen ja paikoin otan irti menetelmistä vähän enemmän, kuten kuvankäsittelyssä. GIMP muuten nauttii aika paljon saadessaan temmeltää isommalla pinta-alalla. Moni muukin graafinen ohjelma hyötyy paljon, ja tekstipohjaiset ohjelmat ovatkin suurin lössi, joka ei nauti. Ne nauttivatkin sitten välikäden kautta: perusfonttikoolla varustettu terminaali saa leveyttä lähes 240 merkkiä! Se tekee tasan kolme vakiolevyistä terminaalia, joka on erittäin hyvin esimerkiksi ohjelmistoprojekteissa, koska koodin leveyttä tulee vaalia sinne 80 merkin tietämille. Ja se onkin ihan hyvä käytäntö mielestäni, vaikka joskus funktiokutsujen ja kommenttien vaatima rivimäärä nousee liialliseksi.</p>
+<p>No, hahmottelin sitten pari versiota kolmelle näytölle, yhden kullekin fyysiselle versiolle:</p>
+<p><a href="../../wp-content/uploads/2010/01/ikkunat_3.png"><img class="aligncenter size-full wp-image-988" title="ikkunat_3" src="../../wp-content/uploads/2010/01/ikkunat_3.png" alt="" width="600" height="438" /></a>&#196;kkinäisempikin voi huomata, että ei ole ollut mielikuvitusta sijoittelujen suhteen. Yksi jännä asia on ehkä huomata, että vaikka nytkin pidän selainta vasemmalla puolella, mieluusti pitäisin sen keskellä tahi oikealla. Alin näyttömalli järkyttää minua itseäni kovasti, sillä en ole todellakaan niitä käyttäjiä, jotka pitävät selainikkunan koko näytön kokoisena. Pinta-alaa kuitenkin on, ja ehkä se ei enää tässä vaiheessa ole niin suuri uhraus kuin esimerkiksi jollekin yhden näytön poloiselle. Selainmaailmassa kokoruutuisuus tuo uusia konsepteja kentälle, kuten järkevä idea siirtää tabit vasempaan reunaan, ja ehkä kirjanmerkkihakemiston aukipitäminen kanssa paneelissa. Varmasti arkipäivää joillekin surffaajille, ja hyvä idea onkin, jos tohtisi venytellä sitä selainikkunaa. Aika näyttää. Punainen inforuutu on kaikissa esimerkeissä pitkänmallinen, mutta lähinnä laiskuustekijöiden takia. En oikein keksi tietoa, jota pitäisi ehdottomasti conkyn näytellä kuvassa. Sitä paitsi mitä isompi ikkuna conkyllä on, sen enemmän se kuluttaa resursseja päivitellessään sitä. Hukkatilaahan siihen jää, myönnetään.</p>
+<p>Terminaalipitoisten ikkunoiden asetelmoinnissa tapahtuu varmasti varianssia suuntaan jos toiseen, eikä mikään ole lukkoonlyötyä. Miksi pitäisikään? Emmehän me henkilökohtaisina koneenkäyttäjinä ole minkään byrokratiakoneiston uhreja? Voimme tehdä kuten mielemme tekee. Vaikka vaihtaa &mdash;- taustakuvaa päivittäin! Hrrrh&#8230; taustakuvani on Twin Peaksista ja se on ollut sitä jo 3 vuotta lähestulkoon putkeen. En osaa luopua niin kauniista taustakuvasta mitenkään. Pitää vain keksiä jokin keino, miten saan sen venytettyä kolmelle näytölle ilman suuria ongelmia.</p>
+<h3>Tileävyys</h3>
+<p>Mainitsin tuossa, että viikoksi jouduin tyytymään yhteen XGA-näyttöön (lokakuussa) ja se oli osaltaan kauheata, osaltaan aika tyydyttävää. Osaisiko syyksi arvella shokin lisäksi tileävää ikkunamanageria Awesomea. Puutteistaan huolimatta Awesome oli ihan kiva käyttää, se tuki monia ei niin hyvin ruudukkoon sopeutuvia ohjelmia mainiosti (esimerkiksi mplayer-ikkunat se kellutti automaattisesti, mikä on mukavaa) ja kaikenlainen kikkailu oli tehty intuitiiviseksi. Oli esimerkiksi selkeät pikanäppäimet ruudukon koonmuutokselle ja sen sellaista. Tileävä ikkunointi on, kuten varmasti tiedättekin, varmasti tilatehokkain tapa käyttää graafisia pintoja. Yksinkertaisesti kaikki tila allokoidaan avoinna oleville ikkunoille, ei siinä oikein voi jäädä hukkaan mitään. Tietysti tämä riippuu ohjelmasta.</p>
+<p>On totta, että tileävät ikkunaohjaimet on suunniteltu poikkeuksetta terminaalikäyttöä varten. Vain erilaiset terminaaliemulaattorit voivat ottaa kaiken, mitä annetaan ja tehdä varsin hyvin millä tahansa annetulla tilalla. Graafiset verkkoselaimet ovat myös ihan mukiinmeneviä, mutta yleisesti ottaen perusohjelmistot eivät aina nauti toimia keskenään kiinteäkokoisissa ruuduissa. Joskus jopa yksinkertaiset asiat, kuten modaaliset ikkunat toimivat käyttäjäänsä vastaan tileävissä ympäristöissä. Toisaalta tilaa menee hukkaan sillä, kun ikkunoita ei voi noin vain laittaa lomittain. Tämä yleensä korjataan lisäämällä hulvattomat määrät virtuaalityöpöytiä ja mahdollistamalla helppo vaihdeltavuus niiden välillä. Surullisenkuuluisa Ion toteuttaa kyllä tabit, mutta sen vaikea konfiguroitavuus antaa toivomisen varaa. Awesomen puutteisiin voisi lukea esimerkiksi kyllä hyvännäköisen input-ruudun, mutta siihen on toteutettu vain puutteellinen tabitäydennys. Ionista saisi ulos vaikka mitä, mutta dokumentaatio on mitä on, en tiedä, pystynkö koskaan toteuttamaan itseäni. Tosin muistutukseksi itselleni: lähes kaikilla viime lomilla on käynyt paha tekemisenpula, (vaikka niitä tekemisiä onkin ollut rutosti) ehkä seuraavalla lomalla keväällä otan uuden homman: kesyttää Ion.</p>
+<p>Ehkä silloin pystyisi selviämään yhdelläkin näytöllä ja hyvällä lykyllä oikein tehokkaasti silloinkin.</p>
+<h2>Pohdintaa ja lopetus; tarinan opetus</h2>
+<p>Yksi näyttö huono, kaksi näyttöä hyvä. Kolme liikaakin? Neljäs olisi jo takuuvarmasti orgia. Kuinkahan minä oikein suhtaudun edes tähän koko hommaan, ja onko fyysisen tilanpuutteen aiheuttamat haitat saatuja, loogisia hyötyjä suuremmat? Voimme vain arvuutella, sillä viikko on vasta puolessa, enkä kykene nyt tekemään mitään turhuuksia enää loppuviikosta (tämäkin päivä meni osaltaan hukkaan, kun tartuin kuulokkeisiin ja pyöräytin pari loistavaa John Coltranen albumia fiilistellen).</p>
+<p>Loppuun on hyvä antaa lukijoille (= lukijalle sekä spamboteille) pieni porkkana: onko yksi/kaksi näyttöä todellakin se järkevin tapa vai uskotko, että taivas aukeaa vasta $$n$$. näytön kohdalla? Piirtäkää itse omat näyttöpreferenssinne, ehkäpä jopa annatte screenshottia tyypillisestä skeemastanne.</p>
+</div>
+
+<p class="tags"> 
+
+
+Tageja: <a href="../../tag/ohjelmistot/index.html" rel="tag">ohjelmistot</a>
+
+
+</p>
+
+
+
+<div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+
+        </div>
+
+ <!-- now, common stuff -->
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+        <p><a rel="prev" href="../12/naeyttoejae" title="Näyttöjä">&#171; Näyttöjä</a> 
+           &mdash; <a rel="next" href="../10/uusia-suunnitelmia" title="Uusia suunnitelmia">Uusia suunnitelmia &#187;</a>
+        </p>
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+        <h2>Aiheen vierestä</h2>
+        <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../299/sahkopostista">Sähköpostista</a></span> &#183; <span class="published">2010-03-29</span>
+<br /><span class="smallexcerpt">Sähköposti, tuo hiipuva yhteydenottoväline. Onhan se toki vielä jokseenkin voimissaan, mutta nuorten suosimana kommunikointivälineenä ei niinkään. 
+
+	Mitä enemmän tässä miettii,...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../15/puoli-vuotta-takana">Puoli vuotta&#160;takana</a></span> &#183; <span class="published">2009-12-18</span>
+<br /><span class="smallexcerpt">On aika koostaa tänään päättynyt ensimmäinen puolivuotinen yliopisto-opinnoissa, jotka olivatkin muuten viimeiset Joensuun yliopistossa. Turinaa myös matikkaohjelmistoista.
+Niin, hyvä on. Paikka...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../31/laitoin-rainlendarin-ja-google-calendarin-synkkautumaan-keskenaeaen">Laitoin Rainlendarin ja Google Calendarin synkkautumaan&#160;keskenään</a></span> &#183; <span class="published">2009-09-04</span>
+<br /><span class="smallexcerpt">Koska nyt minusta tuntuu, että yliopisto tulee olemaan valtava kohde ajanvietolle päivittäin, on minun järjestettävä nyt viimeistään hyvät ajanpito-ominaisuudet. Pidän...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../39/kannettava-uudistui-taas">Kannettava &#34;uudistui&#34;&#160;taas</a></span> &#183; <span class="published">2009-08-02</span>
+<br /><span class="smallexcerpt">Jos sitä kirjoittelisi tännekin välillä. Eli pahoittelen pientä viivettä teksteissä. Alkujaan suunnitelmanani kirjoittaa teksti viikossa tänne on vähän hidastunut nyt,...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../56/windows-levynpyoerittaejaenae">Windows&#160;levynpyörittäjänä</a></span> &#183; <span class="published">2009-05-09</span>
+<br /><span class="smallexcerpt">No pitihän sitä käydä täällä Windowsissakin, kun ne kokoaan kasvattaneet NTFS-osiot pitää käydä hyväksyttämässä täällä. Samalla huomasin, että osioni on...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../66/virtualbox">VirtualBox</a></span> &#183; <span class="published">2009-04-27</span>
+<br /><span class="smallexcerpt">Tämän päivän tehtäviin voisi lukeutua VirtualBoxin säätäminen ja Windows XP:n asentaminen sille. Minullahan on tällä hetkellä VMWare Server käytössä, joka...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../83/openbox">OpenBox</a></span> &#183; <span class="published">2008-09-18</span>
+<br /><span class="smallexcerpt">OpenBox on nimensämukaisesti yksi *box -ikkunahallinta muiden joukossa (blackbox, fluxbox, younameitBox) mutta tässä on muista poiketen pari kivaa jippoa, joita...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../98/cinelerra-epilogi">Cinelerra,&#160;epilogi</a></span> &#183; <span class="published">2008-05-22</span>
+<br /><span class="smallexcerpt">Cinelerraa vaivaa kyllä pieni bugisuus ja hitaus. Kameran 11025-hertsinen muta pitää erikseen upmiksata johonkin säädylliseen, ennen kuin cinelerra suostuu bugitta...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../100/songbird">Songbird</a></span> &#183; <span class="published">2008-05-17</span>
+<br /><span class="smallexcerpt">Suljin Amarokin. On aika kokeilla uutta soitinta: Songbirdiä. Sen alkuasetelmat eivät kyllä näytä ruusuisilta, tuliketun muistisyöppö koneisto takanaan ja päällisin...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../101/cinelerra-os-editorien-aeiti">Cinelerra, OS-editorien&#160;äiti</a></span> &#183; <span class="published">2008-05-16</span>
+<br /><span class="smallexcerpt">Päätinpä vihdoinkin kokeilla tätä OS-projektin erästä saavutusta, Cinelerraa. Kyseessä on siis NLE -ympäristö, joka on vapaa ja ilmainen. 
+Olen käyttänyt...</span>
+</li>
+
+</ul>
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,898 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <title>Mr. P: aiheesta gentoo</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=tag" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=tag" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="tag">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="index.html#content">Siirry sisältöön</a></li>
+        <li><a href="index.html#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../mietteet/index.html">Mietteet</a>
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="http://progo.viuhka.fi/kategoria/hifi/">Hifi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/rauta/">Rauta</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/viihde/">Viihde</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../blogisäätöä/index.html" class="tagSizeMedium tagSize24" style="font-size: 100%;">blogisäätöä</a></li>
+	<li><a href="index.html" class="tagSizeLargest tagSize104 tagActive" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../musiikki/index.html" class="tagSizeMedium tagSize22" style="font-size: 100%;">musiikki</a></li>
+	<li><a href="../ohjelmointi/index.html" class="tagSizeMedium tagSize41" style="font-size: 100%;">ohjelmointi</a></li>
+	<li><a href="../palvelin/index.html" class="tagSizeMedium tagSize36" style="font-size: 100%;">palvelin</a></li>
+	<li><a href="../pelaaminen/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">pelaaminen</a></li>
+	<li><a href="../rauta/index.html" class="tagSizeMedium tagSize22" style="font-size: 100%;">rauta</a></li>
+	<li><a href="../vim/index.html" class="tagSizeMedium tagSize33" style="font-size: 100%;">vim</a></li>
+</ul>
+        <p><a href="../index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=tag" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=tag" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- tag view -->
+
+    <h1 class="mainheader">Juttuja aiheesta gentoo </h1>
+    <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/587/tehokkaat-kayttoliittymat-vaivatta">Tehokkaat käyttöliittymät&#160;vaivatta</a></span> &#183; <span class="published">2012-08-16</span>
+<br /><span class="smallexcerpt">Ohjelmoijan onni on elää komentorivillä. Tehokkaiden käyttöliittymien rustaaminen on varsin nopeata, kunhan luottaa siihen, että suurta suosiota tuotokset eivät tule...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/571/tv-saato-on-nyt-valmis">TV-säätö on nyt&#160;valmis</a></span> &#183; <span class="published">2012-03-23</span>
+<br /><span class="smallexcerpt">No niin. Uuden NVidia-kortin ansiosta TV-episodi on käsitelty voitokkaasti. Jos rahalla asiasta selviämistä ei lasketa huijaamiseksi.
+
+	Oppirahoja tuli taas tosiaankin hassattua....</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/568/avoimet-suljetut-ja-se-vastapuoli">Avoimet, suljetut ja se&#160;vastapuoli</a></span> &#183; <span class="published">2012-03-11</span>
+<br /><span class="smallexcerpt">Radeonien kanssa on todellakin painittavaa. Kompromisseista on jotain valittava kontolleen, jos muut sitten sujuvatkin.
+
+	fglrx &#8212; se suljettu
+
+	Kaikki työpöytäkäyttö sujuu erihyvin....</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/567/tv-monitorit-ja-gentoo">TV, Monitorit ja&#160;Gentoo</a></span> &#183; <span class="published">2012-03-09</span>
+<br /><span class="smallexcerpt">Pari viikkoa sitten sain lahjaksi taulu-TV:n (Philipsin 42FPL3606, eli 42 tuumaa) ja totta kai se pitää saada kiinni tietokoneeseen pikselitarkalla...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/560/informaation-jarjestely-tietamyksenhallinta">Informaation järjestely:&#160;tietämyksenhallinta</a></span> &#183; <span class="published">2011-12-10</span>
+<br /><span class="smallexcerpt">Tietoa, eli kaikenlaista pientä tietämystä, on kaikkialla. Ihminen oppii kyllä paljon, ja erityisesti kun on motivoitunut omaksumaan. Mutta edes kaikkein...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/557/palvelin-tulossa-sittenkin">Palvelin tulossa&#160;sittenkin</a></span> &#183; <span class="published">2011-11-10</span>
+<br /><span class="smallexcerpt">Vaikka taannoin järkeilin palvelimen ostoa vastaan aika onnistunein argumentein, niin nyt sellaisen olen kuitenkin hommannut. Käytetystä raudasta kootan murossa jonkinlaisen...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/555/virtamittailuja">Virtamittailuja</a></span> &#183; <span class="published">2011-10-20</span>
+<br /><span class="smallexcerpt">Olen muuttamassa uuteen asuntoon Outokummussa, ja nyt pitää katsella muiden toimien ohella myös sähkönkulutusta uudella silmällä. Erityisesti mieltä polttelee kysymys:...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/554/tulipa-netbook-ostettua">Tulipa netbook&#160;ostettua</a></span> &#183; <span class="published">2011-10-01</span>
+<br /><span class="smallexcerpt">Elitegroupin G10IL -mallinen miniläppäriksi luokiteltavissa netbook tuli ostettua. Saamme nähdä, miten tässä vielä käy.
+
+	Tämä on tavallinen nykynetbook, jossa on 10-tuumainen...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/553/videoeditoinnit-linuxissa">Videoeditoinnit&#160;linuxissa</a></span> &#183; <span class="published">2011-09-24</span>
+<br /><span class="smallexcerpt">Huoh. Täytyy sanoa, että en aivan mieluiten valitsisi linux-ohjelmia isompien projektien editointiin. Nykytarjonta on aika heikkoa, edelleenkin. Vaikka Cinelerra (tai...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/550/aakkoset-hieman-uusiin-paikkoihin">Ääkköset hieman uusiin&#160;paikkoihin</a></span> &#183; <span class="published">2011-09-09</span>
+<br /><span class="smallexcerpt">Us-alt-intl on muuten ihan hyvä, mutta ö-kirjain on huonossa paikassa näppäinfysiologian kannalta.  Nytpä muokkasin vähän tuota leiskaa, ja ääkköset...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/540/koneenjaosta-viela-kerran">Koneenjaosta vielä&#160;kerran</a></span> &#183; <span class="published">2011-07-23</span>
+<br /><span class="smallexcerpt">Jatketaanhan vielä aiheesta, koska uusi houkutus osui näköpiiriini.
+
+	Muron myyntiboordeilla olisi hyvää palvelinainesta hiljaisella toteutuksella ja riittävillä liitännöillä satasen hintaan posteineen....</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/539/koneenjaosta">Koneenjaosta</a></span> &#183; <span class="published">2011-07-22</span>
+<br /><span class="smallexcerpt">Hitsi vieköön. Eilisen kirjoitelman jälkeen onkin aika kulunut pohtiessa tätä systeemiä ja sitä rahanmenoa. Ei periaatteessa moisten turhuuksien &#8212; pelien...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/538/pelisettia-ja-ideaaleja">Pelisettiä ja&#160;ideaaleja</a></span> &#183; <span class="published">2011-07-21</span>
+<br /><span class="smallexcerpt">Radeon kun ei toimi toistaiseksi Civilization V:n kanssa niin jäin taas haaveilemaan pitkän kaavan kokoonpanoistani. On kaksi mallia, joista toinen...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/537/gentoomies-on-nyt-radeonissa">Gentoomies on nyt&#160;Radeonissa</a></span> &#183; <span class="published">2011-07-20</span>
+<br /><span class="smallexcerpt">Nyt kävi näin. Passiivinen GeForce 7600GS vaihtui järeähköön Club3D:n HD6790 -korttiin, joka on eräänlainen välimalli siellä jossain. Kovasti on puhuttu...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/536/ledger-tosimiehen-kirjanpito">Ledger -- tosimiehen&#160;kirjanpito</a></span> &#183; <span class="published">2011-07-14</span>
+<br /><span class="smallexcerpt">Ah. Aiemmin päivällä kipinäni syttyi tuonne kirjanpitojen ihmeelliseen maailmaan. Ja silmäni osui tuohon Ledgeriin, josta kerroinkin aiemmin päivällä. En saanutkaan...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/527/pdf-lukija-vaihtui">PDF-lukija&#160;vaihtui</a></span> &#183; <span class="published">2011-05-11</span>
+<br /><span class="smallexcerpt">KDE4-kirjastoihin tympäännyin lopullisesti, ja nyt vaihdoin pois Okularista, joka on ainut kanittava ohjelma täällä. Vaihtoehtoja olin aiemmin kokeillut monia, ja...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/526/taydenna-portage-paketteja-vimissa">Täydennä portage-paketteja&#160;vimissä</a></span> &#183; <span class="published">2011-05-05</span>
+<br /><span class="smallexcerpt">Portagen määrittelyjä tulee hienosäädettyä aika ajoin. Monesti package.keywordsia tulee käsiteltyä echottamalla, mutta monesti myös vimillä. Ja olisihan se kivaa, jos...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/523/kayttojarjestelmat-ja-miksi-linux">Käyttöjärjestelmät ja miksi&#160;Linux?</a></span> &#183; <span class="published">2011-04-09</span>
+<br /><span class="smallexcerpt">IRC:ssä tuli vaihtelun vuoksi keskustelua käyttöjärjestelmien paremmuudesta ja huonoista puolista. Aiheesta keskustelu on täynnä sudenkuoppia, ja siksi siitä on ehkä...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/521/debian-ei-miellyta">Debian ei&#160;miellytä</a></span> &#183; <span class="published">2011-04-02</span>
+<br /><span class="smallexcerpt">Kannettavani WLAN-asennukset johtivat lopulta X:n hajoamiseen. Debian ei oikein tarjonnut minulle apuja vanhan, toimivan kokoonpanon palauttamiseen. Pitkien taistelujen uuvuttamana taivuin...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/519/symlinkit-oikeiksi-tiedostoiksi">Symlinkit oikeiksi&#160;tiedostoiksi</a></span> &#183; <span class="published">2011-03-25</span>
+<br /><span class="smallexcerpt">Onko tullut joskus tarvetta muuntaa hakemistollinen symlinkkejä oikeiksi tiedostoiksi, jotta voisi poistaa tiedostot niiden alkuperäisessä paikassaan? Yllättäen tätä varten piti...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/518/henkilokohtaiset-wikit">Henkilökohtaiset&#160;wikit</a></span> &#183; <span class="published">2011-03-17</span>
+<br /><span class="smallexcerpt">Tällä hetkellä pidän Vimistä todella paljon.
+
+	Lueskelin tänään tekemisen puutteessa erilaisia sysadminien kokemuksia ja mietteitä hienossa ServerFault -palvelussa. Kokeneet parrat jakavat...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/517/zsh-syntaksivarityksella">ZSH&#160;syntaksivärityksellä!</a></span> &#183; <span class="published">2011-03-09</span>
+<br /><span class="smallexcerpt">Tajusin eräs kaunis päivä, että ZSH voisi oman tekstinsyöttökoneensa ansiosta tukea myös reaaliaikaista syntaksivärjäystä. Komentokehote ottaa koodikieltä vastaan, joten miksi...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/516/levytilahuolia">Levytilahuolia</a></span> &#183; <span class="published">2011-03-03</span>
+<br /><span class="smallexcerpt">Asensin maanmainion JDiskReport -nimisen ohjelman, joka toimii varsin nopsakkaasti ollakseen java-ohjelma. Sillä on erityisen nopeata rullata hakemistoja skannauksen jälkeen. Eikä...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/363/mpdscribble-meinasi-temppuilla">MPDScribble meinasi&#160;temppuilla</a></span> &#183; <span class="published">2010-12-10</span>
+<br /><span class="smallexcerpt">Huomasinpa viikolla, että Last.fm ei näytä uusimpia scrobblailujani. Parin päivän hämmästelyn jälkeen skannasin vian mpdscribbleen. Se kyllä nätisti tunnisti soivat...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/362/sc">SC</a></span> &#183; <span class="published">2010-12-10</span>
+<br /><span class="smallexcerpt">Vähänkään isompia numeroluetteloita varten on yleensä hyvä jättää editori (poislukien Emacs) taka-alalle ja laukaista jokin taulukkolaskenta tulille. Kuitenkin OpenOffice Calc...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/26/kone-pamahti-paeaetoes">Kone pamahti,&#160;päätös</a></span> &#183; <span class="published">2009-10-14</span>
+<br /><span class="smallexcerpt">Tänään sitten tuli viikko täyteen siitä, kun emolevy savusi ja jouduin kannettavan armoille.
+Mutta myös tuli eteen se päivä, kun sain...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/36/dvd-audio-toimii-linuxilla">DVD-Audio toimii&#160;Linuxilla</a></span> &#183; <span class="published">2009-08-04</span>
+<br /><span class="smallexcerpt">Hitto soikoon. Heti kun 24-bittinen soitto alkoi taas toimia, ryhdyin toimiin ja nyt se on totta: olen ripannut onnistuneesti kuusikanavaääntä...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/37/varsinainen-24-bittinen-ihme">Varsinainen 24-bittinen&#160;ihme</a></span> &#183; <span class="published">2009-08-04</span>
+<br /><span class="smallexcerpt">Päivittelin tässä yksi päivä kerneliä ja sen jälkeen päivittyivät ALSA-viritelmien oheistyökalut. Sen jälkeen käyttämäni MPD ei enää osannut säätää volyymiä...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/63/wordpress-271">WordPress 2.7.1</a></span> &#183; <span class="published">2009-05-04</span>
+<br /><span class="smallexcerpt">Yes, pääsin nyt uuden WordPressin makuun. Asensin sen sitten tuolta gentoon repoista ja sain tervetuliaistoivotuksena ilmoituksen, että kyseessä on hyvin...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/66/virtualbox">VirtualBox</a></span> &#183; <span class="published">2009-04-27</span>
+<br /><span class="smallexcerpt">Tämän päivän tehtäviin voisi lukeutua VirtualBoxin säätäminen ja Windows XP:n asentaminen sille. Minullahan on tällä hetkellä VMWare Server käytössä, joka...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/71/uusi-xorg-15">Uusi Xorg 1.5</a></span> &#183; <span class="published">2009-04-09</span>
+<br /><span class="smallexcerpt">Kirjoitellaanpa tännekin aiheesta. Eli gentoon portagessa iskeytyi tuorehko Xorg 1.5 -X-systeemi vakaaksi ja se tietysti siunaantui sen myötä minunkin asennettavaksi....</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/91/pala-rippiae-tilkka-viiniae">Pala rippiä, tilkka&#160;viiniä</a></span> &#183; <span class="published">2008-07-29</span>
+<br /><span class="smallexcerpt">Tänään tylsistyksissäni laitoin asiakseni laittaa EAC:n toimimaan Winellä. Pääasiallisena apuna toimi tämä gentoon foorumien keskustelu, vaikka loppupeleissä mitään sen neuvoista...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/94/messages">Messages.</a></span> &#183; <span class="published">2008-06-14</span>
+<br /><span class="smallexcerpt">Käytän gentoossani syslog-ng:tä. Tykkään osittain /var/log/messages -tiedostosta ja sen tailaamisesta ruudulle, mutta en ole jaksanut sitä toteuttaa ennen kuin nyt....</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/97/tulikettu-tappelee-vastaan">Tulikettu tappelee&#160;vastaan</a></span> &#183; <span class="published">2008-05-24</span>
+<br /><span class="smallexcerpt">Mutta minä taltutin sen. Gentoo päätti että nyt mennään RC1:een niin että tyrät rytkyvät. No, vähän ongelmia esiintyi siinä kun...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/102/firefox-3n-saeaedoet">Firefox 3:n&#160;säädöt</a></span> &#183; <span class="published">2008-05-04</span>
+<br /><span class="smallexcerpt">Tässä on pari epäkohtaa tullut huomattua. Onneksi niihin löytyy myös selvät ratkaisut about:config -ikkunan kautta. Listaanpa ne nyt vain tiedotusluonteisesti....</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/103/mozilla-firefox-3">Mozilla Firefox 3</a></span> &#183; <span class="published">2008-05-04</span>
+<br /><span class="smallexcerpt">Nytpä sitä on päästy kokeilemaan sekä ubuntun livellä, että Gentooni systeemeillä tätä hienoa selainta. Nopeutta on tullut lisää rajusti. Tämä...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/105/videoeditointi">Videoeditointi</a></span> &#183; <span class="published">2008-05-02</span>
+<br /><span class="smallexcerpt">Olen jo pitkään tuskaillut sopivien videoeditointityökalujen puutetta linuxissani. Virtualdubin voittanutta ei vain ole. Linuxilla erityisen hankalaksi olen kokenut framestepin käyttöä....</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/108/backupit">Backupit</a></span> &#183; <span class="published">2008-04-25</span>
+<br /><span class="smallexcerpt">Lienen puhunut tästä jo aikaisemmin? Ehkä, ehkä en. Nyt puutun tähän. Minulla on tavaraa usealla osiolla (osa tavarasta on aikaisemmalta...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/115/the-xlock-the-screen-the-xset">the xlock, the screen, the&#160;xset</a></span> &#183; <span class="published">2008-03-28</span>
+<br /><span class="smallexcerpt">Ongelmanani on ollut että vaikka xset dpms force off nätisti sulkeekin näytöt, joskus yli-innokas hiiri saa näytöt avautumaan satunnaisin väliajoin...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/116/cups-temppuili">CUPS&#160;temppuili</a></span> &#183; <span class="published">2008-03-23</span>
+<br /><span class="smallexcerpt">Ja temppuilin takaisin. Se ei suostunut suoltamaan pdf:ää ulos (net-print/cups-pdf). Logi sisälsi seuraavanlaista ulostuloa:
+[ERROR] failed to set file mode for...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/118/tutustuin-lisaeae-alsan-saloihin">Tutustuin lisää ALSAn&#160;saloihin</a></span> &#183; <span class="published">2008-02-18</span>
+<br /><span class="smallexcerpt">Ja etenkin nyt tähän nk. dmixiin. Dmix on siis alsan softamikseri, joka mahdollistaisi kaikkien alsasovellusten simultaanikäytön. Se ei ole kuitenkaan...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/119/paeivitin-kernelin-konffasin-alusta-asti-uusiksi">Päivitin kernelin, konffasin alusta asti&#160;uusiksi</a></span> &#183; <span class="published">2008-02-08</span>
+<br /><span class="smallexcerpt">Ja enää tarvitaan tuo moduulipohjaisten mööpelien unmerge. Siis moduulipohjaisen alsan. Konffasin kerneli-alsan taas. Jos Juli@ ei pelaa ollenkaan tai sitten...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/120/theres-no-place-like-home">There&#39;s no place like&#160;/home</a></span> &#183; <span class="published">2008-02-08</span>
+<br /><span class="smallexcerpt">Tässä on herännyt ajatus mieleen, että mikä on kotihakemiston perimmäinen olemus. Perinteiseen unix-näkökulmaan liittyy ajatus laittaa kaikki pelkästään yhdelle käyttäjälle...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/121/textpattern-ja-kernel-alsa">TextPattern ja Kernel-ALSA</a></span> &#183; <span class="published">2008-02-06</span>
+<br /><span class="smallexcerpt">TextPattern sai päivityksen. Ei se suuren suuri päivitys ole, mutta päivitys kumminkin. Nyt se on siis uusin vakaa versio 4.0.6....</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/122/valaistuminen">Valaistuminen</a></span> &#183; <span class="published">2008-01-13</span>
+<br /><span class="smallexcerpt">Jonkin sortin valaistuminen.
+Kuuntelin Mike Oldfieldin Islands-albumia ja joku kappale soi sen verran eeppisesti että vähän jotenkin tuli mieleen Windowsin windowsmaisuus.
+Alkuperäinen...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/123/dvdstae-imageksi">DVD:stä&#160;imageksi</a></span> &#183; <span class="published">2008-01-11</span>
+<br /><span class="smallexcerpt">Tässä kun sattuneista syistä tulee eteen tilanen, jossa pitää vetää isompi määrä dvd:itä imageksi niin tuo cat /dev/dvd &gt;&gt; image.iso...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/124/tyoepoeytaelayouteista">Työpöytälayouteista</a></span> &#183; <span class="published">2008-01-04</span>
+<br /><span class="smallexcerpt">Näistä voi puhua vähän, koska taitaa olla niin, etten ole puhunut näistä aiemmin. Ensinnäkin selvitän, mikä on työpöytälayoutti, mikäli termini...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/128/esi-juli">ESI&#160;Juli@</a></span> &#183; <span class="published">2007-12-11</span>
+<br /><span class="smallexcerpt">Tämän tytön (nimi selvästi kerjää sitä ja viittaa kortin feministiseen puoleen. Lisäksi kortin ulkonäkö on macistinen, mikä menee tyttöyden puolelle)...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/131/audiorippaus">Audiorippaus</a></span> &#183; <span class="published">2007-12-04</span>
+<br /><span class="smallexcerpt">Ajattelin rippailla joitain levyjäni koneelle. Päätin käyttää rubyripperiä. Se osoittautuu kivuttomaksi ja erittäin näppäräksi. Se on hyvin vaivaton. Käytän nyt...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/133/xvidit">Xvidit</a></span> &#183; <span class="published">2007-11-26</span>
+<br /><span class="smallexcerpt">Tulipa vihdoin opeteltua tuota xvid-pakkausta mencoderilla. Pohjana oli Gentoon Wikistä ihan asiallinen valmis litania. Mencoderin omista dokumenteista aikoinaan kokeilin two-passia...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/138/pohdintaa-bugeista-ja-toimivuudesta">Pohdintaa bugeista ja&#160;toimivuudesta</a></span> &#183; <span class="published">2007-11-01</span>
+<br /><span class="smallexcerpt">Edellinen, puoli tuntia sitten kirjoitettu sepustus Rainlendarin bugista herätti ajatusta siitä, pitäisikö vaihtaa bugittomampaan ohjelmaan. Jos näin tekee, tulee eteen...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/139/rainlendarin-bugeja">Rainlendarin&#160;bugeja</a></span> &#183; <span class="published">2007-11-01</span>
+<br /><span class="smallexcerpt">Tänään bootatessani konetta fluxboxiin päästyäni linux taas menetti kaiken kontrollin hid-laitteisiin. Tällä kertaa kokeilin myös näppäimistön ja hiiren kytkemistä edestakaisin,...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/140/conky-second-upgrade">Conky, second&#160;Upgrade</a></span> &#183; <span class="published">2007-10-30</span>
+<br /><span class="smallexcerpt">Conkyä olen nyt viritellyt muutaman idean kanssa, joita olen suunnitellut. Selasin myös conkyn sivuilta demonstraatioista joitain hyviä konsepteja.
+Uusi conky näkyy...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/141/hyoedyllinen-vinkki">Hyödyllinen&#160;vinkki</a></span> &#183; <span class="published">2007-10-24</span>
+<br /><span class="smallexcerpt">Nyt vasta tulin huomanneeksi ohjelman, joka nappaa emergeprosesseissa tapahtuvien ja näkyvien pakettien viestien kollektoinnin talteen ja niitä voi selata sitten.
+Tämä...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/142/garmonbozia-vaihtaa">Garmonbozia&#160;vaihtaa</a></span> &#183; <span class="published">2007-10-17</span>
+<br /><span class="smallexcerpt">Tämä kermamaissi siirtyi kuuselta pois. Mutta nyt se onkin paremman letkun varassa. Paremmin visuaalisesti tyydyttävän lopputuloksen päällä. Voin keskittyä miettimään...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/147/rullakustomisaatiota">Rullakustomisaatiota</a></span> &#183; <span class="published">2007-10-04</span>
+<br /><span class="smallexcerpt">Tuli muuten mieleen, että noita näppejä voi bindata ohjelmakohtaisesti. Ehkäpä kokeilen tässä nyt saada hiiren rullan bindattua pageup/down -näpeille irssissä....</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/150/holy-smokes">Holy&#160;smokes</a></span> &#183; <span class="published">2007-10-01</span>
+<br /><span class="smallexcerpt">Internetien isot foorumit ovat yleensä painonsa arvoista paskaa, mutta Gentoon viralliset foorumit tekevät poikkeuksen. Loin katseeni tämmöiseen threadiin, missä kerrotaan...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/153/fluxbox">Fluxbox</a></span> &#183; <span class="published">2007-09-28</span>
+<br /><span class="smallexcerpt">Käyttelin tässä gxine-nimistä ohjelmaa selvittääkseni xinen deinterlacepluginin toimintamoodeja, kumma kun mistään muualta sitä tietoa ei saa. Tämä ohjelma sitten ei...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/155/ntfs-3g-again">NTFS-3G&#160;again</a></span> &#183; <span class="published">2007-09-27</span>
+<br /><span class="smallexcerpt">Nyt vaihdoin loputkin asemat NTFS-3G:lle. Saa nähdä mitä niille käy, käykö mitään. Saa nekin levytilat käyttöön, siellä on yllättävän paljon...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/156/alsa-ulkoisesti">ALSA&#160;ulkoisesti</a></span> &#183; <span class="published">2007-09-26</span>
+<br /><span class="smallexcerpt">Tänään sitä kokeiltiin&mdash;heti toimii. Vika näyttää siis selvästi olevan että kerneli-alsa ei löydä @snd-hda-intel@iä. Vetäisin kernelin, jossa ei ole sitten...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/157/uusi-haaste">Uusi&#160;haaste</a></span> &#183; <span class="published">2007-09-25</span>
+<br /><span class="smallexcerpt">Nyt tuli se hetki eteen kun äitee toi DVD-elokuvan eteeni kopioita odottaen. Se elokuva on tietysti DVD-9, joten minun täytyy...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/158/apache-22">Apache 2.2</a></span> &#183; <span class="published">2007-09-25</span>
+<br /><span class="smallexcerpt">No, nyt siihen tuli päivitettyä vähän pakon edessä kun kuusen ip:kin vaihtui. Ongelmana olikin että alasivustot eivät auenneet. Syynä olikin...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/159/musiikit">Musiikit</a></span> &#183; <span class="published">2007-09-23</span>
+<br /><span class="smallexcerpt">Musiikkihakemistoni on nyt uudessa uskossa. Kopioinnin päätteeksi sellainen pieni ongelmanpäättely, että kun halusin chmodata rekursiivisesti kaikki musiikit 644:lle, niin siinähän...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/160/turn-to-linux">Turn to&#160;Linux</a></span> &#183; <span class="published">2007-09-22</span>
+<br /><span class="smallexcerpt">Nyt ulkoinen kovalevy on käännetty ext3:ksi. Onko se nyt järkevää, yhdentekevää. En minä tuota levyä muutenkaan ikinä liikuttele.
+Sitten vaan cp...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/161/huoh">Huoh</a></span> &#183; <span class="published">2007-09-22</span>
+<br /><span class="smallexcerpt">Tappelin tänään pitkän aikaa tuon emolevyn oman äänipiirin (Intel HDA:han käännytettiin alsan ajurimatriisista) toimintaansaamiseksi, muttei onnistunut. Huomenna varmaan jatkan kokeilua.
+Pitäisi...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/167/dev">Dev</a></span> &#183; <span class="published">2007-09-17</span>
+<br /><span class="smallexcerpt">/dev-systeemi on aika omituinen. Udev ei toimikaan niin kuin luulin, vaan systeemit ovat samaan aikaan uudenaikaiset, että antiikkiset.
+Udev ei hallitse...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/168/saastuttamista">Saastuttamista</a></span> &#183; <span class="published">2007-09-16</span>
+<br /><span class="smallexcerpt">Kauheata koneen saastuttamista täällä. Yritän saada Microsoftin Office-pakettia vm. 2003 asennettua winelle kun se kuulema onnistuu. Ei se ainakaan ensiheitolla...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/170/kiintoisia-konsepteja">Kiintoisia&#160;konsepteja</a></span> &#183; <span class="published">2007-09-15</span>
+<br /><span class="smallexcerpt">Osin hassuhko, osin vakava, muttei ainakaan vihastuttava artikkeli linuxin kelpoisuudesta suurille massoille. Alussa esitellään 13 syytä, miksei linux pääse suuren...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/171/levyjakoja">Levyjakoja</a></span> &#183; <span class="published">2007-09-15</span>
+<br /><span class="smallexcerpt">Eilen tein levyjakoja. Siirsin /usrin, /varin ja /homen omille osioillensa. Vaikka ainut, jonka olisin halunnut siirtää, oli /home, mutta muutoin...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/172/eroja">Eroja.</a></span> &#183; <span class="published">2007-09-11</span>
+<br /><span class="smallexcerpt">Nyt, mitä olen elänyt linuxissa aika täysipäiväisesti niin olen kyllä oppinut jos jonkinmoista. Lisäksi blogini on saanut potkua sekä paremman...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/173/graaf">Graaf</a></span> &#183; <span class="published">2007-09-11</span>
+<br /><span class="smallexcerpt">Hermostuttavia jippoja tällä systeemillä.
+Jostain syystä poisti symlinkin takia myös alkuperäiset fileet.
+progo@pihlaja /stor/randmisc/music $ rm -r INLANDEMPIRE/
+rm: cannot remove directory `INLANDEMPIRE/':...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/174/ccache">ccache</a></span> &#183; <span class="published">2007-09-09</span>
+<br /><span class="smallexcerpt">CCACHE eli compiler cache on ohjelmaviritys, joka toimii eräänlaisena proxynä ohjelmienkäännössä ja pitää nimensä mukaisesti säilössä käännettyjä binääriobjekteja. Tämä on...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/175/rahoissa">Rahoissa</a></span> &#183; <span class="published">2007-09-08</span>
+<br /><span class="smallexcerpt">Serkku käy piipahtamassa ameriikoista ja tarjoaa minulle 50 euroa käteistä rahaa jolla voin ostaa jotain mieleistä koneeseeni. Kuinka jaloa, kuinka...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/176/ntfs-3g">NTFS-3G</a></span> &#183; <span class="published">2007-09-08</span>
+<br /><span class="smallexcerpt">Nyt sekin on testissä. Backuppasin windowsin puolella ensin toki osion. Mitenköhän backuppaisin noi isommat osiot, joissa tavaraa on kuitenkin enemmän...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/177/ai-ihanat-cdt">Ai ihanat cd:t</a></span> &#183; <span class="published">2007-09-08</span>
+<br /><span class="smallexcerpt">Kyllä meikä sitten rakastaa niitä. Nyt saa tapella niiden kopioinnin kanssa. CDRecord näyttää osaavan, mutta en tiedä, miten k3b varsinaisesti...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/178/varmuuskopioinnit">Varmuuskopioinnit</a></span> &#183; <span class="published">2007-09-07</span>
+<br /><span class="smallexcerpt">Ajattelin laittaa varmuuskopiot tässä pihlajalla toimimaan. Flexbackup näyttää toimivan mitä testasin. Ehkäpä viikottaiset täysbackupit ja sitten päivittäin differentiaali. Flexbackup ei...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/180/hupia">Hupia</a></span> &#183; <span class="published">2007-09-04</span>
+<br /><span class="smallexcerpt">Taas sen näkee, että isot ongelmat on kalasteltu pois ja jäljelle jää pikkusinttien seuraaminen. Tein tänään oman grub-splashin. Olin aluksi...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/181/aika-rientaeae">Aika&#160;rientää</a></span> &#183; <span class="published">2007-09-03</span>
+<br /><span class="smallexcerpt">Kylläpä se tosiaan juoksee.
+Tänään voisi vielä kokeilla semmoista, että ensin tekee imagen mkisofs:llä ja sitten polttaa sen suoriltaan growisofs:llä. Saattaahan...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/182/notepad-like">Notepad-like</a></span> &#183; <span class="published">2007-09-03</span>
+<br /><span class="smallexcerpt">Kah, puolivahingossa löysin paremman "pikkulappusoftan" kuin edellinen löytöni nedit, nimittäin XFCE:n muistiokorvike mousepad. Mousepadissa on tuo käytettävyys parempi kuin neditissä...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/184/back-to-the-civ">Back to the&#160;Civ</a></span> &#183; <span class="published">2007-09-02</span>
+<br /><span class="smallexcerpt">Welcome to the Jungle .. Guns'n'Roses veti sen, mutta Richard Cheese vetää hyvän coverin kappaleesta. Jotenkin se ja Pink Floydin...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/186/kerneliae">Kerneliä</a></span> &#183; <span class="published">2007-08-24</span>
+<br /><span class="smallexcerpt">Uusi kerneli pääsi ulos keywordista, eli ts. on todettu vakaaksi. 2.6.22-r5 gentoo-patchsetillä. Käännän ihan sen takia, että siitä saa tekosyyn...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/187/paeiviae">Päiviä</a></span> &#183; <span class="published">2007-08-24</span>
+<br /><span class="smallexcerpt">Päivää vaan taloon. Kuppi kahvia ja menoksi.
+Ensimmäisenä päivän hommana kohtasin ongelman ja siihen ratkaisun. Ratkaisun syynä on omaa vikaa peräisin...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/189/houston-we-have-coffee">Houston, we have&#160;coffee.</a></span> &#183; <span class="published">2007-08-23</span>
+<br /><span class="smallexcerpt">Lapinreissu saa potkua alleen pannukahvista. Makuupussin tutkiminen pitäisi suorittaa ja kaikkea sellaista.
+Poltin video-dvd:n, joka ei aukea VLC:llä eikä mplayerillakaan. Tosin...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/190/houston-we-solved-the-problem">Houston, we solved the&#160;problem.</a></span> &#183; <span class="published">2007-08-23</span>
+<br /><span class="smallexcerpt">DVD+RW-format -niminen ohjelma (gentoossa paketissa app-cdr/dvd+rw-tools) osasi formatoida levyn. Se ei enää, vihdoinkaan, mounttaa, ei mplayer löydä sieltä palasia vanhoista...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/191/vaivannut">Vaivannut.</a></span> &#183; <span class="published">2007-08-22</span>
+<br /><span class="smallexcerpt">Kuten hyviin blogeihin ja blogitapaan kuuluu viitata muihin blogeihin ja tehdä jatkuvaa interkontekstuaalista tutkimusta, olen sen siltä osin jättänyt sikseen,...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/192/jatketaan">Jatketaan..</a></span> &#183; <span class="published">2007-08-22</span>
+<br /><span class="smallexcerpt">..kun kerran vauhtiin päästiin.
+Linuxissani on joku ominaisuus kummittelemassa. Latasin NeroLinuxin ihan piruuttani nähdäkseni, minkälaisesta porttauksesta on kyse. Se jumiutuu käynnistyksessä...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/194/testipolttoja">Testipolttoja</a></span> &#183; <span class="published">2007-08-21</span>
+<br /><span class="smallexcerpt">Suoritin koepolton Gnomebakerilla, tai oikeastaan kokeilin alustaa RW-levyä. Ei onnistunut. K3Bin käynnistyksessä meni kuukausia kun se halusi etsiskellä /dev/hda:ssa olevaa...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/195/paluu-uusiin-haasteisiin">Paluu uusiin&#160;haasteisiin</a></span> &#183; <span class="published">2007-08-21</span>
+<br /><span class="smallexcerpt">Palasin oppilaitoksesta.
+Nyt koitan cdrecordia verbatimille, jotta varmistuu, ettei vika ole mitenkään softissa tai muussa. Tosin aion polttaa levyn 4x -nopeudella,...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/196/uusiin-haasteisiin">Uusiin&#160;haasteisiin</a></span> &#183; <span class="published">2007-08-21</span>
+<br /><span class="smallexcerpt">Pelin nimi on dvd-poltto.
+First round: Computer 1 &#8211; 0 User. Käytin growisofsia ja lopputulos on tässä. Aika hiljaiselta näyttää. Taidan...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/197/fluxboxin-teema">Fluxboxin&#160;teema</a></span> &#183; <span class="published">2007-08-20</span>
+<br /><span class="smallexcerpt">Sen sain ehkäpä loppuun asti. Aloin virittelemään noiden painikkeiden graafisen puolen kanssa, mutta luovuin siitä. Vaativat aikalailla näpertelyä ne. Voisin...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/199/tehtaevaeae">Tehtävää</a></span> &#183; <span class="published">2007-08-19</span>
+<br /><span class="smallexcerpt">Tehdäänpä sum-up tehtävistä ja tavoitteista:
+
+Fluxboxiin omatehty teema (jotain mustaa sävyä ja isommat fontit, pohjaksi otan vissiin tämän Emerge -nimisen)
+Textpatterniin uusi...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/200/gphoto2">Gphoto2</a></span> &#183; <span class="published">2007-08-18</span>
+<br /><span class="smallexcerpt">Tänään virittelin otsikonmukaisen ohjelman kanssa. Skriptini _grab_digiphotos.sh_ näppärästi ottaa gphoto2:lla kuvat, tekee niille oman hakemiston päivämäärällä varustettuna ja poistaa lopuksi...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/204/linux">Linux</a></span> &#183; <span class="published">2007-08-16</span>
+<br /><span class="smallexcerpt">Kirjoittelen tätä (lienee ensimmäinen) postausta firefoxista, fluxboxista, gentoo linuxista. Suomesta, Euroopasta.
+Olen harkinnut nyt tätä suunniteltua asettumista linuxen käyttäjäksi. Olen saanut...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/214/the-art-of-linux">The Art of&#160;Linux</a></span> &#183; <span class="published">2007-05-29</span>
+<br /><span class="smallexcerpt">I have this great cup of coffee with me and I'm going to change back to Finnish as I can...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/215/uusi-wp">Uusi&#160;WP</a></span> &#183; <span class="published">2007-05-26</span>
+<br /><span class="smallexcerpt">Wordpress on vihdoin päivitetty 2.2 -versioonsa, mistä kyllä on jo aikaa. Mutta kun halusin odotella että ko. päkvitsi saapuu portageen....</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/218/laiskottaa">Laiskottaa</a></span> &#183; <span class="published">2007-05-21</span>
+<br /><span class="smallexcerpt">Moneskohan laiskotuspostaus tämäkin lienee?  Keräillään tähän parit mietteet mitä tänään on tullut ajateltua. Tiivistellään näistä mukava ja tiivis setti.
+Koeviikko...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/221/kyllae">Kyllä.</a></span> &#183; <span class="published">2007-02-06</span>
+<br /><span class="smallexcerpt">Viime kerrasta onkin jo aikaa.
+En tiedä, miten tarinat jatkuvat, mutta kuka tietää, jospa ne sittenkin tästä vielä elpyvät. Nethackia painaneena...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/225/kuusi">Kuusi</a></span> &#183; <span class="published">2006-10-13</span>
+<br /><span class="smallexcerpt">Kirjoittelen tähän vähän mietteitä pitkästä aikaa, nyt kun kuusi menestyy ja uptimeä kertyy yllättävän kiitettävästi. Olkoon tämä myös ennakoiva sadan...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/230/joopa-joo">Joopa&#160;joo.</a></span> &#183; <span class="published">2006-09-01</span>
+<br /><span class="smallexcerpt">Asentelin tänään tollasen ftp-pohjaisen synkronoijan kuin Weexin. Tämä on erittäin kätevä mutta varoituksen sanana vain että tämä on kärkäs poistamaan...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/233/sekalaista-poehinaeae">Sekalaista&#160;pöhinää</a></span> &#183; <span class="published">2006-08-26</span>
+<br /><span class="smallexcerpt">Ensin vähän kielistä
+Jaksoinpa nyt taas vähän kuusta auttaa tekemällä vihdoinkin pitkään miettimäni uptimetys-systeemin. Vanha versio kun oli vähän purkkaa sikäli...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/239/fail2ban">fail2ban</a></span> &#183; <span class="published">2006-08-01</span>
+<br /><span class="smallexcerpt">Startataanpa tuo fail2ban kun muistin vähän aika sitten että eihän mulla olekaan ne TCP-wrapperit käytössä kun ne hardened-systeemin mukana rupesivat...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/241/hiljaista-vol-n">Hiljaista, vol&#160;n</a></span> &#183; <span class="published">2006-07-30</span>
+<br /><span class="smallexcerpt">Kuusessa on hiljaiset päivät olleet. Ihmiset tuntuvat pysyvän linjoilla, UTF8 toimii, verkko ei ole katkeillut(?), ylläpitäjä ei ole evottanut (teidän...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/244/kovistellaan">Kovistellaan</a></span> &#183; <span class="published">2006-07-25</span>
+<br /><span class="smallexcerpt">Hardened-järjestelmäni sai juuri nyt (vasta) hardened-php -tulkkauksen mukaansa. Tämä sen takia kun huomasin että sen käyttöönotto näyttää sen verran helpolta...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/257/huh-ja-utf-8">Huh ja UTF-8</a></span> &#183; <span class="published">2006-07-12</span>
+<br /><span class="smallexcerpt">Tsiisus, nyt on voittajafiilis. UTF-8:n kanssa oli niin ihmeellisiä ongelmia ettäh. locale-gen ei ole kenties vielä täysin kypsä värkki mutta...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/261/emerge-e-world">emerge -e&#160;world</a></span> &#183; <span class="published">2006-07-07</span>
+<br /><span class="smallexcerpt">Kas vain, emerge -e failed. libperlin kohdalla tippunut pois. Näkyi olevan joitain syntaksivirheitä joten laitoin synkkiä menemään ja uusiksi vaan....</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/265/openoffice">Openoffice</a></span> &#183; <span class="published">2006-07-02</span>
+<br /><span class="smallexcerpt">Noniin, vihdoin sekin valmistui.
+progo@koivu ~ $ qlop -tH openoffice
+openoffice: 19 hours, 22 minutes, 23 seconds for 1 merges
+Ei siinä nyt...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/267/lainaksi">Lainaksi</a></span> &#183; <span class="published">2006-07-01</span>
+<br /><span class="smallexcerpt">Läppäri pitää lainata porukoille viikoksi kun lähtevät jonnekin lomailemaan. Pieni hinta siitä että saa olla rauhassa. ;)
+Siinä sitten virittelin vierastilin...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/268/katko">Katko</a></span> &#183; <span class="published">2006-06-29</span>
+<br /><span class="smallexcerpt">Ukkosen takia oltiin kymmenisen tuntia alhaalla. Aamulla tuo vähän vitutti kun näytti aluksi siltä että kuusi olisi saanut oman IP:nsä...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/269/xorgiborgi">Xorgiborgi</a></span> &#183; <span class="published">2006-06-26</span>
+<br /><span class="smallexcerpt">X.org on nyt onnellisesti asennettu ja testiksi laitoin IceWM:n sekä Fluxboxin ja molemmat tuntuvat toimivan ihan ok. XFCE4 ja KDE...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/270/toiminnassa">Toiminnassa</a></span> &#183; <span class="published">2006-06-24</span>
+<br /><span class="smallexcerpt">Koivu on nyt jo operatiivisena, huomisen projektina valitsen joko Win98:sin asennuksen tai Xorgin. Aikaa on, aikaa on. Jäi vaan ihmetyttämään...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/271/vanhaan-koneeseen-uusi-sielu">Vanhaan koneeseen uusi&#160;sielu</a></span> &#183; <span class="published">2006-06-24</span>
+<br /><span class="smallexcerpt">Linksillä juuri latailemassa stage3-i686-2006.0 -tarballia. Pistin neljän osion partitiointiskeeman menemään, ykkösenä 4,8 gigaa Windows 98:lle (pääasiassa pelialustaksi) ja loput eri...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/272/tapahtuu">Tapahtuu!</a></span> &#183; <span class="published">2006-06-24</span>
+<br /><span class="smallexcerpt">Tänään voitin julmetun ylivoimaisesti smacissa ja nyt siirrän katseeni kohti Gentoota. Se tulee olemaan lemmittyni nyt lähipäivinä. Ihan ensimmäisenä vaan...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/276/gentoo">Gentoo!</a></span> &#183; <span class="published">2006-06-16</span>
+<br /><span class="smallexcerpt">Gentookuume nyt kovimmillaan!
+Päätin uhrata läppärini sille projektille, pöytäkonetta en vaan käännä linuxiksi ennen kuin olen henk.koht. varma siitä asiasta. Pelkäänpä...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/279/our-security-policies">Our Security&#160;Policies</a></span> &#183; <span class="published">2006-06-13</span>
+<br /><span class="smallexcerpt">GWN-uutiskirjeen huomasin vasta tänään ekaa kertaa. Sehän on kovin kätevä kun siinä luetellaan noita uusimpia turvauhkia. Wordpressinkin vasta äskettäin päivitin...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/283/the-more-hardened-core-the-more-hardened-sysop">The more hardened core, the more hardened&#160;sysop</a></span> &#183; <span class="published">2006-06-07</span>
+<br /><span class="smallexcerpt">Tänään tuli käänneltyä uusi ydin, vaikka vanha se kyllä oli. Serverissä, kuin myöskään työpöytäkäytössä ei tuskin ole väliä ytimen uutuudella....</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/291/helvetin-jaeaetymisen-neljaes-aste">Helvetin jäätymisen neljäs&#160;aste</a></span> &#183; <span class="published">2006-05-28</span>
+<br /><span class="smallexcerpt">Juuri äsken luin miten eräs suuri gentooylläpitäjä mainitsi ohimennen ettei juo kahvia.
+Tämä järkytti minua kovin. Eikö se riitä että Suomi...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/295/vaesyttaeae">Väsyttää</a></span> &#183; <span class="published">2006-05-27</span>
+<br /><span class="smallexcerpt">Nyt on vätystänyt moneen otteeseen vaik'en paljoa ole kerennyt tekemään. Tässä on Ozric Tentaclesia tullut kuunneltua samaan aikaan kun Nethackia...</span>
+</li>
+
+</ul>
+    <h2>Lyhyitä sutkautuksia</h2>
+    <ul class="directory">
+
+<li>
+
+<span class="smallexcerpt">Järin omituista. Perl-paketteja asentava g-cpan loi ja asensi Time::Format -paketin proaudio-overlayhin. Ei oikein paras paikka.</span>
+
+<span class="published">
+  2011-02-13 18:58
+</span>
+
+</li>
+
+</ul>
+
+
+ <!-- now, common stuff -->
+
+<!-- txp:older ei toimi kunnolla tagien kanssa. -->
+        <p>
+             
+            
+        </p>
+
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

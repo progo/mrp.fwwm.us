@@ -1,0 +1,285 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <!-- standard -->
+	<title>Mr. P: Uutta soodausta</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=mietteet" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=mietteet" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="mietteet">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="uutta-soodausta#content">Siirry sisältöön</a></li>
+        <li><a href="uutta-soodausta#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            &raquo;
+            <a href="../index.html">Mietteet</a>
+            
+                <!--<ul>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/598/blogille-idea">Blogille&#160;idea</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/597/wes-mckinney-python-for-data-analysis-oreilly">Wes McKinney - Python For Data Analysis (O&#39;Reilly)</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/596/org-blogaaminen-vaikeata">Org-blogaaminen&#160;vaikeata</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/595/twitterointia-emacsilla">Twitteröintiä&#160;Emacsilla</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/594/weboodi-aikataulut-orgiin">WebOodi-aikataulut&#160;orgiin</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/592/emacs-has-me">Emacs has&#160;me.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/591/editorien-taistelu-tietamyshallinnassa">Editorien taistelu&#160;tietämyshallinnassa</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/590/think-vimorganizer">Think&#160;VimOrganizer.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/589/think-orgmode">Think&#160;orgmode.</a>
+                </li>
+</ul>-->
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="http://progo.viuhka.fi/kategoria/hifi/">Hifi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/rauta/">Rauta</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/viihde/">Viihde</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../../tag/clojure/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">clojure</a></li>
+	<li><a href="../../tag/hifi/index.html" class="tagSizeMedium tagSize31" style="font-size: 100%;">hifi</a></li>
+	<li><a href="../../tag/musiikki/index.html" class="tagSizeMedium tagSize23" style="font-size: 100%;">musiikki</a></li>
+	<li><a href="../../tag/ohjelmointi/index.html" class="tagSizeLargest tagSize42" style="font-size: 100%;">ohjelmointi</a></li>
+	<li><a href="../../tag/ostoksia/index.html" class="tagSizeMedium tagSize11" style="font-size: 100%;">ostoksia</a></li>
+	<li><a href="../../tag/palvelin/index.html" class="tagSizeMedium tagSize37" style="font-size: 100%;">palvelin</a></li>
+	<li><a href="../../tag/rauta/index.html" class="tagSizeMedium tagSize23" style="font-size: 100%;">rauta</a></li>
+	<li><a href="../../tag/vim/index.html" class="tagSizeMedium tagSize34" style="font-size: 100%;">vim</a></li>
+</ul>
+        <p><a href="../../tag/index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=mietteet" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=mietteet" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- not tag view, it's the main view -->
+
+
+        
+
+        <div class="hfeed">
+            <!-- five articles to list here, or only one. It depends. -->
+            <!-- default form -->
+
+<p class="published">30. toukokuu 2006, 17:46</p>
+<h1 class="entry-title"><a rel="bookmark" href="uutta-soodausta">Uutta&#160;soodausta</a></h1>
+
+
+<div class="entry-content">
+<p>Jäi tuon etusivun virittelyn vimmassa uuttakin säätöä tekemään mieli. Ajattelin siis rakentaa kevyen uutisointisysteemin, päätarkoitus opetella MySQL-PHP -yhdistelmää entisestään enemmän.</p>
+<p>Mietin vaan kun minulla on sentään yksi puoliksi tyytyväinen shellikäyttäjä (plz wtf :o) ja serveri oli tänäänkin köppyrässä aamulla johtuen Elisan jostain säädöstä tai vastaavasta niin olisi mukava saada uutisoiduksi jotain serveriin liittyvää.</p>
+<p>Ja ostinhan minä tälle nyt viimeinkin oman domainin! <strong>kuusi.org </strong>on piakkoin serverini kotiosoite ja siinäpä se meneekin sitten opetellessa vähän noista alidomaineista ja muusta näppärästä. Pahassa tapauksessa noi apassit ja php:t täytyy re-emergata jos Gentoon useflag <em>vhosts </em>liittyy jotenkin asiaan. Todella harmi että mulla Elisan liittymä ollessa en voi omaa sähköpostipalvelinta ylläpitää. Ovat perhanat blokkineet sen maagisen portin nro 25.</p>
+<p>Kuusestakin keksii kaikenlaista. Aluksi ajattelin puhtaasti viihdetyylistä domainia <em>huudahd.us </em>josta saisi kaikenlaisia variaatioita. Haluan kuitenkin yksilöidä kuusen nyt sen nimikkodomainille. Ja saahan tällekin erilaisia alidomainyhdistelmiä tehdyksi, vaikka niissä paistaakin yhdyssanavirheet:</p>
+<ul>
+<li>joulu.kuusi.org</li>
+<li>haju.kuusi.org</li>
+<li>latva.kuusi.org</li>
+<li>juuret.kuusi.org</li>
+<li>runko/oksa/goatse yms tulee varmaankin kanssa jos se vaan on mahdollista.</li>
+</ul>
+<p>Sellaista tällä kertaa. Bindiä konffimaan heti kun tilisiirto vahvistetaan ylläpidon (xonet.fi) päässä.</p>
+</div>
+
+<p class="tags"> 
+
+
+Tageja: <a href="../../tag/palvelin/index.html" rel="tag">palvelin</a>
+
+
+</p>
+
+
+
+<div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+
+        </div>
+
+ <!-- now, common stuff -->
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+        <p><a rel="prev" href="../290/moerr" title="Mörr">&#171; Mörr</a> 
+           &mdash; <a rel="next" href="../288/hmmh" title="Hmmh…">Hmmh… &#187;</a>
+        </p>
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+        <h2>Aiheen vierestä</h2>
+        <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../557/palvelin-tulossa-sittenkin">Palvelin tulossa&#160;sittenkin</a></span> &#183; <span class="published">2011-11-10</span>
+<br /><span class="smallexcerpt">Vaikka taannoin järkeilin palvelimen ostoa vastaan aika onnistunein argumentein, niin nyt sellaisen olen kuitenkin hommannut. Käytetystä raudasta kootan murossa jonkinlaisen...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../43/kuusi-kaatuu">Kuusi&#160;kaatuu</a></span> &#183; <span class="published">2009-06-23</span>
+<br /><span class="smallexcerpt">On aika päästää kuusi irti. Siitä en enempää vuodata: vuodatin tänne.
+Mutta mikä on relevanttia, on se, että nyt blogialustani on...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../45/pieni-oivallus-ja-muutoksia">Pieni oivallus ja&#160;muutoksia</a></span> &#183; <span class="published">2009-06-14</span>
+<br /><span class="smallexcerpt">Tänä viikonloppuna on käynyt kaikenlaista pientä. Ei mitään, mikä olisi normaalisti uutisoinnin arvoista, mutta ehkäpä me kehittelemme näistä jotain? Pitäisikö...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../55/nostalgia-yrittaeae-nostaa-paeaetaeaen">Nostalgia yrittää nostaa&#160;päätään</a></span> &#183; <span class="published">2009-05-13</span>
+<br /><span class="smallexcerpt">Nyt tässä WordPressin kanssa peuhattuani jo reilun viikon alkavat pienet puutteet nousta esille. Eräs puute on selkeän tasavälifontin valitseminen keskelle...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../74/ihmekuusi">Ihmekuusi</a></span> &#183; <span class="published">2009-02-21</span>
+<br /><span class="smallexcerpt">Edellisessä postauksessani kehuskelin Sound of Musicia. Nyt se on kenties viimeisillään. Se on lähes valmis. Se on toimiva. Se on...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../75/on-taemae-vaikeata">On tämä&#160;vaikeata</a></span> &#183; <span class="published">2009-02-12</span>
+<br /><span class="smallexcerpt">Vaikeata on. Nimittäin lukuloman aloittaminen. Pääpainona fysiikka ja matikka. Kummallakaan näistä aineista ei liene varsinaista tarvetta petraamiseen, mutta toisaalta joku...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../93/pieni-katkos">Pieni&#160;katkos</a></span> &#183; <span class="published">2008-06-25</span>
+<br /><span class="smallexcerpt">Elisa tässä eräs kaunis päivä katkaisi. No, nyt jaksoin vaivautua tuohon kyykkimään koneen alle. 
+Haluan sanoa, että Kill Bill, Vol...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../111/uudelleenmuotoilua">Uudelleenmuotoilua</a></span> &#183; <span class="published">2008-04-21</span>
+<br /><span class="smallexcerpt">Kuusi on ollut jo hyvän aikaa nykyisessä olotilassaan. Samoiten blogi. Voisi kai sanoa, että kun sen kertaalleen saa jotenkin oikeaan...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../113/todella-ihmeellistae-vol-xxi">Todella ihmeellistä, vol&#160;XXI</a></span> &#183; <span class="published">2008-04-09</span>
+<br /><span class="smallexcerpt">Viime yönä paukkui myskyävällä tasolla ollut vesisade ja sähköverkko notkui ja heittelehti koko päivän. Yöllä se yltyi täydelliseen katkokseen. Kahteen,...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../126/kuusi-palasi">Kuusi&#160;palasi</a></span> &#183; <span class="published">2007-12-26</span>
+<br /><span class="smallexcerpt">Kuusi menetti IP:nsä jostain syystä aivan satunnaisesti, ei ollut johtokatkosta, ei mitään. Elisa. Tässä meni hyvä kotva ennen kuin ylläpitäjä...</span>
+</li>
+
+</ul>
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

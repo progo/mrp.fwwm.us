@@ -1,0 +1,298 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <!-- standard -->
+	<title>Mr. P: MPD-kirjastoja ja asiakkaita</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=mietteet" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=mietteet" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="mietteet">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="mpd-kirjastoja-ja-asiakkaita#content">Siirry sisältöön</a></li>
+        <li><a href="mpd-kirjastoja-ja-asiakkaita#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            &raquo;
+            <a href="../index.html">Mietteet</a>
+            
+                <!--<ul>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/598/blogille-idea">Blogille&#160;idea</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/597/wes-mckinney-python-for-data-analysis-oreilly">Wes McKinney - Python For Data Analysis (O&#39;Reilly)</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/596/org-blogaaminen-vaikeata">Org-blogaaminen&#160;vaikeata</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/595/twitterointia-emacsilla">Twitteröintiä&#160;Emacsilla</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/594/weboodi-aikataulut-orgiin">WebOodi-aikataulut&#160;orgiin</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/592/emacs-has-me">Emacs has&#160;me.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/591/editorien-taistelu-tietamyshallinnassa">Editorien taistelu&#160;tietämyshallinnassa</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/590/think-vimorganizer">Think&#160;VimOrganizer.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/589/think-orgmode">Think&#160;orgmode.</a>
+                </li>
+</ul>-->
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="/kategoria/hifi/">Hifi</a></li>
+	<li><a href="/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="/kategoria/rauta/">Rauta</a></li>
+	<li><a href="/kategoria/viihde/">Viihde</a></li>
+	<li><a href="/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../../tag/blogisäätöä/index.html" class="tagSizeMedium tagSize22" style="font-size: 100%;">blogisäätöä</a></li>
+	<li><a href="../../tag/gentoo/index.html" class="tagSizeLargest tagSize102" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../../tag/hifi/index.html" class="tagSizeMedium tagSize28" style="font-size: 100%;">hifi</a></li>
+	<li><a href="../../tag/ohjelmistot/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">ohjelmistot</a></li>
+	<li><a href="../../tag/ohjelmointi/index.html" class="tagSizeMedium tagSize39" style="font-size: 100%;">ohjelmointi</a></li>
+	<li><a href="../../tag/palvelin/index.html" class="tagSizeMedium tagSize34" style="font-size: 100%;">palvelin</a></li>
+	<li><a href="../../tag/rauta/index.html" class="tagSizeMedium tagSize20" style="font-size: 100%;">rauta</a></li>
+	<li><a href="../../tag/vim/index.html" class="tagSizeMedium tagSize31" style="font-size: 100%;">vim</a></li>
+</ul>
+        <p><a href="../../tag/index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=mietteet" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=mietteet" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- not tag view, it's the main view -->
+
+
+        
+
+        <div class="hfeed">
+            <!-- five articles to list here, or only one. It depends. -->
+            <!-- default form -->
+
+<p class="published">10. kesäkuu 2010, 12:48</p>
+<h1 class="entry-title"><a rel="bookmark" href="mpd-kirjastoja-ja-asiakkaita">MPD-kirjastoja ja&#160;asiakkaita</a></h1>
+
+
+<div class="entry-content">
+	<p>Huu, kunhan huomisen tentin (Ihminen ja vuorovaikutteinen teknologia) vetäisee alta pois, malttaa viimein alkaa tammikuussa aloitettuun, mutta sittemmin keskeytyneeseen projektiin kirjailla uusi ja uljas <span class="caps">MPD</span>-lukukirjasto C++:lle.</p>
+
+	<p>Ehkä se projekti jää hautautumaan lopullisesti Pythonin ja Haskellin alle, mutta mielestäni alku oli jo melko lupaava. Ne työkalut, joita joudun käyttämään, ovat vahvasti proseduraalista C:tä erilaisin muistipuukotuksin, joten tehtävä ei ole sinänsä aivan helppo. Oliomallia ajattelin kuitenkin käyttää viimeiseen asti. Suunnittelu tuotti vähän vaikeuksia, mutta jos otan malliksi vaikka Javan vastaavan kirjaston organisoinnin, ei pitäisi tulla ongelmia siinäkään.</p>
+
+	<p>Sitten mitä siitä pitäisi tulla tuloksena, on vähän vielä työn alla. Hieno ja uljas levynsoitteluohjelma &#8212; siis painottuisi levyihin, albumeihin. Ei kappaleisiin. Jos ohjelmalla hakee vaikka kappalenimellä tietokantaa, tuloslistalla olisi pelkkiä levyjä. Joku puurakenne voisi tietysti olla kultainen keskitie: näinhän se Amarokissa oli. Kyllä kyllä. Integraatio <span class="caps">MPD</span>:hen on periaatteessa helppo toteuttaa: sehän luonnistuu valmiilla työkaluilla ja esimerkkikoodilla, jota C-kielinen libMPD ja sen hieman korkeampitasoinen (abstraktiotasoltaan korkeampi) libMPDclient tarjoavat.</p>
+
+	<p>Integraatiota Internetin sosiaalisten musiikkipalvelujen kanssa en ajatellut toteuttaa &#8212; onhan yksi <span class="caps">MPD</span>:n hienous juuri siinä, että yksi asiakasohjelma voi hoitaa käyttäjä-tietokone -välisen interaktion (vaikkapa oma suosikkini <span class="caps">GMPC</span>) ja toinen voi samanaikaisesti hoitaa tietokone-tietokone -interaktioita (esimerkiksi Last.fm:ään päivittelemisen). Yksikään scrobblaileva <span class="caps">MPD</span>-asiakasdaemoni ei ole ollut täysin toimintavarma, mutta <strong>scmpc</strong> pääsee mielestäni ihan kiitettäviin tuloksiin. Hieman älykkäämpi se saisi olla. </p>
+
+	<p>Entäs sitten tämä suuri ja mahtava <a href="http://www.discogs.com">Discogs</a>? Sehän tarjoaa nimittäin paljon hyvää sarallaan. Niin, Discogs tarjoaisi <span class="caps">HTTP</span>-välitteisen <span class="caps">XML</span>-rajapinnan kaikkeen sen tietokantoihin. Rajoja on muutamia, esimerkiksi 4000 pyynnön vuorokausitahti voi olla hankala, jos käyttäjä ensikertaa käyttelee ohjelmaa ja haluaa lisäillä koko levykokoelmansa kuivana sisään. Ja eihän Discogs yksinään kovin kattava edes ole&#8230; se on erikoistunut kovasti elektroniseen tarjontaan. </p>
+
+	<p>Mutta pirun hyvin siellä tuntuu kaikkea olevan. Erityisen lempeitä elektronisia sävelmiä olen jo meinannut ostaa sieltä. Hitto soikoon, se vielä käy kukkarolle. Jos isken omaan profiiliini kattavan listan levyistä, joita haluan ostaa, osaa Discogs ryhmitellä niitä siten, että keneltä myyjältä löytyisi eniten. Säästöä postimaksuissa. Onneksi vielä ulkomailta on halpaa tilata käytettyjä levyjä. Neljä euroa vinykän postittaminen Alankomaista, kun Suomessa se olisi järjestään sisämaan postina vähintään seitsemän euroa.</p>
+
+	<p>Niin, takaisin asiaan. Jos ja kun kirjailen <span class="caps">MPD</span>-kirjastoni kasaan, ajattelin demota sitä sitten kirjailemalla pienen asiakasohjelman. Eräänlainen <em>&#8216;emotion engine&#8217;</em> siitä kai olisi tuleva: käyttäjä voisi varsin vapaasti muotoilla levypyyntönsä, ja ohjelma vastaisi parhaansa mukaan. <span class="caps">MPC</span>:n syntaksi on kieltämättä hyvä, mutta toteutus on jätetty puolitiehen, ja meno on aika eläimellistä sen myötä. <span class="caps">MPC</span> tukee esimerkiksi seuraavanlaista komentoa: <code>mpc search album Meddle | mpc add</code>, mutta sitä ennen pitäisi muistaa tyhjentää soittolista, ja jälkikäteen pitäisi laittaa se vielä soimaan. Paljon muistettavaa, paljon kankeutta. Entäs jos haluaisi soittaa kaksi levyä peräkkäin? No se on melko sujuvaa, mutta tiettyjen kappaleiden repiminen juuri tietyiltä levyiltä muuttuu jo mahdottomaksi. Jotain lempeyttä ja kepeyttä olen ajatellut lisätä omaan asiakkaaseeni. Senkin parseroinnin voisi toteuttaa yhdeksi yksittäiseksi luokaksi, jonka voi lisätä vaikka minkälaiseen viritelmään. Luokka, jota voitaisiin kutsua merkkijonolla yksinään:</p>
+
+<pre class="cpp">MPD_Jeeves jeeves = new MPD_Jeeves(MPD_instance);
+jeeves.query(&quot;play Meddle mfsl&quot;);
+jeeves.query(&quot;replace C-Numb Pulse with C-Numb gdansk&quot;);
+</pre>
+
+	<p>Ja Jeeves hoitaisi.  Jälkimmäinen esimerkki vaatii vielä säätöä, ja tulisi olemaan aika työläs koodatakin. En tiedä. Käyttäjä voisi lisäillä suosikkilistoilleen kappaleita lempinimien kanssa, josta tämä moottori voisi tehdä hakuja. Silloin suosikkiraidat voi valita vaikkapa juuri tyyliin &#8220;C-Numb&#8221; ja &#8220;Stairway&#8221;. </p>
+
+	<p>No, tämä kaikki on vielä auki. Huomisen tentin jälkeen alkaa olla aikaa, ehkä kenties. Muutto vie aikansa, se on vissi. Mutta ei tavaraa kuitenkaan kanniskella alituiseen. Aika näyttää; vain yksi asia on varma: sekä <span class="caps">MPC</span> että <span class="caps">GMPC</span> ovat riittämättömiä kunnolliseen työskentelyyn. </p>
+</div>
+
+<p class="tags"> 
+
+
+Tageja: <a href="../../tag/c++/index.html" rel="tag">c++</a>, 
+<a href="../../tag/haskell/index.html" rel="tag">haskell</a>, 
+<a href="../../tag/mpd/index.html" rel="tag">mpd</a>, 
+<a href="../../tag/ohjelmointi/index.html" rel="tag">ohjelmointi</a>
+
+
+</p>
+
+
+
+<div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+
+        </div>
+
+ <!-- now, common stuff -->
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+        <p><a rel="prev" href="../322/meng-mini-p1" title="Meng Mini P1">&#171; Meng Mini P1</a> 
+           &mdash; <a rel="next" href="../325/kovista-tabeista-eroon" title="Kovista tabeista eroon">Kovista tabeista eroon &#187;</a>
+        </p>
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+        <h2>Aiheen vierestä</h2>
+        <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../587/tehokkaat-kayttoliittymat-vaivatta">Tehokkaat käyttöliittymät&#160;vaivatta</a></span> &#183; <span class="published">2012-08-16</span>
+<br /><span class="smallexcerpt">Ohjelmoijan onni on elää komentorivillä. Tehokkaiden käyttöliittymien rustaaminen on varsin nopeata, kunhan luottaa siihen, että suurta suosiota tuotokset eivät tule...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../584/pythonin-vastaisku-lispeille-ipython-ja-vim-ipython">Pythonin vastaisku lispeille: IPython ja vim-ipython</a></span> &#183; <span class="published">2012-07-25</span>
+<br /><span class="smallexcerpt">Tai &#8220;Pythonin uusi toivo&#8221; tai &#8220;Pythonin paluu&#8221;. Mistä on kyse? Pythonin tulkin me kaikki kai tiedämme: kaikki siinä periaatteessa on,...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../581/sumitup-puutteet-ja-mihin-suuntaan-edetaan">SumItUp: puutteet ja mihin suuntaan&#160;edetään</a></span> &#183; <span class="published">2012-07-12</span>
+<br /><span class="smallexcerpt">Esittelin pari postausta sitten Soulver-kloonin raakileen, SumItUpin. Nyt se on GitHubissa kaikkien pällisteltävänä ja sellaisella raakileasteella, jotta sitä voi jo...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../579/soulver-kloonia-rakentelemassa">Soulver-kloonia&#160;rakentelemassa</a></span> &#183; <span class="published">2012-07-07</span>
+<br /><span class="smallexcerpt">Erittäin upealla konseptilla varustettu laskinohjelma Soulver kaatuu siihen, että sen saa vain Mäkille. Vapaamuotoinen näpertelyalusta on usein ainut asia, mitä...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../569/satunnaiset-jazzit-soittolistalta">Satunnaiset jazzit&#160;soittolistalta</a></span> &#183; <span class="published">2012-03-18</span>
+<br /><span class="smallexcerpt">Jonkin aikaa sitten kirjailin nopean bash-skriptin, joka hakee haluamastaan MPD-soittolistasta tietyn verran kappaleita. Siten, että musiikkia saadaan noin tietyn aikarajan...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../566/terminaaleja-vimista-kasin">Terminaaleja Vimistä&#160;käsin</a></span> &#183; <span class="published">2012-02-11</span>
+<br /><span class="smallexcerpt">Vanha kunnon ConqueTerm on nyt valmis ja käyttökelpoinen tuote kehittelyyn.
+
+	Olen viime päivinä alkanut käyttää vimiä hyvin emacsmaisesti. Se on tietenkin...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../565/mita-on-kehittaa-clojurella">Mitä on kehittää&#160;Clojurella</a></span> &#183; <span class="published">2012-02-05</span>
+<br /><span class="smallexcerpt">C- ja muunkielisissä projekteissa tavataan kirjoittaa koodia ensin, ja sitten testataan. Tietysti vaatimus osittain syntyy koodin kääntämisestä; ilman kääntöä ei...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../564/ranskalaisten-viivojen-parsimista-clojurella">Ranskalaisten viivojen parsimista&#160;Clojurella</a></span> &#183; <span class="published">2012-02-02</span>
+<br /><span class="smallexcerpt">Kirjoitin männäviikolla kokeilumielessä ohjelman, joka kääntää ranskalaiset viivat Beamer-Latexiksi. Ideana olisi tuottaa esityksen lihapuoli nopeasti rustaamalla tiivistä merkintää ja sitten...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../556/korintaytto-ja-ahne-menetelma">Korintäyttö ja ahne&#160;menetelmä</a></span> &#183; <span class="published">2011-10-23</span>
+<br /><span class="smallexcerpt">Mietiskelen tässä korintäyttöä (bin packing) ja sitä, miten ahne menetelmä on joko ylipolynomiaalinen tai sitten epäoptimaalinen.  Luultavasti se on...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../551/tekijoita-clojurella">Tekijöitä&#160;Clojurella</a></span> &#183; <span class="published">2011-09-17</span>
+<br /><span class="smallexcerpt">Nyt olen joutunut opiskelemaan tuota lukuteoriaa ja sen alkeita, ja monet niistä teorioista ovat innoittaneet minulle pieniä Clojure-ohjelmia. Se pää...</span>
+</li>
+
+</ul>
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

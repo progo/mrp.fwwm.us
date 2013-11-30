@@ -1,0 +1,516 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <!-- standard -->
+	<title>Mr. P: Hetkessä</title>
+
+
+	<link rel="home" href="../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../atom/index.html?section=hetket" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../rss/index.html?section=hetket" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../rpc/index.html" />
+</head>
+
+<body id="hetket">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="index.html?pg=2#content">Siirry sisältöön</a></li>
+        <li><a href="index.html?pg=2#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            &raquo;
+            <a href="index.html">Hetkessä</a>
+            
+                <!--<ul>
+	<li>
+                    
+                    <a rel="bookmark" href="/hetket/515/hetkessa-nro-514">hetkessä nro 514</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/hetket/513/hetkessa-nro-512">hetkessä nro 512</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/hetket/511/hetkessa-nro-511">hetkessä nro 511</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/hetket/510/hetkessa-nro-510">hetkessä nro 510</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/hetket/509/hetkessa-nro-509">hetkessä nro 509</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/hetket/508/hetkessa-nro-508">hetkessä nro 508</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/hetket/507/hetkessa-nro-507">hetkessä nro 507</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/hetket/506/hetkessa-nro-506">hetkessä nro 506</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/hetket/505/hetkessa-nro-504">hetkessä nro 504</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/hetket/503/hetkessa-nro-503">hetkessä nro 503</a>
+                </li>
+</ul>-->
+            
+        </li>
+	<li>
+            
+            <a href="../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            
+            <a href="../mietteet/index.html">Mietteet</a>
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="/kategoria/hifi/">Hifi</a></li>
+	<li><a href="/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="/kategoria/rauta/">Rauta</a></li>
+	<li><a href="/kategoria/viihde/">Viihde</a></li>
+	<li><a href="/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../tag/clojure/index.html" class="tagSizeMedium tagSize2" style="font-size: 100%;">clojure</a></li>
+	<li><a href="../tag/emacs/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">emacs</a></li>
+	<li><a href="../tag/gentoo/index.html" class="tagSizeLargest tagSize106" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../tag/ohjelmointi/index.html" class="tagSizeMedium tagSize43" style="font-size: 100%;">ohjelmointi</a></li>
+	<li><a href="../tag/ostoksia/index.html" class="tagSizeMedium tagSize12" style="font-size: 100%;">ostoksia</a></li>
+	<li><a href="../tag/palvelin/index.html" class="tagSizeMedium tagSize38" style="font-size: 100%;">palvelin</a></li>
+	<li><a href="../tag/skriptaus/index.html" class="tagSizeMedium tagSize2" style="font-size: 100%;">skriptaus</a></li>
+	<li><a href="../tag/vim/index.html" class="tagSizeMedium tagSize35" style="font-size: 100%;">vim</a></li>
+</ul>
+        <p><a href="../tag/index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../rss/index.html?section=hetket" title="RSS 0.92">RSS</a> / <a href="../atom/index.html?section=hetket" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+        
+            <h1 class="mainheader">Hetkessä</h1>
+        
+
+        <div class="hfeed">
+            <!-- five articles to list here, or only one. It depends. -->
+            <div class="blog_entry" >
+    <p class="published mb-published">
+      18.02. klo 15:33
+      (<b style="color: white;">18. helmikuu 2011, 15:33</b>):
+    </p>
+    <div class="mb-post">
+      	<p>Tuntuupa olo nyt vapaalta.</p>
+    </div>
+    
+
+
+<p class="tags smalltags"> 
+<!--
+
+
+
+
+-->
+
+
+</p>
+    <div class="divider"><img src="../images/1.gif" alt="---" width="400" height="1" /></div>
+</div><div class="blog_entry" >
+    <p class="published mb-published">
+      18.02. klo 07:31
+      (<b style="color: white;">18. helmikuu 2011, 07:31</b>):
+    </p>
+    <div class="mb-post">
+      	<p>Gah. Utuinen aamu.</p>
+    </div>
+    
+
+
+<p class="tags smalltags"> 
+<!--
+
+
+
+
+-->
+
+
+</p>
+    <div class="divider"><img src="../images/1.gif" alt="---" width="400" height="1" /></div>
+</div><div class="blog_entry" >
+    <p class="published mb-published">
+      17.02. klo 13:59
+      (<b style="color: white;">17. helmikuu 2011, 13:59</b>):
+    </p>
+    <div class="mb-post">
+      	<p>&#8230;mutta luenpa kuitenkin, koska satuin avaamaan nuo <a href="https://wiki.uef.fi/display/tktWiki/LAP+-+Laskennan+perusmallit+%283621317%2C+3op%29">materiaalit</a>, ja asiahan on oikeasti mielenkiintoista. Yksityiskohtien ulkoluku ei vain napostele.</p>
+    </div>
+    
+
+
+<p class="tags smalltags"> 
+<!--
+
+
+
+
+-->
+
+
+</p>
+    <div class="divider"><img src="../images/1.gif" alt="---" width="400" height="1" /></div>
+</div><div class="blog_entry" >
+    <p class="published mb-published">
+      17.02. klo 13:50
+      (<b style="color: white;">17. helmikuu 2011, 13:50</b>):
+    </p>
+    <div class="mb-post">
+      	<p>Huomenna olisi tentti laskentaan liittyen (äärelliset automaatit, pinoautomaatit), mutta ei ole kyllä yhtään motivaatiota lukea. Vitamiinipuutoksia tai jotain. Ja lisäksi aiheet ovat melko hyvin hallussa.</p>
+    </div>
+    
+
+
+<p class="tags smalltags"> 
+<!--
+
+
+
+
+-->
+
+Tageja: <a href="../tag/opiskelu/index.html" rel="tag">opiskelu</a>
+
+
+</p>
+    <div class="divider"><img src="../images/1.gif" alt="---" width="400" height="1" /></div>
+</div><div class="blog_entry" >
+    <p class="published mb-published">
+      17.02. klo 13:09
+      (<b style="color: white;">17. helmikuu 2011, 13:09</b>):
+    </p>
+    <div class="mb-post">
+      	<p>Vaihteeksi K1000:tta. Ohjelmistona samaa mitä eilen: Fluken Absurd-miksailuja.</p>
+    </div>
+    
+
+
+<p class="tags smalltags"> 
+<!--
+
+
+
+
+-->
+
+
+</p>
+    <div class="divider"><img src="../images/1.gif" alt="---" width="400" height="1" /></div>
+</div><div class="blog_entry" >
+    <p class="published mb-published">
+      17.02. klo 11:04
+      (<b style="color: white;">17. helmikuu 2011, 11:04</b>):
+    </p>
+    <div class="mb-post">
+      	<p>Nyt olisi hinku <span class="caps">SSD</span>-levylle.</p>
+    </div>
+    
+
+
+<p class="tags smalltags"> 
+<!--
+
+
+
+
+-->
+
+
+</p>
+    <div class="divider"><img src="../images/1.gif" alt="---" width="400" height="1" /></div>
+</div><div class="blog_entry" >
+    <p class="published mb-published">
+      17.02. klo 10:28
+      (<b style="color: white;">17. helmikuu 2011, 10:28</b>):
+    </p>
+    <div class="mb-post">
+      	<p>Nyt kyllä repäisi kylmän aamun. 31 celsiusta pakkasta. Naapurillakin on karvalakki päässä.</p>
+    </div>
+    
+
+
+<p class="tags smalltags"> 
+<!--
+
+
+
+
+-->
+
+
+</p>
+    <div class="divider"><img src="../images/1.gif" alt="---" width="400" height="1" /></div>
+</div><div class="blog_entry" >
+    <p class="published mb-published">
+      16.02. klo 20:25
+      (<b style="color: white;">16. helmikuu 2011, 20:25</b>):
+    </p>
+    <div class="mb-post">
+      	<p>Ergo <span class="caps">AMT</span> tekee kaikesta trancesta niin mystistä. Niin outoa (ilman bassoa) ja toisaalta niin älyttömän helposti seurattavaa. Koska basso on äärimmäisen vähäistä, kompressointi sen hyväksi tekee jänniä temppuja.</p>
+    </div>
+    
+
+
+<p class="tags smalltags"> 
+<!--
+
+
+
+
+-->
+
+Tageja: <a href="../tag/hifi/index.html" rel="tag">hifi</a>
+
+
+</p>
+    <div class="divider"><img src="../images/1.gif" alt="---" width="400" height="1" /></div>
+</div><div class="blog_entry" >
+    <p class="published mb-published">
+      16.02. klo 18:32
+      (<b style="color: white;">16. helmikuu 2011, 18:32</b>):
+    </p>
+    <div class="mb-post">
+      	<p>Rakastan Discogsia. Ovat tehneet aivan älyttömän upean palvelun. Klassikkojen ostaminen on helppoa ja <span class="caps">HALPAA</span>.</p>
+    </div>
+    
+
+
+<p class="tags smalltags"> 
+<!--
+
+
+
+
+-->
+
+
+</p>
+    <div class="divider"><img src="../images/1.gif" alt="---" width="400" height="1" /></div>
+</div><div class="blog_entry" >
+    <p class="published mb-published">
+      16.02. klo 18:26
+      (<b style="color: white;">16. helmikuu 2011, 18:26</b>):
+    </p>
+    <div class="mb-post">
+      	<p>Upeaa. Fluken Absurdia saa halvalla Discogsista.</p>
+    </div>
+    
+
+
+<p class="tags smalltags"> 
+<!--
+
+
+
+
+-->
+
+
+</p>
+    <div class="divider"><img src="../images/1.gif" alt="---" width="400" height="1" /></div>
+</div><div class="blog_entry" >
+    <p class="published mb-published">
+      16.02. klo 17:22
+      (<b style="color: white;">16. helmikuu 2011, 17:22</b>):
+    </p>
+    <div class="mb-post">
+      	<p><em>The Revels &#8211; Comanche</em> ei jumiudu <span class="caps">AMT</span>:llä lainkaan. Hämmentävää!</p>
+    </div>
+    
+
+
+<p class="tags smalltags"> 
+<!--
+
+
+
+
+-->
+
+
+</p>
+    <div class="divider"><img src="../images/1.gif" alt="---" width="400" height="1" /></div>
+</div><div class="blog_entry" >
+    <p class="published mb-published">
+      16.02. klo 16:03
+      (<b style="color: white;">16. helmikuu 2011, 16:03</b>):
+    </p>
+    <div class="mb-post">
+      	<p><code>^N command omni_complete</code></p>
+    </div>
+    
+
+
+<p class="tags smalltags"> 
+<!--
+
+
+
+
+-->
+
+
+</p>
+    <div class="divider"><img src="../images/1.gif" alt="---" width="400" height="1" /></div>
+</div><div class="blog_entry" >
+    <p class="published mb-published">
+      15.02. klo 18:14
+      (<b style="color: white;">15. helmikuu 2011, 18:14</b>):
+    </p>
+    <div class="mb-post">
+      	<p>Firefox tykkää taas kaatuilla pl-päätteisiin tiedostoihin. Yleensäkin jos tiedosto on merkattu avattavaksi ulkoisessa ohjelmassa, ketulla on taipumusta nikotella.</p>
+    </div>
+    
+
+
+<p class="tags smalltags"> 
+<!--
+
+
+
+
+-->
+
+
+</p>
+    <div class="divider"><img src="../images/1.gif" alt="---" width="400" height="1" /></div>
+</div><div class="blog_entry" >
+    <p class="published mb-published">
+      14.02. klo 20:29
+      (<b style="color: white;">14. helmikuu 2011, 20:29</b>):
+    </p>
+    <div class="mb-post">
+      	<p>No sehän kuva ei kääntynyt nätisti. Ilmeisesti imagemagick osasi napata vain yhden ikkunan sisällön näkösälle.</p>
+    </div>
+    
+
+
+<p class="tags smalltags"> 
+<!--
+
+
+
+
+-->
+
+
+</p>
+    <div class="divider"><img src="../images/1.gif" alt="---" width="400" height="1" /></div>
+</div><div class="blog_entry" >
+    <p class="published mb-published">
+      14.02. klo 20:28
+      (<b style="color: white;">14. helmikuu 2011, 20:28</b>):
+    </p>
+    <div class="mb-post">
+      	<p><a href="../kuvat/tweet-2011-02-14-202842.png"><img src="../kuvat/thumbs/thumb_tweet-2011-02-14-202842.png" title="" alt="" /></a></p>
+    </div>
+    
+
+
+<p class="tags smalltags"> 
+<!--
+
+
+
+
+-->
+
+
+</p>
+    <div class="divider"><img src="../images/1.gif" alt="---" width="400" height="1" /></div>
+</div>
+        </div>
+
+
+<!-- txp:older ei toimi kunnolla tagien kanssa. -->
+        <p>
+            <a href="index.html?pg=3">&#171; vanhemmat</a> 
+            <a href="index.html">uudemmat &#187;</a>
+        </p>
+
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

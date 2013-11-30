@@ -1,0 +1,283 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <!-- standard -->
+	<title>Mr. P: Elokuvista ja sarjoista</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=mietteet" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=mietteet" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="mietteet">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="elokuvista-ja-sarjoista#content">Siirry sisältöön</a></li>
+        <li><a href="elokuvista-ja-sarjoista#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            &raquo;
+            <a href="../index.html">Mietteet</a>
+            
+                <!--<ul>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/598/blogille-idea">Blogille&#160;idea</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/597/wes-mckinney-python-for-data-analysis-oreilly">Wes McKinney - Python For Data Analysis (O&#39;Reilly)</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/596/org-blogaaminen-vaikeata">Org-blogaaminen&#160;vaikeata</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/595/twitterointia-emacsilla">Twitteröintiä&#160;Emacsilla</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/594/weboodi-aikataulut-orgiin">WebOodi-aikataulut&#160;orgiin</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/592/emacs-has-me">Emacs has&#160;me.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/591/editorien-taistelu-tietamyshallinnassa">Editorien taistelu&#160;tietämyshallinnassa</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/590/think-vimorganizer">Think&#160;VimOrganizer.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/589/think-orgmode">Think&#160;orgmode.</a>
+                </li>
+</ul>-->
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="/kategoria/hifi/">Hifi</a></li>
+	<li><a href="/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="/kategoria/rauta/">Rauta</a></li>
+	<li><a href="/kategoria/viihde/">Viihde</a></li>
+	<li><a href="/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../../tag/blogisäätöä/index.html" class="tagSizeMedium tagSize24" style="font-size: 100%;">blogisäätöä</a></li>
+	<li><a href="../../tag/hifi/index.html" class="tagSizeMedium tagSize30" style="font-size: 100%;">hifi</a></li>
+	<li><a href="../../tag/musiikki/index.html" class="tagSizeMedium tagSize22" style="font-size: 100%;">musiikki</a></li>
+	<li><a href="../../tag/ohjelmointi/index.html" class="tagSizeLargest tagSize41" style="font-size: 100%;">ohjelmointi</a></li>
+	<li><a href="../../tag/opiskelu/index.html" class="tagSizeMedium tagSize16" style="font-size: 100%;">opiskelu</a></li>
+	<li><a href="../../tag/ostoksia/index.html" class="tagSizeMedium tagSize10" style="font-size: 100%;">ostoksia</a></li>
+	<li><a href="../../tag/pelaaminen/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">pelaaminen</a></li>
+	<li><a href="../../tag/vim/index.html" class="tagSizeMedium tagSize33" style="font-size: 100%;">vim</a></li>
+</ul>
+        <p><a href="../../tag/index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=mietteet" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=mietteet" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- not tag view, it's the main view -->
+
+
+        
+
+        <div class="hfeed">
+            <!-- five articles to list here, or only one. It depends. -->
+            <!-- default form -->
+
+<p class="published"> 6. toukokuu 2012, 11:36</p>
+<h1 class="entry-title"><a rel="bookmark" href="elokuvista-ja-sarjoista">Elokuvista ja&#160;sarjoista</a></h1>
+
+
+<div class="entry-content">
+	<p>Viihde on arvokas osa jokapäiväistä elämääni. Musiikki virtaa tälläkin hetkellä, ja nautin muista taiteenlajeista säännöllisesti. Fiktiiviset kuvaukset tuovat kaivattua vastapainoa nettisurffailun varsin faktapainotteiselle sisällölle. Fiktio on oiva tapa nollata ilman liuottimia.</p>
+
+	<p>Nyt soi muuten Skala Collectiven levy Black Constellation. Fuusiovaikutteista menoa. (Ja nyt oikoluvun aikana Fluxionin uusi Traces-levy.)</p>
+
+	<p><strong>Elokuvat, tv-sarjat, musiikki.</strong> Niistä koostuu minun pääasiallinen viihdeantini. Lomilla &#8216;elokuva per päivä&#8217; on tavoitteeni. Arkena, jos nukkumaan pitää mennä liian aikaisin, yksi jakso jotain sarjaa on sitten tarvittava tai riittävä lääke. TV-sarjoista puhuminen on nykyisin hyvin harhaanjohtavaa, tosin. Se ei ole mielestäni TV:n katsomista, jos katson jakson jotain ohjelmaa. TV:n katsomiseksi miellän joko erityisen vartavasten TV-formaattia mukaellen tehdyn ohjelman, kuten uutislähetyksen katsomisen. Ja sitten tietysti aina kun katson TV:tä TV:stä: suorana mainosten kera. Tätä en ole onneksi harjoittanut pitkiin aikoihin.</p>
+
+	<h2>Elokuvien löytäminen</h2>
+
+	<p>Ja jokaisella on oma makunsa elokuvien ja tv-sarjojen suhteen. Ajattelin miettiä paperille keinoja, joilla löydän uusia elokuvia kokeiltavaksi. Tämä menetelmäni on ehkä yleisluontoinen, ehkä se ei toimi kaikille ihmisille. Ajatusmallit voivat hyvinkin erota.</p>
+
+	<p>Tapausesimerkki. Kummisedät katsottuani <strong>Al Pacino</strong> osoittautuu niin lupaavaksi nimeksi, että etsin <span class="caps">IMDB</span>:stä hänen muita elokuviaan ja laajennan sinne päin. Pulp Fictionin katsottuani <strong>Quentin Tarantinon</strong> muut elokuvat pääsevät listalle. Sama <strong>Kubrickin</strong> ja <strong>Lynchin</strong> kanssa. Eli löydä yksi hyvä ja tee syvyyssuuntainen haku sinne suuntaan. Näyttelijät ja ohjaajat erityisesti kannattaa syynätä.</p>
+
+	<p>Entä miten kaikki tämä saadaan potkaistua käyntiin? Hyvähkö kysymys, mutta <span class="caps">IMDB</span> ja yleissivistys auttaa. <strong>Peter Jacksonin</strong> <span class="caps">LOTR</span>-trilogia, Matrixit, Kummisedät ja Tähtien sodat. Niistä saa jo hyvää tarttumapintaa. Jos et ajattele näyttelijöitä tai ohjaajia, niin tämä tapa ei toimi. Eli ei aivan yleismaailmallinen tapa.</p>
+
+	<p>Tapausesimerkki: Goodfellas ja Casino ovat niin loistavia elokuvia, että sitten <strong>Joe Pesci</strong> rupesi kiinnostamaan: löysin hyvän feelgood-elokuvan My Cousin Vinnie. Pesci näytteli Goodfellasissa niin kovaa jätkää, että vähän piti epäröidä. Mutta onhan hän Home Alone -elokuvissakin, ja Lethal Weapon -sarjassa. Käytännössä komedian ja draaman taitava mies.  </p>
+
+	<p>Onneksi mafiaelokuvista pidän kovasti. Saa valtavat määrät hyviä referenssejä ja näyttelijät osaavat useimmissa tunnetuissa mafiaelokuvissa hommansa. Esimerkiksi <strong>Robert DuVal</strong> on Kummisetien jälkeenkin tehnyt valtaisan joukon loistavia elokuvia, joihin en ehkä olisi edes tutustunut, ellei tuttu nimi olisi näkynyt näyttelijöiden joukossa. Esimerkkinä 1976 <strong>Network</strong>.</p>
+
+	<p>Näyttelytaitokaan ei välttämättä liity tähän näyttelijäkohtaiseen hakuun. Riittää, jos on oikein nätti tyttö, niin ne elokuvat kannattaa katsastaa. Laatu voi vaihdella miten sattuu, mutta olen löytänyt julmetun paljon loistavia elokuvia seuraamalla myös naiskauneutta. Esimerkkinä löysin <strong>The Book of Elin</strong> tällä keinoin. Ja julmetun hyviä elokuvia löytämällä voi edelleen tehdä uuden haun löytämillään hyvillä ja/tai kauniilla näyttelijöillä.</p>
+
+	<p>Nyt olen lukemassa yhtä elokuvaopasta (Cinema: The Whole Story), jossa käsitellään vuosikymmenittäin muutamia valikoituja elokuvia lyhyiden esittelyjen kanssa. Katsomislistalle saa pitkän numeron elokuvia. Tätä voisi kutsua leveyssuuntaiseksi hauksi. Samalla tavalla kuin <span class="caps">IMDB</span>:n top-listoja seuraamalla. Ja syvyyssuuntainen haku taas eteenpäin kunkin hyvän osuman kanssa.</p>
+
+	<p>Ja sitten tosiaan talk show&#8217;t kuten Conanin ja Craig Fergusonin ohjelmat: niissä näytetään pätkiä ja sieltä kautta on myös löytynyt monenmonta hyvää löytöä: <strong>Black Swan</strong> ja <strong>Swing Vote</strong> esimerkkeinä.</p>
+
+	<p>Nämä ovat minun tapojani löytää uutta katsottavaa. Toisin kuin jotkut, en mielelläni mene ja katso jokaista uutuuselokuvaa hyvän aarteen mielessä. Osumatarkkuus on liian pieni. Ehkä pitäisi ruveta lukemaan jotain uutiskirjettä, jossa olisi lyhyet arvostelut uutuuselokuvista.</p>
+
+	<h2>Sarjojen arvottamisesta</h2>
+
+	<p>Sarjoissa tilanne on hieman erilainen: ne kestävät paljon pidempään kuin elokuvat ja yksittäiset näyttelijät ja ohjaajat voivat sarjan sisällä vaihdella. Siispä olen ajan saatossa kehittänyt toisenlaisen lähestymistavan sarjoihin.</p>
+
+	<p>TV-sarjassa on kolme tekijää, joilla se voi nousta näkyville: miljöö, käsikirjoitus ja hahmot. Todella loistavissa sarjoissa kaikissa on paljon mukana, mutta usein riittää kaksi kolmesta. Kokeilen miettiä tapauksia, joissa minulle on riittänyt yksikin. Mutta ensin puretaan vähän auki tätä kolmijakoa:</p>
+
+	<ul>
+		<li><strong>Miljöö.</strong> Mitä tapahtuu, ja missä. Urbaanit kuvaukset iskevät paremmin kuin westernit. Onko kyseessä etsivätarina 2000-luvulta vai jotain lähiödraamaa. Entä 60-luvun mainostoimiston arki? Miten painotat: mikä kiinnostaa.</li>
+		<li><strong>Käsikirjoitus.</strong> Hyvä dialogi on oleellinen osa sarjaa. Ei riitä että haistapaska-tuubista pursutettu dialogi koristellaan lopuksi jollain sitaatilla (tyyliin <strong>Bruckheimer</strong>-sarjat). Pitää olla ulottuvuutta ja etevyyttä dialogissa. Dialogin lisäksi itse tarinan soisi etenevän loogisesti ja riittävän rauhallisesti. Sarjaa tehtäessä tahdin tulisi olla elokuvaa hitaampi. Hyvä sarja luottaa siihen, että seuraava jakso tuo uutta tullessaan.</li>
+		<li><strong>Hahmot.</strong> Käsiksen osana on hahmot, mutta hyvät hahmot ovat riittävän oleellinen osa. Hyvät näyttelijät hyviin hahmoihin, siinä se. Jotkut sarjat ovat onnistuneet luomaan täysin tappajakastin: mikään ei tunnu huonolta. Yleensä huonoa kastia ei huomaa, mutta loistavan kastin tuntee nahoissaan: sellainen euforinen tunne seuraa jokaisen jakson alkaessa. Sarjoissa, joissa on hyvin pieni vakiojoukko, tätä voi olla vaikeampi saada kasaan, koska vaihtuvat vieraat eivät saa tätä tunnetta aikaan. Vaikka vakiojoukko olisi kultaa.</li>
+	</ul>
+
+	<p>Näiden kolmen tekijän avulla arvotan jonkin verran. Ja miten löydän uusia sarjoja kokeiltavaksi? Etukäteen voin tutkia vain miljöötä. Ja pari jaksoa alusta riittää yleensä toteamaan loput tekijät kuntoon. Miljöö ja pilotti ovat käyntikortti + bisneslounas. Pelkkä pilotti ei tosin riitä: se tehdään yleensä erilleen muusta sarjasta, ja eroaa usein kovastikin muusta kirjoituksesta. Pilotteja yritetään liian kovasti, jotta yleisö ostaisi.</p>
+
+	<p>Twin Peaks ja Sopranos ovat kaksi sarjaa, joissa on kultainen näyttelijäkaarti. Niin kultainen, että kaikki osallisena olevat näyttelijät pääsevät aiemminmainittuun elokuvasyyniin. Sopranoksen tapaus on jännä, sillä suurin osa sen loistavista vakionäyttelijöistä toimi paria vuotta aikaisemmin Copland -elokuvassa. Omituinen ilmiö. Ensemble cast, mutta takaperin.</p>
+
+	<p>Sattumoisin Twin Peaks ja Sopranos ovat myös sarjoja, joissa on hyvä käsikirjoitus. Ei aivan täydellinen, mutta on niin paljon loistavia hetkiä, että se kelpuutetaan kultajoukkoon. Ja miljöötkin toimivat. Sopranosin kautta löytyi Mad Men, koska kuulin taustalla pyörivän samaa tuotantosakkia. Eikä se pettänyt. Eli sarjoja löytää hyvin tuttujen näyttelijöiden välityksellä. Twin Peaksin <strong>Michael Anderson</strong> esiintyy Carnivale-sarjassa, joka myös osoittautui oivalliseksi.</p>
+
+	<p>Tapaus House, M.D.: käsikirjoitus hyvästä erinomaiseen, hahmot ovat erinomaiset ja miljöö on ihan &#8216;ok&#8217;. Tämä olkoon esimerkkinä &#8216;kahtena kolmesta&#8217;.  Erinomaiset henkilöhahmot loistavat Housen tapaan myös Dexterissä. Hyviä sarjoja on valtavasti. X-Files voi olla hyvä esimerkki erinomaisesta sarjasta, jonka miljöö on ylitse muiden, vaikka käsikirjoitukset ja dialogi on perushyvää.</p>
+
+	<p>Tätä postausta olen ajatellut jo aika pitkään. Miksihän ei tullut aikaisemmin toteutettua? Tykkään löpistä lämpimikseni elokuvista ja sarjoista.</p>
+</div>
+
+<p class="tags"> 
+
+
+Tageja: <a href="../../tag/elokuvat/index.html" rel="tag">elokuvat</a>, 
+<a href="../../tag/televisio/index.html" rel="tag">televisio</a>
+
+
+</p>
+
+
+
+<div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+
+        </div>
+
+ <!-- now, common stuff -->
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+        <p><a rel="prev" href="../575/vim-kayttotaito-portaina" title="Vim-käyttötaito portaina">&#171; Vim-käyttötaito portaina</a> 
+           &mdash; <a rel="next" href="../577/kesapeleista" title="Kesäpeleistä">Kesäpeleistä &#187;</a>
+        </p>
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+        <h2>Aiheen vierestä</h2>
+        <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../571/tv-saato-on-nyt-valmis">TV-säätö on nyt&#160;valmis</a></span> &#183; <span class="published">2012-03-23</span>
+<br /><span class="smallexcerpt">No niin. Uuden NVidia-kortin ansiosta TV-episodi on käsitelty voitokkaasti. Jos rahalla asiasta selviämistä ei lasketa huijaamiseksi.
+
+	Oppirahoja tuli taas tosiaankin hassattua....</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../568/avoimet-suljetut-ja-se-vastapuoli">Avoimet, suljetut ja se&#160;vastapuoli</a></span> &#183; <span class="published">2012-03-11</span>
+<br /><span class="smallexcerpt">Radeonien kanssa on todellakin painittavaa. Kompromisseista on jotain valittava kontolleen, jos muut sitten sujuvatkin.
+
+	fglrx &#8212; se suljettu
+
+	Kaikki työpöytäkäyttö sujuu erihyvin....</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../567/tv-monitorit-ja-gentoo">TV, Monitorit ja&#160;Gentoo</a></span> &#183; <span class="published">2012-03-09</span>
+<br /><span class="smallexcerpt">Pari viikkoa sitten sain lahjaksi taulu-TV:n (Philipsin 42FPL3606, eli 42 tuumaa) ja totta kai se pitää saada kiinni tietokoneeseen pikselitarkalla...</span>
+</li>
+
+</ul>
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

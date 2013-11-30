@@ -1,0 +1,286 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <!-- standard -->
+	<title>Mr. P: Aika</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=mietteet" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=mietteet" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="mietteet">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="aika#content">Siirry sisältöön</a></li>
+        <li><a href="aika#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            &raquo;
+            <a href="../index.html">Mietteet</a>
+            
+                <!--<ul>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/598/blogille-idea">Blogille&#160;idea</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/597/wes-mckinney-python-for-data-analysis-oreilly">Wes McKinney - Python For Data Analysis (O&#39;Reilly)</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/596/org-blogaaminen-vaikeata">Org-blogaaminen&#160;vaikeata</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/595/twitterointia-emacsilla">Twitteröintiä&#160;Emacsilla</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/594/weboodi-aikataulut-orgiin">WebOodi-aikataulut&#160;orgiin</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/592/emacs-has-me">Emacs has&#160;me.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/591/editorien-taistelu-tietamyshallinnassa">Editorien taistelu&#160;tietämyshallinnassa</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/590/think-vimorganizer">Think&#160;VimOrganizer.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/589/think-orgmode">Think&#160;orgmode.</a>
+                </li>
+</ul>-->
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="/kategoria/hifi/">Hifi</a></li>
+	<li><a href="/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="/kategoria/rauta/">Rauta</a></li>
+	<li><a href="/kategoria/viihde/">Viihde</a></li>
+	<li><a href="/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../../tag/gentoo/index.html" class="tagSizeLargest tagSize95" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../../tag/hifi/index.html" class="tagSizeMedium tagSize21" style="font-size: 100%;">hifi</a></li>
+	<li><a href="../../tag/ohjelmointi/index.html" class="tagSizeMedium tagSize32" style="font-size: 100%;">ohjelmointi</a></li>
+	<li><a href="../../tag/opiskelu/index.html" class="tagSizeMedium tagSize7" style="font-size: 100%;">opiskelu</a></li>
+	<li><a href="../../tag/ostoksia/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">ostoksia</a></li>
+	<li><a href="../../tag/palvelin/index.html" class="tagSizeMedium tagSize27" style="font-size: 100%;">palvelin</a></li>
+	<li><a href="../../tag/rauta/index.html" class="tagSizeMedium tagSize13" style="font-size: 100%;">rauta</a></li>
+	<li><a href="../../tag/vim/index.html" class="tagSizeMedium tagSize24" style="font-size: 100%;">vim</a></li>
+</ul>
+        <p><a href="../../tag/index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=mietteet" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=mietteet" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- not tag view, it's the main view -->
+
+
+        
+
+        <div class="hfeed">
+            <!-- five articles to list here, or only one. It depends. -->
+            <!-- default form -->
+
+<p class="published">22. huhtikuu 2007, 16:50</p>
+<h1 class="entry-title"><a rel="bookmark" href="aika">Aika</a></h1>
+
+
+<div class="entry-content">
+<p>Tuntuu vähän typerältä tällä hetkellä.</p>
+<p>Olen samaistanut itseni nyt tiedon käyttäjäksi, sen hallitsijaksi. Tunnen tiedon ja sen lähteet. Kuitenkin hallitsen tuskin yhtään mitään.</p>
+<p>Lukiossa alkaa ensimmäinen vuosi olla valmista kauraa. Opinto-ohjaajalta sain vinkin suorittaa joitain yliopiston IT-kursseja valmiiksi, jolla tienaan melkoisen läjän kurssisuorituksia lukioon ja samalla ne vastaavat opintopisteet yliopistolle. Kuulostaisi hyvältä, minun pitänee tarttua siihen tilaisuuteen. En tiedä sitten, miten se käytännössä toimii, mutta ei tarvitse ainakaan enää huolehtia kurssisuorituksista yo-tutkintoa ajatellen.</p>
+<p>Lukio muuten on mennyt ihan kivasti. Pitkä matikka ja pitkä fysiikka olisi nuo tärkeimmät pääpainot mihin yritän panostaa. Matikan neljästä kurssista kurssikeskiarvo on 9,75 lukematta, fysiikan kahdesta kurssista 10. :) En usko että putki jatkuu näin hyvänä ainakaan fysiikan kanssa, mutta mistäs sitä tietää miten homma etenee. Kursseja olen valinnut siihen tyyliin, että jos nyt keskipäivälle sattuvalle koodille tulee eteen suurempaa valintaa niin yritän täyttää sen, kun taas aamu/iltapäivän koodille otan mieluummin hyppynä. Näin on päässyt käymään vain kerran, mutta jos otan em. yliopisto-opinnot kaveriksi (neljä helppoa kurssia, piece of nakki) niin varmasti otan jatkossa hieman lisää vapaata lukiosta. Opo kehotti jopa harkitsemaan 2 tai 2,5 vuoden suoritusta, mutta en minä stressiä halua entisestään kasvattaa. Hyvä jos jaksaa nytkään ihan levollisena höpistä.</p>
+<p>Tietokoneella tämä aika menee, sanoisinko, että hupenee. Pikkuhiljaa kun opiskelu alkaa kääntyä, mihin se sitten kääntyy, en tiedä vielä mikä tulee olemaan pääaineeni, koneiden merkitys opiskelun kannalta saattaa kasvaa.</p>
+<p>Töiden määrä on ollut laskussa viimevuoteen nähden. Palkka on suoraan sidonnainen siihen, joten alkaa ikävän laihalta näyttää tilit kuukausi toisensa jälkeen. Ehkä pitäisi harkita jotain tietoteknistä kesätyötä hankkimaan, pääsisi ensimmäistä kertaa toteuttamaan osaamisaluettani ja varmasti paremmalla palkalla kuin tuota lehtienjakoa. Todnäk sillä saisi jo parin kuukauden palkan tienaistua.</p>
+<p>Mitä tulee kuntooni, niin jo ajatus masentaa. Nyt on paino noussut taas pikkuhiljaa ja en uskalla kuvitella miten huonosti ensi viikolla oleva kuntotesti (lukion ensimmäinen pakollinen liikunta) menee.</p>
+<p>Mitä siihen pakolliseen, eli tietokoneeseen, kuuluu, niin se, että nyt on ollut tuskaisaa  mietiskellä miten ajattelen tulevan käyttöjärjestelmäni tässä pääkoneellani. Gentoo vai Windows. Valinta on itse asiassa vaikeampi kuin äkkiseltään luulisi.</p>
+<p>Ei siitä nyt oikein tunnu edes hyvältä puhua.</p>
+<p>Twin Peaksia on tullut katsottua. MTV3:lta kun alkoi niin innostuin katsomaan. Herranen aika, miten näin hyvä TV-sarja on oikein onnistunutkaan. David Lynch on kyllä yks nerolainen. Hankin DVD:t kun se loppui maikkarilla, vielä omituisesti loppui kakkoskauden kesken. Nytpä kelpaa katsella sitä dvd-laadulla, siinä missä mtv3 näytti vhs-versioita.</p>
+<p>Olisiko tässä nyt jotain juttua riittävästi tälle vuotta. Btw, nethackissa jäljellä Pri, Hea, Mon ja Ran. Toivottavasti naureskelen tälle entrylle parin kuukauden päästä kun olen mitä toivottavimmin ascendanut nämä loput ja saavuttanut siten kaikkien 13 roolin voiton itselleni.</p>
+<p>Ja vielä yksi juttu. Testailin tuota Das Keyboardia itsekin, Digicomp.fi:stä tilattuna. Jenkkilayoutillinen 'dassi' ei aivan toimi 105 näppäintä vaativassa suomalaisessa asettelussa joten palauttaahan se pitää. Ehkä, jos jaksan, tilaan 105-näppäimisen euroversion saksasta. On se nimittäin aika nätti näppis. Ja tuntuma oli ihan ok, kevyt kirjoitella ja sopii leetin egoni täytteeksi.</p>
+</div>
+
+<p class="tags"> 
+
+
+Tageja: <a href="../../tag/lynch/index.html" rel="tag">lynch</a>, 
+<a href="../../tag/nethack/index.html" rel="tag">nethack</a>, 
+<a href="../../tag/näppäimistöt/index.html" rel="tag">näppäimistöt</a>, 
+<a href="../../tag/opiskelu/index.html" rel="tag">opiskelu</a>
+
+
+</p>
+
+
+
+<div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+
+        </div>
+
+ <!-- now, common stuff -->
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+        <p><a rel="prev" href="../221/kyllae" title="Kyllä.">&#171; Kyllä.</a> 
+           &mdash; <a rel="next" href="../219/ulkoasu-vol-n" title="Ulkoasu, vol n.">Ulkoasu, vol n. &#187;</a>
+        </p>
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+        <h2>Aiheen vierestä</h2>
+        <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../../matematiikka/585/kompleksianalyysin-vuosi-2012-13">Kompleksianalyysin vuosi 2012-13</a></span> &#183; <span class="published">2012-08-12</span>
+<br /><span class="smallexcerpt">Lyhyt maininta opiskeluistakin tänne. Uusi lukuvuosi alkaa lupaavasti lukujärjestyksellä, joka ei sorvaa ketään päälletysten. Nyt kun olen virallisesti luonnontieteiden kandi...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../583/tou-hum-fem-neu-ascended">Tou-Hum-Fem-Neu&#160;ascended</a></span> &#183; <span class="published">2012-07-20</span>
+<br /><span class="smallexcerpt">Pitkästä aikaa Nethackia, ja sain turistini turvallisesti yläilmoihin. Koska kuusi-palvelimeni alla toiminut nethack-alasivusto on kuopattu jonnekin, kirjoitan vaihtelun vuoksi pienen...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../580/luonnontieteiden-kandidaatti">Luonnontieteiden&#160;kandidaatti</a></span> &#183; <span class="published">2012-07-12</span>
+<br /><span class="smallexcerpt">Kandin paperit ovat nyt virallisesti kasassa. Noppia on kasassa vähän ylimääräistäkin&#8212;-peräti 220. Sehän voisi tarkoittaa, että TKT:n maisteriksi voisi jollain...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../573/vim-oikolukuhommissa">Vim&#160;oikolukuhommissa</a></span> &#183; <span class="published">2012-04-10</span>
+<br /><span class="smallexcerpt">Kandintyö on nyt siinä pisteessä, että vain oikoluku on jäljellä. Plus sitten kaikki, mitä se ohjaaja keksii huomauttaa. Oikoluvusta kaikki...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../572/vim-editointia-suominappaimistolla">Vim-editointia&#160;suominäppäimistöllä</a></span> &#183; <span class="published">2012-04-03</span>
+<br /><span class="smallexcerpt">Vi ja Vim on suunniteltu ensisijaisesti käytettäväksi 104-näppäimisellä US -näppäimistölayoutilla. Pohjoismaalaiset 105-näppäilijät eivät välttämättä edes tiedosta, mitä menettävät käyttämällä Vimiä...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../556/korintaytto-ja-ahne-menetelma">Korintäyttö ja ahne&#160;menetelmä</a></span> &#183; <span class="published">2011-10-23</span>
+<br /><span class="smallexcerpt">Mietiskelen tässä korintäyttöä (bin packing) ja sitä, miten ahne menetelmä on joko ylipolynomiaalinen tai sitten epäoptimaalinen.  Luultavasti se on...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../matematiikka/324/lukuvuosi-2010-2011-matematiikan-kannalta">Lukuvuosi 2010-2011 matematiikan&#160;kannalta</a></span> &#183; <span class="published">2010-07-23</span>
+<br /><span class="smallexcerpt">Noniin, aika herätellä blogia horroksesta pienen suunnitelmallisuuden merkeissä. Yliopiston FyMa-laitos on jo saanut ulos tulevan lukuvuoden opetusohjelman, joten olen sieltä...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../matematiikka/320/lineaarialgebra-hoideltu">Lineaarialgebra&#160;hoideltu</a></span> &#183; <span class="published">2010-05-13</span>
+<br /><span class="smallexcerpt">Noniin, ensimmäinen vuosi yliopistoa takana. Kylläpä se aika juoksee. Tänään oli aamulla juuri toistaiseksi viimeinen tentti matikkaa. Ehkäpä tässä ensin...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../3/naeppaeimistoe-ja-blogihaaveita">Näppäimistö- ja&#160;blogihaaveita</a></span> &#183; <span class="published">2010-03-13</span>
+<br /><span class="smallexcerpt">Löysin uuden vanhan yhteisön, joka keskittyy näppäimistöjen suloiseen maailmaan. Ehkäpä Dassikka on pian siirtymässä takaisin kiertoon. Ehkäpä ei. Lisäksi olen...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../10/uusia-suunnitelmia">Uusia&#160;suunnitelmia</a></span> &#183; <span class="published">2010-01-24</span>
+<br /><span class="smallexcerpt">Tänään havahduin siihen, että filosofian maisteriksi pyristellessä on todellakin saatava täyteen kaksi sivuainetta, vaikka LuK-vaiheessa totuus jää vielä vähän hämäräksi....</span>
+</li>
+
+</ul>
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

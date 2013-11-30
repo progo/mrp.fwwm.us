@@ -1,0 +1,370 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <!-- standard -->
+	<title>Mr. P: Ostoksia</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=mietteet" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=mietteet" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="mietteet">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="ostoksia#content">Siirry sisältöön</a></li>
+        <li><a href="ostoksia#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            &raquo;
+            <a href="../index.html">Mietteet</a>
+            
+                <!--<ul>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/598/blogille-idea">Blogille&#160;idea</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/597/wes-mckinney-python-for-data-analysis-oreilly">Wes McKinney - Python For Data Analysis (O&#39;Reilly)</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/596/org-blogaaminen-vaikeata">Org-blogaaminen&#160;vaikeata</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/595/twitterointia-emacsilla">Twitteröintiä&#160;Emacsilla</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/594/weboodi-aikataulut-orgiin">WebOodi-aikataulut&#160;orgiin</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/592/emacs-has-me">Emacs has&#160;me.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/591/editorien-taistelu-tietamyshallinnassa">Editorien taistelu&#160;tietämyshallinnassa</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/590/think-vimorganizer">Think&#160;VimOrganizer.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/589/think-orgmode">Think&#160;orgmode.</a>
+                </li>
+</ul>-->
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="/kategoria/hifi/">Hifi</a></li>
+	<li><a href="/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="/kategoria/rauta/">Rauta</a></li>
+	<li><a href="/kategoria/viihde/">Viihde</a></li>
+	<li><a href="/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../../tag/blogisäätöä/index.html" class="tagSizeMedium tagSize26" style="font-size: 100%;">blogisäätöä</a></li>
+	<li><a href="../../tag/emacs/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">emacs</a></li>
+	<li><a href="../../tag/hifi/index.html" class="tagSizeMedium tagSize32" style="font-size: 100%;">hifi</a></li>
+	<li><a href="../../tag/musiikki/index.html" class="tagSizeMedium tagSize24" style="font-size: 100%;">musiikki</a></li>
+	<li><a href="../../tag/ohjelmointi/index.html" class="tagSizeLargest tagSize43" style="font-size: 100%;">ohjelmointi</a></li>
+	<li><a href="../../tag/opiskelu/index.html" class="tagSizeMedium tagSize18" style="font-size: 100%;">opiskelu</a></li>
+	<li><a href="../../tag/rauta/index.html" class="tagSizeMedium tagSize24" style="font-size: 100%;">rauta</a></li>
+	<li><a href="../../tag/vim/index.html" class="tagSizeMedium tagSize35" style="font-size: 100%;">vim</a></li>
+</ul>
+        <p><a href="../../tag/index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=mietteet" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=mietteet" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- not tag view, it's the main view -->
+
+
+        
+
+        <div class="hfeed">
+            <!-- five articles to list here, or only one. It depends. -->
+            <!-- default form -->
+
+<p class="published">12. tammikuu 2010, 17:38</p>
+<h1 class="entry-title"><a rel="bookmark" href="ostoksia">Ostoksia</a></h1>
+
+
+<div class="entry-content">
+<p>Eilen tuli uusi soittopeli, tänään vähän musiikkia kyytipojaksi. En ryhdy vallan arvostelua tekemään tässä, vaan pohdin vähän.</p>
+<p><!--more-->Ensin "pakollinen" kuvasarja:</p>
+<div id="attachment_943" class="wp-caption aligncenter" style="width: 310px"><a href="../../wp-content/uploads/2010/01/IMG_3618.jpg"><img class="size-medium wp-image-943" title="Marantz_paketti1" src="../../wp-content/uploads/2010/01/IMG_3618-300x225.jpg" alt="Marantz paketissaan, iso jötkäle" width="300" height="225" /></a><p class="wp-caption-text">Marantz paketissaan, iso jötkäle</p></div>
+<div id="attachment_944" class="wp-caption aligncenter" style="width: 310px"><a href="../../wp-content/uploads/2010/01/IMG_3619.jpg"><img class="size-medium wp-image-944" title="Marantz_paketti2" src="../../wp-content/uploads/2010/01/IMG_3619-300x225.jpg" alt="Vaihe yksi..." width="300" height="225" /></a><p class="wp-caption-text">Vaihe yksi...</p></div>
+<div id="attachment_945" class="wp-caption aligncenter" style="width: 310px"><a href="../../wp-content/uploads/2010/01/IMG_3620.jpg"><img class="size-medium wp-image-945" title="Marantz_paketti3" src="../../wp-content/uploads/2010/01/IMG_3620-300x225.jpg" alt="" width="300" height="225" /></a><p class="wp-caption-text">Pinta siintää horisontissa!</p></div>
+<div id="attachment_946" class="wp-caption aligncenter" style="width: 310px"><a href="../../wp-content/uploads/2010/01/IMG_3621.jpg"><img class="size-medium wp-image-946" title="Marantz_paketti4" src="../../wp-content/uploads/2010/01/IMG_3621-300x225.jpg" alt="" width="300" height="225" /></a><p class="wp-caption-text">Tumma rakastajani on saapunut</p></div>
+<p>Kuvat luonnollisesti alkuperäisessä koossaan klikkaamalla. Ei niissä mitään oikein näy kuitenkaan&#8230; Marantz PM80 on hieno vekotin, totta tosiaan. Tänään tuli kyytipojaksi kolme levyllistä hyvää musiikkia: vähän <em>Pat Methenyä</em> ja <em>She &amp; Him</em> -esittäjän ensilevy. Hyvää musiikkia kaikki, kaikin puolin.</p>
+<div id="attachment_949" class="wp-caption alignleft" style="width: 310px"><a href="../../wp-content/uploads/2010/01/IMG_3630.jpg"><img class="size-medium wp-image-949" title="Marantz_vasen" src="../../wp-content/uploads/2010/01/IMG_3630-300x225.jpg" alt="" width="300" height="225" /></a><p class="wp-caption-text">Vasen reuna on hiljainen...</p></div>
+<p>Takaisin Marantziin: mitäpä voisin sanoa? On kulunut vasta vuorokausi ja kuuntelutunteja uudella vekottimella on about tunnin verran. Siis on hyvin, hyvin varhaista sanoa mitään varsinaista vahvistimesta verrattuna vanhaan Technicsiin. Kuitenkin on yksi asia, missä PM80 nousee heti ylös: alemmat säröarvot korkeammissa volyymeissä ovat hyvin hienot, ja se merkitsee sitä, että esimerkiksi rummutus muuttuu tahdikkaammaksi, iskevämmäksi ja napsuvammaksi. Kuulen rumpukuviot kappaleista huomattavasti selvemmin kuin aikaisemmin. Bassoakin voisi luonnehtia parantuneeksi.</p>
+<div id="attachment_948" class="wp-caption alignright" style="width: 310px"><a href="../../wp-content/uploads/2010/01/IMG_3628.jpg"><img class="size-medium wp-image-948" title="Marantz_oikea" src="../../wp-content/uploads/2010/01/IMG_3628-300x225.jpg" alt="" width="300" height="225" /></a><p class="wp-caption-text">...oikea sitä vastoin täyteenahdettu</p></div>
+<p>Tästä kaikesta pääsemme kuitenkin yksimielisyyteen (lähinnä yksi mieli siis on tätä mieltä) kun soittoa on saatu tuntikaupalla kasaan. Ehkä helmikuun alussa. Tai hieman aikaisemmin, mutta ei nyt ihan tähän hätään. Monitoimija tämä laite kyllä muuten on: löytyy erillistä prosessorikierrosta, etuvahvistintoimintoja ja onpa luultavasti mahdollista kiertää myös etuvahvistin kokonaan, ja toimia päätteenä. PM80 syöksee ulos A-luokassa 25 wattia, ja ilman sitä, lähemmäksi 100 wattia. (DIN 4 ohmilla lupailee 180 wattia.) Luvut saattavat vähän heittää, mutta sinne päin kuitenkin. Myyjä ei muistanut laittaa manuaalia mukaan, vaan en kyllä kysynytkään, ja interneteistäkään ei nyt tähän hetkeen tunnu löytyvän käyttöopasta, vain teknisempi huoltomanuaali. Vaimennuskerroin on korkea 150, minkä sanotaan parantavan miesterveyttä, tai lähemmäksi sitä.</p>
+<p>Hyvin monipuolista. Kaiutinpäätteet on vaihdettu mukavannäköisiin kultaisiin, missä on banaanille tilaa. Harmi, kun tuo oma kaapelini ei tue muuta kuin vähän rumannäköisiä pätkiä ilmassa. Oman kaiutinkaapelin virittely ei kuitenkaan ole mahdoton urakka. Toiseen päähän pitäisi vain laittaa nelipinninen naaras-XLR -liitin. Lupasivat laitteelle sitä lämpöä, mutta ei tuo kovin kovasti sitä hehkuta. Ehkä en vain osaa? Puhdas A-luokkainen virta on kyllä ihan sulavankuuloista, mutta paikoitellen virran alkulähde häiritsee. Tuo Upsini, vaikka se ei suoraan liity hifin virtapiireihin, saattaa saastuttaa huoneeni lenkkiä kanttiaallollaan. Puskurointi voi sen negatioida tai sitten ei.</p>
+<div id="attachment_950" class="wp-caption alignleft" style="width: 310px"><a href="../../wp-content/uploads/2010/01/IMG_3634.jpg"><img class="size-medium wp-image-950" title="Vanha rigi" src="../../wp-content/uploads/2010/01/IMG_3634-300x225.jpg" alt="" width="300" height="225" /></a><p class="wp-caption-text">Vanha rigi ilman tilpehööriä. Kaikki laitteet osuivat kooltaan varsin hyvin </p></div>
+<p>Ah, niin se vain aika rientää. Uusi laitteisto kuulostaa niin lämpimältä, että näillä lyhykäisillä testiaineistoillani olen jäänyt vain nauttimaan mukavasta soinnista. K1000 on siitä hyvä kuuloke, että läpinäkyvyydessään (tai paremminkin tuntumattomuudessaan) jäljelle jää aidosti vain musiikki. Vielä pari kuukautta sitten saatoin vakavasti epäillä, oliko minulla kuulokkeet korvilla vaiko ei. Nyt se osio on ehkä hälvennyt, jää jäljelle tietoisuus mutta myös se läpinäkyvyys.</p>
+<div id="attachment_952" class="wp-caption alignleft" style="width: 310px"><a href="../../wp-content/uploads/2010/01/IMG_3661.jpg"><img class="size-medium wp-image-952" title="Uusi rigi" src="../../wp-content/uploads/2010/01/IMG_3661-300x225.jpg" alt="" width="300" height="225" /></a><p class="wp-caption-text">Ja nyt uusi rigi. Harmaata soittopeliä ei edes tohtisi lisätä soppaan</p></div>
+<p>Uusi rigi on geometrisesti epäyhteensopiva kasattavaksi päällekäin, vaan minkäs tekee kun ei pöytätilaa äärettömiin ole. DAC, upea DAC onkin, on huomattavasti "matalampi" kuin vahvistin, mutta sitten myös hitusen leveämpi. Se on toki plussaa, koska Marantzin kattopelti on ehkä tarkoituksella kovin heiveröistä. Mutta nyt muuntaja makailee jalat reunoilla, missä kaikki on tukevammin. Laitteiden väliin jää vain reilun sentin hajurako, joka vähän huolestuttaa, mutta sitäpä olenkin vasta tutkimassa nyt, että tuntuuko polttelevan kovastikin.</p>
+<p>En tähän keksi muutakaan turinoitavaa, niin kokeillaan WordPressin galleriaskriptiä loppuun. Jos totuuden sanoja virkotaan, tätä tekstiä kirjoitellessa tuli TextPatternia ja Vimiä ikävä. Aika kauheata kirjoitella epätoimivalla WYSIWYG-editorilla, mutta senhän te tiesittekin.</p>
+
+		<style type='text/css'>
+			#gallery-1 {
+				margin: auto;
+			}
+			#gallery-1 .gallery-item {
+				float: left;
+				margin-top: 10px;
+				text-align: center;
+				width: 50%;			}
+			#gallery-1 img {
+				border: 2px solid #cfcfcf;
+			}
+			#gallery-1 .gallery-caption {
+				margin-left: 0;
+			}
+		</style>
+		<!-- see gallery_shortcode() in wp-includes/media.php -->
+		<div id='gallery-1' class='gallery galleryid-942'><dl class='gallery-item'>
+			<dt class='gallery-icon'>
+				<a href='../../wp-content/uploads/2010/01/IMG_3618.jpg' title='Marantz_paketti1'><img width="150" height="150" src="../../wp-content/uploads/2010/01/IMG_3618-150x150.jpg" class="attachment-thumbnail" alt="Marantz paketissaan, iso jötkäle" title="Marantz_paketti1" /></a>
+			</dt>
+				<dd class='gallery-caption'>
+				Marantz paketissaan, iso jötkäle
+				</dd></dl><dl class='gallery-item'>
+			<dt class='gallery-icon'>
+				<a href='../../wp-content/uploads/2010/01/IMG_3619.jpg' title='Marantz_paketti2'><img width="150" height="150" src="../../wp-content/uploads/2010/01/IMG_3619-150x150.jpg" class="attachment-thumbnail" alt="Vaihe yksi..." title="Marantz_paketti2" /></a>
+			</dt>
+				<dd class='gallery-caption'>
+				Vaihe yksi&#8230;
+				</dd></dl><br style="clear: both" /><dl class='gallery-item'>
+			<dt class='gallery-icon'>
+				<a href='../../wp-content/uploads/2010/01/IMG_3620.jpg' title='Marantz_paketti3'><img width="150" height="150" src="../../wp-content/uploads/2010/01/IMG_3620-150x150.jpg" class="attachment-thumbnail" alt="Pinta siintää horisontissa!" title="Marantz_paketti3" /></a>
+			</dt>
+				<dd class='gallery-caption'>
+				Pinta siintää horisontissa!
+				</dd></dl><dl class='gallery-item'>
+			<dt class='gallery-icon'>
+				<a href='../../wp-content/uploads/2010/01/IMG_3621.jpg' title='Marantz_paketti4'><img width="150" height="150" src="../../wp-content/uploads/2010/01/IMG_3621-150x150.jpg" class="attachment-thumbnail" alt="Tumma rakastajani on saapunut" title="Marantz_paketti4" /></a>
+			</dt>
+				<dd class='gallery-caption'>
+				Tumma rakastajani on saapunut
+				</dd></dl><br style="clear: both" /><dl class='gallery-item'>
+			<dt class='gallery-icon'>
+				<a href='../../wp-content/uploads/2010/01/IMG_3627.jpg' title='Marantz_potikoita'><img width="150" height="150" src="../../wp-content/uploads/2010/01/IMG_3627-150x150.jpg" class="attachment-thumbnail" alt="" title="Marantz_potikoita" /></a>
+			</dt></dl><dl class='gallery-item'>
+			<dt class='gallery-icon'>
+				<a href='../../wp-content/uploads/2010/01/IMG_3628.jpg' title='Marantz_oikea'><img width="150" height="150" src="../../wp-content/uploads/2010/01/IMG_3628-150x150.jpg" class="attachment-thumbnail" alt="...oikea sitä vastoin täyteenahdettu" title="Marantz_oikea" /></a>
+			</dt>
+				<dd class='gallery-caption'>
+				&#8230;oikea sitä vastoin täyteenahdettu
+				</dd></dl><br style="clear: both" /><dl class='gallery-item'>
+			<dt class='gallery-icon'>
+				<a href='../../wp-content/uploads/2010/01/IMG_3630.jpg' title='Marantz_vasen'><img width="150" height="150" src="../../wp-content/uploads/2010/01/IMG_3630-150x150.jpg" class="attachment-thumbnail" alt="Vasen reuna on hiljainen..." title="Marantz_vasen" /></a>
+			</dt>
+				<dd class='gallery-caption'>
+				Vasen reuna on hiljainen&#8230;
+				</dd></dl><dl class='gallery-item'>
+			<dt class='gallery-icon'>
+				<a href='../../wp-content/uploads/2010/01/IMG_3634.jpg' title='Vanha rigi'><img width="150" height="150" src="../../wp-content/uploads/2010/01/IMG_3634-150x150.jpg" class="attachment-thumbnail" alt="Vanha rigi ilman tilpehööriä. Kaikki laitteet osuivat kooltaan varsin hyvin" title="Vanha rigi" /></a>
+			</dt>
+				<dd class='gallery-caption'>
+				Vanha rigi ilman tilpehööriä. Kaikki laitteet osuivat kooltaan varsin hyvin
+				</dd></dl><br style="clear: both" /><dl class='gallery-item'>
+			<dt class='gallery-icon'>
+				<a href='../../wp-content/uploads/2010/01/IMG_3650.jpg' title='Uusi rakenteilla'><img width="150" height="150" src="../../wp-content/uploads/2010/01/IMG_3650-150x150.jpg" class="attachment-thumbnail" alt="" title="Uusi rakenteilla" /></a>
+			</dt></dl><dl class='gallery-item'>
+			<dt class='gallery-icon'>
+				<a href='../../wp-content/uploads/2010/01/IMG_3661.jpg' title='Uusi rigi'><img width="150" height="150" src="../../wp-content/uploads/2010/01/IMG_3661-150x150.jpg" class="attachment-thumbnail" alt="Ja nyt uusi rigi. Harmaata soittopeliä ei edes tohtisi lisätä soppaan" title="Uusi rigi" /></a>
+			</dt>
+				<dd class='gallery-caption'>
+				Ja nyt uusi rigi. Harmaata soittopeliä ei edes tohtisi lisätä soppaan
+				</dd></dl><br style="clear: both" />
+			<br style='clear: both;' />
+		</div>
+</div>
+
+<p class="tags"> 
+
+
+Tageja: <a href="../../tag/hifi/index.html" rel="tag">hifi</a>, 
+<a href="../../tag/ostoksia/index.html" rel="tag">ostoksia</a>
+
+
+</p>
+
+
+
+<div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+
+        </div>
+
+ <!-- now, common stuff -->
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+        <p><a rel="prev" href="../14/joululahjoja" title="Joululahjoja">&#171; Joululahjoja</a> 
+           &mdash; <a rel="next" href="../12/naeyttoejae" title="Näyttöjä">Näyttöjä &#187;</a>
+        </p>
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+        <h2>Aiheen vierestä</h2>
+        <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../582/electrocompaniet-on-elossa">Electrocompaniet on&#160;elossa!</a></span> &#183; <span class="published">2012-07-18</span>
+<br /><span class="smallexcerpt">Melkein vuosi sitten rakas Electrocompaniet ECD1 pimeni kokonaan, ja sain vasta pari viikkoa sitten asiaan kunnollisen ratkaisun (nämä väliinjääneet 11...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../578/uusia-hifinakymia">Uusia&#160;hifinäkymiä</a></span> &#183; <span class="published">2012-06-23</span>
+<br /><span class="smallexcerpt">Syksyn opintolainat jo tilillä sitä tuntee itsensä niin kovin rikkaaksi ja vapaaksi törsäilemään. Schiit lupailee uuden MOSFET-pohjaisen balansoidun kuulokevahvistimen, joka...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../557/palvelin-tulossa-sittenkin">Palvelin tulossa&#160;sittenkin</a></span> &#183; <span class="published">2011-11-10</span>
+<br /><span class="smallexcerpt">Vaikka taannoin järkeilin palvelimen ostoa vastaan aika onnistunein argumentein, niin nyt sellaisen olen kuitenkin hommannut. Käytetystä raudasta kootan murossa jonkinlaisen...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../554/tulipa-netbook-ostettua">Tulipa netbook&#160;ostettua</a></span> &#183; <span class="published">2011-10-01</span>
+<br /><span class="smallexcerpt">Elitegroupin G10IL -mallinen miniläppäriksi luokiteltavissa netbook tuli ostettua. Saamme nähdä, miten tässä vielä käy.
+
+	Tämä on tavallinen nykynetbook, jossa on 10-tuumainen...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../549/uusi-filco-on-asemissa">Uusi Filco on&#160;asemissa</a></span> &#183; <span class="published">2011-09-07</span>
+<br /><span class="smallexcerpt">Tänään se Filco Majestouch tuli. Ei siinä pitkään mennyt! Aika jännä fiilis kaikkinensa dassikkaan nähden, tämä.
+
+	Cherry MX Brown -kytkimet ovat...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../548/uusi-nappaimistoni-filco-majestouch-2">Uusi näppäimistöni, Filco Majestouch-2</a></span> &#183; <span class="published">2011-09-04</span>
+<br /><span class="smallexcerpt">Aikaisempi ostoslistapostaus oli vähän kirottu, koska sen kirjoitettuani minulle valkeni, että voin &#8220;hyvillä mielin&#8221; nyt valita yhden kohteista, ja jättää...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../546/asioita-joita-olisi-mukava-omistaa">Asioita, joita olisi mukava&#160;omistaa</a></span> &#183; <span class="published">2011-09-01</span>
+<br /><span class="smallexcerpt">Ihan kirjoittamisen ilosta listailen vähän asioita, joita haluaisin omistaa. Mutta eivät ole välttämättömiä, eikä niihin voi perustella rahankäyttöäkään. Mutta olisivat...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../544/electrocompaniet-vikuroi-mika-tekee-hyvan-dac-muuntajan">Electrocompaniet vikuroi, mikä tekee hyvän DAC-muuntajan?</a></span> &#183; <span class="published">2011-08-26</span>
+<br /><span class="smallexcerpt">Hieno Electrocompaniet ECD1 -DAC:ini tykkää taas vähän vikuroida, ja se pitäisi epäilemättä kiikuttaa huoltoon. Paha vain, että lähin huolto on...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../514/amazon-kindle-yllattavan-hyva-laite">Amazon Kindle yllättävän hyvä&#160;laite</a></span> &#183; <span class="published">2011-02-27</span>
+<br /><span class="smallexcerpt">Amazon Kindle 3 on yllättävän hyvä ebook-lukija. Sitä suhtautuu skeptisesti pienien laitteiden voimiin, kun pöytäkoneidenkin verraten rajattomat resurssit eivät aina...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../352/oopperaa-rumiluksilla-kaunotar-ja-hirvio">Oopperaa&#160;rumiluksilla</a></span> &#183; <span class="published">2010-11-07</span>
+<br /><span class="smallexcerpt">Ostin tässä taannoin hauskat kuulokkeet, sveitsiläiset Ergo 2:t.
+
+	Ne ovat dynaamiset, kuten valtaosa muistakin markkinoiden kuulottimista. Elementit on kuitenkin kääritty upeasti...</span>
+</li>
+
+</ul>
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,315 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <!-- standard -->
+	<title>Mr. P: Mietteet</title>
+
+
+	<link rel="home" href="../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../atom/index.html?section=mietteet" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../rss/index.html?section=mietteet" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../rpc/index.html" />
+</head>
+
+<body id="mietteet">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="index.html?pg=4#content">Siirry sisältöön</a></li>
+        <li><a href="index.html?pg=4#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            &raquo;
+            <a href="index.html">Mietteet</a>
+            
+                <!--<ul>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/598/blogille-idea">Blogille&#160;idea</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/597/wes-mckinney-python-for-data-analysis-oreilly">Wes McKinney - Python For Data Analysis (O&#39;Reilly)</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/596/org-blogaaminen-vaikeata">Org-blogaaminen&#160;vaikeata</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/595/twitterointia-emacsilla">Twitteröintiä&#160;Emacsilla</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/594/weboodi-aikataulut-orgiin">WebOodi-aikataulut&#160;orgiin</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/592/emacs-has-me">Emacs has&#160;me.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/591/editorien-taistelu-tietamyshallinnassa">Editorien taistelu&#160;tietämyshallinnassa</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/590/think-vimorganizer">Think&#160;VimOrganizer.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/589/think-orgmode">Think&#160;orgmode.</a>
+                </li>
+</ul>-->
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="/kategoria/hifi/">Hifi</a></li>
+	<li><a href="/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="/kategoria/rauta/">Rauta</a></li>
+	<li><a href="/kategoria/viihde/">Viihde</a></li>
+	<li><a href="/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../tag/blogisäätöä/index.html" class="tagSizeMedium tagSize15" style="font-size: 100%;">blogisäätöä</a></li>
+	<li><a href="../tag/gentoo/index.html" class="tagSizeLargest tagSize95" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../tag/musiikki/index.html" class="tagSizeMedium tagSize13" style="font-size: 100%;">musiikki</a></li>
+	<li><a href="../tag/ohjelmointi/index.html" class="tagSizeMedium tagSize32" style="font-size: 100%;">ohjelmointi</a></li>
+	<li><a href="../tag/ostoksia/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">ostoksia</a></li>
+	<li><a href="../tag/palvelin/index.html" class="tagSizeMedium tagSize27" style="font-size: 100%;">palvelin</a></li>
+	<li><a href="../tag/rauta/index.html" class="tagSizeMedium tagSize13" style="font-size: 100%;">rauta</a></li>
+	<li><a href="../tag/vim/index.html" class="tagSizeMedium tagSize24" style="font-size: 100%;">vim</a></li>
+</ul>
+        <p><a href="../tag/index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../rss/index.html?section=mietteet" title="RSS 0.92">RSS</a> / <a href="../atom/index.html?section=mietteet" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- not tag view, it's the main view -->
+
+
+        
+            <h1 class="mainheader">Mietteet</h1>
+        
+
+        <div class="hfeed">
+            <!-- five articles to list here, or only one. It depends. -->
+            <!-- article_listing_own -->
+<div class="blog_entry" >
+    <p class="published">18. heinäkuu 2012, 17:39</p>
+    <h3 class="entry-title"><a rel="bookmark" href="582/electrocompaniet-on-elossa">
+        Electrocompaniet on&#160;elossa!
+    </a></h3>
+    <p>Melkein vuosi sitten rakas Electrocompaniet ECD1 <a href="544/electrocompaniet-vikuroi-mika-tekee-hyvan-dac-muuntajan">pimeni kokonaan</a>, ja sain vasta pari viikkoa sitten asiaan kunnollisen ratkaisun (nämä väliinjääneet 11 kuukautta käyttelin näpäkkää <span class="caps">DIY</span>-daccia Audio Labs -nimellä), eli postitin ECD1:n Vaasan Audiohuoltoon. Tuolloin vuosi sitten ei talous näyttänyt aivan niin hyvältä kuin nyt (vaikka pikemminkin tilanne on päinvastainen) ja nyt uskaltauduin puskemaan laitteen postin läpi huoltoon. Tietenkin kyselin kustannusarviot, ja kaikin puolin huolto maksoi kaikkineen 160 euroa, posteineen. Ja kun laite on nyt hengissä, mikäs sen parempi!</p>
+<p><a rel="bookmark" href="582/electrocompaniet-on-elossa">Lue lisää</a></p>
+    
+
+
+<p class="tags smalltags"> 
+<!--
+
+
+
+
+-->
+
+Tageja: <a href="../tag/hifi/index.html" rel="tag">hifi</a>
+
+
+</p>
+    <div class="divider"><img src="../images/1.gif" alt="---" width="400" height="1" /></div>
+</div><!-- article_listing_own -->
+<div class="blog_entry" >
+    <p class="published">12. heinäkuu 2012, 13:50</p>
+    <h3 class="entry-title"><a rel="bookmark" href="581/sumitup-puutteet-ja-mihin-suuntaan-edetaan">
+        SumItUp: puutteet ja mihin suuntaan&#160;edetään
+    </a></h3>
+    <p>Esittelin <a href="579/soulver-kloonia-rakentelemassa">pari postausta</a> sitten Soulver-kloonin raakileen, SumItUpin. Nyt se on GitHubissa kaikkien pällisteltävänä ja sellaisella raakileasteella, jotta sitä voi jo käyttää johonkin. Alustavat sc-näpräilyt esimerkiksi tulevan lukuvuoden kurssivalinnoistani on helppo siirtää joustavampaan muotoon, koska teksti (kurssien nimet) ovat kuitenkin dominoivassa asemassa. <a href="https://github.com/progo/summer">SumItUp Githubissa.</a> (Huom. SumItUp vaihtui nätimmäksi Summer-projektiksi.)</p>
+<p><a rel="bookmark" href="581/sumitup-puutteet-ja-mihin-suuntaan-edetaan">Lue lisää</a></p>
+    
+
+
+<p class="tags smalltags"> 
+<!--
+
+
+
+
+-->
+
+Tageja: <a href="../tag/koodailu/index.html" rel="tag">koodailu</a>, 
+<a href="../tag/ohjelmointi/index.html" rel="tag">ohjelmointi</a>, 
+<a href="../tag/python/index.html" rel="tag">python</a>, 
+<a href="../tag/vim/index.html" rel="tag">vim</a>
+
+
+</p>
+    <div class="divider"><img src="../images/1.gif" alt="---" width="400" height="1" /></div>
+</div><!-- article_listing_own -->
+<div class="blog_entry" >
+    <p class="published">12. heinäkuu 2012, 11:38</p>
+    <h3 class="entry-title"><a rel="bookmark" href="580/luonnontieteiden-kandidaatti">
+        Luonnontieteiden&#160;kandidaatti
+    </a></h3>
+    <p>Kandin paperit ovat nyt virallisesti kasassa. Noppia on kasassa vähän ylimääräistäkin&#8212;-peräti 220. Sehän voisi tarkoittaa, että <span class="caps">TKT</span>:n maisteriksi voisi jollain keinoin rushata tulevan lukuvuoden aikana.</p>
+<p><a rel="bookmark" href="580/luonnontieteiden-kandidaatti">Lue lisää</a></p>
+    
+
+
+<p class="tags smalltags"> 
+<!--
+
+
+
+
+-->
+
+Tageja: <a href="../tag/opiskelu/index.html" rel="tag">opiskelu</a>
+
+
+</p>
+    <div class="divider"><img src="../images/1.gif" alt="---" width="400" height="1" /></div>
+</div><!-- article_listing_own -->
+<div class="blog_entry" >
+    <p class="published"> 7. heinäkuu 2012, 17:58</p>
+    <h3 class="entry-title"><a rel="bookmark" href="579/soulver-kloonia-rakentelemassa">
+        Soulver-kloonia&#160;rakentelemassa
+    </a></h3>
+    <p>Erittäin upealla konseptilla varustettu laskinohjelma <a href="http://www.acqualia.com/soulver/">Soulver</a> kaatuu siihen, että sen saa vain Mäkille. Vapaamuotoinen näpertelyalusta on usein ainut asia, mitä laskimestani kaipaa. Ja erityisesti listata selväkielisesti jotain asioita ja lukuarvoja, ja saada niistä summaus selvästi esille. Eikä sellaista voi edes isommilla ohjelmilla kuten Maplella kunnolla emuloida. Koska Mäkkiä en nyt viitsi ostaa pelkän yhden sovelluksen takia, on jäljellä vaihtoehto kirjoittaa oma Soulver-like.</p>
+<p><a rel="bookmark" href="579/soulver-kloonia-rakentelemassa">Lue lisää</a></p>
+    
+
+
+<p class="tags smalltags"> 
+<!--
+
+
+
+
+-->
+
+Tageja: <a href="../tag/koodailu/index.html" rel="tag">koodailu</a>, 
+<a href="../tag/ohjelmointi/index.html" rel="tag">ohjelmointi</a>, 
+<a href="../tag/python/index.html" rel="tag">python</a>, 
+<a href="../tag/vim/index.html" rel="tag">vim</a>
+
+
+</p>
+    <div class="divider"><img src="../images/1.gif" alt="---" width="400" height="1" /></div>
+</div><!-- article_listing_own -->
+<div class="blog_entry" >
+    <p class="published">23. kesäkuu 2012, 15:12</p>
+    <h3 class="entry-title"><a rel="bookmark" href="578/uusia-hifinakymia">
+        Uusia&#160;hifinäkymiä
+    </a></h3>
+    <p>Syksyn opintolainat jo tilillä sitä tuntee itsensä niin kovin rikkaaksi ja vapaaksi törsäilemään. <a href="http://schiit.com/">Schiit</a> lupailee uuden <span class="caps">MOSFET</span>-pohjaisen balansoidun kuulokevahvistimen, joka on vain kolmasosan FirstWatt F1/F2:n hinnasta. Sait minut hereille!</p>
+<p><a rel="bookmark" href="578/uusia-hifinakymia">Lue lisää</a></p>
+    
+
+
+<p class="tags smalltags"> 
+<!--
+
+
+
+
+-->
+
+Tageja: <a href="../tag/hifi/index.html" rel="tag">hifi</a>
+
+
+</p>
+    <div class="divider"><img src="../images/1.gif" alt="---" width="400" height="1" /></div>
+</div>
+        </div>
+
+ <!-- now, common stuff -->
+
+<!-- txp:older ei toimi kunnolla tagien kanssa. -->
+        <p>
+            <a href="index.html?pg=5">&#171; vanhemmat</a> 
+            <a href="index.html?pg=3">uudemmat &#187;</a>
+        </p>
+
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

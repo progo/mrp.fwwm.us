@@ -1,0 +1,313 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <!-- standard -->
+	<title>Mr. P: Lukuvuosi 2010-2011 matematiikan kannalta</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=matematiikka" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=matematiikka" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="matematiikka">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="lukuvuosi-2010-2011-matematiikan-kannalta#content">Siirry sisältöön</a></li>
+        <li><a href="lukuvuosi-2010-2011-matematiikan-kannalta#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            &raquo;
+            <a href="../index.html">Matematiikka</a>
+            
+                <!--<ul>
+	<li>
+                    
+                    <a rel="bookmark" href="/matematiikka/585/kompleksianalyysin-vuosi-2012-13">Kompleksianalyysin vuosi 2012-13</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/matematiikka/545/uudet-matikan-kurssit-tilalle">Uudet matikankurssit&#160;tilalle</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/matematiikka/528/seuraavan-vuoden-suunnitelmat">Seuraavan vuoden&#160;suunnitelmat</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/matematiikka/367/matematiikkaa-syksylta-2010-ja-kevaalle-2011">Matematiikkaa syksyltä 2010 ja keväälle 2011</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/matematiikka/346/diffis-jatkuu">Diffis&#160;jatkuu</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/matematiikka/344/differentiaaliyhtaloiden-sietamaton-vaikeus">Differentiaaliyhtälöiden sietämätön&#160;vaikeus</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/matematiikka/334/analytiikan-tuulet-puhaltavat">Analytiikan tuulet&#160;puhaltavat</a>
+                </li>
+	<li>
+                    &rsaquo;
+                    <a rel="bookmark" href="/matematiikka/324/lukuvuosi-2010-2011-matematiikan-kannalta">Lukuvuosi 2010-2011 matematiikan&#160;kannalta</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/matematiikka/321/matematiikka-vaikuttaa-viestimiseeni">Matematiikka vaikuttaa&#160;viestimiseeni</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/matematiikka/320/lineaarialgebra-hoideltu">Lineaarialgebra&#160;hoideltu</a>
+                </li>
+</ul>-->
+            
+        </li>
+	<li>
+            
+            <a href="../../mietteet/index.html">Mietteet</a>
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="/kategoria/hifi/">Hifi</a></li>
+	<li><a href="/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="/kategoria/rauta/">Rauta</a></li>
+	<li><a href="/kategoria/viihde/">Viihde</a></li>
+	<li><a href="/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../../tag/blogisäätöä/index.html" class="tagSizeMedium tagSize25" style="font-size: 100%;">blogisäätöä</a></li>
+	<li><a href="../../tag/gentoo/index.html" class="tagSizeLargest tagSize105" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../../tag/opiskelu/index.html" class="tagSizeMedium tagSize17" style="font-size: 100%;">opiskelu</a></li>
+	<li><a href="../../tag/ostoksia/index.html" class="tagSizeMedium tagSize11" style="font-size: 100%;">ostoksia</a></li>
+	<li><a href="../../tag/palvelin/index.html" class="tagSizeMedium tagSize37" style="font-size: 100%;">palvelin</a></li>
+	<li><a href="../../tag/pelaaminen/index.html" class="tagSizeMedium tagSize2" style="font-size: 100%;">pelaaminen</a></li>
+	<li><a href="../../tag/skriptaus/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">skriptaus</a></li>
+	<li><a href="../../tag/vim/index.html" class="tagSizeMedium tagSize34" style="font-size: 100%;">vim</a></li>
+</ul>
+        <p><a href="../../tag/index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=matematiikka" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=matematiikka" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- not tag view, it's the main view -->
+
+
+        
+
+        <div class="hfeed">
+            <!-- five articles to list here, or only one. It depends. -->
+            <!-- default form -->
+
+<p class="published">23. heinäkuu 2010, 16:32</p>
+<h1 class="entry-title"><a rel="bookmark" href="lukuvuosi-2010-2011-matematiikan-kannalta">Lukuvuosi 2010-2011 matematiikan&#160;kannalta</a></h1>
+
+
+<div class="entry-content">
+	<p>Noniin, aika herätellä blogia horroksesta pienen suunnitelmallisuuden merkeissä. Yliopiston FyMa-laitos on jo saanut ulos tulevan lukuvuoden opetusohjelman, joten olen sieltä jo valinnut kiinnostavia kursseja päivien ratokseni. Pahkaisen <span class="caps">TKT</span>:n laitos ei ole vielä joutanut tekemään ohjelmia, joten en voi pitää valintojani lukkoonlyötyinä.</p>
+
+	<h2>Syksy</h2>
+
+	<p>Tärkein asia on ehdottomasti kurssi <em>Analyysi II</em>, yhdeksän pistettä ja syyslukukausi. Se kattaa kaikenlaista kivaa monen muuttujan funktioista ja niiden analyysistä.</p>
+
+	<blockquote>
+		<p>Useamman muuttujan funktioiden differentiaali- ja integraalilaskentaa siten, että pääpaino on dimensiossa kaksi. Keskeisiä aiheita mm. jatkuvuus ja osittaisderivaatta, differentioituvuus ja gradientti, ääriarvot, käyräintegraali sekä pintaintegraali.</p>
+	</blockquote>
+
+	<p>Siinä menee maittavasti alku. Mitä kaveriksi? Minulla on tässä hitto soikoon differentiaaliyhtälöistä kaksoiskurssi. Kurssin ensimmäinen osa kattaa oikein syventävästi asiat differentiaaliyhtälöistä, ja toinen osa murskaa loputkin mehut hedelmästä. Eihän siinä tietenkään päästä mihinkään oikeasti syvälliseen käsiksi, mutta sisällöt vaikuttavat oikein mojovilta. Ensimmäisellä:</p>
+
+	<blockquote>
+		<p>Kurssilla tarkastellaan eräitä differentiaaliyhtälötyyppejä jotka voidaan ratkaista tarkasti. Tällaisia ovat mm. lineaariset ja separoituvat tehtävät. Lisäksi esitellään suuntakenttä jonka avulla differentiaaliyhtälöä voidaan analysoida vaikka ratkaisua ei osattaisikaan laskea. Esimerkeissä käsitellään differentiaaliyhtälöiden sovellutuksia klassiseen mekaniikkaan ja populaatiodynamiikkaan.</p>
+	</blockquote>
+
+	<p>Tässä on se ongelma, että minulla ei ole harmaintakaan hajua differentiaaliyhtälöistä. Niitä toki esiintyi peruskurssilla, mutta enpä minä niitä sisäistänyt. Luin vain. Kokeessakin jätin suosiolla vastaamatta siihen. Nyt olisi kesällä aikaa opiskella asiaa, tai sitten jättää se ensimmäiselle viikolle harjoituksiin. Vaikea paikka. Entäs se jälkimmäinen kurssi?</p>
+
+	<blockquote>
+		<p>Kaikissa differentiaaliyhtälöiden realistisissa sovelluksissa täytyy tarkastella differentiaaliyhtälöryhmiä. Kurssi on johdatus tähän aihepiiriin, pääpainon ollessa kahden yhtälön ryhmän analyysissä. Erityisesti käsitellään lineaarisia yhtälöryhmiä, joita voidaan paljolti analysoida lineaarialgebran keinoin. Epälineaarisen tapauksen analyysissä keskeisiksi käsitteiksi nousevat tasapainopisteet ja vektorikenttä. Esimerkeissä tarkastellaan eräitä klassisen mekaniikan ja populaatiodynamiikan malleja.</p>
+	</blockquote>
+
+	<p>Kuulostaa hyvin helpolta, olettaen että olen omaksunut A-osan aineiston hyvin. Lineaarialgebrani tuntuu edelleen vahvalta, joten tunnen olevani hyvin valmis tälle kurssille.</p>
+
+	<h2>Kevät</h2>
+
+	<p>Alustavasti pari kurssia olen valinnut. Katson asiaa tarkemmin sitten, kun tiedän pääaineeni suunnitelmista jotain. Suoraan asiaan, koko kevään pyörivä kurssi <em>Analyysi <span class="caps">III</span></em>:</p>
+
+	<blockquote>
+		<p>Jatketaan kurssilla Analyysi I aloitettua yhden muuttujan funktioiden analyysia. Kurssin keskeisiä aiheita ovat sarjat, funktiojonot ja funktiotermiset sarjat sekä epäoleelliset integraalit. </p>
+	</blockquote>
+
+	<p>Kuten olen sanonut, Analyysit I ja <span class="caps">III</span> ovat tylsiä, kun taas parilliset mielenkiintoisia. Olettaisin kuitenkin saavan kolmoselle samanlaisen kipinän kuin ykkösellekin sain. Sitä paitsi käsiteltävät aiheet vaikuttavat melko helpoilta. Niitä kai sitten käydään aika syvällisesti läpi, olettaisin. </p>
+
+	<p>Ja vielä yksi kiva kurssi, josta ajattelin nauttia todella paljon. </p>
+
+	<blockquote>
+		<p>Kurssi keskittyy metrisen avaruuden topologian peruskäsitteisiin ja niiden välisiin yhteyksiin. Käsiteltäviä aiheita ovat mm. n-ulotteinen euklidinen avaruus, metriikka ja metrinen avaruus, avoimet ja suljetut joukot, joukon sulkeuma, sisäpisteet ja reunapisteet, ympäristöt, jonon suppeneminen ja funktion jatkuvuus metrisessä avaruudessa, metriikkojen ekvivalenssi, Cauchyn jono, täydellinen metrinen avaruus ja topologinen avaruus. Kurssi antaa perusvalmiuksia topologisten kysymysten kohtaamiseen opintojen myöhemmässä vaiheessa. Opettajalinjan näkökulmasta kurssi tarjoaa mahdollisuuden syventää alkeisanalyysiin liittyvien konvergenssikysymysten ymmärtämistä.</p>
+	</blockquote>
+
+	<p>Johdatus topologiaan tulee pyörimään tammi-maaliskuun ajan ja odotan sitä jo innolla. Kunnollista matematiikkaa! Jätetään käytännön pelleily nyt niille fyysikoille, ja aloitetaan miesten matikka. En kuitenkaan osaa vielä odottaa, mitä kaikkea se sitten sisältää ja mitä tämä kaikki merkitseekään. Palataan asiaan sitten lähempänä toteutumiskohtaa. Nyt alkusyksyn ajan tulen tuskailemaan noiden differentiaaliyhtälöiden kanssa, ja toivottavasti muistan myös kirjailla pohtimisiani myös tänne. Muistuttakaa, potkikaa perseelle, jos en. </p>
+</div>
+
+<p class="tags"> 
+
+
+Tageja: <a href="../../tag/opiskelu/index.html" rel="tag">opiskelu</a>
+
+
+</p>
+
+
+
+<div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+
+        </div>
+
+ <!-- now, common stuff -->
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+        <p><a rel="prev" href="../321/matematiikka-vaikuttaa-viestimiseeni" title="Matematiikka vaikuttaa viestimiseeni">&#171; Matematiikka vaikuttaa viestimiseeni</a> 
+           &mdash; <a rel="next" href="../334/analytiikan-tuulet-puhaltavat" title="Analytiikan tuulet puhaltavat">Analytiikan tuulet puhaltavat &#187;</a>
+        </p>
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+        <h2>Aiheen vierestä</h2>
+        <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../585/kompleksianalyysin-vuosi-2012-13">Kompleksianalyysin vuosi 2012-13</a></span> &#183; <span class="published">2012-08-12</span>
+<br /><span class="smallexcerpt">Lyhyt maininta opiskeluistakin tänne. Uusi lukuvuosi alkaa lupaavasti lukujärjestyksellä, joka ei sorvaa ketään päälletysten. Nyt kun olen virallisesti luonnontieteiden kandi...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/580/luonnontieteiden-kandidaatti">Luonnontieteiden&#160;kandidaatti</a></span> &#183; <span class="published">2012-07-12</span>
+<br /><span class="smallexcerpt">Kandin paperit ovat nyt virallisesti kasassa. Noppia on kasassa vähän ylimääräistäkin&#8212;-peräti 220. Sehän voisi tarkoittaa, että TKT:n maisteriksi voisi jollain...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/573/vim-oikolukuhommissa">Vim&#160;oikolukuhommissa</a></span> &#183; <span class="published">2012-04-10</span>
+<br /><span class="smallexcerpt">Kandintyö on nyt siinä pisteessä, että vain oikoluku on jäljellä. Plus sitten kaikki, mitä se ohjaaja keksii huomauttaa. Oikoluvusta kaikki...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/556/korintaytto-ja-ahne-menetelma">Korintäyttö ja ahne&#160;menetelmä</a></span> &#183; <span class="published">2011-10-23</span>
+<br /><span class="smallexcerpt">Mietiskelen tässä korintäyttöä (bin packing) ja sitä, miten ahne menetelmä on joko ylipolynomiaalinen tai sitten epäoptimaalinen.  Luultavasti se on...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../320/lineaarialgebra-hoideltu">Lineaarialgebra&#160;hoideltu</a></span> &#183; <span class="published">2010-05-13</span>
+<br /><span class="smallexcerpt">Noniin, ensimmäinen vuosi yliopistoa takana. Kylläpä se aika juoksee. Tänään oli aamulla juuri toistaiseksi viimeinen tentti matikkaa. Ehkäpä tässä ensin...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/10/uusia-suunnitelmia">Uusia&#160;suunnitelmia</a></span> &#183; <span class="published">2010-01-24</span>
+<br /><span class="smallexcerpt">Tänään havahduin siihen, että filosofian maisteriksi pyristellessä on todellakin saatava täyteen kaksi sivuainetta, vaikka LuK-vaiheessa totuus jää vielä vähän hämäräksi....</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/15/puoli-vuotta-takana">Puoli vuotta&#160;takana</a></span> &#183; <span class="published">2009-12-18</span>
+<br /><span class="smallexcerpt">On aika koostaa tänään päättynyt ensimmäinen puolivuotinen yliopisto-opinnoissa, jotka olivatkin muuten viimeiset Joensuun yliopistossa. Turinaa myös matikkaohjelmistoista.
+Niin, hyvä on. Paikka...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/29/ensimietteet-yliopistosta-ii">Ensimietteet yliopistosta&#160;II</a></span> &#183; <span class="published">2009-09-13</span>
+<br /><span class="smallexcerpt">Nyt on aika jatkaa mietteitä yliopistosta. Nämä mietteet siis jatkavat viikontakaisista, ehkä vähän turhankin aikaisista vaikutelmista. Nyt on jo paremmin...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/30/ensimietteet-yliopistosta">Ensimietteet&#160;yliopistosta</a></span> &#183; <span class="published">2009-09-06</span>
+<br /><span class="smallexcerpt">Olen nyt viettänyt akateemisessa maailmassa neljä päivää. Ensimmäisen päivän jälkeen iski ahdistus: tähän menee tuhottomasti aikaa! Toisen päivän jälkeen helpotti...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/31/laitoin-rainlendarin-ja-google-calendarin-synkkautumaan-keskenaeaen">Laitoin Rainlendarin ja Google Calendarin synkkautumaan&#160;keskenään</a></span> &#183; <span class="published">2009-09-04</span>
+<br /><span class="smallexcerpt">Koska nyt minusta tuntuu, että yliopisto tulee olemaan valtava kohde ajanvietolle päivittäin, on minun järjestettävä nyt viimeistään hyvät ajanpito-ominaisuudet. Pidän...</span>
+</li>
+
+</ul>
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

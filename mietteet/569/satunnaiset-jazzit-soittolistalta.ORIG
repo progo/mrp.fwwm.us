@@ -1,0 +1,385 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <!-- standard -->
+	<title>Mr. P: Satunnaiset jazzit soittolistalta</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=mietteet" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=mietteet" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="mietteet">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="satunnaiset-jazzit-soittolistalta#content">Siirry sisältöön</a></li>
+        <li><a href="satunnaiset-jazzit-soittolistalta#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            &raquo;
+            <a href="../index.html">Mietteet</a>
+            
+                <!--<ul>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/598/blogille-idea">Blogille&#160;idea</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/597/wes-mckinney-python-for-data-analysis-oreilly">Wes McKinney - Python For Data Analysis (O&#39;Reilly)</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/596/org-blogaaminen-vaikeata">Org-blogaaminen&#160;vaikeata</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/595/twitterointia-emacsilla">Twitteröintiä&#160;Emacsilla</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/594/weboodi-aikataulut-orgiin">WebOodi-aikataulut&#160;orgiin</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/592/emacs-has-me">Emacs has&#160;me.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/591/editorien-taistelu-tietamyshallinnassa">Editorien taistelu&#160;tietämyshallinnassa</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/590/think-vimorganizer">Think&#160;VimOrganizer.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/589/think-orgmode">Think&#160;orgmode.</a>
+                </li>
+</ul>-->
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="http://progo.viuhka.fi/kategoria/hifi/">Hifi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/rauta/">Rauta</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/viihde/">Viihde</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../../tag/blogisäätöä/index.html" class="tagSizeMedium tagSize25" style="font-size: 100%;">blogisäätöä</a></li>
+	<li><a href="../../tag/gentoo/index.html" class="tagSizeLargest tagSize105" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../../tag/ohjelmistot/index.html" class="tagSizeMedium tagSize4" style="font-size: 100%;">ohjelmistot</a></li>
+	<li><a href="../../tag/ohjelmointi/index.html" class="tagSizeMedium tagSize42" style="font-size: 100%;">ohjelmointi</a></li>
+	<li><a href="../../tag/ostoksia/index.html" class="tagSizeMedium tagSize11" style="font-size: 100%;">ostoksia</a></li>
+	<li><a href="../../tag/palvelin/index.html" class="tagSizeMedium tagSize37" style="font-size: 100%;">palvelin</a></li>
+	<li><a href="../../tag/python/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">python</a></li>
+	<li><a href="../../tag/vim/index.html" class="tagSizeMedium tagSize34" style="font-size: 100%;">vim</a></li>
+</ul>
+        <p><a href="../../tag/index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=mietteet" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=mietteet" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- not tag view, it's the main view -->
+
+
+        
+
+        <div class="hfeed">
+            <!-- five articles to list here, or only one. It depends. -->
+            <!-- default form -->
+
+<p class="published">18. maaliskuu 2012, 21:24</p>
+<h1 class="entry-title"><a rel="bookmark" href="satunnaiset-jazzit-soittolistalta">Satunnaiset jazzit&#160;soittolistalta</a></h1>
+
+
+<div class="entry-content">
+	<p>Jonkin aikaa sitten kirjailin nopean bash-skriptin, joka hakee haluamastaan <span class="caps">MPD</span>-soittolistasta tietyn verran kappaleita. Siten, että musiikkia saadaan noin tietyn aikarajan verran. Joskus kun on nimittäin kiva soittaa musiikkia sen 15 minuutin ajan, tai vaikka 45 minuuttia. Odotellessaan jotain. </p>
+
+	<p>Laiskana lähdin siitä, että <span class="caps">MPD</span> voisi hoitaa kaiken raskaan, ja bashista käsin vain kerron, mitä tehdään seuraavaksi.</p>
+
+	<ol>
+		<li>Ladataan haluttu soittolista <span class="caps">MPD</span>:hen.</li>
+		<li>Sekoitellaan se. Tämä helppo tehdä <span class="caps">MPD</span>:n puolella.</li>
+		<li>Pudotetaan yksi kappale listalta kunnes soittolistan kokonaispituus on alle tavoiteajan.</li>
+	</ol>
+
+	<p>Ensimmäinen hahmotelma teki asioita turhan laiskasti, mutta koska kyseinen skripti on kovin henkilökohtaiseen käyttöön oleva, en nähnyt syytä ruveta tehostamaan toimintaa. Kuitenkin kun lähdesoittolistan koko alkoi kasvaa, alkoi skriptinkin suoritus hidastua kovasti. Päättelin nopeasti, että tämä on naiivi kvadraattisen suoritusajan omaava skripti:</p>
+
+<pre class="bash"># soittolistan pituus minuutteina
+function pllength {
+    mpc --format &quot;%time%&quot; playlist |
+     sed -e &quot;s/^.*) //&quot; |
+     awk -F: &#39;{s += ($1*60) ; s+=$2} END{ m=int(s/60); printf &quot;%d\n&quot;, m;}&#39;
+}
+
+# minuutit ovat 1. argumentti
+mins=&quot;$1&quot; ; [ -z &quot;$1&quot; ] &amp;&amp; mins=15
+
+# argumentin validius on tärkeää, ettei jouduta ikilooppiin
+if [ &quot;$mins&quot; -le 0 ]  ; then
+    echo &quot;Väärä aika: $mins&quot;
+    return 1
+fi
+
+# soittolista toinen vaihtoehtoinen
+playlist=&quot;$2&quot; ; [ -z &quot;$2&quot; ] &amp;&amp; playlist=&quot;dinnerjazz&quot;
+
+echo Haetaan $mins minuuttia musiikkia...
+mpc clear            &gt; /dev/null
+mpc load &quot;$playlist&quot; &gt; /dev/null
+mpc shuffle          &gt; /dev/null
+
+while [ `pllength` -gt &quot;$mins&quot; ]
+do
+    mpc del 1        &gt; /dev/null
+done
+
+mpc play
+</pre>
+
+	<p>Soittolistaa on käsitelty epätarkasti minuuttitasolla tarkkojen sekuntien sijaan, jotta annettu aikaraja saisi vähän joustoa (15 minuutin vaatimuksen täyttäisi periaatteessa 15:30 kestävä katsaus). Nähdään melko suoraan, että määritelty apufunktio <code>pllength</code> vie lineaarisesti aikaa laskiessaan aina koko n-alkioisen soittolistan pituudet yhteen. Ja kun listaa aina vähennetään yhdeltä (aloittaen ylhäältä), on aika selvästi O(n²). </p>
+
+	<p>Nyt sitten tartuin tilaisuuteen (vaihtoehtona olisi ollut jatkaa kandin kanssa tappelua) ja kirjoitin saman mielestäni lineaarisessa ajassa. Alusta napsin pois samat argumenttitarkastukset.</p>
+
+<pre class="bash">echo -n Haetaan $mins minuuttia musiikkia...
+mpc clear            &gt; /dev/null
+mpc load &quot;$playlist&quot; &gt; /dev/null
+mpc shuffle          &gt; /dev/null
+
+# funktionaalisesti voittoon: kerätään listan ajat taulukkoon.
+# ( korjattu alle uusi, kts postauksen loppu)
+declare -a LENGTH=(`mpc --format &quot;%time%&quot; playlist | awk -F: &#39;{print $1*60}&#39;`)
+
+# lasketaan kertaalleen koko summa näistä.
+# tehdäänpä sekin funktionaalisesti
+TOTALTIME=`echo ${LENGTH[*]} | tr &#39; &#39; &#39;+&#39; | bc`
+
+# nyt varsinainen bisneslogiikka taas.
+i=0
+(( requiredtime = mins*60 ))
+
+while [ &quot;$TOTALTIME&quot; -gt &quot;$requiredtime&quot; ]
+do
+    mpc del 1       &gt; /dev/null
+    timerem=${LENGTH[$i]}
+    (( TOTALTIME = TOTALTIME - timerem ))
+    (( ++i ))
+done
+
+echo \ saimme $((TOTALTIME/60)) min
+mpc play
+</pre>
+
+	<p>Eli nyt teemme kappaleiden pituuksien ylösoton vain kerran. Ja vieläpä kovin funktionaaliseen tapaan! Laskemme kertaalleen lähtötilanteen kokonaispituuden. Tällä kertaa yksikkönä on alusta loppuun saakka sekunnit. Funktionaalisuudestaan huolimatta nämä ovat lineaarisia tuloksia, ainakin teoriassa. Käytämme dynaamisesti taulukoituja kappalepituuksia ja lyhennämme totaalista. </p>
+
+	<p>Tulos tuntuu nyt nopeammalta, selvästi lähempänä ideaalia O(n) -tulosta. Nyt saattaa tuo <code>mpc shuffle</code> olla sekin pullonkaulana, joskin minulla on muistikuva sekoittamisen olleen lineaarinen operaatio. Minuuttisysteemi tuntui olevan joustavampi, antaen välillä hieman ylimääräistä mutta ollen keskimäärin lähempänä tavoitetta kuin tämän tiukan sekuntijutun kanssa. Pitää kai vaihtaa pyöristystapaa tai lisätä löysää tuonne.</p>
+
+	<h2>Lisäystä tai korjausta</h2>
+
+	<p>Korjattu skripti käyttää tarkkoja mittoja kappalepituuksissa, siis sekunnilleen eksakteja. Tuloksena  skripti käyttäytyy lähempänä alkuperäistä toimintaa. Ilmeisesti sekuntien trunkkaaminen ajoista tekee hyvää tasaisuudelle. Pyöristys on toisaalta aina alaspäin, mutta vastapainoksipa empiria osoittaa tulosten olevan lähempänä haluttua.</p>
+
+	<p>Tietysti tämä ratkaisu ei ole optimaalinen. Vastaesimerkkejä on helppo rakentaa algoritmin päälle. Jos haluamme <img class="tex" src="http://l.wordpress.com/latex.php?latex=m&s=1&fg=FFFFFF&bg=000000" alt="m" />minuuttia musiikkia, ja soittolistan pohjalle arvotaan kappale, jonka pituus on yli <img class="tex" src="http://l.wordpress.com/latex.php?latex=m&s=1&fg=FFFFFF&bg=000000" alt="m" />, niin luonnollisesti jäämme tuloksitta. Toisaalta, jos ja kun kappaleiden tyyppipituus yleisesti on selvästi alle <img class="tex" src="http://l.wordpress.com/latex.php?latex=m&s=1&fg=FFFFFF&bg=000000" alt="m" />minuuttia, homma toimii suhteellisen hyvin. Tietysti toisenlaisessa käytössä tai tarkoituksessa tämä seikka voi koitua kohtalokkaaksi.</p>
+
+	<h2>Jatkokehityksiä</h2>
+
+	<p>Jos hifistellä haluaisi, voisi kappaleet lajitella pituuden mukaan tauluun, josta sitten painotetulla arvonnalla valittaisiin sellaisia kappaleita, jotka mahtuvat vielä olemassaolevaan tilaan. Onko tämä kysymys ollenkaan kombinatorinen, eli saako tästä edes NP-luokan ongelmaa? Emmehän voi puhua optimista (kuten vaikka &#8220;subset sum&#8221; -tapauksen tapaan), koska mielellään saisimme erilaisen tuloksen joka kerta.</p>
+</div>
+
+<p class="tags"> 
+
+
+Tageja: <a href="../../tag/bash/index.html" rel="tag">bash</a>, 
+<a href="../../tag/koodailu/index.html" rel="tag">koodailu</a>, 
+<a href="../../tag/mpd/index.html" rel="tag">mpd</a>, 
+<a href="../../tag/musiikki/index.html" rel="tag">musiikki</a>
+
+
+</p>
+
+
+
+<div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+
+        </div>
+
+ <!-- now, common stuff -->
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+        <p><a rel="prev" href="../568/avoimet-suljetut-ja-se-vastapuoli" title="Avoimet, suljetut ja se vastapuoli">&#171; Avoimet, suljetut ja se vastapuoli</a> 
+           &mdash; <a rel="next" href="../570/rakenteiset-taulukkolaskennat" title="Rakenteiset taulukkolaskennat">Rakenteiset taulukkolaskennat &#187;</a>
+        </p>
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+        <h2>Aiheen vierestä</h2>
+        <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../590/think-vimorganizer">Think&#160;VimOrganizer.</a></span> &#183; <span class="published">2012-09-02</span>
+<br /><span class="smallexcerpt">Asiat rullaavat eteenpäin tyydyttävää tahtia tämän uuden tiedonhallinnan kanssa. Nyt olen säätänyt kuntoon jokaisesta kulmasta toimivan org-capture -variantin, jolla saan...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../588/think">Think.</a></span> &#183; <span class="published">2012-08-21</span>
+<br /><span class="smallexcerpt">Hyvät ideat menevät usein hukkaan joko hajaantumisen tai unohtamisen merkeissä. Lyhyilläkin ajatuksilla on kovasti arvoa, jos useampi sellainen muodostaakin fiksuja...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../581/sumitup-puutteet-ja-mihin-suuntaan-edetaan">SumItUp: puutteet ja mihin suuntaan&#160;edetään</a></span> &#183; <span class="published">2012-07-12</span>
+<br /><span class="smallexcerpt">Esittelin pari postausta sitten Soulver-kloonin raakileen, SumItUpin. Nyt se on GitHubissa kaikkien pällisteltävänä ja sellaisella raakileasteella, jotta sitä voi jo...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../579/soulver-kloonia-rakentelemassa">Soulver-kloonia&#160;rakentelemassa</a></span> &#183; <span class="published">2012-07-07</span>
+<br /><span class="smallexcerpt">Erittäin upealla konseptilla varustettu laskinohjelma Soulver kaatuu siihen, että sen saa vain Mäkille. Vapaamuotoinen näpertelyalusta on usein ainut asia, mitä...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../571/tv-saato-on-nyt-valmis">TV-säätö on nyt&#160;valmis</a></span> &#183; <span class="published">2012-03-23</span>
+<br /><span class="smallexcerpt">No niin. Uuden NVidia-kortin ansiosta TV-episodi on käsitelty voitokkaasti. Jos rahalla asiasta selviämistä ei lasketa huijaamiseksi.
+
+	Oppirahoja tuli taas tosiaankin hassattua....</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../559/the-wall-tayttaa-32">The Wall täyttää 32</a></span> &#183; <span class="published">2011-11-30</span>
+<br /><span class="smallexcerpt">Vaihteeksi vähän kevyemmistä asioista. Eli tuli hyvä syy panna Pink Floydin legendaarinen The Wall soimaan. Tämä ikinuori mutta täyttää jo...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../547/pieni-tiedostolistausapu">Pieni&#160;tiedostolistausapu</a></span> &#183; <span class="published">2011-09-04</span>
+<br /><span class="smallexcerpt">Pitäisi viritellä joku zsh-funktio tekemään seuraavanlaisia tiedostolistauksia nykyisestä hakemistosta:
+
+$ ls -1
+foo.txt
+bar.txt
+paperi.tex
+vanhapaperi.tex.gz
+$ l .txt
+foo.txt
+bar.txt
+$ l peri
+paperi.tex
+vanhapaperi.tex.gz
+$ l v*p
+vanhapaperi.tex.gz
+$ ls $files
+vanhapaperi.tex.gz
+
+
+	Eli sen...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../542/git-repon-aktiivisuus-graafiksi">Git-repon aktiivisuus&#160;graafiksi</a></span> &#183; <span class="published">2011-08-15</span>
+<br /><span class="smallexcerpt">Tässä erilaisten projektien loukussa löysin itselleni pienen hengähdystauon kirjoittaessani bash-gnuplot -kaksikon, missä tutkin git-repojen aktiivisuutta graafin muodossa. Varmaan git gui...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../541/levyjen-hakemista-ihmisheuristiikoin">Levyjen hakemista&#160;ihmisheuristiikoin</a></span> &#183; <span class="published">2011-08-04</span>
+<br /><span class="smallexcerpt">Omasta musiikkisoittimesta on kai joskus tullut puhuttua. Nyt MPD-aikoina on luonnollista hakea sen sijaan oman MPD-asiakasohjelman pariin. Hitsi kun en...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../530/levyt-ja-miten-niihin-paasee-sisaan">Levyt, ja miten niihin pääsee&#160;sisään</a></span> &#183; <span class="published">2011-05-30</span>
+<br /><span class="smallexcerpt">Eräs mielenkiintoinen, toistuva havainto kuuntelutottumuksissani on se, että uutta levyä maistellessani pääsen sisään jonkun poikkeavan kappaleen avulla. Mutta sitten kun...</span>
+</li>
+
+</ul>
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

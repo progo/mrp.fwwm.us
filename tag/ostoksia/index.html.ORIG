@@ -1,0 +1,305 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <title>Mr. P: aiheesta ostoksia</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=tag" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=tag" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="tag">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="index.html#content">Siirry sisältöön</a></li>
+        <li><a href="index.html#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../mietteet/index.html">Mietteet</a>
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="http://progo.viuhka.fi/kategoria/hifi/">Hifi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/rauta/">Rauta</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/viihde/">Viihde</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../blogisäätöä/index.html" class="tagSizeMedium tagSize26" style="font-size: 100%;">blogisäätöä</a></li>
+	<li><a href="../emacs/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">emacs</a></li>
+	<li><a href="../gentoo/index.html" class="tagSizeLargest tagSize106" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../hifi/index.html" class="tagSizeMedium tagSize32" style="font-size: 100%;">hifi</a></li>
+	<li><a href="../ohjelmointi/index.html" class="tagSizeMedium tagSize43" style="font-size: 100%;">ohjelmointi</a></li>
+	<li><a href="../palvelin/index.html" class="tagSizeMedium tagSize38" style="font-size: 100%;">palvelin</a></li>
+	<li><a href="../pelaaminen/index.html" class="tagSizeMedium tagSize3" style="font-size: 100%;">pelaaminen</a></li>
+	<li><a href="../vim/index.html" class="tagSizeMedium tagSize35" style="font-size: 100%;">vim</a></li>
+</ul>
+        <p><a href="../index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=tag" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=tag" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- tag view -->
+
+    <h1 class="mainheader">Juttuja aiheesta ostoksia </h1>
+    <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/557/palvelin-tulossa-sittenkin">Palvelin tulossa&#160;sittenkin</a></span> &#183; <span class="published">2011-11-10</span>
+<br /><span class="smallexcerpt">Vaikka taannoin järkeilin palvelimen ostoa vastaan aika onnistunein argumentein, niin nyt sellaisen olen kuitenkin hommannut. Käytetystä raudasta kootan murossa jonkinlaisen...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/554/tulipa-netbook-ostettua">Tulipa netbook&#160;ostettua</a></span> &#183; <span class="published">2011-10-01</span>
+<br /><span class="smallexcerpt">Elitegroupin G10IL -mallinen miniläppäriksi luokiteltavissa netbook tuli ostettua. Saamme nähdä, miten tässä vielä käy.
+
+	Tämä on tavallinen nykynetbook, jossa on 10-tuumainen...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/548/uusi-nappaimistoni-filco-majestouch-2">Uusi näppäimistöni, Filco Majestouch-2</a></span> &#183; <span class="published">2011-09-04</span>
+<br /><span class="smallexcerpt">Aikaisempi ostoslistapostaus oli vähän kirottu, koska sen kirjoitettuani minulle valkeni, että voin &#8220;hyvillä mielin&#8221; nyt valita yhden kohteista, ja jättää...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/546/asioita-joita-olisi-mukava-omistaa">Asioita, joita olisi mukava&#160;omistaa</a></span> &#183; <span class="published">2011-09-01</span>
+<br /><span class="smallexcerpt">Ihan kirjoittamisen ilosta listailen vähän asioita, joita haluaisin omistaa. Mutta eivät ole välttämättömiä, eikä niihin voi perustella rahankäyttöäkään. Mutta olisivat...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/514/amazon-kindle-yllattavan-hyva-laite">Amazon Kindle yllättävän hyvä&#160;laite</a></span> &#183; <span class="published">2011-02-27</span>
+<br /><span class="smallexcerpt">Amazon Kindle 3 on yllättävän hyvä ebook-lukija. Sitä suhtautuu skeptisesti pienien laitteiden voimiin, kun pöytäkoneidenkin verraten rajattomat resurssit eivät aina...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/306/tietokoneen-paivittelya-pitkasta-aikaa">Tietokoneen päivittelyä pitkästä&#160;aikaa</a></span> &#183; <span class="published">2010-04-14</span>
+<br /><span class="smallexcerpt">Siitä on jo pitkä aika kun viimeksi olen uusinut kokoonpanoani. Olenhan moneen otteeseen puhunut siitä, että linux-kokoonpanoni ei varsinaisesti edellytä...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/13/ostoksia">Ostoksia</a></span> &#183; <span class="published">2010-01-12</span>
+<br /><span class="smallexcerpt">Eilen tuli uusi soittopeli, tänään vähän musiikkia kyytipojaksi. En ryhdy vallan arvostelua tekemään tässä, vaan pohdin vähän.
+Ensin "pakollinen" kuvasarja:
+Marantz paketissaan,...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/19/pientae-css-saeaetoeae">Pientä CSS-säätöä</a></span> &#183; <span class="published">2009-11-20</span>
+<br /><span class="smallexcerpt">Meninkin puhumaan siitä TextPatternista tässä yksi päivä, ja tilasin jo Amazonista sen TextPattern Solutions -teoksen, josta olen puhunut vielä aiemmin....</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/26/kone-pamahti-paeaetoes">Kone pamahti,&#160;päätös</a></span> &#183; <span class="published">2009-10-14</span>
+<br /><span class="smallexcerpt">Tänään sitten tuli viikko täyteen siitä, kun emolevy savusi ja jouduin kannettavan armoille.
+Mutta myös tuli eteen se päivä, kun sain...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/48/amazon-tilausta-part-deux">Amazon-tilausta Part&#160;Deux</a></span> &#183; <span class="published">2009-06-03</span>
+<br /><span class="smallexcerpt">Hyvää kesäkuuta kaikille, olitte sitten lomien tai töiden merkeissä lukemassa tai viihteellä. Vaikka teinkin juuri äskettäin omissa nimissäni pienimuotoista tilausta...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/53/uutta-luettavaa">Uutta&#160;luettavaa</a></span> &#183; <span class="published">2009-05-19</span>
+<br /><span class="smallexcerpt">
+A.k.a: Amazon on petollinen ja lompakonsyöjä. Tällä kertaa selvisin helpolla, koska tuloja ei ole. Pakko oli kuitenkin jotain pientä ostaa....</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/61/kovalevytilaa">Kovalevytilaa</a></span> &#183; <span class="published">2009-05-05</span>
+<br /><span class="smallexcerpt">Vaikka rahaa ei sadakaan joka kolkasta, ajattelin yhden kovalevyn ostaa koneeseen lisäksi. Nykyisin paras hinta-kokosuhde on jo teratavussa, eikä varmasti...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/75/on-taemae-vaikeata">On tämä&#160;vaikeata</a></span> &#183; <span class="published">2009-02-12</span>
+<br /><span class="smallexcerpt">Vaikeata on. Nimittäin lukuloman aloittaminen. Pääpainona fysiikka ja matikka. Kummallakaan näistä aineista ei liene varsinaista tarvetta petraamiseen, mutta toisaalta joku...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/78/taemae-on-kai-sitae-tervettae-hifiae">Tämä on kai sitä tervettä&#160;hifiä</a></span> &#183; <span class="published">2009-01-08</span>
+<br /><span class="smallexcerpt">Hifistejä syytetään usein siitä, että he kuuntelevat laitteitansa, eivät musiikkia. En ymmärrä kumpaakaan osapuolta tästä: niitä, ketkä yleistävät asian näin...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/82/paeivityksiae-rautaa">Päivityksiä,&#160;rautaa</a></span> &#183; <span class="published">2008-10-08</span>
+<br /><span class="smallexcerpt">Päivittelin kuusen tässä. Iloinen yllätys, että se jaksoi 48 päivitystä yhteen seisomaan, ilman faileja. Apassi sitten kiitteli ja kaatui, mutta...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/89/musiikin-varmistukset">Musiikin&#160;varmistukset</a></span> &#183; <span class="published">2008-08-18</span>
+<br /><span class="smallexcerpt">Tässä muutamia kauhutarinoita luettuani ajattelin, että voisin ulkoisen kovalevyn ostaa varmuuskopiokäyttöhön. Ulkoinen, miksi ei. Sillä on se hyvä etu, että...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/99/shell-fu">Shell-fu</a></span> &#183; <span class="published">2008-05-19</span>
+<br /><span class="smallexcerpt">Törmäsinpä hupaisaan pikku palveluun, joka on erittäin mielenkiintoinen. Kyseinen sivusto esittelee siis shell-kikkoja, jotkut ovat onelinereitä, jotkut vähän laajempia skriptien...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/137/sennheiserit">Sennheiserit!</a></span> &#183; <span class="published">2007-11-15</span>
+<br /><span class="smallexcerpt">Tilasinpa Sennheiserin HD600 ja HD650 -kuulokkeet. Siihen kaveriksi Cardasin kuulokejohto. En jaksa tehdä kaikista thumbnaileja, joten saatte sikaa säkissä.
+
+
+Ja minäkin
+Cardasin...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/164/hmmmh">Hmmmh</a></span> &#183; <span class="published">2007-09-21</span>
+<br /><span class="smallexcerpt">Tänään tuli se paketti, sisältäen Sennheiser HD595 -luurit, näppäimistön ja kovalevyn. Innokkaasti revin edellisen poksin pois ja boottasin odotellessani koneen,...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/175/rahoissa">Rahoissa</a></span> &#183; <span class="published">2007-09-08</span>
+<br /><span class="smallexcerpt">Serkku käy piipahtamassa ameriikoista ja tarjoaa minulle 50 euroa käteistä rahaa jolla voin ostaa jotain mieleistä koneeseeni. Kuinka jaloa, kuinka...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/201/hyvae-paeivae">Hyvä&#160;päivä</a></span> &#183; <span class="published">2007-08-17</span>
+<br /><span class="smallexcerpt">Tänään on otsikon mukaisesti hyvä päivä. Pääsi pois tästä Wordpressistä ja sen vitsauksista. Tein myös ostoksia.
+Linuxia varten:
+
+ Flat-näppäimistö muutamalla multimedianäpillä
+Samsung...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/207/naseva-otsikko">Naseva&#160;otsikko</a></span> &#183; <span class="published">2007-08-05</span>
+<br /><span class="smallexcerpt">Eirikuva.fi &mdash; digitaalikuvien paperinnospalveluun syydin 272 jpeggiä. Osa png:itä. Osa bmp:itä. Kaikki eivät ollut minun. &#196;iteeltä about pari sataa kuvaa...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/231/rauta-finale">Rauta,&#160;Finale</a></span> &#183; <span class="published">2006-08-28</span>
+<br /><span class="smallexcerpt">Laitoin Saksasta tulemaan osat, kun ei Suomessa tosiaan tunnu niitä missään olevan. Hieman hirvittää laittaa 400 euroa tuntemattomalle firmalle ulkomaille...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/240/cat-dev-random-blogientry">cat /dev/random &#62;&#62;&#160;blogientry</a></span> &#183; <span class="published">2006-08-01</span>
+<br /><span class="smallexcerpt">No ei ihan, mutta siltikään Gentoohon en taida päästä tässä käsiksi. Eli mietiskelen tässä vähäsen tuota minun rautashoppailua joka tyssäsi...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/242/nothing-special-happened-today">Nothing special happened&#160;today</a></span> &#183; <span class="published">2006-07-27</span>
+<br /><span class="smallexcerpt">Näin on näppylät. Gentoosta ei voi oikein puhua koska kaikki rullailee moitteetta. Ei ole mitään säädettävää, ei tunnu olevan kellään...</span>
+</li>
+
+</ul>
+    <h2>Lyhyitä sutkautuksia</h2>
+    
+
+
+ <!-- now, common stuff -->
+
+<!-- txp:older ei toimi kunnolla tagien kanssa. -->
+        <p>
+             
+            
+        </p>
+
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

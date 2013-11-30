@@ -1,0 +1,307 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <!-- standard -->
+	<title>Mr. P: Ohjelmointikielistä</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=mietteet" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=mietteet" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="mietteet">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="ohjelmointikielistae#content">Siirry sisältöön</a></li>
+        <li><a href="ohjelmointikielistae#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            &raquo;
+            <a href="../index.html">Mietteet</a>
+            
+                <!--<ul>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/598/blogille-idea">Blogille&#160;idea</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/597/wes-mckinney-python-for-data-analysis-oreilly">Wes McKinney - Python For Data Analysis (O&#39;Reilly)</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/596/org-blogaaminen-vaikeata">Org-blogaaminen&#160;vaikeata</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/595/twitterointia-emacsilla">Twitteröintiä&#160;Emacsilla</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/594/weboodi-aikataulut-orgiin">WebOodi-aikataulut&#160;orgiin</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/592/emacs-has-me">Emacs has&#160;me.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/591/editorien-taistelu-tietamyshallinnassa">Editorien taistelu&#160;tietämyshallinnassa</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/590/think-vimorganizer">Think&#160;VimOrganizer.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/589/think-orgmode">Think&#160;orgmode.</a>
+                </li>
+</ul>-->
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="http://progo.viuhka.fi/kategoria/hifi/">Hifi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/rauta/">Rauta</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/viihde/">Viihde</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../../tag/blogisäätöä/index.html" class="tagSizeMedium tagSize26" style="font-size: 100%;">blogisäätöä</a></li>
+	<li><a href="../../tag/emacs/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">emacs</a></li>
+	<li><a href="../../tag/gentoo/index.html" class="tagSizeLargest tagSize106" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../../tag/hifi/index.html" class="tagSizeMedium tagSize32" style="font-size: 100%;">hifi</a></li>
+	<li><a href="../../tag/opiskelu/index.html" class="tagSizeMedium tagSize18" style="font-size: 100%;">opiskelu</a></li>
+	<li><a href="../../tag/pelaaminen/index.html" class="tagSizeMedium tagSize3" style="font-size: 100%;">pelaaminen</a></li>
+	<li><a href="../../tag/rauta/index.html" class="tagSizeMedium tagSize24" style="font-size: 100%;">rauta</a></li>
+	<li><a href="../../tag/vim/index.html" class="tagSizeMedium tagSize35" style="font-size: 100%;">vim</a></li>
+</ul>
+        <p><a href="../../tag/index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=mietteet" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=mietteet" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- not tag view, it's the main view -->
+
+
+        
+
+        <div class="hfeed">
+            <!-- five articles to list here, or only one. It depends. -->
+            <!-- default form -->
+
+<p class="published">20. lokakuu 2009, 15:45</p>
+<h1 class="entry-title"><a rel="bookmark" href="ohjelmointikielistae">Ohjelmointikielistä</a></h1>
+
+
+<div class="entry-content">
+<p>Olen tätä asiaani pohtinut jo pidempäänkin, mutta tänään se sitten konkretisoitui keskusteluksi irkissä ja kirjoitan ajatuksiani auki tänne. Aiheena on siis hyvät tulkattavat kielet ja oikeastaan niiden puute.</p>
+<p><!--more-->Ensinnäkin ohjelmoijien suosikkivuodatukseen: PHP on yksi syntipesä. Se näyttää liian houkuttelevalta, helpolta. Ja sitten se osoittautuukin hankalaksi, ja vaatii kikkailua siellä, missä muut kielet ovat menneet hyvin suunniteltujen rakenteiden ansiosta ohitse. Toki, houkuttelevuus on mukava asia. PHP:ssä viehättää sen runsaus aika paljon, vaikka hyvin tiedänkin ne haittapuolet siinä: on vain jotenkin rentoa kirjoittaa lyhyt skripti käyttäen kaikkia saatavilla olevia herkkuja apunaan. GNU readline -tuki löytyy suoraan, jos komentorivi-interfacelle tekee ja merkkijonofunktioista löytyy joka sorttia. Tietokantoihin on helppo ottaa yhteys ja käsitellä niitä mielestäni. Mutta sitten hommat kaatuvatkin, kun jokin asia joudutaan tekemään esimerkiksi yhteensopivuuden nimissä uudestaan hieman toisella tavalla ja toisella nimellä. Nimiavaruuksia ei ole ja oliot ovat vielä aika raakileita mielestäni. Niiden kanssa olen kokeillut viritellä tässä viime viikonloppuna.</p>
+<p>Kun jossain kunnollisessa kielessä (C++, Java) tehdään luokkia ja aliluokkia, niiden välillä on oltava polymorfismiä hyvin, koska muuten hommassa ei ole oikein mieltä. Voidaan kirjoittaa sitten näin:</p>
+<pre>Yliluokka foo = <strong>new</strong> Aliluokka();</pre>
+<p>Ja niin edespäin. Sanovat tietysti, että polymorfismin hyödyntäminen osoittaa huonoa suunnittelua, mutta tietysti on tilanteita, joissa sitä tarvitaan. C++:n tapauksessa voidaan kirjoittaa vaikka minkälaisille tapauksille kopiomuodostimia ja kaikenlaista hienoa kikkailua. Ei vain PHP:ssä. Syynä on ensisijaisesti heikko tyypitys, joka tuottaa lähes poikkeuksetta vain harmaita hiuksia. Vahva tyypitys ei tuota niin minkäänlaisia ongelmia, kunhan siihen on tottunut. Sitä vastoin, tulokset ovat kaikki vahvan tyypityksen puolella.</p>
+<p>Meillä on liian vähän hyviä, vahvasti tyypitettyjä kieliä. Tai sitten ei ole: onhan meillä esimerkiksi python, joka on wikipedian mukaan vahvasti ja dynaamisesti tyypitetty. Ainakin puoliksi hyvin tehty. Mutta pythonissa on se ongelma, että se yrittää tehdä asiat liian toisella tavalla. Minulla olisi vain pari toivetta unelmien tulkattavaksi kieleksi:</p>
+<ol>
+<li>C:n tapainen syntaksi</li>
+<li>Ei mitään dollarimerkkejä muuttujanimissä. Eikö kukaan ole huomannut, että ne ovat rumia kuin synnit yhteensä?</li>
+<li>Vahva tyypitys</li>
+<li>Hyvät (lue: toimivat) olio-ominaisuudet</li>
+</ol>
+<p>Unelmatilanne olisi minusta, jos joku saisi viriteltyä C++:sta ajonaikaisen version vaikka vain pienien kompromissien avulla. Tai Javastakin voisi paremman puutteessa kelvata aidosti tulkattava versio. Siitähän voisi sitten nopeasti tehdä sen käännettävän mallin, jos hyvin kävisi.</p>
+<p>PHP:hen löytyi yksi ruma kikka: serialisoidaan olio merkkijonoksi, tehdään pieni str_replace ja palautetaan merkkijono (jossa on nyt uusi luokkanimi) olioksi. Se saa nyt kelvata minun viritelmääni. PHP on kiva kieli nopeaan virittelyyn ja ehkäpä juuri tilapäisiin ohjelmapalasiin. Niihin olen toki paljon käytellyt ihan tavallista bashia, mutta bashissa se vasta ruma syntaksi onkin, eikä olioista tietoakaan. Olen nyt tainnut päättää tutustua Pythonin mukavaan maailmaan kunnolla. Ja toinen esitelty valinta voisi olla Ruby. Molemmat kivoja, mutta se C-kielisyys puuttuu. Lua on varasijalla ja siinä on sentään se kunnossa. On tämä vaikeata. PHP on oikeastaan myös siksi hieno, että sille löytyy Sunin Java-toteutusten tapaan hyvät, kattavat ja selkeät dokumentaatiot aivan kädenulottuvilta. Ei oikein tohdi hypätä johonkin hyvin harvinaiseen kieleen käsiksi, koska siellä ei ole välttämättä riittävästi standardikirjastoja, hyvää dokumentaatiota tai muuten vain yhteisön tukea.</p>
+<p>Tulipas epäselvä vuodatus.</p>
+</div>
+
+<p class="tags"> 
+
+
+Tageja: <a href="../../tag/ohjelmointi/index.html" rel="tag">ohjelmointi</a>
+
+
+</p>
+
+
+
+<div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+
+        </div>
+
+ <!-- now, common stuff -->
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+        <p><a rel="prev" href="../24/havuviuhkafi" title="Havu.viuhka.fi">&#171; Havu.viuhka.fi</a> 
+           &mdash; <a rel="next" href="../22/hyvae-musiikki-ja-sen-komponentit" title="Hyvä musiikki ja sen komponentit">Hyvä musiikki ja sen komponentit &#187;</a>
+        </p>
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+        <h2>Aiheen vierestä</h2>
+        <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../587/tehokkaat-kayttoliittymat-vaivatta">Tehokkaat käyttöliittymät&#160;vaivatta</a></span> &#183; <span class="published">2012-08-16</span>
+<br /><span class="smallexcerpt">Ohjelmoijan onni on elää komentorivillä. Tehokkaiden käyttöliittymien rustaaminen on varsin nopeata, kunhan luottaa siihen, että suurta suosiota tuotokset eivät tule...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../584/pythonin-vastaisku-lispeille-ipython-ja-vim-ipython">Pythonin vastaisku lispeille: IPython ja vim-ipython</a></span> &#183; <span class="published">2012-07-25</span>
+<br /><span class="smallexcerpt">Tai &#8220;Pythonin uusi toivo&#8221; tai &#8220;Pythonin paluu&#8221;. Mistä on kyse? Pythonin tulkin me kaikki kai tiedämme: kaikki siinä periaatteessa on,...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../581/sumitup-puutteet-ja-mihin-suuntaan-edetaan">SumItUp: puutteet ja mihin suuntaan&#160;edetään</a></span> &#183; <span class="published">2012-07-12</span>
+<br /><span class="smallexcerpt">Esittelin pari postausta sitten Soulver-kloonin raakileen, SumItUpin. Nyt se on GitHubissa kaikkien pällisteltävänä ja sellaisella raakileasteella, jotta sitä voi jo...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../579/soulver-kloonia-rakentelemassa">Soulver-kloonia&#160;rakentelemassa</a></span> &#183; <span class="published">2012-07-07</span>
+<br /><span class="smallexcerpt">Erittäin upealla konseptilla varustettu laskinohjelma Soulver kaatuu siihen, että sen saa vain Mäkille. Vapaamuotoinen näpertelyalusta on usein ainut asia, mitä...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../566/terminaaleja-vimista-kasin">Terminaaleja Vimistä&#160;käsin</a></span> &#183; <span class="published">2012-02-11</span>
+<br /><span class="smallexcerpt">Vanha kunnon ConqueTerm on nyt valmis ja käyttökelpoinen tuote kehittelyyn.
+
+	Olen viime päivinä alkanut käyttää vimiä hyvin emacsmaisesti. Se on tietenkin...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../565/mita-on-kehittaa-clojurella">Mitä on kehittää&#160;Clojurella</a></span> &#183; <span class="published">2012-02-05</span>
+<br /><span class="smallexcerpt">C- ja muunkielisissä projekteissa tavataan kirjoittaa koodia ensin, ja sitten testataan. Tietysti vaatimus osittain syntyy koodin kääntämisestä; ilman kääntöä ei...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../564/ranskalaisten-viivojen-parsimista-clojurella">Ranskalaisten viivojen parsimista&#160;Clojurella</a></span> &#183; <span class="published">2012-02-02</span>
+<br /><span class="smallexcerpt">Kirjoitin männäviikolla kokeilumielessä ohjelman, joka kääntää ranskalaiset viivat Beamer-Latexiksi. Ideana olisi tuottaa esityksen lihapuoli nopeasti rustaamalla tiivistä merkintää ja sitten...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../556/korintaytto-ja-ahne-menetelma">Korintäyttö ja ahne&#160;menetelmä</a></span> &#183; <span class="published">2011-10-23</span>
+<br /><span class="smallexcerpt">Mietiskelen tässä korintäyttöä (bin packing) ja sitä, miten ahne menetelmä on joko ylipolynomiaalinen tai sitten epäoptimaalinen.  Luultavasti se on...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../551/tekijoita-clojurella">Tekijöitä&#160;Clojurella</a></span> &#183; <span class="published">2011-09-17</span>
+<br /><span class="smallexcerpt">Nyt olen joutunut opiskelemaan tuota lukuteoriaa ja sen alkeita, ja monet niistä teorioista ovat innoittaneet minulle pieniä Clojure-ohjelmia. Se pää...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../547/pieni-tiedostolistausapu">Pieni&#160;tiedostolistausapu</a></span> &#183; <span class="published">2011-09-04</span>
+<br /><span class="smallexcerpt">Pitäisi viritellä joku zsh-funktio tekemään seuraavanlaisia tiedostolistauksia nykyisestä hakemistosta:
+
+$ ls -1
+foo.txt
+bar.txt
+paperi.tex
+vanhapaperi.tex.gz
+$ l .txt
+foo.txt
+bar.txt
+$ l peri
+paperi.tex
+vanhapaperi.tex.gz
+$ l v*p
+vanhapaperi.tex.gz
+$ ls $files
+vanhapaperi.tex.gz
+
+
+	Eli sen...</span>
+</li>
+
+</ul>
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

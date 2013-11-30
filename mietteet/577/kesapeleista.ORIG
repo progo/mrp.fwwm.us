@@ -1,0 +1,232 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <!-- standard -->
+	<title>Mr. P: Kesäpeleistä</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=mietteet" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=mietteet" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="mietteet">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="kesapeleista#content">Siirry sisältöön</a></li>
+        <li><a href="kesapeleista#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            &raquo;
+            <a href="../index.html">Mietteet</a>
+            
+                <!--<ul>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/598/blogille-idea">Blogille&#160;idea</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/597/wes-mckinney-python-for-data-analysis-oreilly">Wes McKinney - Python For Data Analysis (O&#39;Reilly)</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/596/org-blogaaminen-vaikeata">Org-blogaaminen&#160;vaikeata</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/595/twitterointia-emacsilla">Twitteröintiä&#160;Emacsilla</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/594/weboodi-aikataulut-orgiin">WebOodi-aikataulut&#160;orgiin</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/592/emacs-has-me">Emacs has&#160;me.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/591/editorien-taistelu-tietamyshallinnassa">Editorien taistelu&#160;tietämyshallinnassa</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/590/think-vimorganizer">Think&#160;VimOrganizer.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/589/think-orgmode">Think&#160;orgmode.</a>
+                </li>
+</ul>-->
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="http://progo.viuhka.fi/kategoria/hifi/">Hifi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/rauta/">Rauta</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/viihde/">Viihde</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../../tag/blogisäätöä/index.html" class="tagSizeMedium tagSize9" style="font-size: 100%;">blogisäätöä</a></li>
+	<li><a href="../../tag/gentoo/index.html" class="tagSizeLargest tagSize89" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../../tag/musiikki/index.html" class="tagSizeMedium tagSize7" style="font-size: 100%;">musiikki</a></li>
+	<li><a href="../../tag/ohjelmointi/index.html" class="tagSizeMedium tagSize26" style="font-size: 100%;">ohjelmointi</a></li>
+	<li><a href="../../tag/opiskelu/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">opiskelu</a></li>
+	<li><a href="../../tag/palvelin/index.html" class="tagSizeMedium tagSize21" style="font-size: 100%;">palvelin</a></li>
+	<li><a href="../../tag/rauta/index.html" class="tagSizeMedium tagSize7" style="font-size: 100%;">rauta</a></li>
+	<li><a href="../../tag/vim/index.html" class="tagSizeMedium tagSize18" style="font-size: 100%;">vim</a></li>
+</ul>
+        <p><a href="../../tag/index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=mietteet" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=mietteet" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- not tag view, it's the main view -->
+
+
+        
+
+        <div class="hfeed">
+            <!-- five articles to list here, or only one. It depends. -->
+            <!-- default form -->
+
+<p class="published">27. toukokuu 2012, 13:12</p>
+<h1 class="entry-title"><a rel="bookmark" href="kesapeleista">Kesäpeleistä</a></h1>
+
+
+<div class="entry-content">
+	<p>Muutamia hyviä pelihetkiä on tässä keväällä koettu. Parhaan pelin sija taitaa siirtyä pois Vice Citystä viimein.</p>
+
+	<p>Kandin aikaan huhtikuussa oli <strong>Red Dead Redemption</strong> menossa. <span class="caps">RDR</span> ei kuitenkaan loppupeleissä ollut kovin kummoinen peli, ei ainakaan mieleinen. Eli en ole ainakaan tässä vaiheessa tulevaa Red Dead Revolutionia hommaamassa. <span class="caps">RDR</span> sisälsi keräilyelementtejä selvästi tietynlaisista muista peleistä napattuna. Pelatessa tuli siis lähinnä kaipuu Fallouttien maailmaan. Sitten myinkin Falloutit ja vaihdoin ne Fallout 3: <span class="caps">GOTY</span> -versioon, jotta riittää pelattavaa vähän pidemmäksikin aikaa.</p>
+
+	<p>Sitä olenkin tässä nyt nauttinut sopivammalla tahdilla kuin viimeksi. Otan rauhassa ja ujuttelen itseäni selailemaan maailmaa nyt kun Kuolonkourat eivät enää aiheuta välitöntä kuolemaa kohdatessaan. Mahtava pelikokonaisuus, jossa on vain liian lyhyt pääjuoni. Ilman Broken Steeliä homma jää liian paljaaksi, etenkin kun peliä ei voi jatkaa suoraan päätöksen jälkeen. Mutta noin muuten: se syvyys ja kaiken pikkudetaljin huuma. Keräilyvimma. Ehkä kokonaisuus kaipaisi pientä virittelyä, mutta nykyiselläänkin se on vahva peli. Vahvasti paras.</p>
+
+	<p>Mitäs muuta odoteltavissa? <strong><span class="caps">GTA</span> V</strong> on kaikesta huolimatta erittäin kiinnostava peli, jonka toivoo tulevan nopsaan (odotellessa tietysti pitää muistaa pelata GTA4:n lisäosat). <strong>Max Payne 3</strong> on myös luultavasti hyvä peli, vaikka ykkösestä on mahdotonta parantaa. Rockstarin muutkin tuotokset, kuten <strong>L.A. Noire</strong>, tuntuvat menestyvän hyvin ja hartaasti. Ehkä kokeilen, kunhan niitä alkaa saada käytettynä kympin pintaan.</p>
+
+	<p><strong>Civilization V</strong> käy ja kukkuu kiitettävästi, vaikka joudun rautarajoitteisena pelailemaan vain pienillä kartoilla.</p>
+
+	<p>Tulossa on myös Kickstarterin kautta rahoitettu <strong>Wasteland 2</strong>, joka on todennäköisesti aika tykki. Vaikka <span class="caps">FPS</span>-kuvakulma on tunnelman kannalta melkein pakollinen. Wasteland 2 tulee kuitenkin kivasti Fallout 4:n kaveriksi. Onkos siitä mitään uutisia&#8230; hyvin vähän näemmä. Näemmekö sitten uudelleenlämmitellyn New Vegasin vai jotain uutta. </p>
+
+	<h2>Kesäajelu</h2>
+
+	<p>Kesälle on myös menopeli, eli auto. Toyota Carina II 21 vuoden takaa. Sillä pitäisi vähän ajella ympäriinsä virikkeiden toivossa. Pelit eivät kestä ikuisesti. Kesän pitäisi alkaa jo hymyillä!</p>
+</div>
+
+<p class="tags"> 
+
+
+Tageja: <a href="../../tag/pelailu/index.html" rel="tag">pelailu</a>
+
+
+</p>
+
+
+
+<div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+
+        </div>
+
+ <!-- now, common stuff -->
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+        <p><a rel="prev" href="../576/elokuvista-ja-sarjoista" title="Elokuvista ja sarjoista">&#171; Elokuvista ja sarjoista</a> 
+           &mdash; <a rel="next" href="../578/uusia-hifinakymia" title="Uusia hifinäkymiä">Uusia hifinäkymiä &#187;</a>
+        </p>
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+        <h2>Aiheen vierestä</h2>
+        <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../583/tou-hum-fem-neu-ascended">Tou-Hum-Fem-Neu&#160;ascended</a></span> &#183; <span class="published">2012-07-20</span>
+<br /><span class="smallexcerpt">Pitkästä aikaa Nethackia, ja sain turistini turvallisesti yläilmoihin. Koska kuusi-palvelimeni alla toiminut nethack-alasivusto on kuopattu jonnekin, kirjoitan vaihtelun vuoksi pienen...</span>
+</li>
+
+</ul>
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

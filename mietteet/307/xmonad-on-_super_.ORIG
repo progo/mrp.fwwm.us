@@ -1,0 +1,256 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <!-- standard -->
+	<title>Mr. P: Xmonad on super</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=mietteet" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=mietteet" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="mietteet">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="xmonad-on-_super_#content">Siirry sisältöön</a></li>
+        <li><a href="xmonad-on-_super_#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            &raquo;
+            <a href="../index.html">Mietteet</a>
+            
+                <!--<ul>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/598/blogille-idea">Blogille&#160;idea</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/597/wes-mckinney-python-for-data-analysis-oreilly">Wes McKinney - Python For Data Analysis (O&#39;Reilly)</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/596/org-blogaaminen-vaikeata">Org-blogaaminen&#160;vaikeata</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/595/twitterointia-emacsilla">Twitteröintiä&#160;Emacsilla</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/594/weboodi-aikataulut-orgiin">WebOodi-aikataulut&#160;orgiin</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/592/emacs-has-me">Emacs has&#160;me.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/591/editorien-taistelu-tietamyshallinnassa">Editorien taistelu&#160;tietämyshallinnassa</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/590/think-vimorganizer">Think&#160;VimOrganizer.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/589/think-orgmode">Think&#160;orgmode.</a>
+                </li>
+</ul>-->
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="http://progo.viuhka.fi/kategoria/hifi/">Hifi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/rauta/">Rauta</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/viihde/">Viihde</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../../tag/amarok/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">amarok</a></li>
+	<li><a href="../../tag/gentoo/index.html" class="tagSizeLargest tagSize111" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../../tag/hifi/index.html" class="tagSizeMedium tagSize37" style="font-size: 100%;">hifi</a></li>
+	<li><a href="../../tag/ohjelmistot/index.html" class="tagSizeMedium tagSize10" style="font-size: 100%;">ohjelmistot</a></li>
+	<li><a href="../../tag/ohjelmointi/index.html" class="tagSizeMedium tagSize48" style="font-size: 100%;">ohjelmointi</a></li>
+	<li><a href="../../tag/ostoksia/index.html" class="tagSizeMedium tagSize17" style="font-size: 100%;">ostoksia</a></li>
+	<li><a href="../../tag/palvelin/index.html" class="tagSizeMedium tagSize43" style="font-size: 100%;">palvelin</a></li>
+	<li><a href="../../tag/vim/index.html" class="tagSizeMedium tagSize40" style="font-size: 100%;">vim</a></li>
+</ul>
+        <p><a href="../../tag/index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=mietteet" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=mietteet" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- not tag view, it's the main view -->
+
+
+        
+
+        <div class="hfeed">
+            <!-- five articles to list here, or only one. It depends. -->
+            <!-- default form -->
+
+<p class="published">15. huhtikuu 2010, 14:31</p>
+<h1 class="entry-title"><a rel="bookmark" href="xmonad-on-_super_">Xmonad on&#160;super</a></h1>
+
+
+<div class="entry-content">
+	<p>Kun <a href="http://www.google.com/search?source=ig&amp;hl=en&amp;rlz=&amp;=&amp;q=xmonad+using+conky&amp;aq=f&amp;aqi=&amp;aql=&amp;oq=&amp;gs_rfai">googlailen xmonadia</a>, eteeni tunkeutuu lähinnä ylistyslauluja ja erilaisia oppaita Xmonadin käyttöönottamiseksi. Eihän se ihmetytä, sillä onhan Xmonadissa sitä jotain. Oma Xmonad-käyttöönotto-opas jäi vähän puolitielle kun jäin miettimään jotain yleismaailmallista asennusta, joka ei ottaisi kantaa distrospesifisiin ratkaisuihin. Ehkäpä jatkan sen jossain välissä loppuun.</p>
+
+	<p>Tarkalleen ottaen googlaukseni tarkoituksena oli löytää ratkaisu käyttää conkya Xmonadin statusilmoittimena, mikäli se siihen kykenee. Katsokaapas, </p>
+
+	<p><a href="../../kuvat/tyopoyta_0415.png"><img src="../../kuvat/thumbs/thumb_tyopoyta_0415.png" title="" alt="" /></a></p>
+
+	<p>Minulla on kaksi &#8220;statusohjelmaa&#8221; kokoajan pyörimässä: vasemmalla näytöllä oleva pieniprofiilinen xmobar (vain tekstiä, tehokas, vähävirtainen) ja sitten on oikeassa alareunassa varsinainen rohmu, conky. Tehonkulutuksessa se ei sinänsä näy, mutta tilaa se syö.</p>
+
+	<p>Olen pariin otteeseen herkutellut ajatuksella, että droppaan conkyn pois (etenkin silloin, kun näyttöjä oli kolme, ja conkyn läpinäkyvyys ja kaksoispuskurointi ei toiminut sitten lainkaan), mutta conkylla on myös sekondaarinen missio, miltei tärkeämpi kuin sen primaarimissio: pitää Xmonad erossa Rainlendarista, kalenterista. Tästä syystä conkya ei voi myöskään paljoa lähteä kaventamaan, koska kalenteri määrää kuitenkin alarajat. </p>
+
+	<p>Tilanne on melko tympeä mielestäni. Ilman aina näkyvää kalenteria olisin ns. hukassa, ellen sitten ottaisi jotain Xmonadiin erityisesti liittyvää toimintaa (esimerkiksi kiitos tehokkaan workspace-vaihtelun, voisin pyhittää jonkun työalueen kokoruutu-<span class="caps">PIM</span>-ohjelmalle). Toisaalta Rainlendarin vahvuus piilee osittain sen simppelissä esteettisyydessä. </p>
+
+	<p>Niin, tästä sitten tultaneen johtopäätökseen, että jospa droppaisin xmobarin pois, ja asettaisin conkyn toimimaan tällaisena työpöytäilmaisimena. Mutta tätä kirjoitellessa tulin jo siihen johtopäätökseen, että se on pikemminkin conky, joka lähtee, kuin tuollainen vertikaalinen ratkaisu. Sitä paitsi conkynkin voi konffata kokonaiseksi palkiksi&#8230;. ainut rajoittava tekijä tässä on tuo Rainlendar. Se toimii kerrassaan mahtavasti, jos käytössä on perinteinen Layered Windows -asetelma, kuten vaikka Fluxboxissa on. </p>
+</div>
+
+<p class="tags"> 
+
+
+Tageja: <a href="../../tag/xmonad/index.html" rel="tag">xmonad</a>
+
+
+</p>
+
+
+
+<div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+
+        </div>
+
+ <!-- now, common stuff -->
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+        <p><a rel="prev" href="../306/tietokoneen-paivittelya-pitkasta-aikaa" title="Tietokoneen päivittelyä pitkästä aikaa">&#171; Tietokoneen päivittelyä pitkästä aikaa</a> 
+           &mdash; <a rel="next" href="../308/phenom-ii" title="Phenom II">Phenom II &#187;</a>
+        </p>
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+        <h2>Aiheen vierestä</h2>
+        <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../529/konffitiedostojen-toteuttamisesta">Konffitiedostojen&#160;toteuttamisesta</a></span> &#183; <span class="published">2011-05-28</span>
+<br /><span class="smallexcerpt">Erilaisia rc-tiedostoja (runtime configuration) on vaikka pilvin pimein, ja syitä tähän on monia. Yksi on erilaiset vaatimukset hyvältä konffilta, ja...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../345/muistinkulutuksesta-vol-n">Muistinkulutuksesta, vol.&#160;n</a></span> &#183; <span class="published">2010-10-14</span>
+<br /><span class="smallexcerpt">On jälleen aika valistaa lukijoita hourailulla, kuinka ennen oli asiat toisin ja muistinkäyttökin aisoissa. Paitsi, että nykyisellään näyttää aika hyvältä.
+
+	Laitetaanpa...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../340/rainlendar-pitaa-paikkansa">Rainlendar pitää&#160;paikkansa</a></span> &#183; <span class="published">2010-09-23</span>
+<br /><span class="smallexcerpt">Uskomatonta, todella uskomatonta. Eilen kirjoitin Rainlendarin ja Xmonadin välisistä kahnauksista, sekä hahmottelin alustavaa korvaajaa Rainlendarille Luan ja Pythonin kanssa. Mutta...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../311/ensimmainen-taistelu-havittiin">Ensimmäinen taistelu&#160;hävittiin</a></span> &#183; <span class="published">2010-04-26</span>
+<br /><span class="smallexcerpt">Aiemmin tuskailin mm. jäähdytyksen kanssa, kehuin nopeita kiintolevyosioita ja muuta sellaista kivaa. Tänään otin tuumasta toimen, ja vaihdoin liimat jäähdyttimen...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../5/xmonad">Xmonad</a></span> &#183; <span class="published">2010-02-15</span>
+<br /><span class="smallexcerpt">Sitten viime jakson on tapahtunut kaikenlaista tässä. Viikko sitten kirjoittamassani jutussa valittelin sitä, kun Xinerama tuhoaa suorituskyvyn ja kaiken siihen...</span>
+</li>
+
+</ul>
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

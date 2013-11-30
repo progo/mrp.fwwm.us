@@ -1,0 +1,218 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <!-- standard -->
+	<title>Mr. P: Reaalianalyysia, lopputentti</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=matematiikka" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=matematiikka" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="matematiikka">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="reaalianalyysia-lopputentti#content">Siirry sisältöön</a></li>
+        <li><a href="reaalianalyysia-lopputentti#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            &raquo;
+            <a href="../index.html">Matematiikka</a>
+            
+                <!--<ul>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/matematiikka/585/kompleksianalyysin-vuosi-2012-13">Kompleksianalyysin vuosi 2012-13</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/matematiikka/545/uudet-matikan-kurssit-tilalle">Uudet matikankurssit&#160;tilalle</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/matematiikka/528/seuraavan-vuoden-suunnitelmat">Seuraavan vuoden&#160;suunnitelmat</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/matematiikka/367/matematiikkaa-syksylta-2010-ja-kevaalle-2011">Matematiikkaa syksyltä 2010 ja keväälle 2011</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/matematiikka/346/diffis-jatkuu">Diffis&#160;jatkuu</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/matematiikka/344/differentiaaliyhtaloiden-sietamaton-vaikeus">Differentiaaliyhtälöiden sietämätön&#160;vaikeus</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/matematiikka/334/analytiikan-tuulet-puhaltavat">Analytiikan tuulet&#160;puhaltavat</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/matematiikka/324/lukuvuosi-2010-2011-matematiikan-kannalta">Lukuvuosi 2010-2011 matematiikan&#160;kannalta</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/matematiikka/321/matematiikka-vaikuttaa-viestimiseeni">Matematiikka vaikuttaa&#160;viestimiseeni</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/matematiikka/320/lineaarialgebra-hoideltu">Lineaarialgebra&#160;hoideltu</a>
+                </li>
+</ul>-->
+            
+        </li>
+	<li>
+            
+            <a href="../../mietteet/index.html">Mietteet</a>
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="http://progo.viuhka.fi/kategoria/hifi/">Hifi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/rauta/">Rauta</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/viihde/">Viihde</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../../tag/blogisäätöä/index.html" class="tagSizeMedium tagSize22" style="font-size: 100%;">blogisäätöä</a></li>
+	<li><a href="../../tag/gentoo/index.html" class="tagSizeLargest tagSize102" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../../tag/ohjelmistot/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">ohjelmistot</a></li>
+	<li><a href="../../tag/ohjelmointi/index.html" class="tagSizeMedium tagSize39" style="font-size: 100%;">ohjelmointi</a></li>
+	<li><a href="../../tag/ostoksia/index.html" class="tagSizeMedium tagSize8" style="font-size: 100%;">ostoksia</a></li>
+	<li><a href="../../tag/palvelin/index.html" class="tagSizeMedium tagSize34" style="font-size: 100%;">palvelin</a></li>
+	<li><a href="../../tag/rauta/index.html" class="tagSizeMedium tagSize20" style="font-size: 100%;">rauta</a></li>
+	<li><a href="../../tag/vim/index.html" class="tagSizeMedium tagSize31" style="font-size: 100%;">vim</a></li>
+</ul>
+        <p><a href="../../tag/index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=matematiikka" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=matematiikka" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- not tag view, it's the main view -->
+
+
+        
+
+        <div class="hfeed">
+            <!-- five articles to list here, or only one. It depends. -->
+            <!-- default form -->
+
+<p class="published"> 3. toukokuu 2010, 10:43</p>
+<h1 class="entry-title"><a rel="bookmark" href="reaalianalyysia-lopputentti">Reaalianalyysia,&#160;lopputentti</a></h1>
+
+
+<div class="entry-content">
+	<p>Oi, voi. Tentti meni kovin bipolaarisesti. Ensimmäinen vaikutelma nimittäin oli, että kokeen seitsemästä tehtävästä saa hyvinkin noukittua viisi sellaista, joiden suoritusrutiini on selkäytimessä ja pysyy siellä. Kuitenkin pieniä nihkeyksiä ilmaantui. Kokonaisuutena homma vaikuttaa selvältä.</p>
+
+	<p>Tenttiin kuuluvaa aluetta käytiin laihasti, mutta kattavasti. Kaksi L&#8217;Hôpitalin säännön sovellusta, patologisen funktion ylä- ja alaintegraalien laskemista, määrätyn integraalin itseisarvon arvioimista, ja viimeisenä pari jonojen raja-arvoihin liittyvää tehtävää. Oikein perussettiä. </p>
+
+	<p>Mutta mitenkäs, mitenkäs. Tein toki ensin helpon raja-arvolaskelman <img class="tex" src="http://l.wordpress.com/latex.php?latex=%5Clim_%7Bx%20%5Cto%20%5Cinfty%7D%20e%5Ex%20%5Csin%20e%5E%7B-2x%7D%20&s=1&fg=FFFFFF&bg=000000" alt="\lim_{x \to \infty} e^x \sin e^{-2x} " />, mutta toisen laskun kanssa tulikin pientä vääntöä, kun lauseke oli <img class="tex" src="http://l.wordpress.com/latex.php?latex=x%5E%5Cfrac%7B1%7D%7Bx-1%7D&s=1&fg=FFFFFF&bg=000000" alt="x^\frac{1}{x-1}" />. Lähdin kai tekemään jotain kiellettyä, kun en ollutkaan laisinkaan tyytyväinen tulokseeni. Olen vähän pettynyt omiin lausekepyörittelytaitoihini. Myös tehtävässä, jossa piti osoittaa jonon raja-arvo määritelmän avulla, homma tyssäsi yllättäen siihen, että en saanut valittua epsilonille sopivaa isoa N:ää. Hitto soikoon, olin jotenkin lukossa asian suhteen: en saanut epäyhtälön suuntaa mitenkään käännetyksi. Jouduin hylkäämään tehtävän.</p>
+
+	<p>Muuten ihan kivoja tehtäviä. Yksi oli suoraan ohjatuista harjoituksista (joita pidetään demojen ohessa): oletetaan jono <img class="tex" src="http://l.wordpress.com/latex.php?latex=%5C%7Bx_n%5C%7D&s=1&fg=FFFFFF&bg=000000" alt="\{x_n\}" />hajaantuvaksi ja jono <img class="tex" src="http://l.wordpress.com/latex.php?latex=%5C%7By_n%5C%7D&s=1&fg=FFFFFF&bg=000000" alt="\{y_n\}" />suppenevaksi (ei kuitenkaan nollaan), ja osoita, että jonojen tulo <img class="tex" src="http://l.wordpress.com/latex.php?latex=%5C%7Bx_ny_n%5C%7D&s=1&fg=FFFFFF&bg=000000" alt="\{x_ny_n\}" />hajaantuu. Antiteesillähän sen sai niin että rytkähti. Kun tehtävänannossa jo annetaan oletus, että <img class="tex" src="http://l.wordpress.com/latex.php?latex=%5C%7By_n%5C%7D&s=1&fg=FFFFFF&bg=000000" alt="\{y_n\}" />ei saa lähestyä nollaa, saattaa osaava arvata, että lauseketta pyöritellään jonkinlaiseksi murtoluvuksi.</p>
+
+	<p>Lauseita en paljoakaan muistanut, nimesinpä vielä erään (kylläkin hyvin tunnetun) tuloksen kolmioepäyhtälöksi, vaikkei se ole sellaista nähnytkään. Kurssista tulee kyllä näillä eväillä joko 4 tai 5. </p>
+</div>
+
+<p class="tags"> 
+
+
+
+</p>
+
+
+
+<div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+
+        </div>
+
+ <!-- now, common stuff -->
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+        <p><a rel="prev" href="../317/pikakertaus-lukukauteen-aksiomaattinen-kevat-2010" title="Pikakertaus lukukauteen, aksiomaattinen kevät 2010">&#171; Pikakertaus lukukauteen, aksiomaattinen kevät 2010</a> 
+           &mdash; <a rel="next" href="../320/lineaarialgebra-hoideltu" title="Lineaarialgebra hoideltu">Lineaarialgebra hoideltu &#187;</a>
+        </p>
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+        <h2>Aiheen vierestä</h2>
+        
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

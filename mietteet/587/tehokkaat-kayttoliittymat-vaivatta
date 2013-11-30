@@ -1,0 +1,318 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <!-- standard -->
+	<title>Mr. P: Tehokkaat käyttöliittymät vaivatta</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=mietteet" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=mietteet" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="mietteet">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="tehokkaat-kayttoliittymat-vaivatta#content">Siirry sisältöön</a></li>
+        <li><a href="tehokkaat-kayttoliittymat-vaivatta#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            &raquo;
+            <a href="../index.html">Mietteet</a>
+            
+                <!--<ul>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/598/blogille-idea">Blogille&#160;idea</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/597/wes-mckinney-python-for-data-analysis-oreilly">Wes McKinney - Python For Data Analysis (O&#39;Reilly)</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/596/org-blogaaminen-vaikeata">Org-blogaaminen&#160;vaikeata</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/595/twitterointia-emacsilla">Twitteröintiä&#160;Emacsilla</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/594/weboodi-aikataulut-orgiin">WebOodi-aikataulut&#160;orgiin</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/592/emacs-has-me">Emacs has&#160;me.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/591/editorien-taistelu-tietamyshallinnassa">Editorien taistelu&#160;tietämyshallinnassa</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/590/think-vimorganizer">Think&#160;VimOrganizer.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/589/think-orgmode">Think&#160;orgmode.</a>
+                </li>
+</ul>-->
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="/kategoria/hifi/">Hifi</a></li>
+	<li><a href="/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="/kategoria/rauta/">Rauta</a></li>
+	<li><a href="/kategoria/viihde/">Viihde</a></li>
+	<li><a href="/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../../tag/blogisäätöä/index.html" class="tagSizeMedium tagSize25" style="font-size: 100%;">blogisäätöä</a></li>
+	<li><a href="../../tag/gentoo/index.html" class="tagSizeLargest tagSize105" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../../tag/hifi/index.html" class="tagSizeMedium tagSize31" style="font-size: 100%;">hifi</a></li>
+	<li><a href="../../tag/musiikki/index.html" class="tagSizeMedium tagSize23" style="font-size: 100%;">musiikki</a></li>
+	<li><a href="../../tag/opiskelu/index.html" class="tagSizeMedium tagSize17" style="font-size: 100%;">opiskelu</a></li>
+	<li><a href="../../tag/palvelin/index.html" class="tagSizeMedium tagSize37" style="font-size: 100%;">palvelin</a></li>
+	<li><a href="../../tag/python/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">python</a></li>
+	<li><a href="../../tag/rauta/index.html" class="tagSizeMedium tagSize23" style="font-size: 100%;">rauta</a></li>
+</ul>
+        <p><a href="../../tag/index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=mietteet" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=mietteet" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- not tag view, it's the main view -->
+
+
+        
+
+        <div class="hfeed">
+            <!-- five articles to list here, or only one. It depends. -->
+            <!-- default form -->
+
+<p class="published">16. elokuu 2012, 12:00</p>
+<h1 class="entry-title"><a rel="bookmark" href="tehokkaat-kayttoliittymat-vaivatta">Tehokkaat käyttöliittymät&#160;vaivatta</a></h1>
+
+
+<div class="entry-content">
+	<p>Ohjelmoijan onni on elää komentorivillä. Tehokkaiden käyttöliittymien rustaaminen on varsin nopeata, kunhan luottaa siihen, että suurta suosiota tuotokset eivät tule nauttimaan. Olen saattanut tarinoida samasta aiheesta aiemminkin, mutta kertaus tekee hyvää.</p>
+
+	<h2>Lyhyet ohjelmat komentoriviargumentein</h2>
+
+	<p>Komentoriviargumentit rokkaavat. Valmiita kirjastoja ja ohjelmia on tarvittava määrä kullekin kielelle, joten käytettävyyden kanssa ei tarvitse kärvistellä. Pythonille on vaka vanha <a href="http://docs.python.org/library/argparse.html">argparse</a> ja C:lle ja bashille löytyy aina tarvittaessa esiinkaivettava <code>getopt</code>-kirjasto. </p>
+
+	<p>Komentoriviargumentit ja eräajoluonteinen suoritus on Unix-filosofian kulmakiviä. Jokaisesta ohjelmasta tulisi löytyä tärkeimmät ohjattavat asiat komentorivilippujen kautta, ja itseään kunnioittavista projekteista kaikkea tulisi voida ohjata komentoriviltä. Yhdisteltävyyden ja uudelleenkäytettävyyden kunniaksi!</p>
+
+	<p>Lisätehoa saa helposti, kun miettii hyvät oletukset komentoriviohjelmille. Esimerkiksi mitä laitetaan tapahtumaan, jos ohjelmaa kutsutaan argumenteitta. Säästyneiden näppäilyjen lukumäärä on suoraan verrannollinen ohjelman tarjoamaan tyydytykseen: enemmän vähemmällä. Jos sovellus sisältää interaktiivisen osion, se yleensä paiskataan tulille siinä vaiheessa. Jotain nondesktrutiivista kuitenkin on hyvä olla. Omassa <a href="https://github.com/progo/moary">moary</a> -projektissani painin hieman argparsen kanssa saadakseni jotain fiksua oletusta ruutuun. Alikomennot eivät vain tue mokomat vielä oletuksia.</p>
+
+	<p>Viimeisen silauksen komentoriviasetukset saavat, kun näkisi vaivaa opiskellakseen bashin ja zsh:n täydennysfunktioiden kirjoittamista. Mikäs sen mukavampaa kuin saada alikomennot tabitäydennyksellä ruudulle.</p>
+
+	<h2>Interaktiivisuus editorin voimin</h2>
+
+	<p>Kun sovellus syystä tai toisesta edellyttää interaktiivisuutta, ei ensimmäisenä todellakaan kannata rynnätä ncursesin tai, pahempaa, graafisten käyttöliittymäkirjastojen pariin. Jos homman ideana on vaikka tallennella tekstimuotoista dataa tai käsitellä sellaista, kannattaa tutkia vakavasti editorien voimaa. Jos tekstiä pitää vähänkin editoida, on pyörää turha keksiä uudelleen. Laitetaan oikeat editorit vuosikymmenien kokemuksella asialle.</p>
+
+	<p><a href="../../kuvat/viestin_kirjoittamisesta.png"><img src="../../kuvat/thumbs/thumb_viestin_kirjoittamisesta.png" title="" alt="" /></a></p>
+
+	<p>Kuvassa <code>blog</code>-skriptini, joka kutsuu $editoria (eli vimiä tapauksessani) viestin kirjoittamiseksi. Tällä kaavalla olen tehnyt useita tyydyttävästi toimivia ohjelmia:</p>
+
+	<ol>
+		<li>Kysy mahdolliset alkujutut komentoriviargumenteilla</li>
+		<li>Luo tyhjä temppitiedosto</li>
+		<li>Kirjoita sinne jonkinlainen alkupohja</li>
+		<li>Avaa <code>$EDITOR</code> siihen tiedostoon ja odota sen sulkemista</li>
+		<li>Parsi temppitiedoston data ja järsi siitä eteenpäin</li>
+	</ol>
+
+	<p>Tämä pohja tuli tutuksi alkuaikoina esimerkiksi <code>svn</code>:n ja <code>git</code>:n commit-rutiineista. Toiminnan filosofia on ymmärtääkseni Emacs-skriptien perinteisessä tavassa toteuttaa toimintoja. Esimerkiksi emacsin email-toiminto avaa uuden bufferin To- ja Subject-kentillä, sekä erottimen jälkeen kirjoitettavalla viestillä. Viesti kirjoitetaan käyttäen tavallisia tekstityökaluja ja sitten annetaan skriptin jauhaa. Tässä ideassa on paljon potentiaalia.</p>
+
+	<p>Kokoruudun editoreissa on sitä tarvittavaa interaktiota pieniin tarpeisiin, ja joskus suuriinkin. Näihin kahteen pääeditoriin on helppoa kirjoitella omia näppäinkomentoja ja skriptejä tehostamaan aihepiirin käsittelyä. Teemaan liittyvät sanatäydennykset, tarvittaessa sopiva syntaksivärjäys automaattisesti päälle. Editori tekee pienellä vaivalla aika suuren osan. Komentorivihakkerin editorit ovat muutenkin selkäytimessä, joten on aika selvää opittavuudenkin suhteen valita tämä lähestymistapa.</p>
+
+	<p>Joskus kannattaa mennä niin pitkälle, että ottaa kokonaan alustakseen editorin, eli tavallaan komentorivitön ohjelma. Olen kirjoittanut Summerin, joka käytännössä &#8220;tähtää&#8221; Vimin päälle. Enkä tekisi sitä millään muulla tavalla. Laiskuudesta johtuen se sattuu toimimaan myös komentorivillä tietovirtojen saattelemana.</p>
+
+	<h2>Graafiset ohjelmat</h2>
+
+	<p>No. Olen aina hokenut, että komentoriviargumenttien käsittely on rutkasti helpompaa kuin vastaavan, yhtä viimeistellyn näköisen graafisen softan vääntäminen. Toki, jos vääntö tehdään tekstieditorilla alusta alkaen. Maailmalla on kuitenkin työkaluja, joilla graafisen rungon saa aikaiseksi varsin nopsaan, ja valmiit koodipohjat (vaikkapa) Pythonille tulostuvat napin painalluksella. </p>
+
+	<p>WxGlade on yksi työkalu, jolla olen jopa kirjoittanut nopean klikkailuhässäkän. Sopivien näppäinyhdistelmien kytkeminen valikkotoimintoihin on sen verran nopeaa, että puhtaassa nopeudessa varmasti ollaan lähellä esimerkiksi argparsen kirjainflagien täyttämistä. Yhdistettynä siihen, että graafiset työkalut pohjaavat callback-kutsuihin tai muihin reaktiivisiin menetelmiin, voisi sanoa, että tilanne on yllättävän tasoissa.</p>
+
+	<p>Silti pitää sanoa, että vaikka graafiset käyttöliittymät syntyvätkin vaivatta, niin <strong>tehokkaat</strong> graafiset käyttöliittymät vaativat hieman enemmän. Ja niihin ei voi kytkeä <code>$EDITOR</code>:ia aivan noin vain. Qt-ohjelmiin saa Katen monipuolisen tekstieditorikomponentin, mutta se siitä.</p>
+
+	<p>Ja siihen graafiseen käyttöliittymään pitää silti kirjoitella se komentorivipuoli, jos yhtään haluaa esiintyä vakavana Nix-koodaajana.</p>
+</div>
+
+<p class="tags"> 
+
+
+Tageja: <a href="../../tag/editorit/index.html" rel="tag">editorit</a>, 
+<a href="../../tag/emacs/index.html" rel="tag">emacs</a>, 
+<a href="../../tag/gentoo/index.html" rel="tag">gentoo</a>, 
+<a href="../../tag/ohjelmointi/index.html" rel="tag">ohjelmointi</a>, 
+<a href="../../tag/vim/index.html" rel="tag">vim</a>
+
+
+</p>
+
+
+
+<div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+
+        </div>
+
+ <!-- now, common stuff -->
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+        <p><a rel="prev" href="../586/puolitoista-vuotta-twitterissa" title="Puolitoista vuotta Twitterissä">&#171; Puolitoista vuotta Twitterissä</a> 
+           &mdash; <a rel="next" href="../588/think" title="Think.">Think. &#187;</a>
+        </p>
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+        <h2>Aiheen vierestä</h2>
+        <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../598/blogille-idea">Blogille&#160;idea</a></span> &#183; <span class="published">2013-01-05</span>
+<br /><span class="smallexcerpt">Uuden org-pohjaisen blogialustan miettiminen ja kehittäminen on vasta aluillaan, vaikka yhä uskon joustavamman alustan tarjoavan paremman kanavan tajunnanvirtani ohjaamiselle. Ja...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../596/org-blogaaminen-vaikeata">Org-blogaaminen&#160;vaikeata</a></span> &#183; <span class="published">2012-11-11</span>
+<br /><span class="smallexcerpt">Haluaisin kovasti hylätä periaatteessa lukitut blogialustat puhtaan tekstin edessä, ja erityisesti ottaa org-mode kovaan käyttöön. Mutta kaikenlaisia pieniä probleemia on...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../595/twitterointia-emacsilla">Twitteröintiä&#160;Emacsilla</a></span> &#183; <span class="published">2012-10-24</span>
+<br /><span class="smallexcerpt">Tänään piti viettää kiva päivä käymällä hyvällä luennolla ja sitten pakertaa vähän tehtävien kimpussa koululla. Toisin kävi, kun tehtäviä ei...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../594/weboodi-aikataulut-orgiin">WebOodi-aikataulut&#160;orgiin</a></span> &#183; <span class="published">2012-10-23</span>
+<br /><span class="smallexcerpt">Itä-Suomen yliopiston weboodissa alkaa olla aika usein kurssi-infot hyvässä kunnossa, ja nyt on myös joensuulaisille olemassa tuota lukkaria, joka on...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a></span> &#183; <span class="published">2012-10-17</span>
+<br /><span class="smallexcerpt">Tässä on ihmetelty jo hyvän aikaa uusissa maailmoissa, ja pitkälle on päästy. En olisi itsestäni uskonut, että Emacsissa ollaan jonain...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../592/emacs-has-me">Emacs has&#160;me.</a></span> &#183; <span class="published">2012-09-22</span>
+<br /><span class="smallexcerpt">Emacs alkaa ottaa otetta minusta. Olen yrittänyt olla pyristelemättä vastaan, eikä ole asiaa vastaan mitään sanottavaa. Kaikki ne herkut ja...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../591/editorien-taistelu-tietamyshallinnassa">Editorien taistelu&#160;tietämyshallinnassa</a></span> &#183; <span class="published">2012-09-14</span>
+<br /><span class="smallexcerpt">Kun päädyin pari viikkoa sitten Org-formaattiin, oli se luonnollisesti edellytys, että Vim ja sen VimOrganizer saadaan kuntoon. Nyt kuitenkin on...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../590/think-vimorganizer">Think&#160;VimOrganizer.</a></span> &#183; <span class="published">2012-09-02</span>
+<br /><span class="smallexcerpt">Asiat rullaavat eteenpäin tyydyttävää tahtia tämän uuden tiedonhallinnan kanssa. Nyt olen säätänyt kuntoon jokaisesta kulmasta toimivan org-capture -variantin, jolla saan...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../589/think-orgmode">Think&#160;orgmode.</a></span> &#183; <span class="published">2012-08-31</span>
+<br /><span class="smallexcerpt">Teemme taas täyden ympyrän palatessamme orgmodeen, tuohon viha-rakkaussuhteen saaneeseen pakettiin. Edellinen thinktank-idea lopulta vääntyy siihen, että voin joko tehdä simppelin...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../584/pythonin-vastaisku-lispeille-ipython-ja-vim-ipython">Pythonin vastaisku lispeille: IPython ja vim-ipython</a></span> &#183; <span class="published">2012-07-25</span>
+<br /><span class="smallexcerpt">Tai &#8220;Pythonin uusi toivo&#8221; tai &#8220;Pythonin paluu&#8221;. Mistä on kyse? Pythonin tulkin me kaikki kai tiedämme: kaikki siinä periaatteessa on,...</span>
+</li>
+
+</ul>
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

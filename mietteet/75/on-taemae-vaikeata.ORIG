@@ -1,0 +1,282 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <!-- standard -->
+	<title>Mr. P: On tämä vaikeata</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=mietteet" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=mietteet" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="mietteet">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="on-taemae-vaikeata#content">Siirry sisältöön</a></li>
+        <li><a href="on-taemae-vaikeata#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            &raquo;
+            <a href="../index.html">Mietteet</a>
+            
+                <!--<ul>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/598/blogille-idea">Blogille&#160;idea</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/597/wes-mckinney-python-for-data-analysis-oreilly">Wes McKinney - Python For Data Analysis (O&#39;Reilly)</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/596/org-blogaaminen-vaikeata">Org-blogaaminen&#160;vaikeata</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/595/twitterointia-emacsilla">Twitteröintiä&#160;Emacsilla</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/594/weboodi-aikataulut-orgiin">WebOodi-aikataulut&#160;orgiin</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/592/emacs-has-me">Emacs has&#160;me.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/591/editorien-taistelu-tietamyshallinnassa">Editorien taistelu&#160;tietämyshallinnassa</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/590/think-vimorganizer">Think&#160;VimOrganizer.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/589/think-orgmode">Think&#160;orgmode.</a>
+                </li>
+</ul>-->
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="http://progo.viuhka.fi/kategoria/hifi/">Hifi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/rauta/">Rauta</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/viihde/">Viihde</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../../tag/blogisäätöä/index.html" class="tagSizeMedium tagSize22" style="font-size: 100%;">blogisäätöä</a></li>
+	<li><a href="../../tag/gentoo/index.html" class="tagSizeLargest tagSize102" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../../tag/hifi/index.html" class="tagSizeMedium tagSize28" style="font-size: 100%;">hifi</a></li>
+	<li><a href="../../tag/ohjelmistot/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">ohjelmistot</a></li>
+	<li><a href="../../tag/ohjelmointi/index.html" class="tagSizeMedium tagSize39" style="font-size: 100%;">ohjelmointi</a></li>
+	<li><a href="../../tag/ostoksia/index.html" class="tagSizeMedium tagSize8" style="font-size: 100%;">ostoksia</a></li>
+	<li><a href="../../tag/palvelin/index.html" class="tagSizeMedium tagSize34" style="font-size: 100%;">palvelin</a></li>
+	<li><a href="../../tag/rauta/index.html" class="tagSizeMedium tagSize20" style="font-size: 100%;">rauta</a></li>
+</ul>
+        <p><a href="../../tag/index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=mietteet" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=mietteet" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- not tag view, it's the main view -->
+
+
+        
+
+        <div class="hfeed">
+            <!-- five articles to list here, or only one. It depends. -->
+            <!-- default form -->
+
+<p class="published">12. helmikuu 2009, 17:33</p>
+<h1 class="entry-title"><a rel="bookmark" href="on-taemae-vaikeata">On tämä&#160;vaikeata</a></h1>
+
+
+<div class="entry-content">
+<p>Vaikeata on. Nimittäin lukuloman aloittaminen. Pääpainona fysiikka ja matikka. Kummallakaan näistä aineista ei liene varsinaista tarvetta petraamiseen, mutta toisaalta joku hyvä arvosana fysiikasta olisi mukava, ja L matikassa piristäisi mieltä kummasti. &#196;idinkieli saattaa olla hyvinkin se todennäköisin riipastuskivi, mutta olen melko varma lakistani. </p>
+<p>Sen sijaan olen käyttänyt aikaani järkevästi levytietokannan muokkailuun. Toistaiseksi työnimen alla oleva <a href="http://kuusi.org/som">Sound of Music</a> saa luultavasti jonkun hyvän osoitteen alidomainina kuusen alla. Ostaisin toisaalta mukavan domainin (vapaana olisi), mutta nyt ei liikeä kyllä sitäkään pikkulanttia, johtuen massiivisesta lompakon vajuamisesta DAC-ostokseni myötä. Suomen tulli vie mielivaltaisin perustein aivan satunnaisen määrän rahaa tässä piakkoin. Myös muut pikkujutut, kuten valuuttakonversiot euroista dollareihin kun maksetaan Paypalilla häiritsevät. Lisäksi firma ei suostunut toimittamaan ilman esteitä Suomeen suoraan, joten pitää käyttää välikäden kautta. Ja sekin tekee huomattavan suuren loven, koska painavan pakkauksen postittaminen ei ole todellakaan ilmaista huvia. Pelkästään tähän jatkotoimitukseen menee noin 70 euroa. Siihen päälle vaivanpalkkaa ja muuta kustannusta niin ollaan 100 eurossa. </p>
+<p>Niin, takaisin aiheeseen. Sound of Music (työnimi) alkaa vaikuttaa kohtalaiselta. Retrokas muotoilu päivittyi kohti parempaa, kun keksin käyttää cd-levyn kantta apuna suunnittelussa. Ehkä se ei näytä hyvältä muille, mutta minusta se näyttää oikein toimivalta. Mitä nyt imagemapit ovat vähän viime vuosituhatta. Eipä ole aina musiikkikaan mitään uutta.</p>
+<p>PS. jos haluatte tukea, heittäkää pari lanttia rahaa turhamaisuuksiin, eli hienoon domainiin tunnoton.foo. Jos vaikka Xonetista varattaisiin kolmeksi vuodeksi, niin se maksaisi hulppeat 4,47 euroa org-päätteellä. Ei hitto. Ei voi olla noin halpaa. <strong>Lisäys</strong>: Ei olekaan. Toisella sivulla oli vanhat hinnastot. Orgit maksavat sen vajaan kympin per vuosi. Tällä hetkellä siellä on tarjouksessa .biz ja .us. Nekin hintaan 3,99 eur / vuosi. Kolme vuotta kympillä. Kuka lahjoittaa? <strong>Toinen lisäys</strong>: niin, eipä se tarjouskaan kata kuin yhden vuoden. Toiset kaksi vuotta normaaliin kympin hintaan.</p>
+</div>
+
+<p class="tags"> 
+
+
+Tageja: <a href="../../tag/hifi/index.html" rel="tag">hifi</a>, 
+<a href="../../tag/opiskelu/index.html" rel="tag">opiskelu</a>, 
+<a href="../../tag/ostoksia/index.html" rel="tag">ostoksia</a>, 
+<a href="../../tag/palvelin/index.html" rel="tag">palvelin</a>
+
+
+</p>
+
+
+
+<div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+
+        </div>
+
+ <!-- now, common stuff -->
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+        <p><a rel="prev" href="../76/tyoet-ja-kaikki-se-jazzi" title="Työt ja kaikki se jazzi">&#171; Työt ja kaikki se jazzi</a> 
+           &mdash; <a rel="next" href="../74/ihmekuusi" title="Ihmekuusi">Ihmekuusi &#187;</a>
+        </p>
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+        <h2>Aiheen vierestä</h2>
+        <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../../matematiikka/585/kompleksianalyysin-vuosi-2012-13">Kompleksianalyysin vuosi 2012-13</a></span> &#183; <span class="published">2012-08-12</span>
+<br /><span class="smallexcerpt">Lyhyt maininta opiskeluistakin tänne. Uusi lukuvuosi alkaa lupaavasti lukujärjestyksellä, joka ei sorvaa ketään päälletysten. Nyt kun olen virallisesti luonnontieteiden kandi...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../582/electrocompaniet-on-elossa">Electrocompaniet on&#160;elossa!</a></span> &#183; <span class="published">2012-07-18</span>
+<br /><span class="smallexcerpt">Melkein vuosi sitten rakas Electrocompaniet ECD1 pimeni kokonaan, ja sain vasta pari viikkoa sitten asiaan kunnollisen ratkaisun (nämä väliinjääneet 11...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../580/luonnontieteiden-kandidaatti">Luonnontieteiden&#160;kandidaatti</a></span> &#183; <span class="published">2012-07-12</span>
+<br /><span class="smallexcerpt">Kandin paperit ovat nyt virallisesti kasassa. Noppia on kasassa vähän ylimääräistäkin&#8212;-peräti 220. Sehän voisi tarkoittaa, että TKT:n maisteriksi voisi jollain...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../578/uusia-hifinakymia">Uusia&#160;hifinäkymiä</a></span> &#183; <span class="published">2012-06-23</span>
+<br /><span class="smallexcerpt">Syksyn opintolainat jo tilillä sitä tuntee itsensä niin kovin rikkaaksi ja vapaaksi törsäilemään. Schiit lupailee uuden MOSFET-pohjaisen balansoidun kuulokevahvistimen, joka...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../573/vim-oikolukuhommissa">Vim&#160;oikolukuhommissa</a></span> &#183; <span class="published">2012-04-10</span>
+<br /><span class="smallexcerpt">Kandintyö on nyt siinä pisteessä, että vain oikoluku on jäljellä. Plus sitten kaikki, mitä se ohjaaja keksii huomauttaa. Oikoluvusta kaikki...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../557/palvelin-tulossa-sittenkin">Palvelin tulossa&#160;sittenkin</a></span> &#183; <span class="published">2011-11-10</span>
+<br /><span class="smallexcerpt">Vaikka taannoin järkeilin palvelimen ostoa vastaan aika onnistunein argumentein, niin nyt sellaisen olen kuitenkin hommannut. Käytetystä raudasta kootan murossa jonkinlaisen...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../556/korintaytto-ja-ahne-menetelma">Korintäyttö ja ahne&#160;menetelmä</a></span> &#183; <span class="published">2011-10-23</span>
+<br /><span class="smallexcerpt">Mietiskelen tässä korintäyttöä (bin packing) ja sitä, miten ahne menetelmä on joko ylipolynomiaalinen tai sitten epäoptimaalinen.  Luultavasti se on...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../554/tulipa-netbook-ostettua">Tulipa netbook&#160;ostettua</a></span> &#183; <span class="published">2011-10-01</span>
+<br /><span class="smallexcerpt">Elitegroupin G10IL -mallinen miniläppäriksi luokiteltavissa netbook tuli ostettua. Saamme nähdä, miten tässä vielä käy.
+
+	Tämä on tavallinen nykynetbook, jossa on 10-tuumainen...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../549/uusi-filco-on-asemissa">Uusi Filco on&#160;asemissa</a></span> &#183; <span class="published">2011-09-07</span>
+<br /><span class="smallexcerpt">Tänään se Filco Majestouch tuli. Ei siinä pitkään mennyt! Aika jännä fiilis kaikkinensa dassikkaan nähden, tämä.
+
+	Cherry MX Brown -kytkimet ovat...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../548/uusi-nappaimistoni-filco-majestouch-2">Uusi näppäimistöni, Filco Majestouch-2</a></span> &#183; <span class="published">2011-09-04</span>
+<br /><span class="smallexcerpt">Aikaisempi ostoslistapostaus oli vähän kirottu, koska sen kirjoitettuani minulle valkeni, että voin &#8220;hyvillä mielin&#8221; nyt valita yhden kohteista, ja jättää...</span>
+</li>
+
+</ul>
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

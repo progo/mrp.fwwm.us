@@ -1,0 +1,202 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <title>Mr. P: aiheesta amarok</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=tag" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=tag" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="tag">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="index.html#content">Siirry sisältöön</a></li>
+        <li><a href="index.html#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../mietteet/index.html">Mietteet</a>
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="http://progo.viuhka.fi/kategoria/hifi/">Hifi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/rauta/">Rauta</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/viihde/">Viihde</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../blogisäätöä/index.html" class="tagSizeMedium tagSize15" style="font-size: 100%;">blogisäätöä</a></li>
+	<li><a href="../gentoo/index.html" class="tagSizeLargest tagSize95" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../hifi/index.html" class="tagSizeMedium tagSize21" style="font-size: 100%;">hifi</a></li>
+	<li><a href="../ohjelmointi/index.html" class="tagSizeMedium tagSize32" style="font-size: 100%;">ohjelmointi</a></li>
+	<li><a href="../opiskelu/index.html" class="tagSizeMedium tagSize7" style="font-size: 100%;">opiskelu</a></li>
+	<li><a href="../ostoksia/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">ostoksia</a></li>
+	<li><a href="../palvelin/index.html" class="tagSizeMedium tagSize27" style="font-size: 100%;">palvelin</a></li>
+	<li><a href="../vim/index.html" class="tagSizeMedium tagSize24" style="font-size: 100%;">vim</a></li>
+</ul>
+        <p><a href="../index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=tag" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=tag" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- tag view -->
+
+    <h1 class="mainheader">Juttuja aiheesta amarok </h1>
+    <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/353/kehitysta">Kehitystä</a></span> &#183; <span class="published">2010-11-09</span>
+<br /><span class="smallexcerpt">Kaiken tämän jatkuvan tietokonekäytön keskellä osaa välillä pysähtyä, ja katsoa, miten ollaan edistytty. Se on upea tunne, kun keksii, että...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/45/pieni-oivallus-ja-muutoksia">Pieni oivallus ja&#160;muutoksia</a></span> &#183; <span class="published">2009-06-14</span>
+<br /><span class="smallexcerpt">Tänä viikonloppuna on käynyt kaikenlaista pientä. Ei mitään, mikä olisi normaalisti uutisoinnin arvoista, mutta ehkäpä me kehittelemme näistä jotain? Pitäisikö...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/54/amarok-kiipelissae">Amarok&#160;kiipelissä</a></span> &#183; <span class="published">2009-05-18</span>
+<br /><span class="smallexcerpt">Onkohan tämä jo se hetki, jolloin pääsee käyttämään MPD:tä ihan oikealla syyllä. Viimeksihän se jäi eräistä syistä tekemättä. Syitä on...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/73/aeaenikortin-kanssa-saa-taas-tapella">Äänikortin kanssa saa taas&#160;tapella</a></span> &#183; <span class="published">2009-03-05</span>
+<br /><span class="smallexcerpt">Juli@ meni ja Delta 192 tuli. Vaikka vaihto oli itsessään kivuton (samat ajurit), eikä aluksi näkynyt ongelmia mailla halmeilla, niin...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/78/taemae-on-kai-sitae-tervettae-hifiae">Tämä on kai sitä tervettä&#160;hifiä</a></span> &#183; <span class="published">2009-01-08</span>
+<br /><span class="smallexcerpt">Hifistejä syytetään usein siitä, että he kuuntelevat laitteitansa, eivät musiikkia. En ymmärrä kumpaakaan osapuolta tästä: niitä, ketkä yleistävät asian näin...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/84/afterthoughts">Afterthoughts</a></span> &#183; <span class="published">2008-09-13</span>
+<br /><span class="smallexcerpt">Käytän nyt aikalailla sekalaisesti mpd:tä ja amarokkia. MPD:n huonot puolet ovat toisaalta moninaiset, mutta mikään niistä ei nyt ole niin...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/85/adaptation">Adaptation</a></span> &#183; <span class="published">2008-09-06</span>
+<br /><span class="smallexcerpt">Jatkoa kahteen edelliseen (1, 2) postaukseen.
+Edellisessä postauksessa kirosin asiakasohjelmat suohon, mutta nyt tulin jo irkissä todenneeksi, että mpd:n vahvuus on...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/100/songbird">Songbird</a></span> &#183; <span class="published">2008-05-17</span>
+<br /><span class="smallexcerpt">Suljin Amarokin. On aika kokeilla uutta soitinta: Songbirdiä. Sen alkuasetelmat eivät kyllä näytä ruusuisilta, tuliketun muistisyöppö koneisto takanaan ja päällisin...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/127/amarokki-beaten">Amarokki&#160;beaten</a></span> &#183; <span class="published">2007-12-14</span>
+<br /><span class="smallexcerpt">Vihdoin huomasin, missä lojuu ongelma amarokin aikoinaan erittäin typerässä bugissa. Kyseinen bugi aiheutti muutamien albumien kanssa (eritoten Mike Oldfieldin Crises-albumin...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/193/pakko-rajoittaa-vaehaen">Pakko rajoittaa&#160;vähän</a></span> &#183; <span class="published">2007-08-22</span>
+<br /><span class="smallexcerpt">Lapinvaellukseen pitää kerätä tavarat. Vaikutanko aivan pöntöltä, jos en ota mitään ylimääräistä ruokaa, mitä rehtori kehoittaa siihen tyyliin, että "kaikilta...</span>
+</li>
+
+</ul>
+    <h2>Lyhyitä sutkautuksia</h2>
+    
+
+
+ <!-- now, common stuff -->
+
+<!-- txp:older ei toimi kunnolla tagien kanssa. -->
+        <p>
+             
+            
+        </p>
+
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <title>Mr. P: aiheesta twitter</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=tag" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=tag" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="tag">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="index.html#content">Siirry sisältöön</a></li>
+        <li><a href="index.html#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../mietteet/index.html">Mietteet</a>
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="http://progo.viuhka.fi/kategoria/hifi/">Hifi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/rauta/">Rauta</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/viihde/">Viihde</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../blogisäätöä/index.html" class="tagSizeMedium tagSize3" style="font-size: 100%;">blogisäätöä</a></li>
+	<li><a href="../gentoo/index.html" class="tagSizeLargest tagSize83" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../hifi/index.html" class="tagSizeMedium tagSize9" style="font-size: 100%;">hifi</a></li>
+	<li><a href="../musiikki/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">musiikki</a></li>
+	<li><a href="../ohjelmointi/index.html" class="tagSizeMedium tagSize20" style="font-size: 100%;">ohjelmointi</a></li>
+	<li><a href="../palvelin/index.html" class="tagSizeMedium tagSize15" style="font-size: 100%;">palvelin</a></li>
+	<li><a href="../rauta/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">rauta</a></li>
+	<li><a href="../vim/index.html" class="tagSizeMedium tagSize12" style="font-size: 100%;">vim</a></li>
+</ul>
+        <p><a href="../index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=tag" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=tag" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- tag view -->
+
+    <h1 class="mainheader">Juttuja aiheesta twitter </h1>
+    <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/586/puolitoista-vuotta-twitterissa">Puolitoista vuotta&#160;Twitterissä</a></span> &#183; <span class="published">2012-08-14</span>
+<br /><span class="smallexcerpt">Tänään kävelyllä tulin pohtineeksi hieman Twitterissä vietettyjä minuutteja. Suureksi sosiaaliseksi mediaksi Twitter on edelleen se paras kaikista, koska se ei...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/512/vuorokausi-twitterissa">Vuorokausi&#160;Twitterissä</a></span> &#183; <span class="published">2011-02-22</span>
+<br /><span class="smallexcerpt">Olen nyt ollut reilun vuorokauden Twitterissä, ja päässyt nauttimaan osani muiden ihmisten ympäröimistä aatteista ja siitä &#8220;virtauksesta&#8221;, joka ainakin rekisteröimättömän...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/504/sosiaaliset-palvelut">Sosiaaliset&#160;palvelut</a></span> &#183; <span class="published">2011-02-19</span>
+<br /><span class="smallexcerpt">Milloinhan kannattaisi käyttää valmiita palveluita ja milloin käyttää yksityistä? Yleiset ja erikoistuneet sosiaaliset palvelut. 
+
+	Sosiaaliset palvelut
+
+	Katsotaan, mitä tässä jaksan tarinoida...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/381/mikrobloggailua-talossa">Mikrobloggailua&#160;talossa</a></span> &#183; <span class="published">2011-01-21</span>
+<br /><span class="smallexcerpt">Ja nyt sitä mikrobloggailua on tässä. Edellinen artikkeli johti mielettömän kovaan arpomiseen ja pohdintaan, onko se oikeasti sen arvoista kirjoittaa...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../../mietteet/368/mikrobloggailua-luvassa">Mikrobloggailua&#160;luvassa</a></span> &#183; <span class="published">2011-01-17</span>
+<br /><span class="smallexcerpt">Silloin tällöin hetkellinen mielenhäiriö saa minut harkitsemaan Twitterin kaltaisia mikroblogialustoja, sillä joskus saa niin hyviä fiiliksiä pienistä asioista. Sellaisia pikkuasioita...</span>
+</li>
+
+</ul>
+    <h2>Lyhyitä sutkautuksia</h2>
+    
+
+
+ <!-- now, common stuff -->
+
+<!-- txp:older ei toimi kunnolla tagien kanssa. -->
+        <p>
+             
+            
+        </p>
+
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

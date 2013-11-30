@@ -1,0 +1,228 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <!-- standard -->
+	<title>Mr. P: Seuraavan vuoden suunnitelmat</title>
+
+
+	<link rel="home" href="../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../atom/index.html?section=matematiikka" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../rss/index.html?section=matematiikka" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../rpc/index.html" />
+</head>
+
+<body id="matematiikka">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="528.2#content">Siirry sisältöön</a></li>
+        <li><a href="528.2#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            &raquo;
+            <a href="index.html">Matematiikka</a>
+            
+                <!--<ul>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/matematiikka/585/kompleksianalyysin-vuosi-2012-13">Kompleksianalyysin vuosi 2012-13</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/matematiikka/545/uudet-matikan-kurssit-tilalle">Uudet matikankurssit&#160;tilalle</a>
+                </li>
+	<li>
+                    &rsaquo;
+                    <a rel="bookmark" href="http://progo.viuhka.fi/matematiikka/528/seuraavan-vuoden-suunnitelmat">Seuraavan vuoden&#160;suunnitelmat</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/matematiikka/367/matematiikkaa-syksylta-2010-ja-kevaalle-2011">Matematiikkaa syksyltä 2010 ja keväälle 2011</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/matematiikka/346/diffis-jatkuu">Diffis&#160;jatkuu</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/matematiikka/344/differentiaaliyhtaloiden-sietamaton-vaikeus">Differentiaaliyhtälöiden sietämätön&#160;vaikeus</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/matematiikka/334/analytiikan-tuulet-puhaltavat">Analytiikan tuulet&#160;puhaltavat</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/matematiikka/324/lukuvuosi-2010-2011-matematiikan-kannalta">Lukuvuosi 2010-2011 matematiikan&#160;kannalta</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/matematiikka/321/matematiikka-vaikuttaa-viestimiseeni">Matematiikka vaikuttaa&#160;viestimiseeni</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/matematiikka/320/lineaarialgebra-hoideltu">Lineaarialgebra&#160;hoideltu</a>
+                </li>
+</ul>-->
+            
+        </li>
+	<li>
+            
+            <a href="../mietteet/index.html">Mietteet</a>
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="http://progo.viuhka.fi/kategoria/hifi/">Hifi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/rauta/">Rauta</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/viihde/">Viihde</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../tag/gentoo/index.html" class="tagSizeLargest tagSize105" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../tag/hifi/index.html" class="tagSizeMedium tagSize31" style="font-size: 100%;">hifi</a></li>
+	<li><a href="../tag/mpd/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">mpd</a></li>
+	<li><a href="../tag/ohjelmistot/index.html" class="tagSizeMedium tagSize4" style="font-size: 100%;">ohjelmistot</a></li>
+	<li><a href="../tag/ohjelmointi/index.html" class="tagSizeMedium tagSize42" style="font-size: 100%;">ohjelmointi</a></li>
+	<li><a href="../tag/ostoksia/index.html" class="tagSizeMedium tagSize11" style="font-size: 100%;">ostoksia</a></li>
+	<li><a href="../tag/rauta/index.html" class="tagSizeMedium tagSize23" style="font-size: 100%;">rauta</a></li>
+	<li><a href="../tag/vim/index.html" class="tagSizeMedium tagSize34" style="font-size: 100%;">vim</a></li>
+</ul>
+        <p><a href="../tag/index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../rss/index.html?section=matematiikka" title="RSS 0.92">RSS</a> / <a href="../atom/index.html?section=matematiikka" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- not tag view, it's the main view -->
+
+
+        
+
+        <div class="hfeed">
+            <!-- five articles to list here, or only one. It depends. -->
+            <!-- default form -->
+
+<p class="published">23. toukokuu 2011, 19:28</p>
+<h1 class="entry-title"><a rel="bookmark" href="528/seuraavan-vuoden-suunnitelmat">Seuraavan vuoden&#160;suunnitelmat</a></h1>
+
+
+<div class="entry-content">
+	<p>Hitaasti edistyvä matemaattisten ajatusten sarja jatkuu. Valitan siitä. Enempää en voi luvata. Tänään tekemistä etsiessäni huomasin, että yliopistolla on jo paiskattu luonnostelu seuraavan lukuvuoden 2011-2012 opetusohjelmasta. Matematiikkaan tietenkin. Löysin paljon mielekästä istuttavaa täyttämään muuten täydellisen tyhjää suunnitelmaani.</p>
+
+	<p>Nythän on niin, että tällä hetkellä meneillään oleva projektityö paikkaa minulta 8 opintopistettä <span class="caps">TKT</span>-opinnoistani, ja ensivuodelle jää pakollisia kandihommia vain kandityön verran. Uusi lukuvuosi jatkuu siis <span class="caps">TKT</span>:n puolella maisteriopintoina ja matematiikassa hämmästyttävästi sama juttu. Minulla on nyt matematiikan sivuaineopintojen perus- ja aineopinnot &#8212; 60 op &#8212; kasassa. Kursseja on järjestetty pidettäväksi jokseenkin vähänlaisesti, mutta niistä vähistä olen löytänyt tarpeeksi mieluisia minulle:</p>
+
+	<h3>Syksylle 2011</h3>
+
+	<ul>
+		<li><strong>Algebra</strong>. Tämä on perinteinen opintojakso, ja nyt on tilaa käydä se. Odotan oikein mukavaa kurssia, sillä aihehan on Lineaarialgebran sivuaman algebran perusteella oikein minun sydäntäni lähellä. Alussa on tylsää lukuteoriaa (kokonaislukuanalyysiä), mutta sitten loput kaksi kolmannesta on tiukkaa settiä. Nam nam.</li>
+		<li><strong>Kompleksianalyysi 1a+b</strong> &#8212; kauan odotettu ja peljätty satsi tuossa yleisten lukujoukkojemme laajimmassa laajennoksessa. Odotan jotakuinkin vaikeita asioita, mutta kaikki käytäneen kunnialla läpi. Viime vuonna pelkäsin kesällä silloin syksyllä alkanutta differentiaaliyhtälökurssia, mutta se olikin aiheellinen pelko. Nyt luultavasti aloitamme lempeästi liikkeelle, ja kaikki menee hyvin.</li>
+	</ul>
+
+	<h3>Keväälle 2012</h3>
+
+	<ul>
+		<li><strong>Funktionaalianalyysi</strong>: tästä en tiedä juuri mitään, mutta sen, että kyseessä on hyvin abstraktia funktioiden kanssa työskentelyä yli lukujoukkojen rajojen. Varmaankin vaikein näistä kursseista.</li>
+		<li><strong>Analyysi IV</strong>: viimeinen Analyysi vie meidät syvemmälle funktioiden ominaisuuksiin. Ymmärtääkseni aihealueet sivuavat funktionaalianalyysia, joten ehkä päällekkäisestä informaatiosta koituu helpottavaa myötävirtaa.</li>
+	</ul>
+
+	<p>Muita opintoja matematiikkaan olisi ollut mm. elementtimenetelmästä pitkä suoritus. En nyt oikein tiedä siitä. Matriiseista pidetään kattava katsaus, mutta se varmaan jaksaa jäädä myöhemmälle. Todennäköisyyslaskennan perusteisiin en edelleenkään jaksaisi vaivautua. Kaavailemaani diskreetin matematiikan kurssia ei nähtävästi pidetäkään, joten nyt kävi näin.</p>
+</div>
+
+<p class="tags"> 
+
+
+
+</p>
+
+
+
+<div class="divider"><img src="../images/1.gif" alt="---" width="400" height="1" /></div>
+
+
+        </div>
+
+ <!-- now, common stuff -->
+
+        <div class="divider"><img src="../images/1.gif" alt="---" width="400" height="1" /></div>
+
+        <p><a rel="prev" href="367/matematiikkaa-syksylta-2010-ja-kevaalle-2011" title="Matematiikkaa syksyltä 2010 ja keväälle 2011">&#171; Matematiikkaa syksyltä 2010 ja keväälle 2011</a> 
+           &mdash; <a rel="next" href="545/uudet-matikan-kurssit-tilalle" title="Uudet matikankurssit tilalle">Uudet matikankurssit tilalle &#187;</a>
+        </p>
+
+        <div class="divider"><img src="../images/1.gif" alt="---" width="400" height="1" /></div>
+        <h2>Aiheen vierestä</h2>
+        
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

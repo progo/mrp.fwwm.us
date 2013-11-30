@@ -1,0 +1,294 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <!-- standard -->
+	<title>Mr. P: Hiljaista, vol n</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=mietteet" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=mietteet" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="mietteet">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="hiljaista-vol-n#content">Siirry sisältöön</a></li>
+        <li><a href="hiljaista-vol-n#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            &raquo;
+            <a href="../index.html">Mietteet</a>
+            
+                <!--<ul>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/598/blogille-idea">Blogille&#160;idea</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/597/wes-mckinney-python-for-data-analysis-oreilly">Wes McKinney - Python For Data Analysis (O&#39;Reilly)</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/596/org-blogaaminen-vaikeata">Org-blogaaminen&#160;vaikeata</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/595/twitterointia-emacsilla">Twitteröintiä&#160;Emacsilla</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/594/weboodi-aikataulut-orgiin">WebOodi-aikataulut&#160;orgiin</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/592/emacs-has-me">Emacs has&#160;me.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/591/editorien-taistelu-tietamyshallinnassa">Editorien taistelu&#160;tietämyshallinnassa</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/590/think-vimorganizer">Think&#160;VimOrganizer.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/589/think-orgmode">Think&#160;orgmode.</a>
+                </li>
+</ul>-->
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="http://progo.viuhka.fi/kategoria/hifi/">Hifi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/rauta/">Rauta</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/viihde/">Viihde</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../../tag/gentoo/index.html" class="tagSizeLargest tagSize102" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../../tag/hifi/index.html" class="tagSizeMedium tagSize28" style="font-size: 100%;">hifi</a></li>
+	<li><a href="../../tag/ohjelmistot/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">ohjelmistot</a></li>
+	<li><a href="../../tag/ohjelmointi/index.html" class="tagSizeMedium tagSize39" style="font-size: 100%;">ohjelmointi</a></li>
+	<li><a href="../../tag/opiskelu/index.html" class="tagSizeMedium tagSize14" style="font-size: 100%;">opiskelu</a></li>
+	<li><a href="../../tag/palvelin/index.html" class="tagSizeMedium tagSize34" style="font-size: 100%;">palvelin</a></li>
+	<li><a href="../../tag/rauta/index.html" class="tagSizeMedium tagSize20" style="font-size: 100%;">rauta</a></li>
+	<li><a href="../../tag/vim/index.html" class="tagSizeMedium tagSize31" style="font-size: 100%;">vim</a></li>
+</ul>
+        <p><a href="../../tag/index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=mietteet" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=mietteet" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- not tag view, it's the main view -->
+
+
+        
+
+        <div class="hfeed">
+            <!-- five articles to list here, or only one. It depends. -->
+            <!-- default form -->
+
+<p class="published">30. heinäkuu 2006, 20:30</p>
+<h1 class="entry-title"><a rel="bookmark" href="hiljaista-vol-n">Hiljaista, vol&#160;n</a></h1>
+
+
+<div class="entry-content">
+<p>Kuusessa on hiljaiset päivät olleet. Ihmiset tuntuvat pysyvän linjoilla, UTF8 toimii, verkko ei ole katkeillut(?), ylläpitäjä ei ole evottanut (teidän nähden) ja kahvi maistuu edelleen juotavan hyvältä.</p>
+<p><strong>I'd like to share a revelation that I've had during my time here.</strong></p>
+<p>Kun silloin aikoinani sain kipinän &mdash; sanotaan vaikkapa päähänpinttymäksi &mdash; hankkia itselleni serveri jossa rullailee joku moderni linux-distro, ajattelin että tästä ei välttämättä mitään tule. Kuukausi oli huhtikuun loppu kun rupesin tätä haaveilemaan ja toukokuussa huusin itselleni <a href="http://huuto.net">huuto.net</a>istä pentinhylyn. Tingin siihen näppäimistön kaupantekijäisiksi koska ps/2-näppäimistöjä ei ole koskaan liikaa, hiiriä kylläkin. No, kone tuli ja koska satuin liikkumaan sen verran epäilyttävässä porukassa että he välttämättä tukivat vain Gentoota (jotkut vastaanpanijat Debiania ja yksi epätoivoinen Ubuntua ajoi serverikoneessa) niin valintani oli Gentoo. Tuumasin itselleni että jos ei Gentoo taivu otteeseeni niin valintani olisi Debian.</p>
+<p><a target="_blank" href="http://xs.to/xs.php?h=xs304&#038;d=06300&#038;f=koppa.jpg"><img align="middle" style="width: 183px; height: 139px" alt="Free image hosting powered by xs.to" title="Free image hosting powered by xs.to" src="http://xs304.xs.to/xs304/06300/koppa.jpg.xs.jpg" /></a><a target="_blank" href="http://xs.to/xs.php?h=xs304&#038;d=06300&#038;f=naytto.jpg"><img align="middle" alt="Free image hosting powered by xs.to" title="Free image hosting powered by xs.to" src="http://xs304.xs.to/xs304/06300/naytto.jpg.xs.jpg" /></a></p>
+<p>Tutustuin Gentoo Handbookkiin yleisesti silmäilemällä opasta.</p>
+<p><a href="http://xs304.xs.to/xs304/06300/ssh.jpg">Kuusen asentelu </a>meni yleisesti ottaen hyvin, aloittelijan virhe tuli tehtyä siinä että en ottanut raudasta selvää ennen kernelin konffausta ja verkkokortti jäi siten uudesta kernelistä tukematta. Asia ratkesi heti toisella käännöllä.</p>
+<p>Kerneli oli tietenkin perustavis gentoo-patchsetin sisältävä 2.6.16-r7 (muistaakseni), en tiennyt silloin miten helppo hardened-kerneli olikaan.</p>
+<p>Kaikki olisi ollut ylivoimaista ellei eräs gentooharrastaja olisi minua neuvonut niin monessa pikkuasiassa että en edes kärryillä pysy että montako asiaa hän neuvoillaan sai ehjättyä. Asiat menivät hienosti. Eräs todella epätoivoinen otti ja halusi minulta välttämättä shell-tunnuksen irkkausta varten. Minä olin kuin kissa pistoksissa servuni tietoturvan kanssa. Säädin äkkiä fork-pommilta suojaavat prosessirajat käyttäjille ja sitä rataa. SSH:n yli yrittivät tunkeilijat hyökkäillä joten tämä guru mentorini neuvoi minua tcp-wrappereiden ylöslaitossa.</p>
+<p>Sitten olikin edessäni kuusen julkisivu tarkemmin. Virittelin kevyen veppisivun jossa oli alun perin vain php:llä toteutettu system("uptime");. Ja nykyään siitä sivusta on tullut täysin epäluettavaa roskaa, jonka edelleen ainoa "hyödyllinen" tieto olisi tuo sama system("uptime") -rimpsu jonka sieltä saattaa löytää.</p>
+<p>Asiat rullasivat siihen että minusta tuntui että ehkäpä serverin virittelystä saisi kivan blogin aikaseksi. En ollut kuullut aiemmin vastaavanlaisesta konseptista, joten ideani sai itseltäni tukea varsin rajusti ja päädyin bash-skripteillä toteutettuun nanobloggeriin. Se toimi ihan kivasti mutta se oli täysin staattinen ratkaisu ja kommentointiominaisuutta ei siis ollut. Päädyin tähän Wordpressiin tutkittuani ensin b2evoa ja totesin että WP näyttää ja kuulostaa kivalta.</p>
+<p>Koska blogini on tähän mennessä toiminnassa niin suuri osa jutustelustani on nyt luettavissa vanhoista entryistä. Blogi menee tänä päivänä nyt valitettavasti siihen että kun kaikki toimivat niin mitään ei ole raportoitavana. Mitä kertoisin kun mikään ei kiukkua. SSHd:n logeista tämänpäiväiset tunkeutujien käyttäjänimiehdokkaat? Eipä niitäkään ole thanks to the tcp wrappers.</p>
+<p>Metalogd on kenties siitä huono vaihtoehto että se ei tarjoa yleispätevää <em>messages</em>-filettä. Kaipa <em>everything </em>vastaa sitä sitten.</p>
+<p>BTW, vimin alkeet opettelin jo ennen kuusta; nimittäin jo kun sain päähäni hankkia itselleni shell-tunnuksen <a href="http://skeezu.net">skeezunetistä</a>.</p>
+<p>Koska kaikkia kiinnostaa niin kuuntelen tällä hetkellä Giorgio Moroderin sävellystä Scarface -elokuvan soundträkiltä.</p>
+</div>
+
+<p class="tags"> 
+
+
+Tageja: <a href="../../tag/gentoo/index.html" rel="tag">gentoo</a>, 
+<a href="../../tag/palvelin/index.html" rel="tag">palvelin</a>
+
+
+</p>
+
+
+
+<div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+
+        </div>
+
+ <!-- now, common stuff -->
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+        <p><a rel="prev" href="../242/nothing-special-happened-today" title="Nothing special happened today">&#171; Nothing special happened today</a> 
+           &mdash; <a rel="next" href="../240/cat-dev-random-blogientry" title="cat /dev/random &#62;&#62; blogientry">cat /dev/random &#62;&#62; blogientry &#187;</a>
+        </p>
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+        <h2>Aiheen vierestä</h2>
+        <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../587/tehokkaat-kayttoliittymat-vaivatta">Tehokkaat käyttöliittymät&#160;vaivatta</a></span> &#183; <span class="published">2012-08-16</span>
+<br /><span class="smallexcerpt">Ohjelmoijan onni on elää komentorivillä. Tehokkaiden käyttöliittymien rustaaminen on varsin nopeata, kunhan luottaa siihen, että suurta suosiota tuotokset eivät tule...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../571/tv-saato-on-nyt-valmis">TV-säätö on nyt&#160;valmis</a></span> &#183; <span class="published">2012-03-23</span>
+<br /><span class="smallexcerpt">No niin. Uuden NVidia-kortin ansiosta TV-episodi on käsitelty voitokkaasti. Jos rahalla asiasta selviämistä ei lasketa huijaamiseksi.
+
+	Oppirahoja tuli taas tosiaankin hassattua....</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../568/avoimet-suljetut-ja-se-vastapuoli">Avoimet, suljetut ja se&#160;vastapuoli</a></span> &#183; <span class="published">2012-03-11</span>
+<br /><span class="smallexcerpt">Radeonien kanssa on todellakin painittavaa. Kompromisseista on jotain valittava kontolleen, jos muut sitten sujuvatkin.
+
+	fglrx &#8212; se suljettu
+
+	Kaikki työpöytäkäyttö sujuu erihyvin....</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../567/tv-monitorit-ja-gentoo">TV, Monitorit ja&#160;Gentoo</a></span> &#183; <span class="published">2012-03-09</span>
+<br /><span class="smallexcerpt">Pari viikkoa sitten sain lahjaksi taulu-TV:n (Philipsin 42FPL3606, eli 42 tuumaa) ja totta kai se pitää saada kiinni tietokoneeseen pikselitarkalla...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../560/informaation-jarjestely-tietamyksenhallinta">Informaation järjestely:&#160;tietämyksenhallinta</a></span> &#183; <span class="published">2011-12-10</span>
+<br /><span class="smallexcerpt">Tietoa, eli kaikenlaista pientä tietämystä, on kaikkialla. Ihminen oppii kyllä paljon, ja erityisesti kun on motivoitunut omaksumaan. Mutta edes kaikkein...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../557/palvelin-tulossa-sittenkin">Palvelin tulossa&#160;sittenkin</a></span> &#183; <span class="published">2011-11-10</span>
+<br /><span class="smallexcerpt">Vaikka taannoin järkeilin palvelimen ostoa vastaan aika onnistunein argumentein, niin nyt sellaisen olen kuitenkin hommannut. Käytetystä raudasta kootan murossa jonkinlaisen...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../555/virtamittailuja">Virtamittailuja</a></span> &#183; <span class="published">2011-10-20</span>
+<br /><span class="smallexcerpt">Olen muuttamassa uuteen asuntoon Outokummussa, ja nyt pitää katsella muiden toimien ohella myös sähkönkulutusta uudella silmällä. Erityisesti mieltä polttelee kysymys:...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../554/tulipa-netbook-ostettua">Tulipa netbook&#160;ostettua</a></span> &#183; <span class="published">2011-10-01</span>
+<br /><span class="smallexcerpt">Elitegroupin G10IL -mallinen miniläppäriksi luokiteltavissa netbook tuli ostettua. Saamme nähdä, miten tässä vielä käy.
+
+	Tämä on tavallinen nykynetbook, jossa on 10-tuumainen...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../553/videoeditoinnit-linuxissa">Videoeditoinnit&#160;linuxissa</a></span> &#183; <span class="published">2011-09-24</span>
+<br /><span class="smallexcerpt">Huoh. Täytyy sanoa, että en aivan mieluiten valitsisi linux-ohjelmia isompien projektien editointiin. Nykytarjonta on aika heikkoa, edelleenkin. Vaikka Cinelerra (tai...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../550/aakkoset-hieman-uusiin-paikkoihin">Ääkköset hieman uusiin&#160;paikkoihin</a></span> &#183; <span class="published">2011-09-09</span>
+<br /><span class="smallexcerpt">Us-alt-intl on muuten ihan hyvä, mutta ö-kirjain on huonossa paikassa näppäinfysiologian kannalta.  Nytpä muokkasin vähän tuota leiskaa, ja ääkköset...</span>
+</li>
+
+</ul>
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

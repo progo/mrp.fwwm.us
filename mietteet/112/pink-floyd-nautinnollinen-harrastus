@@ -1,0 +1,330 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <!-- standard -->
+	<title>Mr. P: Pink Floyd, nautinnollinen harrastus</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=mietteet" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=mietteet" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="mietteet">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="pink-floyd-nautinnollinen-harrastus#content">Siirry sisältöön</a></li>
+        <li><a href="pink-floyd-nautinnollinen-harrastus#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            &raquo;
+            <a href="../index.html">Mietteet</a>
+            
+                <!--<ul>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/598/blogille-idea">Blogille&#160;idea</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/597/wes-mckinney-python-for-data-analysis-oreilly">Wes McKinney - Python For Data Analysis (O&#39;Reilly)</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/596/org-blogaaminen-vaikeata">Org-blogaaminen&#160;vaikeata</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/595/twitterointia-emacsilla">Twitteröintiä&#160;Emacsilla</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/594/weboodi-aikataulut-orgiin">WebOodi-aikataulut&#160;orgiin</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/592/emacs-has-me">Emacs has&#160;me.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/591/editorien-taistelu-tietamyshallinnassa">Editorien taistelu&#160;tietämyshallinnassa</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/590/think-vimorganizer">Think&#160;VimOrganizer.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/589/think-orgmode">Think&#160;orgmode.</a>
+                </li>
+</ul>-->
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="/kategoria/hifi/">Hifi</a></li>
+	<li><a href="/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="/kategoria/rauta/">Rauta</a></li>
+	<li><a href="/kategoria/viihde/">Viihde</a></li>
+	<li><a href="/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../../tag/blogisäätöä/index.html" class="tagSizeMedium tagSize25" style="font-size: 100%;">blogisäätöä</a></li>
+	<li><a href="../../tag/gentoo/index.html" class="tagSizeLargest tagSize105" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../../tag/hifi/index.html" class="tagSizeMedium tagSize31" style="font-size: 100%;">hifi</a></li>
+	<li><a href="../../tag/mpd/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">mpd</a></li>
+	<li><a href="../../tag/ohjelmointi/index.html" class="tagSizeMedium tagSize42" style="font-size: 100%;">ohjelmointi</a></li>
+	<li><a href="../../tag/opiskelu/index.html" class="tagSizeMedium tagSize17" style="font-size: 100%;">opiskelu</a></li>
+	<li><a href="../../tag/rauta/index.html" class="tagSizeMedium tagSize23" style="font-size: 100%;">rauta</a></li>
+	<li><a href="../../tag/vim/index.html" class="tagSizeMedium tagSize34" style="font-size: 100%;">vim</a></li>
+</ul>
+        <p><a href="../../tag/index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=mietteet" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=mietteet" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- not tag view, it's the main view -->
+
+
+        
+
+        <div class="hfeed">
+            <!-- five articles to list here, or only one. It depends. -->
+            <!-- default form -->
+
+<p class="published"> 9. huhtikuu 2008, 15:06</p>
+<h1 class="entry-title"><a rel="bookmark" href="pink-floyd-nautinnollinen-harrastus">Pink Floyd, nautinnollinen&#160;harrastus</a></h1>
+
+
+<div class="entry-content">
+<p>Aloin innoissani kirjoittamaan tästä bändistä edelliseen postaukseen, mutta ajattelin, että tämä kaipaakin kunnollista lähestymistä ja siispä tehdään ja siirretään tekstit oikeaan postaukseen.</p>
+<p>Ajattelin kirjoitella tähän hieman näkemyksiäni kustakin Pink Floydin varhaistuotantoalbumista, jotka tiedän hyvin. Eli sieltä puuttuu <em>More</em> ja <em>Obscured by Clouds</em> vähintäänkin. En selittele minkä on kukin kirjoittanut taikka milloin se Syd lähti. Keskityn musiikkiin ja sen nautittavuuteen.</p>
+<p><strong>The Piper at the Gates of Dawn (1967)</strong><br />
+<img src="http://skeezu.net/~progo/kuvat/PF-early-albums/200px-PinkFloyd-album-piperatthegatesofdawn_300.jpg" alt="" width="200" height="198" /></p>
+<p>Piper on hyvin kokeellinen levy, täynnä osin mieltä kiihottavia elementtejä, mutta myös paljon rasittavaa rainaa, jota ei jaksa kuunnella. Silti kun levyn päälle laittaa, se tulee kuunneltua läpi. Johtuneekohan osin myös lyhyistä pituuksista? Avausraita <em>Astronomy Domine</em> on todella herkullinen. Pidin raidasta jo aikoinani kun kuuntelin muiden tapaan The Wallia ja tiettyjä tarkoin harkittuja kappaleita sieltä. Astronomy Domineessa on sellaista tuoreutta ja leikillisyyttä. Todellakin, vetävä kappale!</p>
+<p>Muu levy on valitettavasti vähemmän nautinnollista. <em>Interstellar Overdrive</em> on tietysti toinen loistokas. Molemmat käsittelevät avaruusteemoja. Muutama mitäänsanomaton raita siellä on. Mutta viimeinen raita, <em>Bike</em> on todella huvittava ja psykedeelinen LSD:ssä pyörivä Syd Barrett on helppo kuvitella tätä raitaa kuunnellessa.</p>
+<p><strong>A Saucerful of Secrets (1968)</strong><br />
+<img src="http://skeezu.net/~progo/kuvat/PF-early-albums/200px-Saucerful_of_secrets2.jpg" alt="" width="200" height="199" /></p>
+<p>Askel kohti paljon parempaa! Edellinen asetti pohjan, tämä jatkaa sitä pohjaa luoden todella tiukkaa settiä. <em>Set the Controls for the Heart of the Sun</em> on hieno rytkytys, samoiten oikeastaan kaikki levyn kappaleet. <em>See-saw</em> ehkä ainoana huonona. <em>Corporal Clegg</em> on rento ja pirteä ryimyttely, joka ei lyriikoiden puolesta ainakaan masenna liiaksi. Laulu ja nautittava soittotyyli. Ahh, me likes.</p>
+<p>Täyskäännös tapahtuu kun älppärin puolta vaihdetaan Cleggin jälkeen. Nimikkoraita <em>A Saucerful of Secrets</em> on todella tiukka, vaikka sitä ei ehkä ensimmäisellä tai toisella kerralla huomaakaan. Jykevät, voimakkaat rummut ja koko soundi on tasapainoikas ja mahtava. Vaikka kappale on pitkä, sen pystyy kuuntelemaan vaikka sen alkupää onkin lepsu. Loppupäässä tulee vahvat urut mukaan ja kappale on ylipäätäänkin todella säväyttävä! Ei anna minkäänlaisia mielikuvia jos kuuntelee jollain gigantin vehkeillä, jotka eivät toista bassoa. Kappale kaipaa auktoriteettiä sillä saralla, jotta se loistaa. Mutta kun se saa maistuan paukun alleen, se loistaa. Se on raita, joka todella panee kaipaamaan todellisia suorittajia. Vahvistin, kuulokkeet ja hitto vie johdotkin menisivät uusiksi tämän mestariteoksen takia!</p>
+<p>Viimeinen raita <em>Jugband Blues</em> on tyylikäs ja se on todella sopiva kappale, mikä sopisi hyvin lähes mihin tahansa Pink Floyd -kokoelmalevyn lopetukseksi.</p>
+<p><strong>Ummagumma (1969)</strong><br />
+<img src="http://skeezu.net/~progo/kuvat/PF-early-albums/200px-PinkFloyd-album-ummagummastudio-300.jpg" alt="" width="200" height="198" /></p>
+<p>Tämä levy on vähän sekasortoinen mielessäni. Tämä on käytännössä kaksoisalbumi, joista ensimmäinen koostuu vanhoista kappaleista livenä soitettuna. Toinen levy on studioäänitetty ja kukin yhtyeen jäsen on saanut yhtäläisen osan kirjoittaa. Liveosassa on vanha tuttu <em>Astronomy Domine</em> ja sitten tämä loistoraita <em>Careful with that Axe, Eugene</em>. Nimikin jo kertoo, ettei se voi olla täyttä roskaa. Eikä se olekaan. Sekavaisen soiton seasta sikiää todella karmaiseva kirkuminen, joka nostaa niskavillat tasavarmasti ylös. Livepuolella on vain neljä kappaletta, yksi "Piperiltä" ja kaksi "Saucerilta". Livesoittoon en aina haluaisi panostaa, etenkin jos löytyy vastaavat kappaleet studiomasteroituina. Niissä on enemmän potkua ja makua. Live on vähän niinkuin kerran tai kaksi käytetty teepussi. Studiolevytys on uusi pussi, täynnä aromia.</p>
+<p>Toinen puoli on saanut ehkä liian vähän soittoa. Musiikki siellä on vähän sekalaista, useimmat ovat puhdasta kokeiluhenkistä paukuttelua. Helmi kappaleen nimi sieltä löytyy kyllä: <em>Several Species of Small Furry Animals Gathered Together in a Cave and Grooving with a Pict</em>.</p>
+<p><strong>Atom Heart Mother (1970)</strong><br />
+<img src="http://skeezu.net/~progo/kuvat/PF-early-albums/200px-AtomHeartMotherCover.jpeg" alt="" width="200" height="199" /></p>
+<p>Levyn avausraita <em>Atom Heart Mother (Suite)</em> on kenties aliarvostetuin loistokas <em>masterpiece</em> ikinä. Sävelletty vuonna 1970 apunaan kokonainen sinfoniaorkesteri, tämä 24-minuuttinen sävelpaukautus on todellinen lämminhenkisyyden ja toisaalta kylmän synkkyyden ylistys. Se ei petä missään kohdassa, ei anna kuuntelijalle tylsistynyttä hetkeä.</p>
+<p>Pink Floydin pojat itse aliarvioivat työtään liikaa. Minusta se kuuluu melkein Meddlen ja Wish You Were Heren kaveriksi. Näistä pitkistä PF-kappaleista (Atom Heart Mother (1970), Echoes (1971) ja Shine On You Crazy Diamond (1974)) on hankala valita parasta. Viimeinen ei oikein nappaa, koska se on albumilla <em>Wish You Were Here</em> kahdessa palassa. Wikipedian mukaan asia johtuu LP:n fyysisistä rajoituksista, mutta ainakin nyt, jos ei 70-luvulla, osataan laittaa peräti 30 minuuttia per puoli. Näin se on nähtävä, koska Mike Oldfieldin Amarok on tarkkaan 60 minuuttia pitkä ja se mahtuu kokonaisuudessaan vinyylilevyn molemmille puolille.</p>
+<p>Pakko se on se Echoes valita ykköseksi sen puhtaan loistokkuuden takia. Lyriikat, soitto, jämptiys ja selkeä kolmijako tekevät siitä yksinkertaisesti loistokkaan kappaleen, jota ei kyllästy kuuntelemaan. Sen melankolinen asenne, mutta silti niin vetävä, vahva tunnelma ja tenhoava rytmi. Ahhh. Samanlainen alkaa juuri tässä Atom Heart Motherissa, noin kohdalla 20:30.</p>
+<p>Levyn toinen puoli on tökeröä tavaraa mielestäni. Country-tyylisiä lauluja, joilla epäilemättä kokeillaan rajoja ja uusia mantuja. Enpä tiedä nyt. Pääosin kuuntelen yksinomaan A-puolta.</p>
+<p><strong>Meddle (1971)</strong><br />
+<img src="http://skeezu.net/~progo/kuvat/PF-early-albums/200px-MeddleCover.jpeg" alt="" width="200" height="196" /></p>
+<p>Tämä levy on hieno osoitus yhtenäisyydestä ja hienosta soitosta. Levyn starttaa tehokkaasti kappaleella <em>One of these Days</em> ja sen kruunaa todella mestarillinen <em>Echoes</em>, josta kerroin ylempänä enemmän. Etenkin ensimmäisessä kappaleessa tulee esille Pink Floydin toimiva soitto ja erilaiset tekniikat ovat nyt valjastettuna todella mahtavaksi kokonaisuudeksi. Muut levyn kappaleet ovat myös hyviä. Niistä puhkuu vuoroin lämminhenkisyyttä, optimistisia tunteita ja milloin eläimellisyyttä. Kaikissa niissä tuntuu silti olevan sellainen sävy, että ne valmistelevat vain ja ainoastaan illan pääesiintyjää, Echoesia varten.</p>
+<p>Ja se Echoes. Aloitus kestää minuutin tai kaksi, tulee melankolinen sävy ja melodia. Teemat ovat iskeytyneet niin syvälle pohjaluihin, että ei hittolainen. Keskikappaleen ambienssi oli ensimmäisellä kerralla hermostuttava ja loi tehokkaita mielikuvia. Valitettavasti tämä ei toimi enää myöhemmillä kerroilla vastaavalla tehokkuudella, koska kuuntelija odottaa herkeämättä viimeisen osan viimeistelyä kappaleelle. Se viimeistely on parasta ikinä. Varmasti syynä on se hidasteleva keskiosio. Kolmiosaisena Echoes toimii varmasti paljon tehokkaampana, vaikka varmasti itse kukin on kuvitellut, miten hieno kappaleesta tulisi jos leikattaisiin "tylsät" taustahelut välistä poies.</p>
+<p><strong>Dark Side of the Moon (1973)</strong><br />
+<img src="http://skeezu.net/~progo/kuvat/PF-early-albums/200px-Dsotm.jpg" alt="" width="200" height="200" /></p>
+<p>Tarvitseeko tätä levyä edes esitellä? Kaikki tietävät tämän varmasti. Kuudenneksi eniten myyty albumi maailmassa. Levyn ensimmäinen puoli on loistokas kertomus kasvamisesta. <em>Time</em> on edelleen yksi parhaista kappaleista ikinä Pink Floydilta. Ja Timeä jatkava <em>A Great Gig in the Sky</em> on todella nätti, jonka pianomelodia on todella mahtava ja tunteikas.</p>
+<p>Levyn toinen puoli onkin omistettu jazzahtavalle setille. Ensin <em>Money</em>, jonka bassotahti on mehukas, ja sitten myöhemmin <em>Us and Them</em> jatkaa saksofonilla. Kaksi viimeistä kappaletta muodostavat selvästi yhden kokonaisuuden: "Brain Damage" ja "Eclipse" tekevät selkärangan levyn nimelle. Todella mahtava ja mehukas, sanoisinko. "See you on the dark side of the moon" aina sykähdyttää.</p>
+<p><strong>Wish You Were Here (1975)</strong><br />
+<img src="http://skeezu.net/~progo/kuvat/PF-early-albums/200px-WishYouWereHere-300.jpg" alt="" width="200" height="200" /></p>
+<p>Viimeinen levy, jonka esittelen. Tästä eteenpäin taso heikkenee jo reilusti mielestäni. Jatketaan asiasta hiukan tuonnempana.</p>
+<p>Tämä levy on ollut itselleni vähän joutavahko. En pidä niinkään levyn nimikkohitistä <em>Wish You Were Here</em>, vaikka myönnänkin sen hienoksi kappaleeksi. Levyn pääasiallista antia on teknisistä syistä kahteen osaan jaettu kappale <em>Shine on You Crazy Diamond</em>. Jäljelle jää <em>Welcome to the Machine</em> ja <em>Have a Cigar</em>. Molemmat ovat hyvin unenomaisia kappaleita, eivätkä oikeastaan iske sillä tavalla minuun kuin toisella tavalla uniset alkuajan kokeilurokit.</p>
+<p>Itse aion ainakin hankkia kaikki nämä ylläesitetyt levyt aitoina hyllyyn. Jälkimmäiset sitten taasen&#8230; lyhyitä mietteitä niistä.</p>
+<p><strong>Animals</strong> on hieno albumi, mutta jotenkin ne lyriikat ovat luonteeltaan sellaiset, ettei niitä jaksa seurata. Jään kuuntelemaan laadukasta kitarankäyttöä. Levyhän on velkaa Orwellin <em>Animal Farmille</em> (Eläinten vallankumous) ja indeed, siitähän se kertoo. Ensimmäistä kertaa nähdessäni levyn kappalelistan ajattelin heti, että se sijoittuu 60-luvun lopun kokeellisiin levyihin. Kappaleiden nimet ja pituudet eivät sinänsä kerro mistään, mutta psykedeelinen rokki tuli ensimmäisenä mieleen.</p>
+<p><strong>The Wall</strong>. Mitä tästä? Muutakin kuin että se lienee Pink Floydin toiseksi suosituin albumi, ja ainakin sisältää kaikkein suosituimman singlen ikinä. Vaikka levy onkin muotoiltu rock-oopperaksi, saa sieltä musiikista irti yhtä sun toista vaikka vain kappaleittain kuuntelisi. <em>Another Brick in the Wall (Pt 2)</em> on niin tunnettu ja klassikon asemassa oleva raita, että ei mitään rajaa. Sopisi hyvin abilaulun pohjalle. Pitäisiköhän esittää? Useimmat taitavat pitäytyä suomalaisiskelmässä. Hieno kappale on kyllä <em>Comfortable Numb</em> toiselta puolen. Hieno soitto, hieno kappale, hieno tyyli ja tunnelma. Pitäisi todellakin ottaa itseäni niskasta kiinni ja katsoa tuo The Wall -elokuva.</p>
+<p><strong>The Final Cut</strong> on sanalla sanoen umpitylsä. Olen sen kahdesti kuunnellut ja en kyllä keksi ihan heti syytä miksi kuunnella sitä kolmatta kertaa. Aihe on sodasta. Olen kai liian nuori.</p>
+<p><strong>Momentary Lapse of Reason</strong> on vähällä kuuntelulla ollut, mutta paikoin maukas esitys silti.<br />
+<strong>The Division Bell</strong> on samaa sarjaa edellisen kanssa. Pitäisi kaiketi kuunnella oikein ajatuksen kanssa molemmat näistä, että saisi tuntumaa. Näissä Wall-jälkeisissä levyissä on ongelmana bändin yksipuolisuus. Jäseniä lähti ja toisia tuli.</p>
+<p>Ehdottomasti Pink Floydin kliimaksi on näkemystavasta riippuen Dark Side of the Moon tai The Wall. Molemmissa on klassikon eineet kasassa. Ja hitto, DSOTM on pian 40-vuotias. Ensimmäiset kaksi, Piper ja Saucer, ovat jo täyttäneet.</p>
+<p>Mielestäni parhaat albumit, kolme parasta:</p>
+<ol>
+<li>Meddle</li>
+<li>Dark Side of the Moon</li>
+<li>Atom Heart Mother / Saucerful of Secrets</li>
+</ol>
+<p>Pakko oli laittaa jaettu sija. Kappaleista taasen&#8230; Voisin koostaa sillä tavalla, että kultakin albumilta valitsen parhaan raidan. Pikaisesti, kolmessa minuutissa mietitty lista sisältää 10 raitaa, joista yksi on kahdessa osassa, joten käytännössä 9. Siellä on mukana myös yksi "katsastamaton" raita, Cymbaline. Se löytyy Elokuvan More soundtrackilta, joka on kokonaisuudessaan Pink Floydin esittämä. Animalsilta ei voi ottaa yhtä raitaa, koska se levy on liian tiivis. Dark Side of the Moon sisältää liian paljon hyvää musiikkia ja on vain oltava valitsematta kuin yksi hyvä monesta. Sama pätee The Walliin. Tällä soittolistalla valikoima kestää kolmea vaille 2 tuntia. Jos yhden lisäraidan saisi ottaa, voisi ehkä sen Biken. Näin kokonaisuus olisi tasan 2 tuntia. Oikeasti ottaisin Moneyn.</p>
+<p>Astronomy Domine<br />
+A Saucerful Of Secrets<br />
+Careful With That Axe, Eugene<br />
+Cymbaline<br />
+Atom Heart Mother (Suite)<br />
+Echoes<br />
+Comfortably Numb<br />
+Time<br />
+Shine On You Crazy Diamond</p>
+<ul></ul>
+</div>
+
+<p class="tags"> 
+
+
+Tageja: <a href="../../tag/musiikki/index.html" rel="tag">musiikki</a>
+
+
+</p>
+
+
+
+<div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+
+        </div>
+
+ <!-- now, common stuff -->
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+        <p><a rel="prev" href="../113/todella-ihmeellistae-vol-xxi" title="Todella ihmeellistä, vol XXI">&#171; Todella ihmeellistä, vol XXI</a> 
+           &mdash; <a rel="next" href="../111/uudelleenmuotoilua" title="Uudelleenmuotoilua">Uudelleenmuotoilua &#187;</a>
+        </p>
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+        <h2>Aiheen vierestä</h2>
+        <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../569/satunnaiset-jazzit-soittolistalta">Satunnaiset jazzit&#160;soittolistalta</a></span> &#183; <span class="published">2012-03-18</span>
+<br /><span class="smallexcerpt">Jonkin aikaa sitten kirjailin nopean bash-skriptin, joka hakee haluamastaan MPD-soittolistasta tietyn verran kappaleita. Siten, että musiikkia saadaan noin tietyn aikarajan...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../559/the-wall-tayttaa-32">The Wall täyttää 32</a></span> &#183; <span class="published">2011-11-30</span>
+<br /><span class="smallexcerpt">Vaihteeksi vähän kevyemmistä asioista. Eli tuli hyvä syy panna Pink Floydin legendaarinen The Wall soimaan. Tämä ikinuori mutta täyttää jo...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../530/levyt-ja-miten-niihin-paasee-sisaan">Levyt, ja miten niihin pääsee&#160;sisään</a></span> &#183; <span class="published">2011-05-30</span>
+<br /><span class="smallexcerpt">Eräs mielenkiintoinen, toistuva havainto kuuntelutottumuksissani on se, että uutta levyä maistellessani pääsen sisään jonkun poikkeavan kappaleen avulla. Mutta sitten kun...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../525/the-wall">The&#160;Wall</a></span> &#183; <span class="published">2011-05-04</span>
+<br /><span class="smallexcerpt">Viime torstaina kävin kuuntelemassa Roger Watersin hulppean The Wallin Helsingissä. Sen jälkeen olen ollutkin The Wall -tunnelmissa, ja Floyd-levyt ovat...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../520/ihmekuusessa-400-levya">Ihmekuusessa 400&#160;levyä</a></span> &#183; <span class="published">2011-03-25</span>
+<br /><span class="smallexcerpt">Nyt Audioslaven arvioituani Ihmekuusessa/Havuviuhkalla on selattavissa 400 levyn mietteet. Melko pyöreitä lukuja tuli tahattomasti myös statseihin. Sanoja on yhteensä näissä...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../329/kohti-absoluuttista-hiljaisuutta-osa-2">Kohti absoluuttista hiljaisuutta, osa 2</a></span> &#183; <span class="published">2010-08-13</span>
+<br /><span class="smallexcerpt">Juuri ennen myrskyä on aina kaikkein hiljaisinta.
+
+	Olen nyt elellyt miltei kaksi viikkoa uudessa kämpässä, ja pikku hiljaa tässä alkavat huonekalut...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../14/joululahjoja">Joululahjoja</a></span> &#183; <span class="published">2009-12-25</span>
+<br /><span class="smallexcerpt">Joulu tuli ja&#8211;no, meni. Vielä kinkusta ähkynä on hyvä tutkia saatuja vekottimia hyvin syväluotaavasti. Onneksi en saanut sen vaarallisempia laitoksia...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../17/taeydellinen-albumi">Täydellinen&#160;albumi?</a></span> &#183; <span class="published">2009-11-28</span>
+<br /><span class="smallexcerpt">Levy, jolla käsitellään rahan asemaa yhteiskunnassa, ihmisten hartaita toiveita ja median asemaa ja sotien merkityksiä, ei voi olla aivan huono....</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../22/hyvae-musiikki-ja-sen-komponentit">Hyvä musiikki ja sen&#160;komponentit</a></span> &#183; <span class="published">2009-10-25</span>
+<br /><span class="smallexcerpt">En aio tähän kommentoida tarkkaan sitä, millä tarkoilla kriteereillä albumit nostuvat toisiaan paremmiksi minun listoilla, vaan koitan toisenlaista lähtökohtaa määritellä...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../24/havuviuhkafi">Havu.viuhka.fi</a></span> &#183; <span class="published">2009-10-17</span>
+<br /><span class="smallexcerpt">Havuviuhka, tai aiemmin Ihmekuusi on nyt pyörinyt mukana jo kohtalaisen pitkään. Kun minä sain päähänpiston tammikuussa tehdä pienen levyarkistoprojektin internetteihin,...</span>
+</li>
+
+</ul>
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

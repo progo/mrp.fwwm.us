@@ -1,0 +1,300 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <!-- standard -->
+	<title>Mr. P: Paluu tuttuihin ympäristöihin</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=mietteet" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=mietteet" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="mietteet">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="paluu-tuttuihin-ympaeristoeihin#content">Siirry sisältöön</a></li>
+        <li><a href="paluu-tuttuihin-ympaeristoeihin#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            &raquo;
+            <a href="../index.html">Mietteet</a>
+            
+                <!--<ul>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/598/blogille-idea">Blogille&#160;idea</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/597/wes-mckinney-python-for-data-analysis-oreilly">Wes McKinney - Python For Data Analysis (O&#39;Reilly)</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/596/org-blogaaminen-vaikeata">Org-blogaaminen&#160;vaikeata</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/595/twitterointia-emacsilla">Twitteröintiä&#160;Emacsilla</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/594/weboodi-aikataulut-orgiin">WebOodi-aikataulut&#160;orgiin</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/592/emacs-has-me">Emacs has&#160;me.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/591/editorien-taistelu-tietamyshallinnassa">Editorien taistelu&#160;tietämyshallinnassa</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/590/think-vimorganizer">Think&#160;VimOrganizer.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="http://progo.viuhka.fi/mietteet/589/think-orgmode">Think&#160;orgmode.</a>
+                </li>
+</ul>-->
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="http://progo.viuhka.fi/kategoria/hifi/">Hifi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/rauta/">Rauta</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/viihde/">Viihde</a></li>
+	<li><a href="http://progo.viuhka.fi/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../../tag/blogisäätöä/index.html" class="tagSizeMedium tagSize9" style="font-size: 100%;">blogisäätöä</a></li>
+	<li><a href="../../tag/gentoo/index.html" class="tagSizeLargest tagSize89" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../../tag/hifi/index.html" class="tagSizeMedium tagSize15" style="font-size: 100%;">hifi</a></li>
+	<li><a href="../../tag/musiikki/index.html" class="tagSizeMedium tagSize7" style="font-size: 100%;">musiikki</a></li>
+	<li><a href="../../tag/ohjelmointi/index.html" class="tagSizeMedium tagSize26" style="font-size: 100%;">ohjelmointi</a></li>
+	<li><a href="../../tag/opiskelu/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">opiskelu</a></li>
+	<li><a href="../../tag/palvelin/index.html" class="tagSizeMedium tagSize21" style="font-size: 100%;">palvelin</a></li>
+	<li><a href="../../tag/vim/index.html" class="tagSizeMedium tagSize18" style="font-size: 100%;">vim</a></li>
+</ul>
+        <p><a href="../../tag/index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=mietteet" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=mietteet" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- not tag view, it's the main view -->
+
+
+        
+
+        <div class="hfeed">
+            <!-- five articles to list here, or only one. It depends. -->
+            <!-- default form -->
+
+<p class="published">26. maaliskuu 2010, 19:50</p>
+<h1 class="entry-title"><a rel="bookmark" href="paluu-tuttuihin-ympaeristoeihin">Paluu tuttuihin&#160;ympäristöihin</a></h1>
+
+
+<div class="entry-content">
+	<p>Tässä olenkin kulutellut aikaani siirtäessäni posteja WordPressistä takaisin kunnon TextPattern-ympäristöön. Luettuani riittävästi tuota <em>TextPattern Solutions</em> -kirjaa olen tullut siihen päätökseen, että TextPattern kykenee yksinkertaisesti kaikkeen, mitä ikinä juolahtaa tehdä. Se on perin mahtava rakennelma. </p>
+
+	<p>Jotain oli silti otettava mukaan myös WordPressistä. Hylkäsin TextPatternin huonosti suunnitellut kategoriat kokonaan, ja hyppäsin käyttämään keywordsejä, tageja tai miten niitä vain haluaa kutsua. Niitä voi liittää artikkeleihin mielin määrin, ja käyttämällä mukavaa lisäosapluginia niistä saa irti TP-ympäristössä niin paljon kuin vain mielii.</p>
+
+	<h2>Vanhoista kirjoitelmista</h2>
+
+	<p>Mitähän tähän kirjoittaisi. No ainakin sellaista, että kaikkien näiden 300 postauksen läpikäyminen ja tagailu tuotti vähän työtä, mutta onneksi se on nyt takanapäin. Aivan täydellistä työtä en tehnyt, mutta kuitenkin tuli suhteellisen hyvin syynättyä viestien sisällöt. Miltei neljä vuotta vanhoja viestejä ei aina osannut tunnistaa omikseni. Oli karkeita puhekielisyyksiä ja milloin mitäkin siellä välissä.</p>
+
+	<p>Myös keskimääräinen postauksen pituus on ollut etenkin vuoden 2007 viesteissä suhteellisen lyhyt. Huomasin toki itsekin, että kun vaihdoin TextPatternista WordPressiin, artikkelien pituus kasvoi mukavasti, ja aika moni artikkeli huiteli tuhannen sanan paikkeilla. Lisäksi, ehkä vähän häveten täytyy tunnustaa, että WP:n <span class="caps">WYSIWYG</span>-näkymä, vaikkakin hyvin kehnosti toteutettu sellainen, on varsin kutsuva laitos. Se houkuttelee kirjailijansa tekemään hyvää jälkeä sana sanalta. Ruudun alareunassa pyörii sanalaskuri, joka ei sentään aivan reaaliaikainen ole, mutta lähellä. Sellainen olisi mukava tässä <span class="caps">TXP</span>:n kirjoittelunäkymässäkin.</p>
+
+	<p>Monessa viestissä on myös vähän hankalaa ja tulkinnanvaraista materiaalia. Harmittomia tapauksia, kuten tulevaisuusennustuksia olisi tehnyt mieli mennä kommentoimaan viesteihin jälkikäteen, mutta sellainen peli ei vetele. Kirjoittelenkin niille mieluummin vastineita nyt uuden ympäristön merkeissä.</p>
+
+	<p>Entryni <a href="../64/uudistus">Uudistus</a> esimerkiksi ottaa ihan osuvan veikkauksen vastaan. </p>
+
+	<blockquote>
+		<p>Ei tässä muuta kuin ilmoitusta, että aloitin juuri asentamaan WordPressin tuoreinta versiota, 2.7.1:stä. Katsotaan noin parin vuoden päästä taas tätä TextPatternia. Suunnilleen sitä luokkaa näyttäisi nimittäin nostalgialla kestävän aika keräytyä niin suureksi, että muutos on saatava.</p>
+	</blockquote>
+
+	<p>Ja kun tästä kirjoitelmasta on aikaa kolmea viikkoa päälle vuosi, voi sanoa, että yksi vuosi siihen meni. Vuosi sitten en ehkä kiinnittänyt huomiotani sellaisiin asioihin <span class="caps">WYSIWYG</span>-editorien puutteissa kuin nyt. Nyt ei tarvitse huolehtia siitä. Samaisessa kirjoitelmassa siunailen joistakin TextPatternin kirouksista, sekä ilmoitan unohtaneeni ne syyt, joiden takia muinoin vaihdoin WordPressistä pois. Ehkä nyt, kun ne ovat tuoreessa muistissa, voin jotain laittaa ylös?</p>
+
+	<h2>Miksi vaihto WordPressistä?</h2>
+
+	<p>Ihmiset yleensä puhuvat, että kun (moderniin) WordPressiin muuttaa, se on myös pysyvä muutos. Vanhoissa Presseissä oli tietoturvaongelmia. Uudemmiten en näkisi sitä suurena tekijänä enää: tilalla on mukavaa multimediaa, galleriakoodia ja hyvää, sisäänrakennettua herkkua esimerkiksi kuvien uploadaamisen suhteen. </p>
+
+	<p>Edellä mainittujen <span class="caps">WYSIWYG</span>-oksennuksien lisäksi ongelmia ilmenee mm. ylläpitopaneelin turhassa raskaudessa. </p>
+
+	<p>Sinänsä täytyy sanoa, että WP:ssä on miellyttävä kasata pieni tarina päivän askareista tai pienestä pohdinnasta kasaan, mutta onhan se myös tässä TextPatternissakin. Ja voi kirjoitella vimillä. Kirjoittelinhan minä joitain tekstejä myös WP-puolella gvimillä, ei se siitä wysiwygistä ehkä yksinään ole kiinni. Turvauduin myös joihinkin likaisiin temppuihin, kuten nykyaikaisten <em>rich text</em> -komponenttien kykyyn vastaanottaa muotoiltua tekstiä, WP:ssä. Teksti näkyy kyllä oikein täällä TextPatternissakin, mutta kunnollinen muunnos Textilelle ei tule sujumaan onnellisesti. Eipä onneksi tarvitsekaan; TextPattern hallitsee tietysti <span class="caps">XHTML</span>-sivujen tarjoilun siinä missä Textilenkin. Ja jos se <span class="caps">WYSIWYG</span>-editorista olisi kiinni, TextPatterniin saa toki jälkiasennuksena sellaisen.</p>
+</div>
+
+<p class="tags"> 
+
+
+Tageja: <a href="../../tag/blogisäätöä/index.html" rel="tag">blogisäätöä</a>
+
+
+</p>
+
+
+
+<div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+
+        </div>
+
+ <!-- now, common stuff -->
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+        <p><a rel="prev" href="../3/naeppaeimistoe-ja-blogihaaveita" title="Näppäimistö- ja blogihaaveita">&#171; Näppäimistö- ja blogihaaveita</a> 
+           &mdash; <a rel="next" href="../299/sahkopostista" title="Sähköpostista">Sähköpostista &#187;</a>
+        </p>
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+        <h2>Aiheen vierestä</h2>
+        <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../598/blogille-idea">Blogille&#160;idea</a></span> &#183; <span class="published">2013-01-05</span>
+<br /><span class="smallexcerpt">Uuden org-pohjaisen blogialustan miettiminen ja kehittäminen on vasta aluillaan, vaikka yhä uskon joustavamman alustan tarjoavan paremman kanavan tajunnanvirtani ohjaamiselle. Ja...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../524/blogin-varityksesta">Blogin&#160;värityksestä</a></span> &#183; <span class="published">2011-04-18</span>
+<br /><span class="smallexcerpt">Säädin blogin värejä. Rukoilkaa, etten säädä niitä enempää.
+
+	Tajusin, että ihmiset eivät välttämättä vastusta valkoista-mustalla -väriteemaa suinkaan tummasta taustasta johtuen, vaan...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../520/ihmekuusessa-400-levya">Ihmekuusessa 400&#160;levyä</a></span> &#183; <span class="published">2011-03-25</span>
+<br /><span class="smallexcerpt">Nyt Audioslaven arvioituani Ihmekuusessa/Havuviuhkalla on selattavissa 400 levyn mietteet. Melko pyöreitä lukuja tuli tahattomasti myös statseihin. Sanoja on yhteensä näissä...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../416/blogia-nyt-komentorivilta">Blogia nyt&#160;komentoriviltä</a></span> &#183; <span class="published">2011-01-29</span>
+<br /><span class="smallexcerpt">Noniin. Koska sain tuon lyhyiden mietteiden sovelman toimimaan melko hyvin, ajattelin nyt laajentaa tavalliset blogikirjoituksetkin tehtäväksi komentoriviltä, jossa olen melko...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../381/mikrobloggailua-talossa">Mikrobloggailua&#160;talossa</a></span> &#183; <span class="published">2011-01-21</span>
+<br /><span class="smallexcerpt">Ja nyt sitä mikrobloggailua on tässä. Edellinen artikkeli johti mielettömän kovaan arpomiseen ja pohdintaan, onko se oikeasti sen arvoista kirjoittaa...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../368/mikrobloggailua-luvassa">Mikrobloggailua&#160;luvassa</a></span> &#183; <span class="published">2011-01-17</span>
+<br /><span class="smallexcerpt">Silloin tällöin hetkellinen mielenhäiriö saa minut harkitsemaan Twitterin kaltaisia mikroblogialustoja, sillä joskus saa niin hyviä fiiliksiä pienistä asioista. Sellaisia pikkuasioita...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../361/syntaksivarjays-selaimesi-puolella">Syntaksivärjäys selaimesi&#160;puolella</a></span> &#183; <span class="published">2010-12-09</span>
+<br /><span class="smallexcerpt">Edelliset ratkaisut eivät sitten toimineet lainkaan siten kuten halusin. Pääsin jo hyvälle mallille edellisen pohjan kanssa, kun viilasin blogikoneemme Textile-koodia,...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../358/taalla-testataan-syntaksivarjaysta">Täällä testataan&#160;syntaksivärjäystä</a></span> &#183; <span class="published">2010-12-03</span>
+<br /><span class="smallexcerpt">Jaksoin ottaa nyt tätä syntaksivärjäyshommaa tehtäväksi. Jos nyt kaikki pelaa, kuten toivon, saan yksillä CSS-määritelmillä kaikille syntakseille jokseenkin samat (yhtenäiset)...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../355/textpatternille-varjaava-koodi">TextPatternille värjäävä&#160;koodi</a></span> &#183; <span class="published">2010-11-22</span>
+<br /><span class="smallexcerpt">Vähänkään suositummalle CMS-alustalle syntaksia värjäävän kooditoiminnon löytymisen ei pitäisi olla ongelma. No, ei ollutkaan. TextPatternin semantiikkaa etsitään kuitenkin muilta vesiltä...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../343/bloggaus-ohjelmointi">Bloggaus-ohjelmointi?</a></span> &#183; <span class="published">2010-10-09</span>
+<br /><span class="smallexcerpt">Edellinen blogikirjailu kehittyi muuten siten, että aloitin kirjoittamaan eilen luomastani täydennysmetodista, kunnes totesin, ettei tätä tässä muodossa kehtaa esitellä, joten...</span>
+</li>
+
+</ul>
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>
