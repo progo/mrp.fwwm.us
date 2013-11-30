@@ -1,1 +1,306 @@
-mita-on-kehittaa-clojurella
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <!-- standard -->
+	<title>Mr. P: Mitä on kehittää Clojurella</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=mietteet" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=mietteet" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="mietteet">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="mita-on-kehittaa-clojurella#content">Siirry sisältöön</a></li>
+        <li><a href="mita-on-kehittaa-clojurella#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            &raquo;
+            <a href="../index.html">Mietteet</a>
+            
+                <!--<ul>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/598/blogille-idea.html">Blogille&#160;idea</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/597/wes-mckinney-python-for-data-analysis-oreilly.html">Wes McKinney - Python For Data Analysis (O&#39;Reilly)</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/596/org-blogaaminen-vaikeata.html">Org-blogaaminen&#160;vaikeata</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/595/twitterointia-emacsilla.html">Twitteröintiä&#160;Emacsilla</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/594/weboodi-aikataulut-orgiin.html">WebOodi-aikataulut&#160;orgiin</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita.html">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/592/emacs-has-me.html">Emacs has&#160;me.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/591/editorien-taistelu-tietamyshallinnassa.html">Editorien taistelu&#160;tietämyshallinnassa</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/590/think-vimorganizer.html">Think&#160;VimOrganizer.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/589/think-orgmode.html">Think&#160;orgmode.</a>
+                </li>
+</ul>-->
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="/kategoria/hifi/">Hifi</a></li>
+	<li><a href="/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="/kategoria/rauta/">Rauta</a></li>
+	<li><a href="/kategoria/viihde/">Viihde</a></li>
+	<li><a href="/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../../tag/blogisäätöä/index.html" class="tagSizeMedium tagSize25" style="font-size: 100%;">blogisäätöä</a></li>
+	<li><a href="../../tag/gentoo/index.html" class="tagSizeLargest tagSize105" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../../tag/hifi/index.html" class="tagSizeMedium tagSize31" style="font-size: 100%;">hifi</a></li>
+	<li><a href="../../tag/mpd/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">mpd</a></li>
+	<li><a href="../../tag/ohjelmistot/index.html" class="tagSizeMedium tagSize4" style="font-size: 100%;">ohjelmistot</a></li>
+	<li><a href="../../tag/ostoksia/index.html" class="tagSizeMedium tagSize11" style="font-size: 100%;">ostoksia</a></li>
+	<li><a href="../../tag/rauta/index.html" class="tagSizeMedium tagSize23" style="font-size: 100%;">rauta</a></li>
+	<li><a href="../../tag/vim/index.html" class="tagSizeMedium tagSize34" style="font-size: 100%;">vim</a></li>
+</ul>
+        <p><a href="../../tag/index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=mietteet" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=mietteet" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- not tag view, it's the main view -->
+
+
+        
+
+        <div class="hfeed">
+            <!-- five articles to list here, or only one. It depends. -->
+            <!-- default form -->
+
+<p class="published"> 5. helmikuu 2012, 10:37</p>
+<h1 class="entry-title"><a rel="bookmark" href="mita-on-kehittaa-clojurella">Mitä on kehittää&#160;Clojurella</a></h1>
+
+
+<div class="entry-content">
+	<p>C- ja muunkielisissä projekteissa tavataan kirjoittaa koodia ensin, ja sitten testataan. Tietysti vaatimus osittain syntyy koodin kääntämisestä; ilman kääntöä ei voi mitenkään testata. Dynaamisissa kielissä ei aina ole päinvastainen tilanne: kaikista interaktiivisen Python-tulkin ansioista huolimatta ainakin minulla Python-kehitys menee samalla tavalla kuin vaikkapa Java-koodin tapauksessa: ensin kirjoitan jotain testintapaista, sitten ajetaan. Lispit ovat aina olleet oman suoritusympäristönsä sisällä niin muokattavia, että siellä kehitysmalli on hioutunut aikojen saatossa. Ehkä Ruby- ja Python-yhteisöt<sup id="fnrev3084475004f2e3fbae7ef1" class="footnote"><a href="mita-on-kehittaa-clojurella#fn3084475004f2e3fbae7ef1">1</a></sup> seuraavat perässä.</p>
+
+	<p>Lispeissä on hyvin dynaaminen &#8220;maailma&#8221;, suoritusympäristö. Jos muuttuja määritellään uudestaan mille tahansa tyypille, niin tehdään mukisematta. Funktiotkin voi aina kirjoittaa uusiksi lennosta. Se johtaa siihen, että koodia ensin kokeillaan ja sitten vasta kirjoitetaan. Hyvät työkalut lispeille tekevät ihmeitä.</p>
+
+	<p>Staattiset systeemit vaativat enemmän esimerkiksi <span class="caps">TDD</span>:n apua sujuvaan kehittämistyöhön. Clojurea koodatessani <span class="caps">TDD</span> on hyvin pienellä prioriteetilla. Ensin voin kokeilla <span class="caps">REPL</span>issä perustavan konseptin idealleni, sitten kirjoittaa jonkinlaisen funktion asiasta. Koska Clojure on hyvin tiivistä koodia, se auttaa myös ihmisen rajoitusten ylitulemisessa. Hyvinkin ilmaisurikkaat lausekkeet saa mahtumaan seitsemään sanaan, ihmisen työmuistin äärirajoille. Se on kuin ohjelmoija kävisi suoritinrekisterimuisteilla. Vasta tiukemmissa konsepteissa saatan sitten kirjailla parit testit. En kuitenkaan niitäkään valmiiksi. Koodi ja funktioiden ulostulo usein muovautuu lopulliseksi muutaman yritys-erehdys -iteraation kautta.</p>
+
+	<p>Clojuren bottom-up -menetelmä on siitä erinomainen. Jos lähtee alkulähteiltä, ei tarvitse huolehtia funktioiden signatuureista tai yhteensopivuudesta. Suunnittelutta on helpompi lähteä liikkeelle, joskin visio tiedon virtaamisesta on hyvä omata päässä. Kun lähdetään ihan alhaalta, eli syötedatan lukemisesta tietorakenteiksi, tietovirta tulee luontevasti mukana. Valitettavasti useimmat epätriviaalit ohjelmat haarautuvat useaksi osaseksi, ja tietovirtoja sekä aiempia funktioita joutuu väistämättä refaktoroimaan uusiin muotoihin.</p>
+
+	<p>Kuitenkin omissa projekteissani olen voinut seurata tietovirtaa aika tyydyttävästi. Lähes aina lähden siitä, että tiedosto luetaan muistiin, ja siitä parsitaan haluttu tieto ulos vaikkapa sanakirjaksi. Sitten jatketaan siitä sanakirjasta ja niin pois päin. Viimeisenä kaikin puolin käsitelty tietorakenne saa lopullisen muotonsa; usein tekstiesityksen.</p>
+
+	<p>Pythonissa on hyvähkö interaktiivinen tulkki. Ehkä jos editorin konffaa lähettelemään koodinpalasia siihen, Python-kokemus lähentelee jo Lisp/Clojure -kehityskokemusta. Vimiä ei tunneta parhaana <span class="caps">IDE</span>:nä maailmassa, mutta <a href="http://www.vim.org/scripts/script.php?script_id=2501">VimClojure</a> on jotain, joka saa mielestäni Emacsinkin <span class="caps">SLIME</span>-moodin punastelemaan. Tosin <span class="caps">SLIME</span> voittaa kyllä, jos lisp-valintani ei olekaan Clojure.</p>
+
+	<p id="fn3084475004f2e3fbae7ef1" class="footnote"><sup>1</sup> Todettakoon, että rubyläiset voivat hyvinkin jo toteuttaa tätä, mutta enhän minä tiedä varmaksi.</p>
+</div>
+
+<p class="tags"> 
+
+
+Tageja: <a href="../../tag/clojure/index.html" rel="tag">clojure</a>, 
+<a href="../../tag/ohjelmointi/index.html" rel="tag">ohjelmointi</a>
+
+
+</p>
+
+
+
+<div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+
+        </div>
+
+ <!-- now, common stuff -->
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+        <p><a rel="prev" href="../564/ranskalaisten-viivojen-parsimista-clojurella" title="Ranskalaisten viivojen parsimista Clojurella">&#171; Ranskalaisten viivojen parsimista Clojurella</a> 
+           &mdash; <a rel="next" href="../566/terminaaleja-vimista-kasin" title="Terminaaleja Vimistä käsin">Terminaaleja Vimistä käsin &#187;</a>
+        </p>
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+        <h2>Aiheen vierestä</h2>
+        <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../587/tehokkaat-kayttoliittymat-vaivatta">Tehokkaat käyttöliittymät&#160;vaivatta</a></span> &#183; <span class="published">2012-08-16</span>
+<br /><span class="smallexcerpt">Ohjelmoijan onni on elää komentorivillä. Tehokkaiden käyttöliittymien rustaaminen on varsin nopeata, kunhan luottaa siihen, että suurta suosiota tuotokset eivät tule...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../584/pythonin-vastaisku-lispeille-ipython-ja-vim-ipython">Pythonin vastaisku lispeille: IPython ja vim-ipython</a></span> &#183; <span class="published">2012-07-25</span>
+<br /><span class="smallexcerpt">Tai &#8220;Pythonin uusi toivo&#8221; tai &#8220;Pythonin paluu&#8221;. Mistä on kyse? Pythonin tulkin me kaikki kai tiedämme: kaikki siinä periaatteessa on,...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../581/sumitup-puutteet-ja-mihin-suuntaan-edetaan">SumItUp: puutteet ja mihin suuntaan&#160;edetään</a></span> &#183; <span class="published">2012-07-12</span>
+<br /><span class="smallexcerpt">Esittelin pari postausta sitten Soulver-kloonin raakileen, SumItUpin. Nyt se on GitHubissa kaikkien pällisteltävänä ja sellaisella raakileasteella, jotta sitä voi jo...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../579/soulver-kloonia-rakentelemassa">Soulver-kloonia&#160;rakentelemassa</a></span> &#183; <span class="published">2012-07-07</span>
+<br /><span class="smallexcerpt">Erittäin upealla konseptilla varustettu laskinohjelma Soulver kaatuu siihen, että sen saa vain Mäkille. Vapaamuotoinen näpertelyalusta on usein ainut asia, mitä...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../566/terminaaleja-vimista-kasin">Terminaaleja Vimistä&#160;käsin</a></span> &#183; <span class="published">2012-02-11</span>
+<br /><span class="smallexcerpt">Vanha kunnon ConqueTerm on nyt valmis ja käyttökelpoinen tuote kehittelyyn.
+
+	Olen viime päivinä alkanut käyttää vimiä hyvin emacsmaisesti. Se on tietenkin...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../564/ranskalaisten-viivojen-parsimista-clojurella">Ranskalaisten viivojen parsimista&#160;Clojurella</a></span> &#183; <span class="published">2012-02-02</span>
+<br /><span class="smallexcerpt">Kirjoitin männäviikolla kokeilumielessä ohjelman, joka kääntää ranskalaiset viivat Beamer-Latexiksi. Ideana olisi tuottaa esityksen lihapuoli nopeasti rustaamalla tiivistä merkintää ja sitten...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../556/korintaytto-ja-ahne-menetelma">Korintäyttö ja ahne&#160;menetelmä</a></span> &#183; <span class="published">2011-10-23</span>
+<br /><span class="smallexcerpt">Mietiskelen tässä korintäyttöä (bin packing) ja sitä, miten ahne menetelmä on joko ylipolynomiaalinen tai sitten epäoptimaalinen.  Luultavasti se on...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../551/tekijoita-clojurella">Tekijöitä&#160;Clojurella</a></span> &#183; <span class="published">2011-09-17</span>
+<br /><span class="smallexcerpt">Nyt olen joutunut opiskelemaan tuota lukuteoriaa ja sen alkeita, ja monet niistä teorioista ovat innoittaneet minulle pieniä Clojure-ohjelmia. Se pää...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../547/pieni-tiedostolistausapu">Pieni&#160;tiedostolistausapu</a></span> &#183; <span class="published">2011-09-04</span>
+<br /><span class="smallexcerpt">Pitäisi viritellä joku zsh-funktio tekemään seuraavanlaisia tiedostolistauksia nykyisestä hakemistosta:
+
+$ ls -1
+foo.txt
+bar.txt
+paperi.tex
+vanhapaperi.tex.gz
+$ l .txt
+foo.txt
+bar.txt
+$ l peri
+paperi.tex
+vanhapaperi.tex.gz
+$ l v*p
+vanhapaperi.tex.gz
+$ ls $files
+vanhapaperi.tex.gz
+
+
+	Eli sen...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../542/git-repon-aktiivisuus-graafiksi">Git-repon aktiivisuus&#160;graafiksi</a></span> &#183; <span class="published">2011-08-15</span>
+<br /><span class="smallexcerpt">Tässä erilaisten projektien loukussa löysin itselleni pienen hengähdystauon kirjoittaessani bash-gnuplot -kaksikon, missä tutkin git-repojen aktiivisuutta graafin muodossa. Varmaan git gui...</span>
+</li>
+
+</ul>
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

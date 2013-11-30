@@ -1,1 +1,526 @@
-kartanluontia-clojurella
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <!-- standard -->
+	<title>Mr. P: Kartanluontia Clojurella</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=mietteet" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=mietteet" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="mietteet">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="kartanluontia-clojurella#content">Siirry sisältöön</a></li>
+        <li><a href="kartanluontia-clojurella#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            &raquo;
+            <a href="../index.html">Mietteet</a>
+            
+                <!--<ul>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/598/blogille-idea.html">Blogille&#160;idea</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/597/wes-mckinney-python-for-data-analysis-oreilly.html">Wes McKinney - Python For Data Analysis (O&#39;Reilly)</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/596/org-blogaaminen-vaikeata.html">Org-blogaaminen&#160;vaikeata</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/595/twitterointia-emacsilla.html">Twitteröintiä&#160;Emacsilla</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/594/weboodi-aikataulut-orgiin.html">WebOodi-aikataulut&#160;orgiin</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita.html">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/592/emacs-has-me.html">Emacs has&#160;me.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/591/editorien-taistelu-tietamyshallinnassa.html">Editorien taistelu&#160;tietämyshallinnassa</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/590/think-vimorganizer.html">Think&#160;VimOrganizer.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/589/think-orgmode.html">Think&#160;orgmode.</a>
+                </li>
+</ul>-->
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="/kategoria/hifi/">Hifi</a></li>
+	<li><a href="/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="/kategoria/rauta/">Rauta</a></li>
+	<li><a href="/kategoria/viihde/">Viihde</a></li>
+	<li><a href="/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../../tag/gentoo/index.html" class="tagSizeLargest tagSize95" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../../tag/hifi/index.html" class="tagSizeMedium tagSize21" style="font-size: 100%;">hifi</a></li>
+	<li><a href="../../tag/musiikki/index.html" class="tagSizeMedium tagSize13" style="font-size: 100%;">musiikki</a></li>
+	<li><a href="../../tag/ohjelmointi/index.html" class="tagSizeMedium tagSize32" style="font-size: 100%;">ohjelmointi</a></li>
+	<li><a href="../../tag/opiskelu/index.html" class="tagSizeMedium tagSize7" style="font-size: 100%;">opiskelu</a></li>
+	<li><a href="../../tag/ostoksia/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">ostoksia</a></li>
+	<li><a href="../../tag/rauta/index.html" class="tagSizeMedium tagSize13" style="font-size: 100%;">rauta</a></li>
+	<li><a href="../../tag/vim/index.html" class="tagSizeMedium tagSize24" style="font-size: 100%;">vim</a></li>
+</ul>
+        <p><a href="../../tag/index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=mietteet" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=mietteet" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- not tag view, it's the main view -->
+
+
+        
+
+        <div class="hfeed">
+            <!-- five articles to list here, or only one. It depends. -->
+            <!-- default form -->
+
+<p class="published">12. helmikuu 2011, 14:11</p>
+<h1 class="entry-title"><a rel="bookmark" href="kartanluontia-clojurella">Kartanluontia&#160;Clojurella</a></h1>
+
+
+<div class="entry-content">
+	<p>Upea kieli tämä Clojure. Tulokset ovat enemmän kuin tyydyttäviä, ja sellainen alkukantainen lisp-häkkäilyn maku on suussa. Ja Javan ansiosta kaikkea tätä on helppo hyödyntää mitä erilaisimmissa sovelluksissa.</p>
+
+	<h1>Miinaharava kartanluojana</h1>
+
+	<p>Aikoinaan miinaharavaa enemmän pelatessani näin pelin generoimat satunnaiset ruudukot eräänlaisina karttoina. Tyhjiä ruutuja, joita yleensä oli paljon röykkiöinä, saattoi samaistaa mereksi tai järviksi, ja miinaruutuja ympärystöineen ajatteli maaksi. Taustalla piilevä teknologia on äärimmäisen yksinkertainen, joten se on helppo muuntaa kartanluontialgoritmiksi.</p>
+
+	<p>Alunperin, olisiko ollut vuonna 2007, kirjoitin kasaan <span class="caps">PHP</span>-purkan. Se loi luonnollisesti <span class="caps">HTML</span>-version satunnaiskartoista. Koska karttageneraattorilla ei ollut kummemmin käyttöä, jäi se sitten pölyttymään. Eikä tätä varsinaisesti olisi tarvinnutkaan kirjoittaa uudestaan: minullahan oli toimiva <span class="caps">PHP</span>-viritelmä. Jos sattuisi vaikka joku rope tarvitsemaan satunnaiskarttaa, siitä vain jauhamaan. </p>
+
+	<p>Mutta nytpä minulla on tämä uusi kielirakkaus, Clojure. Kirjoitin Clojurella jo uuden lukujärjestysjäsentelijän ja sen jälkeen hiipui innostus. Pelkästään siitä syystä, etten keksinyt mitään, mitä kokeilla. Onneksi sattumalta tämä vanha miinaharavaviritelmä kävi mielessä, ja se kuulosti mitä oivimmalta projektilta soveltaa funktionaalisia ideoita. Lopputuloskin on jo valmis, mitä nyt aina pientä viilaamista saa suorittaa. Tutkitaanpa, mitä olen tehnytkään. Mielestäni funktionaalinen lähestymistapa toimii tässä yhteydessä oikein hyvin, vaikka imperatiivinen 2D-taulukontäyttö toimii hyvin sekin.</p>
+
+	<h1>Miinoja kentälle</h1>
+
+	<p>Ensin tarvitsemme miinoja kentälle. Ilman miinoja ei ole miinojen ympäristöjäkään. Taisinpa aloittaa projektin aivan alkeellisimmasta yksiköstä, eli koordinaattien arpomisesta:</p>
+
+<pre class="clojure">(defn rand-coords
+  &quot;Give us a pair of [x y] by given limits.&quot;
+  [x y]
+  [(rand-int x)
+   (rand-int y)])
+</pre>
+
+	<p>Ei pöllömpää. Haskell ei yrittäisikään tarjota valmiita satunnaislukutoimintoja ytimessään, koska ne eivät satu olemaan puhtaita funktioita. Ovatpa ne toiminnot tietysti sielläkin lisäkirjaston päässä. Koodi voi näyttää omituiselta, mutta käytännössä palautamme suoraan vektorin ilman kummempia kommervenkkejä. Koodin toiminnallisuus on &#8220;upotettu&#8221; suoraan tietorakenteeseen.</p>
+
+	<p>Mennään sitten suoraan asiaan, eli niitä miinoja kentälle. Algoritmiksi valitsin naiivin arpomisen, jonka suoritukselle ei taata ylärajaa. Kyseessä on siis ordo-ääretön.</p>
+
+<pre class="clojure">(defn generate-mines-set
+  &quot;Set given amount of randomly placed &#39;mines&#39; into a sorted set.&quot;
+  [width height mines]
+  (loop [acc (sorted-set)
+         mines-left mines]
+    (if (zero? mines-left)
+      acc
+      (let [cand (rand-coords width height)]
+        (if (contains? acc cand) ; we&#39;ll take an extra spin if multiple hits
+          (recur acc mines-left)
+          (recur (conj acc cand)
+                 (dec mines-left)))))))
+</pre>
+
+	<p>Jos vähän puretaan auki tätä, niin se luonnollisesti käyttää rekursiota iteroimiseensa. Miinoja annetaan <em>mines</em> kappaletta ja rajoitukset kartalle arvojen <em>width</em> ja <em>height</em> avulla. Muuttujanimi <em>acc</em> vastaa kertymärakennetta (accumulator). Yleinen nimitys. Rekursion lopetusehto on ensin: hieman sanajärjestystä muuttamalla rivi muuttuu tavalliseksi englanniksi: &#8220;if the number of mines left is zero, &#8230;&#8221;</p>
+
+	<p>Jos kentälle pitää upottaa uusi miina, arvomme yhden kandidaatin <em>cand</em>, ja tsekkaamme, löytyykö se ennestään. Tämä on siis se naivi tapa toteuttaa arpominen, eikä välttämättä pysähdy koskaan. Palaamme rekursiosilmukkaan tavalla tai toisella, toisessa tapauksessa kertymämuuttujaa ei kerrytetä. Tuloksena ei ole kuvaus (map), vaan järjestetty joukko koordinaatteja. Niissä koordinaateissa tulee siis miinat löytymään.</p>
+
+	<p>Tätä joukkoa tarvitsemme sitten oikeastaan emme missään. Se joukko nimittäin muutetaan kuvaukseksi seuraavan funktion kohdalla. Ajattelin kuitenkin jättää sen joukoksi toistaiseksi. Voihan sille keksiä jotain muuta käyttöä.</p>
+
+	<h2>Naapureiden laskeminen</h2>
+
+	<p>Miinoille pitäisi siis löytää naapurit. Jos jollakin ruudun kahdeksasta naapuriruudusta löytyy miina, ruudun numeroarvo kasvaa yhdellä. Näin perinteisessä toteutuksessa kullakin ruudulla on arvo 0-8, joka siis ilmaisee miinanaapureiden lukumäärän. Tämän voi tehdä monella tavalla, minä otin käyttöön sekä bruteforcetusta että funktionaalista lähestymistapaa. Seuraava funktio, <code>calculate-neighbours</code>, ottaa vastaan joukon miinoja ja palauttaa kuvauksen, jossa on jo kaikki miinaharavan elementit kasassa. Tutkitaan tätä kahdessa palassa. Ensin ratkaisun ydin:</p>
+
+<pre class="clojure">(defn calculate-neighbours
+  &quot;Given set, transform it a map and calculate the number of neighbours to each
+  mine.&quot;
+  [width height mine-set]
+  (letfn [(neighbours [x y] ...toteutus myöhemmälle...)]
+    (let [mine-map (zipmap mine-set (repeat 1))] ; we just converted set-&gt;map!
+      (reduce #(merge-with + % %2)
+              mine-map
+              (for [[[x y] _] mine-map] (neighbours x y))))))
+</pre>
+
+	<p>No onkos tässä sulateltavaa! Määrittelemme funktion <code>neighbours</code>, mutta kerron sen toteutuksen kohta. Se joka tapauksessa palauttaa joukon, jossa on kaikki kartalle mahtuvat miinojen naapuriruudut. Esimerkiksi jos ruutu <code>(4, 3)</code> on miinoitettu, niin sen naapuriruudut saavat ainakin arvon 1.</p>
+
+<pre>1 1 1
+ 1 x 1
+ 1 1 1
+</pre>
+
+	<p>Mutta koska miinoja voi olla vierekkäinkin, tai sopivasti lähekkäin, tarvitsemme yllämainittua nokkeluutta. Ensin (rivillä, joka alkaa <code>let</code>-lausekkeella) muokkaamme miina-joukon miina-kuvaukseksi. Tätä varten keksin käyttää <code>zipmap</code>-funktiota, joka käytännössä iteroi tässä tapauksessa kahta joukkoa vieretysten. Funktiokutsu <code>(repeat 1)</code> luo äärettömän joukon ykkösiä, eli kutakin miinakoordinaattia vastaa tästä eteenpäin lukuarvo yksi. Sen voi vaihtaa, jos karttojen geografia niin paranee.</p>
+
+	<p>Seuraavaksi vanhaa kunnon <code>reduce</code>-magiaa! Kuvauksien yhdistelemiseen löytyy upea apulainen, <code>merge-with</code>, joka osaa fuusioida päällekäisiä entryjä käyttäjän määrittelemällä funktiolla. Nyt meille riittää plus-operaatio, koska naapurisolut olivat ykkösiä. Yksi naapuri siellä, yksi naapuri tuolla, plussalla saamme oikean tuloksen: kaksi naapuria.</p>
+
+	<p>Naapurit lasketaan listaksi joukkoja. <code>for</code>-rakenne tuottaa meille listan niitä. Tämän syvällisemmin en nyt ehdi käymään asiaa.</p>
+
+	<h2>Naapurit ruudulle</h2>
+
+	<p>Meiltä jäi <code>neighbours</code>-funktio käsittelemättä. <span class="caps">PHP</span>-aikoihin tekemäni bruteforcetus saa luvan toimia täälläkin. Luon siis käsipelillä (helppoa kaksiulotteisessa tapauksessa, vain kahdeksan vaihtoehtoa) listan naapureita. Mutta entä, jos miina on kentän reunalla? Sitä varten suodatamme epäkelvot koordinaatit pois:</p>
+
+<pre class="clojure">(letfn [(neighbours [x y]
+            (filter
+              (fn [[[x* y*] _]]
+                (and (not (neg? x*))
+                     (not (neg? y*))
+                     (&lt; x* width)
+                     (&lt; y* height)))
+              {[(dec x) (dec y)] 1
+               [     x  (dec y)] 1
+               [(inc x) (dec y)] 1
+               [(dec x)      y]  1
+               [(inc x)      y]  1
+               [(dec x) (inc y)] 1
+               [     x  (inc y)] 1
+               [(inc x) (inc y)] 1}))]
+            ... )
+</pre>
+
+	<p>Ruma funktio, mutta toimii. Käytännössä luomme tyhjästä pienen 8-sanaisen kuvauksen ja filtteröimme siitä huonot pois. Tämä toimii, ja <code>calculate-neighbours</code> on itsessään toimintakunnossa.</p>
+
+	<h1>Yhdistellään tulokset</h1>
+
+	<p>Ikäväähän se olisi aina kutsua molempia noista saadakseen miinaharavaa vastaavia tauluja aikaiseksi, joten kootaan ne yhdeksi abstraktioksi:</p>
+
+<pre class="clojure">(defn generate-random-map
+  &quot;Given width, height and number of &#39;mines&#39;, generate and return a random
+   mapping describing 2D landmap.&quot;
+  [width height mines]
+  (let [mines (generate-mines-set width height mines)]
+    (into (sorted-map)
+      (merge (calculate-neighbours width height mines)
+             (zipmap mines (repeat \x))))))
+</pre>
+
+	<p>Tässä on vielä yksi lisäbonus. Ensin luomme miinat. Sitten lisäämme siihen naapurit. Sen <strong>jälkeen</strong> vielä lisäämme miinat takaisin, koska naapurit ovat luultavimmin sekoittaneet pakan. Tämä on lähinnä debuggausta varten, mutta myös näyttää hyvältä. Nyt käytämme tavallista kuvauksenyhdistelijää, <code>merge</code>ä. Se ylikirjoittaa kaikki päällekäiset entryt viimeisimmällä. Nyt merkitsen miinoja kirjaimella <code>x</code> (viimeinen rivi).</p>
+
+	<p>Miinojen lukumäärä olisi kiva esittää prosentuaalisena lukuna. No eipä ole hankalaa:</p>
+
+<pre class="clojure">(defn generate-random-map-perc
+  &quot;Don&#39;t specify the number of mines but a percentage.&quot;
+  [width height perc]
+  (let [mines (* (* width height) 
+                 (/ perc 100))]
+    (generate-random-map width height mines)))
+</pre>
+
+	<p>Nyt kutsu <code>(generate-random-map-perc 10 10 5)</code> luo satunnaisen 10×10 -miinakentän naapureineen siten, että miinoja on viisi prosenttia kentästä. Ei järin montaa. Mutta jo 20 prosenttia tekee paljon.</p>
+
+	<h1>Tulosten esittäminen nätisti</h1>
+
+	<p>Edelläesitellyt funktiot tuottavat kyllä miinakentän, mutta se on pelkkä lista ryhmiteltyjä numeroita, välillä satunnainen äks-kirjain siellä vilahtaa. Ei järin hyvä tapa tutkia tuotoksia, vaikka se tietokoneelle sitten kelpaa oikein mainiosti. Ensin kirjoitin graafisen apumetodin tulostamaan numeroina kentän.</p>
+
+<pre class="clojure">(defn print-minemap
+  &quot;Prints a mine map for fun&quot;
+  [width height mines]
+  ; map printing is done imperatically looping through y first, and then x
+  (doseq [y (range height)]
+    (println (apply str
+                (for [x (range width)] 
+                  (if (contains? mines [x y])
+                    (str (mines [x y]))
+                    \.))))))
+</pre>
+
+	<p>Koodin rakenne on tässä tapauksessa identtinen vastaavaan imperatiiviseen ratkaisuun. Looppaamme ensin y-koordinaatin suhteen (koska tekstiä voi tulostaa rivi kerrallaan, ei satunnaishakuna) ja sitten x-koordinaatin suhteen. Tulostamme pisteitä ja numeroita tarpeen tullen. Näyttää tältä:</p>
+
+<pre class="clojure">user=&gt; (minemap.core/print-minemap 10 10 *1)
+..111.....
+.12x1.....
+12x21.111.
+2x21..1x1.
+x21...1121
+1211....1x
+.1x1....11
+.11211....
+1111x1....
+1x1111....
+</pre>
+
+	<p>Siitä osaa jo ihminen lukea. Mutta entäs jos pistetään <span class="caps">PHP</span>:tä paremmaksi, tehdään graafisia kuvatiedostoja?</p>
+
+	<h1>Karttojen generoiminen <span class="caps">PNG</span>-kuviksi</h1>
+
+	<p>Tässä postauksessa olemme jo Clojuren vahvuuksia nähneet puolin ja toisin, mutta vielä yksi vahvuus on läpikäymättä: Java-puolen hyödyntäminen. Javalla on helppoa piirrellä kuvia. Kuka ei ole sitä kokeillut, niin se onnistuu samalla <code>Graphics2D</code>-luokan oliolla kuin appletien piirtelyssä. Perusidea javana vaikkapa <a href="http://stackoverflow.com/questions/4042373/convert-2-dim-java-awt-color-array-to-image-png-jpg">StackOverflow-kysymyksestä</a>. Tämän kääntäminen Clojurelle on ääliömäisen helppoa! Ensin <span class="caps">REPL</span>-ympäristössä kokeillaan ja sormeillaan. Kuvia tallentui. Bonuksena kuvankatseluohjelma <span class="caps">GQV</span>iew uudelleenlataa automaattisesti kuvat, jos ne muuttuvat.</p>
+
+	<p>Tuosta SO-vastauksesta ja Javan <span class="caps">API</span>-sivujen lukemisella saadaan parsittua kasaan suora koodi, joka ei ole täysin funktionaalista alusta loppuun saakka, mutta kompromissejä on otettava. Olen tyytyväinen tuloksiin ilman puhdasta funktionaalisuuttakin.</p>
+
+	<p>Ensin viitteeksi, mitä Clojurekoodi kaipaa Javan puolelta:</p>
+
+<pre class="clojure">(ns minemap.graphics
+  (require minemap.core)
+  (import java.io.File)
+  (import java.awt.Color)
+  (import java.awt.image.BufferedImage)
+  (import javax.imageio.ImageIO))
+</pre>
+
+	<p>Ei siis paljoa. Sketsailin <span class="caps">REPL</span>issä peruspohjan kuvan luomiselle, piirtämiselle ja tallentamiselle. Voitte huomata, että se täsmää Javakoodia aika hyvin.</p>
+
+<pre class="clojure">;; luodaan kuva ja piirtokahva
+(def bi (BufferedImage. 16 16 BufferedImage/TYPE_INT_ARGB))
+(def g (.createGraphics bi))
+;; piirtelyt tässä
+(.drawLine g 0 0 10 10)
+(.drawLine g 0 15 15 0)
+;; tallennus:
+(ImageIO/write bi &quot;png&quot; (File. &quot;test.png&quot;))
+</pre>
+
+	<p>Okei, suoraan sitten koodin kimppuun. Tai ei ihan vielä. Ensin määritellään värejä. Java.awt.Color on väriluokka, joka ei ole aivan toivoton clojuren seassa:</p>
+
+<pre class="clojure">(def *colors*
+  {1 (Color. 0xFBFFB6)
+   2 (Color. 0xFFD178)
+   3 (Color. 0xFF9F78)
+   4 (Color. 0xA0FF78)
+   5 (Color. 0x7BDE52)
+   6 (Color. 0x65B244)
+   7 (Color. 0xB24495)
+   \x Color/red
+   :background (Color. 0xB5CEFF)})
+</pre>
+
+	<p>Siinä on joitain huonoja värejä, joita on onneksi helppo värivalitsimen kanssa vaihtaa. Kuvaukseen on valittu avaimet tietenkin sen mukaan, minkälainen ruutu on kyseessä. Windowsin miinaharavastahan olisi toki voinut ottaa testin vuoksi värit tähän. Kuvauksissa voi näppärästi laittaa kaikkia tietotyyppejä sekaisin, jonka ansiosta vältyimme turhalta näpräilyltä.</p>
+
+	<p>Ja sitten se imperatiivinen koodi. Common Lispihän (taikka Emacs Lisp) on aika hyvä imperatiivinen kieli, joten Lisp-syntaksi ei ole mikään huono ratkaisu. Se näyttää luonnolliselta ja jotenkin vain &#8220;oikealta&#8221;, hyvältä.</p>
+
+<pre class="clojure">(defn draw-png
+  &quot;Take width, height, and the map of mines. Save to a file.
+  Supposed to take a generate-random-map{,-perc} mapping.&quot;
+  [width height minemap file]
+  (let [block 5 ;block size
+        bi (BufferedImage. (* block width) (* block height) BufferedImage/TYPE_INT_ARGB)
+        g (.createGraphics bi)]
+    (do
+      (.setColor g (*colors* :background))
+      (.fillRect g 0 0 (* block width) (* block height))
+      (doseq [[[x y] high] minemap]
+        (.setColor g (*colors* high))
+        (.fillRect g (* block x) (* block y) block block))
+      (ImageIO/write bi &quot;png&quot; (File. file)))))
+</pre>
+
+	<p>Eli tätä funktiota kannattaa tarkastella puhtaasti proseduurina. Tietysti se on notkeampaa kuin Java tai C. Ehkä Scala tai Python olisi luontevin vastine? Clojuren <code>(do ...)</code> -rakenne vastaa listaa eri toiminnoista, jotka suoritetaan peräkkäin. Juuri suunniteltu Java-kutsuja kuten tätä varten.</p>
+
+	<p>Ensinnäkin luomme tarvittavat oliot. Piirtokahva <code>g</code> on tietenkin tärkein. Maalaamme koko kankaan taustavärillä. Kuka tahansa Graphics2D:tä käyttänyt osaa sen päätellä. Ja ainakin me osaamme. Minulla oli lukiossa sekä yliopiston peruskursseilla lähinnä näiden käyttämistä. Kaikki java koodattiin appleteiksi.</p>
+
+	<p>Tarvitsemme silmukkaa, apua! Javassa on <code>for() { .. }</code> -rakenne, täällä on <code>(doseq [] ... )</code> -rakenne. Puramme kuvauksen palasiksi, valitsemme sopivan värin ruudulle ja pyöräytämme sopivankokoisen neliön kentälle. Ääliömäisen tiivistä ja oudon hyvin luettavissa olevaa. </p>
+
+	<p>Viimeinen vaihe on käyttää tallennusta. Ja &#8230; se on siinä. Lopputulokset näyttävät esimerkiksi tältä:</p>
+
+	<p><img src="../../kuvat/test.png" alt="" /> <img src="../../kuvat/tiheampi.png" alt="" /></p>
+
+	<p>Koko kokemus tämän rustailussa oli hyvin positiivinen. Etenkin kun Javalla kuvanpiirtely osoittautui helpommaksi kuin osasin toivoakaan. Ja ihana käyttöympäristö on kruunannut kaiken. Ehkä kuvaruutukaappauksesta välittyy kaikki se tunnelma:</p>
+
+	<p><a href="../../kuvat/tweet-2011-02-12-124300.png"><img src="../../kuvat/thumbs/thumb_tweet-2011-02-12-124300.png" title="" alt="" /></a></p>
+</div>
+
+<p class="tags"> 
+
+
+Tageja: <a href="../../tag/clojure/index.html" rel="tag">clojure</a>, 
+<a href="../../tag/ohjelmointi/index.html" rel="tag">ohjelmointi</a>
+
+
+</p>
+
+
+
+<div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+
+        </div>
+
+ <!-- now, common stuff -->
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+        <p><a rel="prev" href="../447/pathogen-selvittelemaan-vimin-plugineita" title="Pathogen selvittelemään Vimin plugineita">&#171; Pathogen selvittelemään Vimin plugineita</a> 
+           &mdash; <a rel="next" href="../494/useampi-taydennyspainike-irssiin" title="Useampi täydennyspainike Irssiin">Useampi täydennyspainike Irssiin &#187;</a>
+        </p>
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+        <h2>Aiheen vierestä</h2>
+        <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../587/tehokkaat-kayttoliittymat-vaivatta">Tehokkaat käyttöliittymät&#160;vaivatta</a></span> &#183; <span class="published">2012-08-16</span>
+<br /><span class="smallexcerpt">Ohjelmoijan onni on elää komentorivillä. Tehokkaiden käyttöliittymien rustaaminen on varsin nopeata, kunhan luottaa siihen, että suurta suosiota tuotokset eivät tule...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../584/pythonin-vastaisku-lispeille-ipython-ja-vim-ipython">Pythonin vastaisku lispeille: IPython ja vim-ipython</a></span> &#183; <span class="published">2012-07-25</span>
+<br /><span class="smallexcerpt">Tai &#8220;Pythonin uusi toivo&#8221; tai &#8220;Pythonin paluu&#8221;. Mistä on kyse? Pythonin tulkin me kaikki kai tiedämme: kaikki siinä periaatteessa on,...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../581/sumitup-puutteet-ja-mihin-suuntaan-edetaan">SumItUp: puutteet ja mihin suuntaan&#160;edetään</a></span> &#183; <span class="published">2012-07-12</span>
+<br /><span class="smallexcerpt">Esittelin pari postausta sitten Soulver-kloonin raakileen, SumItUpin. Nyt se on GitHubissa kaikkien pällisteltävänä ja sellaisella raakileasteella, jotta sitä voi jo...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../579/soulver-kloonia-rakentelemassa">Soulver-kloonia&#160;rakentelemassa</a></span> &#183; <span class="published">2012-07-07</span>
+<br /><span class="smallexcerpt">Erittäin upealla konseptilla varustettu laskinohjelma Soulver kaatuu siihen, että sen saa vain Mäkille. Vapaamuotoinen näpertelyalusta on usein ainut asia, mitä...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../566/terminaaleja-vimista-kasin">Terminaaleja Vimistä&#160;käsin</a></span> &#183; <span class="published">2012-02-11</span>
+<br /><span class="smallexcerpt">Vanha kunnon ConqueTerm on nyt valmis ja käyttökelpoinen tuote kehittelyyn.
+
+	Olen viime päivinä alkanut käyttää vimiä hyvin emacsmaisesti. Se on tietenkin...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../565/mita-on-kehittaa-clojurella">Mitä on kehittää&#160;Clojurella</a></span> &#183; <span class="published">2012-02-05</span>
+<br /><span class="smallexcerpt">C- ja muunkielisissä projekteissa tavataan kirjoittaa koodia ensin, ja sitten testataan. Tietysti vaatimus osittain syntyy koodin kääntämisestä; ilman kääntöä ei...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../564/ranskalaisten-viivojen-parsimista-clojurella">Ranskalaisten viivojen parsimista&#160;Clojurella</a></span> &#183; <span class="published">2012-02-02</span>
+<br /><span class="smallexcerpt">Kirjoitin männäviikolla kokeilumielessä ohjelman, joka kääntää ranskalaiset viivat Beamer-Latexiksi. Ideana olisi tuottaa esityksen lihapuoli nopeasti rustaamalla tiivistä merkintää ja sitten...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../556/korintaytto-ja-ahne-menetelma">Korintäyttö ja ahne&#160;menetelmä</a></span> &#183; <span class="published">2011-10-23</span>
+<br /><span class="smallexcerpt">Mietiskelen tässä korintäyttöä (bin packing) ja sitä, miten ahne menetelmä on joko ylipolynomiaalinen tai sitten epäoptimaalinen.  Luultavasti se on...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../551/tekijoita-clojurella">Tekijöitä&#160;Clojurella</a></span> &#183; <span class="published">2011-09-17</span>
+<br /><span class="smallexcerpt">Nyt olen joutunut opiskelemaan tuota lukuteoriaa ja sen alkeita, ja monet niistä teorioista ovat innoittaneet minulle pieniä Clojure-ohjelmia. Se pää...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../547/pieni-tiedostolistausapu">Pieni&#160;tiedostolistausapu</a></span> &#183; <span class="published">2011-09-04</span>
+<br /><span class="smallexcerpt">Pitäisi viritellä joku zsh-funktio tekemään seuraavanlaisia tiedostolistauksia nykyisestä hakemistosta:
+
+$ ls -1
+foo.txt
+bar.txt
+paperi.tex
+vanhapaperi.tex.gz
+$ l .txt
+foo.txt
+bar.txt
+$ l peri
+paperi.tex
+vanhapaperi.tex.gz
+$ l v*p
+vanhapaperi.tex.gz
+$ ls $files
+vanhapaperi.tex.gz
+
+
+	Eli sen...</span>
+</li>
+
+</ul>
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

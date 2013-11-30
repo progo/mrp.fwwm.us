@@ -1,1 +1,357 @@
-anatomy-of-a-rig
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <!-- standard -->
+	<title>Mr. P: Anatomy of a Rig</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=mietteet" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=mietteet" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="mietteet">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="anatomy-of-a-rig#content">Siirry sisältöön</a></li>
+        <li><a href="anatomy-of-a-rig#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            &raquo;
+            <a href="../index.html">Mietteet</a>
+            
+                <!--<ul>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/598/blogille-idea.html">Blogille&#160;idea</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/597/wes-mckinney-python-for-data-analysis-oreilly.html">Wes McKinney - Python For Data Analysis (O&#39;Reilly)</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/596/org-blogaaminen-vaikeata.html">Org-blogaaminen&#160;vaikeata</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/595/twitterointia-emacsilla.html">Twitteröintiä&#160;Emacsilla</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/594/weboodi-aikataulut-orgiin.html">WebOodi-aikataulut&#160;orgiin</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita.html">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/592/emacs-has-me.html">Emacs has&#160;me.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/591/editorien-taistelu-tietamyshallinnassa.html">Editorien taistelu&#160;tietämyshallinnassa</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/590/think-vimorganizer.html">Think&#160;VimOrganizer.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/589/think-orgmode.html">Think&#160;orgmode.</a>
+                </li>
+</ul>-->
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="/kategoria/hifi/">Hifi</a></li>
+	<li><a href="/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="/kategoria/rauta/">Rauta</a></li>
+	<li><a href="/kategoria/viihde/">Viihde</a></li>
+	<li><a href="/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../../tag/blogisäätöä/index.html" class="tagSizeMedium tagSize26" style="font-size: 100%;">blogisäätöä</a></li>
+	<li><a href="../../tag/emacs/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">emacs</a></li>
+	<li><a href="../../tag/hifi/index.html" class="tagSizeMedium tagSize32" style="font-size: 100%;">hifi</a></li>
+	<li><a href="../../tag/mpd/index.html" class="tagSizeMedium tagSize2" style="font-size: 100%;">mpd</a></li>
+	<li><a href="../../tag/pelaaminen/index.html" class="tagSizeMedium tagSize3" style="font-size: 100%;">pelaaminen</a></li>
+	<li><a href="../../tag/python/index.html" class="tagSizeMedium tagSize2" style="font-size: 100%;">python</a></li>
+	<li><a href="../../tag/rauta/index.html" class="tagSizeMedium tagSize24" style="font-size: 100%;">rauta</a></li>
+	<li><a href="../../tag/vim/index.html" class="tagSizeLargest tagSize35" style="font-size: 100%;">vim</a></li>
+</ul>
+        <p><a href="../../tag/index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=mietteet" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=mietteet" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- not tag view, it's the main view -->
+
+
+        
+
+        <div class="hfeed">
+            <!-- five articles to list here, or only one. It depends. -->
+            <!-- default form -->
+
+<p class="published">17. kesäkuu 2009, 20:27</p>
+<h1 class="entry-title"><a rel="bookmark" href="anatomy-of-a-rig">Anatomy of a&#160;Rig</a></h1>
+
+
+<div class="entry-content">
+<p>Tein sitten sen. Huusin ja voitin saksalaisesta eBaysta nuo itävallan ihmeet: AKG K1000:t. Ne ihmekuulokkeet ovat siitä erikoiset, että ne eivät lepää korvaa vasten lainkaan; niissä ei ole kuuloketyynyjä. Ne sen sijaan luottavat lujaan kehikkoon ja ohimoilla tukea ottaviin nahkapädeihin. Sen elementit ovat säädeltävissä optimaalisen äänikentän hankkimiseksi.</p>
+<p><!--more--></p>
+<p>Koska olen nyt aika hiton hekumoissani siitä tulokkaasta, ajattelin toimittaa tämmöisen nykykatsauksen, jota on mukava muistella jälkikäteen.</p>
+<h3>Termienselvittelyä</h3>
+<p>Yleisön pyynnöstä kirjoittelen vähän minun tämänhetkisestä rigistä. Paremman sanan puutteessa rigin on kelvattava. Se siis tarkoittaa kokoelmaa laitteita, jotka yhdessä saavat ääntä aikaan. Rigiin kuuluu seuraavat komponentit:</p>
+<ol>
+<li>Pyöritin/transportti</li>
+<li>Lähde</li>
+<li>Etuvahvistin</li>
+<li>Päätevahvistin</li>
+<li>Elementti</li>
+</ol>
+<p>Eri komponentit löytyvät aina rigistä. Aina. 99% tapauksista kaikkia viittä komponenttia ei löydy erillisinä laitteina, vaan jotkut kohdat voivat muodostaa pareja tai kolmosia. Koska kaikille ei ole selvää, mitä nämä tarkoittavat, tehdään hieno taulukko:</p>
+<table style="width: 578px; height: 127px;" border="0">
+<thead>
+<tr style="border-bottom: 1px solid gray;">
+<td><strong>Komponentti</strong></td>
+<td><strong>Tyyppejä</strong></td>
+<td><strong>Mitä tekee</strong></td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pyöritin/transport</td>
+<td>Tietokone, cd-pyöritin</td>
+<td>Siirtää bitit D/A-muuntajalle</td>
+</tr>
+<tr>
+<td>Lähde</td>
+<td>DAC, levylautanen, radio, kelanauhuri, kasettisoitin</td>
+<td>Toimittaa analogista signaalia</td>
+</tr>
+<tr>
+<td>Etuvahvistin</td>
+<td>-</td>
+<td>Lähdevalinta, signaalien vahvistaminen</td>
+</tr>
+<tr>
+<td>Elementti</td>
+<td>kaiutin, kuuloke</td>
+<td>Värähtelee signaalin ääniaalloiksi</td>
+</tr>
+<tr>
+<td>Vahvistin</td>
+<td>kuulokevahvistin, päätevahvistin</td>
+<td>Linjasignaalin vahvistaminen kaiuttimille sopivaksi</td>
+</tr>
+</tbody>
+</table>
+<p>Eli jotkut laitteet voivat olla "pareina". Tavallisin pari on yhdistää etuvahvistin ja päätevahvistin. Lopputuloksena syntyvä <em>integroitu vahvistin</em> on kätevä, sillä siihen voi suoraan syöttää CD-soitinta ja muita kiinni ja siinä on myös kaiutinpäätteet. Ota huomioon, että puhdasoppinen päätevahvistin ei sisällä muita nappuloita kuin virtakytkimen. Päätevahvistimessa on siis kiinteä vahvistusaste. Toinen yleinen laitteiden yhteensulautuma on viritinvahvistin: se on integroitu vahvistin, johon on lisätty vielä radioviritin mukaan. Eli käytännössä siinä on eräänlainen lähde mukana. On olemassa myös hifitasoisia monitoimivahvistimia, joissa on edellämainittujen lisäksi esimerkiksi CD-soitin ja iPod-telakka mukana. Puhdasoppinen puristihifisti vannoo erillislaitteiden nimeen, ja heillä on kaikki mainitut asiat erillisinä laitteina. Toinen ääripää on Meridian-yrityksen tekemä <em>digitaalikaiutin</em> joka kattaa kaikki pykälät 2:sta 5:een.</p>
+<p>Niin, kohdasta #1 eli pyörittimestä pitääkin sanoa pari sanaa: se on tyypillisesti vain digitaalisille rigeille suunnattu komponentti, sillä analoginen signaali kulkee aina analogisena. Levysoitin on analoginen lähde alusta alkaen. Useimmat "pyörittimet" ovat myös lähteitä. Esimerkiksi jos sinulla on äänikortti ja kytket sen vahvistimeen analogisin johdoin, äänikortti toimii lähteenä. Ja jos kytket sen vahvistimeen (tai tarkemmin ottaen sen D/A-muuntajaan) digitaalisin liitännöin, äänikortti toimii pyörittimenä. Termi "pyöritin" on kehno, sillä se on lanseerattu käyttöön silloin, kun ainoita pyörittimiä olivat CD-soittimet. Englanninkielinen sana "transport" kuvaa asiaa paremmin: bittejä yksinkertaisesti siirretään paikasta toiseen.</p>
+<p>Valtaosa kaiutinvahvistimista on integroituja. Dedikoidut kuulokevahvistimet ovat poikkeuksetta integroituja. En ole tavannut yhtäkään kuulokepäätevahvistinta, joka ottaisi vain signaalia ja syöttäisi kuulokkeille sopivaa virtaa ulos. Integroiduissa vahvistimissa on usein itsessään kuulokevahvistimia.</p>
+<h3>Minun rigini</h3>
+<p>Nyt kun päästiin alkulatteudet hoideltua, voimme alkaa esitelmöinnin. Levymiehenä kerron nyt rigin, josta jätetään tietokone pois. Eli CD:itä soitellaan esimerkissämme. Eroa tietokoneeseen ei ole juuri yhtään. Soitto on vain tunnelmallisempaa.</p>
+<div id="attachment_663" class="wp-caption alignleft" style="width: 310px"><a href="../../wp-content/uploads/2009/06/CDt.jpeg"><img class="size-medium wp-image-663" title="CD-hylly" src="../../wp-content/uploads/2009/06/CDt-300x225.jpg" alt="Musiikki alkaa levyistä" width="300" height="225" /></a><p class="wp-caption-text">Musiikki alkaa levyistä</p></div>
+<p>Levyissä on sitä jotain. Kansia saa tutkia, nuuhkiakin: onko edellinen omistaja tupakoinut, tai ollut vaikka eläinrakas. Mysteerejä koko elämä täynnä. Joskus valintaa vaikeuttaa levyjen hajanaisuus. Nytkin joudun pitämään kokoelmaa kolmessa eri pisteessä: hylly on auttamatta täynnä. Sitten on vielä vinyylit erikseen, mutta niitäpä ei tule pyöriteltyä säännöllisesti, mikä on sääli. Tänään jopa ajauduin ajattelemaan, että voisin myydä ne saadakseni vähän säästöjä takaisin. Roskiin moiset ajatukset! Niitä ei nyt vain myydä hitto soikoon pois. Ehkä tuon "viallisen" Dark Siden korkeintaan&#8230;</p>
+<p>Kun levyä on puntaroitu (joskus menee mahdottoman pitkään aikaa, kunnes se Oikea löytyy). Tietokoneella pyöritellessä olisi se etu, että se voi arpoa jotain. Kehittyneet iTunes-ratkaisut ja täydet tagit voisivat tarjota esimerkiksi genrepohjaista mättöä illanratoksi tai vaikkapa muuten paljon illalla kuunneltua funkia. Elämä on täynnä valintoja. Manuaalinen valinta on inhimillinen ja vaikkakin hyvin epätehokas, se tunnelmallisin. Ei yksikään tietokoneohjelma pääse samaan. Ei edes oma albumiorientoitunut soittimeni pääsisi.</p>
+<h4>Pyöritin ja lähde</h4>
+<div id="attachment_665" class="wp-caption alignright" style="width: 310px"><a href="../../wp-content/uploads/2009/06/Transport_ja_DAC.jpeg"><img class="size-medium wp-image-665" title="Transport ja DAC" src="../../wp-content/uploads/2009/06/Transport_ja_DAC-300x225.jpg" alt="Kaverukset kuin ilvekset" width="300" height="225" /></a><p class="wp-caption-text">Kaverukset kuin ilvekset</p></div>
+<p>Seuraava vaihe (#1) on todellakin se, että pyöritin (kuvassa hopeinen Pioneer DV-757Ai) lukee levyä. Pyöritintä voisi kauko-ohjata, mutta kuulokejohdon pahkeinen ei yllä mihinkään järkevään siten, että kauko-ohjaus olisi sekin järkevää. Ehkä sitten uusien kuulokkeiden kanssa&#8230; Kyseinen Pioneer toimii mielellään myös ihan kelvollisena lähteenä. Se osaa soittaa CD-levyjen lisäksi MP3-levyt, SACD:t, DVD-videot ja -audiot. Eli varsinainen moniosaaja. Pyörittimenä käytettäessä siitä kytketään digitaalinen välijohto allaolevaan D/A-muuntajaan (myöh. DAC). Digitaalinen bittimössö ei ole korville mukavaa kuultavaa. Pyöritinkäytössä sen repertuaari tippuu vain CD-levyihin MP3:lla ja ilman. Jotkut DVD:t saattavat myös onnistua, mutta hienoista formaateista ei saa bittiä ulos. Johtuu siitä, kun ne uudet formaatit ovat sen verran uusia, jotta levy-yhtiöt saivat omat kopiosuojauksensa lanseerattua itse standardeihin mukaan.</p>
+<p>Eli bitti siirtyy nyt pyörittimeltä DACille. DAC onkin rigini 2. vaihe. Se toimii siis lähteenä, koska sitä ennen tieto on liikkunut vain bitteinä. Vasta nyt se muuttuu analogiseksi aalloksi. Minun hieno norjalainen DACini ottaa vastaan neljää mahdollista digitaalisisältöä, ja sisältää lähteenvalitsimen sitä varten. Voitaneen sanoa, että siinä on eräänlainen digitaalinen etunen, mutta ei ole. &#196;äni siirtyy nyt analogiselle alueelle.</p>
+<h4>Kuulokevahvistin (eli etuvahvistin ja päätevahvistin)</h4>
+<div id="attachment_667" class="wp-caption alignleft" style="width: 310px"><a href="../../wp-content/uploads/2009/06/Integroitu.jpeg"><img class="size-medium wp-image-667" title="Kuulokevahvistin" src="../../wp-content/uploads/2009/06/Integroitu-300x225.jpg" alt="Kuulokevahvistin on siis integroitu vahvistin sekin" width="300" height="225" /></a><p class="wp-caption-text">Kuulokevahvistin on siis integroitu vahvistin sekin</p></div>
+<p>Kuvassa askeettisen ja kovin utilitaristisen oloinen piskuinen Stax-merkkinen kuulokevahvistin. (Näkisittepä millaisia ne isommat Stax-vahvistimet ovat! Kuin neuvostosukellusveneestä varastettuja.) Koska siinä on samassa volyyminsäätö ja pääteasema, se on integroitu vahvistin. Muuta siinä ei olekaan. Kyseinen yksilö ei ole kovinkaan tavanomainen kuulokevahvistin, sillä varsin pieni osa nykykuulokkeista toimii sähköstaattisella tekniikalla. Sen vain sanon, että tavallisia kuulokkeita tähän ei voi kytkeä mitenkään. Lisäksi vahvistin on suunniteltu poropietariin tapaan vain Stax-merkkisiä kuulokkeita varten. Se on toisaalta ymmärrettävää, koska mitään standardeja ei käsittääkseni ole laadittu tälle sektorille. Eipä tavallinenkaan TRS-liitin ole</p>
+<div id="attachment_675" class="wp-caption alignleft" style="width: 310px"><a href="../../wp-content/uploads/2009/06/Arietta.jpeg"><img class="size-medium wp-image-675" title="Arietta" src="../../wp-content/uploads/2009/06/Arietta-300x225.jpg" alt="Arietta tappi pystyssä" width="300" height="225" /></a><p class="wp-caption-text">Arietta tappi pystyssä</p></div>
+<p>kiveen kirjoitettu. Sitä vain kaikki sattuvat käyttämään. Normaalihifistillä tässä voisi olla vallan toisenlainen peli kiinni. Esimerkiksi sellainen, jossa on paljon valoja ja sävynsäätöjä. Ja siihen kytkettäisiin oudon kuulokeplugin sijasta raakaa kaiutinkaapelia kiinni.</p>
+<p>Kysymys voisi kuulua: tavallisen kaiutinvahvistimen idea ymmärretään, koska ne vaativat virtaa päästäkseen liikkeeseen. Ja monia askarruttaa silloinkin se, että miksi vahvistimia on niin monenlaisia, eihän se virranantaminen voi vaikeata olla?!</p>
+<p>Tarvittaisiin insinööritason sähköteknikkoa tähän avuksi, mutta koitan parhaani selvitellä asioita. Päätevahvistimen tehtävä on sovittaa linjatasoinen signaali uuteen uskoonsa mahdollisimman hyvin ilman lisäkohinoita. Ja koska signaali on vaihtomuotoista, sen pitää toteuttaa jännitteenvaihtelut mahdollisimman nopeasti. Moni ehkä ymmärtää tämän, mutta sitten ymmärrys loppuu siihen, kun tulee puhe kuulokevahvistimesta. "Ihan kovaahan se jo soi, miksi uutta?" voi kuulua kysymys. No, tämä edellämainittu jänniteheittojen nopeuttaminen sekä kohinatason tiputtaminen ovat pari hyvää syytä tähänkin. Sillä ne asiat johtavat sellaiseen hifitermiin (hifitermillä tarkoitan termiä, jota mittarihifisti ei sulata) kuin kontrolli. Outoa</p>
+<div id="attachment_673" class="wp-caption alignleft" style="width: 310px"><a href="../../wp-content/uploads/2009/06/Integroitu2_ja_levari1.jpeg"><img class="size-medium wp-image-673" title="Integroitu2_ja_levari" src="../../wp-content/uploads/2009/06/Integroitu2_ja_levari1-300x225.jpg" alt="Viritinvahvistin ja levysoitin vuonna 2008" width="300" height="225" /></a><p class="wp-caption-text">Viritinvahvistin ja levysoitin vuonna 2008</p></div>
+<p>kyllä, mitä parempi vahvistin, sen paremmin tavara soi hiljaisemmallakin. Tämähän on edellämainitun ansiosta aika selvä asia. Useimmat maallikot, kuten minäkin, ajattelemme asian näin. Koska pikkuasiat ja detaljit musiikissa ovat usein pieniä huomattavia ja vain piskuruisia jänniteheittoja (esimerkiksi se, miten rumpukalvo värähtelee lyönnin jälkeen), vahvistimen tulee itsekin olla todella, siis todella tarkka. Tätä ne onneksi ovatkin, sillä perustason vahvistimet ovat mukavia soivia ja suorittavat yllättävän hyvin. Vahvistimiin liittyy myös kanavaseparaation käsite. Sähkö tuppaa vuotamaan ja useimmissa hifilaitteissa eri kanavat ovat eristetty toisistaan tehokkaasti. Vaikka kaiutinkuuntelussa äänet menevätkin sekaisin, se tekee positioinnin ja äänikuvan aivan omanlaisekseen. Skeptikot eivät hyväksy, eikä tässä nyt sellaista hyväksyntää ollakaan hakemassa. En tainnut osata selittää sen paremmin. Se on vain selvä, että jopa kuulokevahvistimen tulee osata puskea ulos virtaa riittävällä volyymillä, riittävän säröttömästi ja riittävän nopeasti. Jopa tavalliset halpisnappikuulokkeet, joita tuli mp3-soittimeni mukana, saivat lisäpotkua kun käytin niitä Corda Arietta -vahvistimen kautta.</p>
+<h4>Elementti</h4>
+<div id="attachment_669" class="wp-caption alignright" style="width: 310px"><a href="../../wp-content/uploads/2009/06/Elementit.jpeg"><img class="size-medium wp-image-669" title="Elementit" src="../../wp-content/uploads/2009/06/Elementit-300x225.jpg" alt="Tumma kuva Staxeista" width="300" height="225" /></a><p class="wp-caption-text">Tumma ja kylmä kuva Staxeista</p></div>
+<p>Ja sitten se paraatihetki. Kun vahvistin on saanut ulos oikeanlaista virtaa ja jännitettä, jota elementti nauttii käyttää, se väpättää oikein innolla ja puskee ulos aaltoja, jotka korva sitten noukkii ylös. Ja hifisti nauttii Tchaikovskistaan kuin olisi itse paikan päällä. Ah, autuutta.</p>
+<p>Elementtejä on monenlaisia, mutta kaksi varmasti yleisintä ovat dynaaminen ja sähköstaattinen tapa tehdä ilmanliikuttajia. Näillä kahdella tavalla on varsin erilaiset menetelmät. Dynaamisessa tavassa sähkövirtaa käytetään ohjaamaan magneettia, joka liikuttaa kalvoa edestakaisin. Se on erittäin versaali tapa tehdä asioita, ja toimivakin. Mikä ettei?</p>
+<div id="attachment_674" class="wp-caption alignright" style="width: 235px"><a href="../../wp-content/uploads/2009/06/Sennheiser.jpeg"><img class="size-medium wp-image-674" title="Sennheiser" src="../../wp-content/uploads/2009/06/Sennheiser-225x300.jpg" alt="Lämmin kuva Sennheisereistä" width="225" height="300" /></a><p class="wp-caption-text">Lämmin kuva Sennheisereistä</p></div>
+<p>Sähköstaattinen tapa on sitten tarjota hyvin ohutta, sähköisesti varautunutta kalvoa, jonka molemmin puolin kulkee sähköjohteet. Jos kalvo on vaikka negatiivisesti varautunut, annetaan virtaa takapuolelle, jolloin kalvo luonnollisesti haluaa karata etupuolelle. Tämä korjataan lähes välittömästi vaihtamalla virran suunta toisin päin, jolloin kalvo palaa taaksepäin, alkuasentoonsa. Tämä menetelmä takaa dynaamista magneetin kanssa pelehtimistä paljon nopeamman tavan siirtää kalvoa. Tällä on yksi haittapuoli: kalvo ei kykene nykymenetelmien avulla liikkumaan kovinkaan paljoa (puhumme millimetrin murto-osista) ja se näkyy etenkin bassotoiston ohuudessa. Makukysymykseksi jää, kuka tykkää ja kuka ei. Lisäksi sähköstaattisten kuulokkeiden käyttö kostealla tukalla on vaarallista, sillä esimerkiksi Stax-kuulokkeiden käyttöjännite on 580 volttia. 60-luvun kypärästaateissa oli peräti -1150 voltin jännitteitä.</p>
+<p>Ja näin päästiin aina levynvalinnasta loppuun saakka pelissämme. Jäikö jotain mainitsematta? No ehkä voisin jakaa omia haaveitani tulevaisuutta ajatellen tänne.</p>
+<h3>Haaveet ja tulevaisuus</h3>
+<p>Koska aina on jotain mieleistä, jota haluaisi päivittää, on parempi vain miettiä järkipohjalta niitä kohteita etukäteen, jotta voi keskittyä sinne. Jos on jotain päivitettävä, niin päivitetään ainakin järkevästi. Vielä viikko sitten ajatuksena oli että vahvistin pitäisi uusia. Se olisi ollut loogisin paikka jatkaa ääntä. Silloin tuli esille tämä Stax-vahvistin putkilla höystettynä. Se olisi myös toiminut putkietusena. Ihan hyvä idea, mutta jo silloin helmeili päässä ajatus, että samalla rahalla saisi jo K1000:n ostettua. Eli meninkin nyt päivityksessäni epäloogisesti päivittämään elementtejä. Nyt tällä hetkellä ainut high end -osa on tuo lähteeni, ECD-1. Mutta kunhan K1000 tulee, se on jo puolet täyttä high endiä, puhainta ja kirkkainta laatua. Siihen väliin jää siis vahvistin.</p>
+<p>Minun pitää hommata joku vahvistin. Technics tulee olemaan aluksi se sopiva vaihtoehto (koska se nyt sattuu löytymään talosta). Jatkoa tapahtunee huuto.netin vahvistinmetsästyksillä. (Se on vähän vaikeata, sillä yli puolet huutonetin vahvistimista ovat autohömppään liittyviä.) Vahvistin, selvä on. Mieluusti sellainen, joka ottaa sisäänsä balansoitua signaalia (kun lähteenikin tukee sellaista, saa mukavia tuloksia käyttämällä balansoitua liitäntää) ja jos oikein haluaa mukavuustella, sellainen, jossa on kauko-ohjattu volyymisäätö. Vinyyliä varten sisäänrakennettu phonokorjain olisi eduksi. Ja tietysti kuulokevahvistin siinä samassa, ei tarvitse äkkiseltään ostaa dedikoitua sellaista. Stax-vahvistimen voi sitten kytkeä sen kautta tape-outteihin ja nauttia sitten sähköstaateistakin kuten haluaa. Ellen sitten myy poies.</p>
+</div>
+
+<p class="tags"> 
+
+
+Tageja: <a href="../../tag/hifi/index.html" rel="tag">hifi</a>
+
+
+</p>
+
+
+
+<div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+
+        </div>
+
+ <!-- now, common stuff -->
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+        <p><a rel="prev" href="../45/pieni-oivallus-ja-muutoksia" title="Pieni oivallus ja muutoksia">&#171; Pieni oivallus ja muutoksia</a> 
+           &mdash; <a rel="next" href="../43/kuusi-kaatuu" title="Kuusi kaatuu">Kuusi kaatuu &#187;</a>
+        </p>
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+        <h2>Aiheen vierestä</h2>
+        <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../582/electrocompaniet-on-elossa">Electrocompaniet on&#160;elossa!</a></span> &#183; <span class="published">2012-07-18</span>
+<br /><span class="smallexcerpt">Melkein vuosi sitten rakas Electrocompaniet ECD1 pimeni kokonaan, ja sain vasta pari viikkoa sitten asiaan kunnollisen ratkaisun (nämä väliinjääneet 11...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../578/uusia-hifinakymia">Uusia&#160;hifinäkymiä</a></span> &#183; <span class="published">2012-06-23</span>
+<br /><span class="smallexcerpt">Syksyn opintolainat jo tilillä sitä tuntee itsensä niin kovin rikkaaksi ja vapaaksi törsäilemään. Schiit lupailee uuden MOSFET-pohjaisen balansoidun kuulokevahvistimen, joka...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../546/asioita-joita-olisi-mukava-omistaa">Asioita, joita olisi mukava&#160;omistaa</a></span> &#183; <span class="published">2011-09-01</span>
+<br /><span class="smallexcerpt">Ihan kirjoittamisen ilosta listailen vähän asioita, joita haluaisin omistaa. Mutta eivät ole välttämättömiä, eikä niihin voi perustella rahankäyttöäkään. Mutta olisivat...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../544/electrocompaniet-vikuroi-mika-tekee-hyvan-dac-muuntajan">Electrocompaniet vikuroi, mikä tekee hyvän DAC-muuntajan?</a></span> &#183; <span class="published">2011-08-26</span>
+<br /><span class="smallexcerpt">Hieno Electrocompaniet ECD1 -DAC:ini tykkää taas vähän vikuroida, ja se pitäisi epäilemättä kiikuttaa huoltoon. Paha vain, että lähin huolto on...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../352/oopperaa-rumiluksilla-kaunotar-ja-hirvio">Oopperaa&#160;rumiluksilla</a></span> &#183; <span class="published">2010-11-07</span>
+<br /><span class="smallexcerpt">Ostin tässä taannoin hauskat kuulokkeet, sveitsiläiset Ergo 2:t.
+
+	Ne ovat dynaamiset, kuten valtaosa muistakin markkinoiden kuulottimista. Elementit on kuitenkin kääritty upeasti...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../331/kohti-absoluuttista-hiljaisuutta-osa-3">Kohti absoluuttista hiljaisuutta, osa 3</a></span> &#183; <span class="published">2010-08-28</span>
+<br /><span class="smallexcerpt">Nyt on hiljaisuuden vaaliminen valmista, ja kaikki kuulostaa briljantilta.  Tämäntasoista hiljaisuutta on tavattu kuulla vain nappikuulokkeillani, hiljaisuudessa. Nyt saman...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../329/kohti-absoluuttista-hiljaisuutta-osa-2">Kohti absoluuttista hiljaisuutta, osa 2</a></span> &#183; <span class="published">2010-08-13</span>
+<br /><span class="smallexcerpt">Juuri ennen myrskyä on aina kaikkein hiljaisinta.
+
+	Olen nyt elellyt miltei kaksi viikkoa uudessa kämpässä, ja pikku hiljaa tässä alkavat huonekalut...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../328/toinen-muutto-ja-kohti-absoluuttista-hiljaisuutta">Toinen muutto ja kohti absoluuttista&#160;hiljaisuutta</a></span> &#183; <span class="published">2010-08-03</span>
+<br /><span class="smallexcerpt">Ystävät hyvät, olemme nyt hyvin lähellä hiljaisen hifistelyn kynnystä. Se ei ole edes järin korkea kynnys. Kirjoittelin kesällä 2009 vähän...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../322/meng-mini-p1">Meng Mini P1</a></span> &#183; <span class="published">2010-05-28</span>
+<br /><span class="smallexcerpt">Hommasin edullisesti käytetyn putkivahvistimen, kiinanihme Meng Mini P1 -vahvistimen. Tämä on ensimmäinen kosketukseni putkivermeisiin, ja pirun hieno ensikosketus onkin. Kymmentä...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../13/ostoksia">Ostoksia</a></span> &#183; <span class="published">2010-01-12</span>
+<br /><span class="smallexcerpt">Eilen tuli uusi soittopeli, tänään vähän musiikkia kyytipojaksi. En ryhdy vallan arvostelua tekemään tässä, vaan pohdin vähän.
+Ensin "pakollinen" kuvasarja:
+Marantz paketissaan,...</span>
+</li>
+
+</ul>
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

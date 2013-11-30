@@ -1,1 +1,314 @@
-tv-monitorit-ja-gentoo
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <!-- standard -->
+	<title>Mr. P: TV, Monitorit ja Gentoo</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=mietteet" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=mietteet" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="mietteet">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="tv-monitorit-ja-gentoo#content">Siirry sisältöön</a></li>
+        <li><a href="tv-monitorit-ja-gentoo#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            &raquo;
+            <a href="../index.html">Mietteet</a>
+            
+                <!--<ul>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/598/blogille-idea.html">Blogille&#160;idea</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/597/wes-mckinney-python-for-data-analysis-oreilly.html">Wes McKinney - Python For Data Analysis (O&#39;Reilly)</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/596/org-blogaaminen-vaikeata.html">Org-blogaaminen&#160;vaikeata</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/595/twitterointia-emacsilla.html">Twitteröintiä&#160;Emacsilla</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/594/weboodi-aikataulut-orgiin.html">WebOodi-aikataulut&#160;orgiin</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita.html">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/592/emacs-has-me.html">Emacs has&#160;me.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/591/editorien-taistelu-tietamyshallinnassa.html">Editorien taistelu&#160;tietämyshallinnassa</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/590/think-vimorganizer.html">Think&#160;VimOrganizer.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/589/think-orgmode.html">Think&#160;orgmode.</a>
+                </li>
+</ul>-->
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="/kategoria/hifi/">Hifi</a></li>
+	<li><a href="/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="/kategoria/rauta/">Rauta</a></li>
+	<li><a href="/kategoria/viihde/">Viihde</a></li>
+	<li><a href="/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../../tag/gentoo/index.html" class="tagSizeLargest tagSize111" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../../tag/hifi/index.html" class="tagSizeMedium tagSize37" style="font-size: 100%;">hifi</a></li>
+	<li><a href="../../tag/lynch/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">lynch</a></li>
+	<li><a href="../../tag/näppäimistöt/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">näppäimistöt</a></li>
+	<li><a href="../../tag/ohjelmistot/index.html" class="tagSizeMedium tagSize10" style="font-size: 100%;">ohjelmistot</a></li>
+	<li><a href="../../tag/ohjelmointi/index.html" class="tagSizeMedium tagSize48" style="font-size: 100%;">ohjelmointi</a></li>
+	<li><a href="../../tag/palvelin/index.html" class="tagSizeMedium tagSize43" style="font-size: 100%;">palvelin</a></li>
+	<li><a href="../../tag/vim/index.html" class="tagSizeMedium tagSize40" style="font-size: 100%;">vim</a></li>
+</ul>
+        <p><a href="../../tag/index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=mietteet" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=mietteet" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- not tag view, it's the main view -->
+
+
+        
+
+        <div class="hfeed">
+            <!-- five articles to list here, or only one. It depends. -->
+            <!-- default form -->
+
+<p class="published"> 9. maaliskuu 2012, 16:14</p>
+<h1 class="entry-title"><a rel="bookmark" href="tv-monitorit-ja-gentoo">TV, Monitorit ja&#160;Gentoo</a></h1>
+
+
+<div class="entry-content">
+	<p>Pari viikkoa sitten sain lahjaksi taulu-TV:n (Philipsin 42FPL3606, eli 42 tuumaa) ja totta kai se pitää saada kiinni tietokoneeseen pikselitarkalla kuvalla hyviä sarja- ja elokuvaelämyksiä varten. Tätä varten olen joutunut sitten säätökurimukseen taistellakseni tieni läpi <span class="caps">AMD</span> Radeon -viidakkojen.</p>
+
+	<h1>Telkkari</h1>
+
+	<p>Eli Philips tosiaan kyseessä. Se on brändinä siirtynyt kohti helppokäyttöisyyttä (ominaisuuksien kustannuksella toki), mutta kuva on hyvänlainen. Voi toki olla, että nämä ominaisuusvajaukset johtuvat hintaluokan (400 €, eli halvimmasta hintaluokasta tässä koossa) yleisestä tarjonnasta. Vain kaksi <span class="caps">HDMI</span>-reikää, ei edes järkevää stereoääniulostuloa (joudun käyttämään kuulokereikää linjalähtönä) ja joitain omituisia valikkopäätöksiä&#8230; Voi olla, että tässä hintaluokassa huonot ominaisuudet ovat normi. Tai sitten AV-vahvistimet ovat yleistyneet sitä vauhtia, että sellaisen oletetaan löytyvän.</p>
+
+	<p>Puusilmänä on vähän paha sanoa paneelin kuvanlaadusta mitään erityisempää. Sivuttaiskatselukulmat ovat tolkuttoman huonot, mutta ei se minun tapauksessa ongelma ole. Valovuotoa näkyy vain kahdesta paikasta, mutta siihenkin tottuu. Itse skaalaus on perustasoa. Väritykset semihyvät, mutta pelikäytössä tuntuu olevan mahdotonta saada hyvät värit joka paikkaan (PS3, hdmi:llä kiinni). Usein kaikki vähänkin tummempi muuttuu kokonaan mustaksi, ja se haittaa pelattavuutta.</p>
+
+	<h1>Radeon HD6450</h1>
+
+	<p>Kortiksi valitsin passiivisen Sapphiren tekeleen, jossa on <span class="caps">VGA</span>, <span class="caps">HDMI</span> ja <span class="caps">DVI</span> -portit. Mikä parasta, kortti mainostaa olevansa Eyefinity-mallia, eli kolmen näytön tuki olisi periaatteessa tarjolla halukkaille. Kyseinen kortti on mopomalleista mopoin, mutta kun tuo PS3 on ja pysyy, niin miksipä ei siirtää pelailut sinne.</p>
+
+	<h2>Suljettujen <code>fglrx</code>-ajurien vastaisku</h2>
+
+	<p>Viime elokuussa kokeilin Radeonia systeemissäni, ja suljettuja <code>fglrx</code>-ajureita käyttäessäni hommat työpöydällä sujuivat erittäin mainiosti. RandR-tuki on mitä parhain asia vanhan Xinerämän tilalle, etenkin kun fglrx tekee näyttöjen konffauksen RandRin tahtiin oikein mallikkaasti. Nopeasti syntyi esimerkiksi bash-skripti nimeltään <code>ToggleTV</code>, joka vaihtaa kahden monitorin ja monitori+TV -setin välillä siististi.</p>
+
+	<p>Mutta kaiken hauskan keskellä fglrx osoitti valtaisan epäkohtansa. Kaikesta vsynccauksesta huolimatta videokuva repeili kovasti telkulla. Sopivasti painelemalla namiskukkeleita sama repeily tuli muillekin näytöille. Mutta vaikka minkä yritin, niin repeilyä ei saa pois. Tai saa, jos ottaa käyttöön uudempien ajurien tarjoaman &#8220;Tear-free desktopin&#8221;, mutta se tekee videoista ja itse asiassa koko työpöydästä nykivän ja takkuavan käyttää.</p>
+
+	<h2>Avoimista uusi toivo?</h2>
+
+	<p>Seuraava toivo vuorossa oli avoimen puolen liittouma. Sieltä erityisesti <code>radeon</code>-ajurit. Niiltä odotin paljon, koska oli myös luvattu paljon. Kuulema 2D-suorituskyky olisi suljettuja parempi. Minkä sitten 2D:ssä voittaisi, niin 3D:ssä häviää. Nyt kuitenkin sekin 2D on aika kehnosti lähtenyt liikkeelle.</p>
+
+	<p>Uudet ajurit tukevat kahta erilaista kiihdytinmoottoria. On &#8220;classic&#8221;-mallista sekä uudempaa &#8220;gallium&#8221;-moottoria kiihdyttelyyn. No, sekä työpöytä että videot jumivat kovasti gallium-moottorin kanssa. Ei toisaalta repeillyt yhtään!</p>
+
+	<p>Classic-mallisella moottorilla taasen GL-kiihdytetty video muuttui roskaksi. Sellaista sekoitelmaa kuin näytön ajoitukset olisivat pielessä. Onneksi #gentoolla osattiin neuvoa kokeilemaan mplayeria muillakin kuin <code>gl</code>- <code>gl2</code>- tai <code>gl_nosw</code>-ajureilla. Perhana sentään, <code>xv</code> hoiti homman kotiin. Sain sulavaa ja nykimätöntä videota ilman repeilyä. Työpöytäkin on classic-moottorin avulla hieman sutjakkaampi, mutta ei silti täydellinen.</p>
+
+	<p>Eli avoimet voittavat alkuperäisen haasteen saada sulava ja repimätön videokuva TV-ruutuun. Onkos tämä nyt tässä?</p>
+
+	<h1>Vertailua</h1>
+
+	<p>Vaikka avoimet nyt hoitavat homman kotiin, niin <code>fglrx</code> on silti keskimäärin täydellisempi. Ei mitään ongelmia työpöydällä (videota lukuunottamatta) ja näytötkin vaihtuvat siistimmin. Preferenssini olisi saada videot kuntoon suljettujen kanssa, mutta kaikkea ei varmaan voi saada. Voin seurata yhtä johtolankaa vielä suljettujen maailmassa, jos viitsin. Ja avoimienkin suorituskykyä voi ehkä viilata pienentämällä virtuaalipöydän kokoa (ajurit defaulttaavat 16k-kokoiseen neliöön, vaikka 4k riittää) &#8212;- ehkä se ratkaisee suorituskykyongelmat.</p>
+
+	<p>Mitäs sitten avoimissa mättää, muu kuin suoritus? No ei kamalasti. Pikkudetaljit lähinnä. Näytöt resetoituvat <span class="caps">XGA</span>-resoluutioon Xorgin uudelleenkäynnistyksessä, eli tarvitsen lisää xrandr-säätöä tai vaihtoehtoisesti xorg.conf -tiedoston. Tarvitsen sen kuitenkin tuota virtuaalipöytäsäätöä varten. Avoimet myös sekoilevat hieman orientaatioiden kanssa. Komennan ohjainta antamaan telkkarin näyttöni oikealle puolelle, mutta se tuleekin vasemmalle. Tämmöisiä pieniä juttuja, jotka voi skriptata tai antaa toistaiseksi anteeksi. Pääasia on, että jokin ratkaisu videoihin ja tyydyttävään työpöytäilyyn on nyt olemassa. Ja saa nauttia sarjoista HD:nä.</p>
+</div>
+
+<p class="tags"> 
+
+
+Tageja: <a href="../../tag/gentoo/index.html" rel="tag">gentoo</a>, 
+<a href="../../tag/säätöä/index.html" rel="tag">säätöä</a>, 
+<a href="../../tag/televisio/index.html" rel="tag">televisio</a>
+
+
+</p>
+
+
+
+<div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+
+        </div>
+
+ <!-- now, common stuff -->
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+        <p><a rel="prev" href="../566/terminaaleja-vimista-kasin" title="Terminaaleja Vimistä käsin">&#171; Terminaaleja Vimistä käsin</a> 
+           &mdash; <a rel="next" href="../568/avoimet-suljetut-ja-se-vastapuoli" title="Avoimet, suljetut ja se vastapuoli">Avoimet, suljetut ja se vastapuoli &#187;</a>
+        </p>
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+        <h2>Aiheen vierestä</h2>
+        <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../598/blogille-idea">Blogille&#160;idea</a></span> &#183; <span class="published">2013-01-05</span>
+<br /><span class="smallexcerpt">Uuden org-pohjaisen blogialustan miettiminen ja kehittäminen on vasta aluillaan, vaikka yhä uskon joustavamman alustan tarjoavan paremman kanavan tajunnanvirtani ohjaamiselle. Ja...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../587/tehokkaat-kayttoliittymat-vaivatta">Tehokkaat käyttöliittymät&#160;vaivatta</a></span> &#183; <span class="published">2012-08-16</span>
+<br /><span class="smallexcerpt">Ohjelmoijan onni on elää komentorivillä. Tehokkaiden käyttöliittymien rustaaminen on varsin nopeata, kunhan luottaa siihen, että suurta suosiota tuotokset eivät tule...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../576/elokuvista-ja-sarjoista">Elokuvista ja&#160;sarjoista</a></span> &#183; <span class="published">2012-05-06</span>
+<br /><span class="smallexcerpt">Viihde on arvokas osa jokapäiväistä elämääni. Musiikki virtaa tälläkin hetkellä, ja nautin muista taiteenlajeista säännöllisesti. Fiktiiviset kuvaukset tuovat kaivattua vastapainoa...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../571/tv-saato-on-nyt-valmis">TV-säätö on nyt&#160;valmis</a></span> &#183; <span class="published">2012-03-23</span>
+<br /><span class="smallexcerpt">No niin. Uuden NVidia-kortin ansiosta TV-episodi on käsitelty voitokkaasti. Jos rahalla asiasta selviämistä ei lasketa huijaamiseksi.
+
+	Oppirahoja tuli taas tosiaankin hassattua....</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../568/avoimet-suljetut-ja-se-vastapuoli">Avoimet, suljetut ja se&#160;vastapuoli</a></span> &#183; <span class="published">2012-03-11</span>
+<br /><span class="smallexcerpt">Radeonien kanssa on todellakin painittavaa. Kompromisseista on jotain valittava kontolleen, jos muut sitten sujuvatkin.
+
+	fglrx &#8212; se suljettu
+
+	Kaikki työpöytäkäyttö sujuu erihyvin....</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../560/informaation-jarjestely-tietamyksenhallinta">Informaation järjestely:&#160;tietämyksenhallinta</a></span> &#183; <span class="published">2011-12-10</span>
+<br /><span class="smallexcerpt">Tietoa, eli kaikenlaista pientä tietämystä, on kaikkialla. Ihminen oppii kyllä paljon, ja erityisesti kun on motivoitunut omaksumaan. Mutta edes kaikkein...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../557/palvelin-tulossa-sittenkin">Palvelin tulossa&#160;sittenkin</a></span> &#183; <span class="published">2011-11-10</span>
+<br /><span class="smallexcerpt">Vaikka taannoin järkeilin palvelimen ostoa vastaan aika onnistunein argumentein, niin nyt sellaisen olen kuitenkin hommannut. Käytetystä raudasta kootan murossa jonkinlaisen...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../555/virtamittailuja">Virtamittailuja</a></span> &#183; <span class="published">2011-10-20</span>
+<br /><span class="smallexcerpt">Olen muuttamassa uuteen asuntoon Outokummussa, ja nyt pitää katsella muiden toimien ohella myös sähkönkulutusta uudella silmällä. Erityisesti mieltä polttelee kysymys:...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../554/tulipa-netbook-ostettua">Tulipa netbook&#160;ostettua</a></span> &#183; <span class="published">2011-10-01</span>
+<br /><span class="smallexcerpt">Elitegroupin G10IL -mallinen miniläppäriksi luokiteltavissa netbook tuli ostettua. Saamme nähdä, miten tässä vielä käy.
+
+	Tämä on tavallinen nykynetbook, jossa on 10-tuumainen...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../553/videoeditoinnit-linuxissa">Videoeditoinnit&#160;linuxissa</a></span> &#183; <span class="published">2011-09-24</span>
+<br /><span class="smallexcerpt">Huoh. Täytyy sanoa, että en aivan mieluiten valitsisi linux-ohjelmia isompien projektien editointiin. Nykytarjonta on aika heikkoa, edelleenkin. Vaikka Cinelerra (tai...</span>
+</li>
+
+</ul>
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

@@ -1,1 +1,293 @@
-xmonad
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <!-- standard -->
+	<title>Mr. P: Xmonad</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=mietteet" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=mietteet" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="mietteet">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="xmonad#content">Siirry sisältöön</a></li>
+        <li><a href="xmonad#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            &raquo;
+            <a href="../index.html">Mietteet</a>
+            
+                <!--<ul>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/598/blogille-idea.html">Blogille&#160;idea</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/597/wes-mckinney-python-for-data-analysis-oreilly.html">Wes McKinney - Python For Data Analysis (O&#39;Reilly)</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/596/org-blogaaminen-vaikeata.html">Org-blogaaminen&#160;vaikeata</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/595/twitterointia-emacsilla.html">Twitteröintiä&#160;Emacsilla</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/594/weboodi-aikataulut-orgiin.html">WebOodi-aikataulut&#160;orgiin</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita.html">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/592/emacs-has-me.html">Emacs has&#160;me.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/591/editorien-taistelu-tietamyshallinnassa.html">Editorien taistelu&#160;tietämyshallinnassa</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/590/think-vimorganizer.html">Think&#160;VimOrganizer.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/589/think-orgmode.html">Think&#160;orgmode.</a>
+                </li>
+</ul>-->
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="/kategoria/hifi/">Hifi</a></li>
+	<li><a href="/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="/kategoria/rauta/">Rauta</a></li>
+	<li><a href="/kategoria/viihde/">Viihde</a></li>
+	<li><a href="/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../../tag/blogisäätöä/index.html" class="tagSizeMedium tagSize25" style="font-size: 100%;">blogisäätöä</a></li>
+	<li><a href="../../tag/clojure/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">clojure</a></li>
+	<li><a href="../../tag/gentoo/index.html" class="tagSizeLargest tagSize105" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../../tag/hifi/index.html" class="tagSizeMedium tagSize31" style="font-size: 100%;">hifi</a></li>
+	<li><a href="../../tag/ohjelmointi/index.html" class="tagSizeMedium tagSize42" style="font-size: 100%;">ohjelmointi</a></li>
+	<li><a href="../../tag/palvelin/index.html" class="tagSizeMedium tagSize37" style="font-size: 100%;">palvelin</a></li>
+	<li><a href="../../tag/pelaaminen/index.html" class="tagSizeMedium tagSize2" style="font-size: 100%;">pelaaminen</a></li>
+	<li><a href="../../tag/rauta/index.html" class="tagSizeMedium tagSize23" style="font-size: 100%;">rauta</a></li>
+</ul>
+        <p><a href="../../tag/index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=mietteet" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=mietteet" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- not tag view, it's the main view -->
+
+
+        
+
+        <div class="hfeed">
+            <!-- five articles to list here, or only one. It depends. -->
+            <!-- default form -->
+
+<p class="published">15. helmikuu 2010, 18:19</p>
+<h1 class="entry-title"><a rel="bookmark" href="xmonad">Xmonad</a></h1>
+
+
+<div class="entry-content">
+<p>Sitten viime jakson on tapahtunut kaikenlaista tässä. Viikko sitten <a href="/2010/02/kolme-nayttoa-xinerama-ja-nvidia/" target="_blank">kirjoittamassani</a> jutussa valittelin sitä, kun Xinerama tuhoaa suorituskyvyn ja kaiken siihen liittyvän. Päädyin kuitenkin lopulta ottamaan sen takaisin käyttöön. Ei olisi niinkään tarvinnut, jos olisin jäänyt Fluxboxia käyttämään. Mutta kun olen tullut, tai tulin siihen tulokseen, että olisi aika vaihtaa johonkin kunnolliseen tileävään manageriin.</p>
+<p><!--more-->Edellisessä viestissäni kerroin alkuvaikutelmia Awesomen käyttöönoton suhteen. Kivaahan se alkuun on (ja kannettavallani käytellessä se säilyi koko viikon ajan kivana: näissä <a href="/2009/10/kone-pamahti/">kahdessa</a> <a href="http://progo.viuhka.fi/2009/10/kone-pamahti-paatos-osa-2/">kirjoitelmassa</a> lisää) mutta kun nyt sitä sai kokeilla peräti kolmen näytön kera, jotain yksinkertaisesti jäin kaipaamaan kokonaisuudesta. Pari pientä bugia kenties kerkeää jo pilata koko satsin?</p>
+<p>Niinkin nätiltä kuin tuo Awesomen käyttö näyttää, se siis on kovin hankala yksi. Hyvät oletukset toki löytyy, eikä varmasti olisi pienen säädön jälkeen valittamista lainkaan. Se tukee myös Rainlendarin hankalia ikkunoita suoraan tarjota työpöydälle. Awesome jakaa Xmonadin kanssa osaksi samat suunnittelufilosofiat: ruudukkolayouteissa on yleensä yksi tai kaksi master-ikkunaa, jotka vievät about puolet näytöstä, ja loput ikkunat jakavat toisen puoliskon keskenään. Sieltä sitten valitaan näppärillä pikanäppäinyhdisteillä aina haluttu akkuna aktiiviseksi eteen. Tyylillisesti näissä tileävissä ympäristöissä keskeinen komento on "käynnistä uusi terminaali" ja sitten pari pyörittelykomentoa. Xmonad tarjoaa oletuksena hyvin laihasti komentoja, mutta ne yllättäen riittävätkin pitkälle, elleivät peräti loppuun saakka.</p>
+<h2>Vähän eroja</h2>
+<p>Awesome antaa jokaiselle näytölle omat 9 virtuaalipöytää, joista voi sitten haluamansa kombinaation muodostella. Xmonad tarjoaa oletuksena 9 virtuaalipöytää, mutta ne kaikki jaetaan näyttöjen kesken. Siis saatavilla olevat virtuaalipöydät muodostavat sellaisen <em>poolin</em>, josta valitaan yksi pöytä per näyttö. Jännä ratkaisu, joka toimii paremmin kuin luulisikaan. Awesome tarjoaa Xineramatuen ja valmiit näppäimet näyttöjen välillä pomppimiseen tyylillä: seuraava näyttö, edellinen näyttö. Xmonad tarjoaa sitä vastoin oletuksena <em>up to</em> kolmelle näytölle valmiit hyppykomennot, jotka on sijoitettu w:n, e:n ja r:n päälle. Sinänsä hankalasti saatavilla, kun modifier-namiskana on Mod4, mutta noita voikin helposti uudelleenkonffata. Intuitiivisesti ikkunoita voi siirrellä näytöltä toiselle lisäämällä shiftiä mukaan näppäinpainallukseen.</p>
+<p>Varustelussa Xmonad jää jalkoihin: siinä missä Awesome ja about kaikki muutkin (jopa dwm!) tarjoavat pienen statusbarin, missä näkyy virtualipöytätilanne ja sen sellaiset jutut, Xmonad ei sellaisia hömpötyksiä tarjoile. Yleinen ratkaisu tähän ongelmaan on asettaa Xmonad pumppaamaan merkkijonotietoa ulos stdouttiin tai johonkin nimettyyn putkeen, ja sitten putken vastaanottavassa päässä on joku monitoriohjelma. Suosituimpia ovat myös haskellilla kirjoitettu xmobar ja sitten on dzen. Kumpikin vaikutti hyvältä. Dzenillä aloitin, mutta tympäännyin sitten ja kokeilin piruuttani erään ohjeen mukaan xmobaria. Sen defaultit miellyttävät enemmän, ja jätin sen pyörimään.</p>
+<p>Oletusasetuksillaan xmobar tarjoaa samankaltaista tietoa ikkunoinnista kuin esimerkiksi awesomen oma statusbar: siinä näkyy lista ikkunoilla täytetyistä työpöydistä, korostettuna ruudulla näkyvät työpöydät (ne kolme pöytää, jotka on valittu sieltä virtuaalipöytäaltaasta) ja vieläpä bonuksena aktiivinen ruutu. Koska xmobar on ensisijaisesti monitoripalkki, heitin oletuksena olleet CPU-graafit pois ja jätin Joensuun säätiedot ja kellonajan näkymään. Conkyn tottakai jätän toimittamaan tehtäviään kuten entisellään. Myös Rainlendarin sain toimimaan, kun asetin sen Xmonadin konfiguraatiossa kelluvaksi. Toivottavasti muistaa myös paikkansa. Ainakin sopisi olettaa näin.</p>
+<p>Mikäs sitten Xmonadissa viehättää niin kovasti? Täytyy sanoa, että jotkut erikoismalliset ikkunaleiskat ovat hyvin miellyttäviä käytellä. Tällä hetkellä minulla on leiskalistalla muutama vain. Tämä oletuksena tuleva "Tall", sen peilattu versio, "Circle", "simpleTabbed" ja täysruutu. Nämä on heitetty avoidStruts-modifierin sekaan. En ole vielä niin varma Haskellin syntaksista, että osaisin sanoa, onko tuo funktio, joku lambdamääre vai mitä ihmettä. Joka tapauksessa minulla on siis tabeja, ympyröitä ja perinteistä tileämistäkin.</p>
+<p>Ion3-tyyliset tabitukset olisi mukava saada viritellyksi, sitä varten pitää nimittäin tutkia sellaista asiaa kuin sisäkkäiset layoutit, jolloin voi yhdistää esimerkiksi tuon "tall"-leiskan ja siihen masterikkunaksi tabitukset. Awesomessa en ole tavannut tabeja. Ne kun ovat joihinkin tilanteisiin enemmän kuin hyödyllisiä.</p>
+<h2>Niin on mukavaa</h2>
+<p>Erityisen mukavalta Xmonad tuntuu siinä suhteessa, että se on todellakin kevyt paskiainen kaiken haskell-koodinsa alla. En sinänsä anna painoarvoa projektille sen LOC-luvun pienuuden perusteella, mutta kyllä sen on jossakin näyttävä. On luontevaa toimia tileympäristössä siten, että välillä vaihdetaan masterikkunaksi joku toinen simppelillä  -painalluksella ja sitten palataan takaisin vastaavanlaisella. Se toimii joustavasti kaikkien niiden ohjelmien kanssa, jotka jaksavat uudelleenpiirtää ikkunaansa riittävän usein ja nopeasti. Toisaalta sellaiset ikkunat, jotka luokittelevat itsensä kiinteäkokoisiksi Xmonad taitaa suoraan nostaa kelluviksi.</p>
+<h2>Pelitehoa ei ole</h2>
+<p>Xineramalla tai ilman, PCI- ja PCIe-kortin yhteenkäyttö ei ole kovin järkevää. 3D-teho on nollassa täysiään. Tosin en minä niin paljoa pelailekaan. Kuitenkin ehkä yleisistä mukavuussyistä olen laittanut passiivisen myynti-ilmoituksen kahdesta näytöstäni internetteihin. Vaihdossa toivon rahan lisäksi (vaihtoehtoisesti) toista 22/24-tuumaista näyttöä, jolloin olisi pöytäalaa riittävästi ja vieläpä kaikenlaista muutakin kivaa.  Aika näyttää. Hyvin tälläkin menee, ei tässä mitään. Xmonad on hyvä systeemi kyllä, bonuksena voi oppia vielä sitä haskelliakin vähän päälle.</p>
+<div id="attachment_1044" class="wp-caption aligncenter" style="width: 310px"><a href="../../wp-content/uploads/2010/02/screenie.jpeg"><img class="size-medium wp-image-1044" title="screenie" src="../../wp-content/uploads/2010/02/screenie-300x74.jpg" alt="Xmonad kahdella Circle-leiskalla ja keskellä perinteinen Tall" width="300" height="74" /></a><p class="wp-caption-text">Xmonad kahdella Circle-leiskalla ja keskellä perinteinen Tall</p></div>
+</div>
+
+<p class="tags"> 
+
+
+Tageja: <a href="../../tag/haskell/index.html" rel="tag">haskell</a>, 
+<a href="../../tag/kolmoisnäytöt/index.html" rel="tag">kolmoisnäytöt</a>, 
+<a href="../../tag/rauta/index.html" rel="tag">rauta</a>, 
+<a href="../../tag/tilettävät-ikkunamanagerit/index.html" rel="tag">tilettävät ikkunamanagerit</a>, 
+<a href="../../tag/xmonad/index.html" rel="tag">xmonad</a>
+
+
+</p>
+
+
+
+<div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+
+        </div>
+
+ <!-- now, common stuff -->
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+        <p><a rel="prev" href="../6/kolme-naeyttoeae-xinerama-ja-nvidia" title="Kolme näyttöä, Xinerama ja Nvidia">&#171; Kolme näyttöä, Xinerama ja Nvidia</a> 
+           &mdash; <a rel="next" href="../4/tileaevistae-managereista" title="Tileävistä managereista">Tileävistä managereista &#187;</a>
+        </p>
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+        <h2>Aiheen vierestä</h2>
+        <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../557/palvelin-tulossa-sittenkin">Palvelin tulossa&#160;sittenkin</a></span> &#183; <span class="published">2011-11-10</span>
+<br /><span class="smallexcerpt">Vaikka taannoin järkeilin palvelimen ostoa vastaan aika onnistunein argumentein, niin nyt sellaisen olen kuitenkin hommannut. Käytetystä raudasta kootan murossa jonkinlaisen...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../554/tulipa-netbook-ostettua">Tulipa netbook&#160;ostettua</a></span> &#183; <span class="published">2011-10-01</span>
+<br /><span class="smallexcerpt">Elitegroupin G10IL -mallinen miniläppäriksi luokiteltavissa netbook tuli ostettua. Saamme nähdä, miten tässä vielä käy.
+
+	Tämä on tavallinen nykynetbook, jossa on 10-tuumainen...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../549/uusi-filco-on-asemissa">Uusi Filco on&#160;asemissa</a></span> &#183; <span class="published">2011-09-07</span>
+<br /><span class="smallexcerpt">Tänään se Filco Majestouch tuli. Ei siinä pitkään mennyt! Aika jännä fiilis kaikkinensa dassikkaan nähden, tämä.
+
+	Cherry MX Brown -kytkimet ovat...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../548/uusi-nappaimistoni-filco-majestouch-2">Uusi näppäimistöni, Filco Majestouch-2</a></span> &#183; <span class="published">2011-09-04</span>
+<br /><span class="smallexcerpt">Aikaisempi ostoslistapostaus oli vähän kirottu, koska sen kirjoitettuani minulle valkeni, että voin &#8220;hyvillä mielin&#8221; nyt valita yhden kohteista, ja jättää...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../543/staattiset-kielet-kiinnostavat">Staattiset kielet&#160;kiinnostavat</a></span> &#183; <span class="published">2011-08-16</span>
+<br /><span class="smallexcerpt">Satuin törmäämään erääseen blogipostaukseen, jossa toteutetaan alkeellinen dmenu OCamlilla hyvin tiiviiseen tahtiin, ja esitellään kyseisen kielen staattisen tyypityksen hienoutta. Muutenkin...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../537/gentoomies-on-nyt-radeonissa">Gentoomies on nyt&#160;Radeonissa</a></span> &#183; <span class="published">2011-07-20</span>
+<br /><span class="smallexcerpt">Nyt kävi näin. Passiivinen GeForce 7600GS vaihtui järeähköön Club3D:n HD6790 -korttiin, joka on eräänlainen välimalli siellä jossain. Kovasti on puhuttu...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../529/konffitiedostojen-toteuttamisesta">Konffitiedostojen&#160;toteuttamisesta</a></span> &#183; <span class="published">2011-05-28</span>
+<br /><span class="smallexcerpt">Erilaisia rc-tiedostoja (runtime configuration) on vaikka pilvin pimein, ja syitä tähän on monia. Yksi on erilaiset vaatimukset hyvältä konffilta, ja...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../357/clojure-ja-haskell">Clojure ja&#160;Haskell</a></span> &#183; <span class="published">2010-12-01</span>
+<br /><span class="smallexcerpt">Funktionaalinen ohjelmointi; Haskell. Niinhän se on yleensä lukenut, mutta nyt olen tainnut päästä Clojuresta kiinni. Clojure on vain käytännönläheisempi ja...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../353/kehitysta">Kehitystä</a></span> &#183; <span class="published">2010-11-09</span>
+<br /><span class="smallexcerpt">Kaiken tämän jatkuvan tietokonekäytön keskellä osaa välillä pysähtyä, ja katsoa, miten ollaan edistytty. Se on upea tunne, kun keksii, että...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../348/funktionaaliset-kielet">Funktionaaliset&#160;kielet</a></span> &#183; <span class="published">2010-10-20</span>
+<br /><span class="smallexcerpt">Gentoon portageen on vakaaksi (stable) paukahtanut nyt GHC 6.12.  Hieno homma, sikäli kun se tarjoaa kaikenlaista kivaa Haskell-koodaajille, ollen...</span>
+</li>
+
+</ul>
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>

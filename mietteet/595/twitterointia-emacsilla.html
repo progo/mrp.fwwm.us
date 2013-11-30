@@ -1,1 +1,302 @@
-twitterointia-emacsilla
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+        <!-- standard -->
+	<title>Mr. P: Twitteröintiä Emacsilla</title>
+
+
+	<link rel="home" href="../../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="../../atom/index.html?section=mietteet" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 0.92" href="../../rss/index.html?section=mietteet" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../../blog.css" />
+        <link rel="stylesheet" type="text/css" href="../../codeblock.css" />
+
+            <!-- SyntaxHighlighter: http://alexgorbatchev.com -->
+    <script type="text/javascript" src="../../scripts/xregexp-min.js"></script>
+    <script type="text/javascript" src="../../scripts/shCore.js"></script>
+    <!-- langs -->
+    <script type="text/javascript" src="../../scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPerl.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushClojure.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushHaskell.js"></script>
+    <script type="text/javascript" src="../../scripts/shBrushVimscript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rpc/index.html" />
+</head>
+
+<body id="mietteet">
+
+<!-- accessibility -->
+<div id="accessibility">
+    <ul>
+        <li><a href="twitterointia-emacsilla#content">Siirry sisältöön</a></li>
+        <li><a href="twitterointia-emacsilla#sidebar-2">Siirry hakuun</a></li>
+    </ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+    <div id="head">
+        <h1 id="site-name"><a rel="home" href="../../index.html">Mr. P</a></h1>
+        <p id="site-slogan">Asiaa porjoilun tuolta puolen</p>
+    </div>
+
+<!-- right -->
+    <div id="sidebar-2">
+        <ul class="section_list">
+	<li>
+            
+            <a href="../../hetket/index.html">Hetkessä</a>
+            
+        </li>
+	<li>
+            
+            <a href="../../matematiikka/index.html">Matematiikka</a>
+            
+        </li>
+	<li>
+            &raquo;
+            <a href="../index.html">Mietteet</a>
+            
+                <!--<ul>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/598/blogille-idea.html">Blogille&#160;idea</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/597/wes-mckinney-python-for-data-analysis-oreilly.html">Wes McKinney - Python For Data Analysis (O&#39;Reilly)</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/596/org-blogaaminen-vaikeata.html">Org-blogaaminen&#160;vaikeata</a>
+                </li>
+	<li>
+                    &rsaquo;
+                    <a rel="bookmark" href="/mietteet/595/twitterointia-emacsilla.html">Twitteröintiä&#160;Emacsilla</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/594/weboodi-aikataulut-orgiin.html">WebOodi-aikataulut&#160;orgiin</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita.html">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/592/emacs-has-me.html">Emacs has&#160;me.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/591/editorien-taistelu-tietamyshallinnassa.html">Editorien taistelu&#160;tietämyshallinnassa</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/590/think-vimorganizer.html">Think&#160;VimOrganizer.</a>
+                </li>
+	<li>
+                    
+                    <a rel="bookmark" href="/mietteet/589/think-orgmode.html">Think&#160;orgmode.</a>
+                </li>
+</ul>-->
+            
+        </li>
+</ul>
+<!--        <p class="sidebarhead">Aiheita:</p>
+        <ul class="category_list">
+	<li><a href="/kategoria/hifi/">Hifi</a></li>
+	<li><a href="/kategoria/koodaus/">Ohjelmointi</a></li>
+	<li><a href="/kategoria/ohjelmistot/">Ohjelmistot</a></li>
+	<li><a href="/kategoria/Opiskelu/">Opiskelu</a></li>
+	<li><a href="/kategoria/rauta/">Rauta</a></li>
+	<li><a href="/kategoria/viihde/">Viihde</a></li>
+	<li><a href="/kategoria/Yleistae-turinaa/">Yleistä turinaa</a></li>
+</ul> -->
+
+        <p class="sidebarhead">Valikoituja aiheita:</p>
+        <ul class="category_list">
+	<li><a href="../../tag/blogisäätöä/index.html" class="tagSizeMedium tagSize15" style="font-size: 100%;">blogisäätöä</a></li>
+	<li><a href="../../tag/gentoo/index.html" class="tagSizeLargest tagSize95" style="font-size: 100%;">gentoo</a></li>
+	<li><a href="../../tag/hifi/index.html" class="tagSizeMedium tagSize21" style="font-size: 100%;">hifi</a></li>
+	<li><a href="../../tag/opiskelu/index.html" class="tagSizeMedium tagSize7" style="font-size: 100%;">opiskelu</a></li>
+	<li><a href="../../tag/ostoksia/index.html" class="tagSizeSmallest tagSize1" style="font-size: 100%;">ostoksia</a></li>
+	<li><a href="../../tag/palvelin/index.html" class="tagSizeMedium tagSize27" style="font-size: 100%;">palvelin</a></li>
+	<li><a href="../../tag/rauta/index.html" class="tagSizeMedium tagSize13" style="font-size: 100%;">rauta</a></li>
+	<li><a href="../../tag/vim/index.html" class="tagSizeMedium tagSize24" style="font-size: 100%;">vim</a></li>
+</ul>
+        <p><a href="../../tag/index.html">Kaikki tagit</a></p>
+
+        <form method="get" action="../../index.html">
+<p class="search_input">Hae<br /><input type="text" value="" name="q" size="15" /></p>
+</form>
+
+        <p><a href="../../rss/index.html?section=mietteet" title="RSS 0.92">RSS</a> / <a href="../../atom/index.html?section=mietteet" title="Atom 1.0">Atom</a></p>
+        <p class="linklist"><a href="http://textpattern.net/">TextBook</a><br /><a href="http://textpattern.com/">Textpattern</a><br /><a href="http://textpattern.org/">Txp Resources</a><br /><a href="http://twitter.com/progo_" title="Twitter-profiilini">Twitter</a><br /></p>
+
+        <p><a href="http://textpattern.com/"><img src="../../images/2.png" alt="Textpattern CMS" width="105" height="45" /></a></p>
+    </div>
+
+
+<!-- center -->
+    <div id="content">
+
+
+
+<!-- not tag view, it's the main view -->
+
+
+        
+
+        <div class="hfeed">
+            <!-- five articles to list here, or only one. It depends. -->
+            <!-- default form -->
+
+<p class="published">24. lokakuu 2012, 16:59</p>
+<h1 class="entry-title"><a rel="bookmark" href="twitterointia-emacsilla">Twitteröintiä&#160;Emacsilla</a></h1>
+
+
+<div class="entry-content">
+	<p>Tänään piti viettää kiva päivä käymällä hyvällä luennolla ja sitten pakertaa vähän tehtävien kimpussa koululla. Toisin kävi, kun tehtäviä ei tullut aamusella näkysälle ja vettäkin satoi. Vietin sitten kotipäivän ja miettien itselleni jotain tekemistä. Emacsin Twitter ja <span class="caps">IRC</span> saivat olla kohteenani.</p>
+
+	<p>Irssi on ollut pitkään käytössä, ja sehän on oikein mainio kyllä kaikenlaisten täydennysten ja muiden juttujen kanssa. Sille löytyy hyvät twitter-integraatiot (<a href="http://twirssi.com/">Twirssi</a> siis) ja kaikenlaista mukavaa. Mutta kuten totesin aikoinani, irssi ei ole oikein vimimäinen ja twitteröintien seuraaminenkin on vähän nihkeätä.</p>
+
+	<p>Tässä on ollut hieman sensuuntaista kehitystä, että ajan yhtä emacsia screenissä ja toista sitten demonina. Screeni-Emacs vastaa näistä pikaviestinjutuista eikä sotke puskureitaan &#8220;työ-Emacsiin&#8221;. Toki on mahdollista, että demoneita saa käynnistettyä useita rinnakkaisajoon, mutta ajattelin toistaiseksi olla kokeilematta sellaista. Pikaviestin-Emacsista tulkoon irssin korvaaja, jos kaikki rullaa sulavasti.</p>
+
+	<h1>Twitter</h1>
+
+	<p>Nyt Emacsille saa oikein mojovia Twitter-asiakkaita, jotka eivät veny ja pauku perl-pakettien muhiessa, päivitellen epäyhteensopivasti. Kokeilin ensimmäistä uudempaa asiakasta, eli <a href="http://twmode.sourceforge.net/">Twittering-modea</a>. Sen EmacsWiki-sivulta saa oikein hyvän kuvan <a href="http://emacswiki.org/emacs/TwitteringMode">käyttöönotosta</a> ja ei ollut minullakaan mitään ongelmia saada twitter juoksemaan taustalla. Asensin git-version paketinhallinnasta ja kaikki lähti rullaamaan ensiheitolla.</p>
+
+	<p>Twittering-mode avaa uuden puskurin kullekin &#8220;näkymälle&#8221;, joita ovat esimerkiksi jonkun tietyn ihmisen aikajana tai jokin hakutulos, tai kotinäkymä. Mikä hienointa, moodin näppäimet ovat erittäin vi-henkiset, eikä niihin tarvitse kajota lainkaan. <code>jk</code> hyppelee twiittien välillä ja <code>np</code> kelaa vuorostaan saman lähettäjän twiittien välillä. Tabilla pompitaan erilaisten entiteettien välillä ja sitä rataa. Enteriä painamalla urlit ja hashtagit aukeavat selaimessa ja muuta mukavaa.</p>
+
+	<p>Uuden twiitin säveltämiseen saa käyttää compose-modesta vaikutteita saaneita työkaluja. Luonnollisesti jäljelläolevien merkkien lukumäärä seuraa alapalkissa ja tupla-@C-c@ lähettää sirkutuksen maailmalle. Tämä oli erityisesti yksi Twirssin heikko kohta.</p>
+
+	<p>Twittering-mode korvaa siis Twirssin tyydyttävästi. Puskuria päivitetään tasaisesti uusilla viesteillä ja kursori pysyy ilahduttavasti siinä, mihin se on jätetty: lukuosoitin toimii siis, toisin kuin Twirssissä, mihin piti heittää irssin trackbar-skriptiä kaveriksi. Sittenkin on vähän hankala lukea isoa tekstimassaa ja pysyä rivillä.</p>
+
+	<h1><span class="caps">IRC</span></h1>
+
+	<p>Sitten on se <span class="caps">IRC</span>. Twirssi on helppo kellittää, mutta irc-keskusteluissa irssi on aika kuningas. Puutteelliset vi-näpit on helppo antaa anteeksi suhteellisen hyvin toimivien ominaisuuksien takia; erityisesti nyt kun on melko maukkaasti toimiva VimMode-skripti olemassa.</p>
+
+	<p>Mutta <span class="caps">ERC</span> on kova tekijä sekin. Kukin kanava ja tsätti aukeaa omaksi puskurikseen (~ ikkuna irssissä) ja näitä puskureita voi tietenkin sitten pyöritellä kuin tavallista tekstiä. Tietenkin uuden rivin heittääkseen tulee kohdistus ohjata puskurin lopuille: melko helppoa vi-näppäinten (<span class="caps">EVIL</span>!) avulla. Kaikki emacsin työkalut (ja komentorivijuttujen ansiosta kaikki unix-työkalut sen puoleen) ovat käytettävissä kun kirjoitat tarinaa kanavalle: thesaurukset, sanakirjat, sanatäydennykset, oikoluvut, laskutaulukot, LaTeX-lausekkeet (<span class="caps">CDL</span>atex), symbolinen matematiikka (Calc). Pretty much everything. Spoilerit kääntyvät rot13-salatuksi pienellä litanialla. Puskureita voi hajauttaa ikkunoihin tai peräti eri kehyksiin (ikkunanhallinta-ikkunoihin), jos ajat demonina tai graafisessa ympäristössä.</p>
+
+	<p><span class="caps">ERC</span>ille saa oleelliset samat lelut kuin irssiinkin, siis. Trackbarin vastine on saatu toimimaan, samoin kuin nimimerkkien väritys. (No hieman vajavaisella toiminnallisuudella: track toimii jos vaihdetaan yhdestä <span class="caps">ERC</span>-puskurista toiseen.) Hieman mietityttää vielä minulle kohdennettujen huomioiden/mainintojen parempi värjäys, sekä kanavien logitus. Logaus on mukavaa, kun se tuo paljon muistoja vuosien päähän, joten en haluaisi luopua siitä paheesta.</p>
+
+	<p><span class="caps">ERC</span> on ollut toistaiseksi aikalailla erilainen kokemus irssistä, joten hieman on totuteltava uuteen kuvioon. Koska tuo twitter-puolisko toimii niinkin hyvin kuin toimii, olen ajatellut kokeilla mukautua tilanteeseen parhain tavoin.</p>
+
+	<p>Irssissähän on aina ollut joitain puutteitakin: ensimmäisenä tulee mieleen aika mielivaltaisesti toimiva värjäyssysteemi ja awaylogi. Jos haluan värjätä jotain sanoja muuten vain, pitää sitten hyväksyä awaylogin täyttyminen tauhkalla tai olla käyttämättä. Ja on ollut aikoinaan ongelmia myös nimimerkki-highlightien kanssa: jos halusin saada koko rivin keltaiseksi, niin sitten mikään nimimerkkiäni koskeva keskustelu ei tallentunut awaylogiin. Nykyisin en käytä awaylogeja kun toimii niin satunnaisesti. Lisäksi irssin dokkarit ja perl-rajapinnan avaaminen on ollut pitkään perin mystistä puuhaa, mutta siitä olen toistaiseksi päässyt yli.</p>
+
+	<h1>Emacs-jutut</h1>
+
+	<p>Näitä saattaa tulla jatkossa enemmänkin. Ja vim-näkökulma tulee säilymään Emacs-seikkailuissani. Te hiljaiset lukijat siellä: antakaa jonkinlainen huuto, jos haluatte kuulla itse vimistäkin jatkossa. En pidä sitä mahdottomana asiana. Työkaluja on hyvä pitää rasvattuna vaikka käyttö vähenisikin. Ja kun totta puhutaan: tämä blogiviesti on vimillä kirjailtu. Siitä syystä kun skriptini kysyy <code>$EDITOR</code>:ia, enkä ole hennonut vielä vaihtaa sitä.</p>
+</div>
+
+<p class="tags"> 
+
+
+Tageja: <a href="../../tag/emacs/index.html" rel="tag">emacs</a>
+
+
+</p>
+
+
+
+<div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+
+        </div>
+
+ <!-- now, common stuff -->
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+
+        <p><a rel="prev" href="../594/weboodi-aikataulut-orgiin" title="WebOodi-aikataulut orgiin">&#171; WebOodi-aikataulut orgiin</a> 
+           &mdash; <a rel="next" href="../596/org-blogaaminen-vaikeata" title="Org-blogaaminen vaikeata">Org-blogaaminen vaikeata &#187;</a>
+        </p>
+
+        <div class="divider"><img src="../../images/1.gif" alt="---" width="400" height="1" /></div>
+        <h2>Aiheen vierestä</h2>
+        <ul class="directory">
+
+<li><span class="entry-title"><a rel="bookmark" href="../598/blogille-idea">Blogille&#160;idea</a></span> &#183; <span class="published">2013-01-05</span>
+<br /><span class="smallexcerpt">Uuden org-pohjaisen blogialustan miettiminen ja kehittäminen on vasta aluillaan, vaikka yhä uskon joustavamman alustan tarjoavan paremman kanavan tajunnanvirtani ohjaamiselle. Ja...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../596/org-blogaaminen-vaikeata">Org-blogaaminen&#160;vaikeata</a></span> &#183; <span class="published">2012-11-11</span>
+<br /><span class="smallexcerpt">Haluaisin kovasti hylätä periaatteessa lukitut blogialustat puhtaan tekstin edessä, ja erityisesti ottaa org-mode kovaan käyttöön. Mutta kaikenlaisia pieniä probleemia on...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../594/weboodi-aikataulut-orgiin">WebOodi-aikataulut&#160;orgiin</a></span> &#183; <span class="published">2012-10-23</span>
+<br /><span class="smallexcerpt">Itä-Suomen yliopiston weboodissa alkaa olla aika usein kurssi-infot hyvässä kunnossa, ja nyt on myös joensuulaisille olemassa tuota lukkaria, joka on...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../593/emacsin-salat-alkavat-selvita-org-kovenee-ja-muita-tarinoita">Emacsin salat alkavat selvitä; org kovenee ja muita&#160;tarinoita</a></span> &#183; <span class="published">2012-10-17</span>
+<br /><span class="smallexcerpt">Tässä on ihmetelty jo hyvän aikaa uusissa maailmoissa, ja pitkälle on päästy. En olisi itsestäni uskonut, että Emacsissa ollaan jonain...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../592/emacs-has-me">Emacs has&#160;me.</a></span> &#183; <span class="published">2012-09-22</span>
+<br /><span class="smallexcerpt">Emacs alkaa ottaa otetta minusta. Olen yrittänyt olla pyristelemättä vastaan, eikä ole asiaa vastaan mitään sanottavaa. Kaikki ne herkut ja...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../591/editorien-taistelu-tietamyshallinnassa">Editorien taistelu&#160;tietämyshallinnassa</a></span> &#183; <span class="published">2012-09-14</span>
+<br /><span class="smallexcerpt">Kun päädyin pari viikkoa sitten Org-formaattiin, oli se luonnollisesti edellytys, että Vim ja sen VimOrganizer saadaan kuntoon. Nyt kuitenkin on...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../589/think-orgmode">Think&#160;orgmode.</a></span> &#183; <span class="published">2012-08-31</span>
+<br /><span class="smallexcerpt">Teemme taas täyden ympyrän palatessamme orgmodeen, tuohon viha-rakkaussuhteen saaneeseen pakettiin. Edellinen thinktank-idea lopulta vääntyy siihen, että voin joko tehdä simppelin...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../587/tehokkaat-kayttoliittymat-vaivatta">Tehokkaat käyttöliittymät&#160;vaivatta</a></span> &#183; <span class="published">2012-08-16</span>
+<br /><span class="smallexcerpt">Ohjelmoijan onni on elää komentorivillä. Tehokkaiden käyttöliittymien rustaaminen on varsin nopeata, kunhan luottaa siihen, että suurta suosiota tuotokset eivät tule...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../552/olen-editorifiili">Olen&#160;editorifiili</a></span> &#183; <span class="published">2011-09-18</span>
+<br /><span class="smallexcerpt">Ah, on aika aika myöntää, että olen pidän editoreista (kahdesta isosta) sillä tavalla paljon, että oikein tekee mieli keksiä jotain...</span>
+</li>
+
+
+
+<li><span class="entry-title"><a rel="bookmark" href="../353/kehitysta">Kehitystä</a></span> &#183; <span class="published">2010-11-09</span>
+<br /><span class="smallexcerpt">Kaiken tämän jatkuvan tietokonekäytön keskellä osaa välillä pysähtyä, ja katsoa, miten ollaan edistytty. Se on upea tunne, kun keksii, että...</span>
+</li>
+
+</ul>
+
+    </div>
+
+
+<!-- footer -->
+	<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>
